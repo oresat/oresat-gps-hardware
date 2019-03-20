@@ -1,0 +1,384 @@
+Info: Reading netlist file "/home/hugh/projects/KiCad/usb_gps/usb_gps_fixed.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "C1:/5B1BC185/5B1E7FF3:Capacitors_SMD:C_0603_HandSoldering".
+
+Changing component "C1:/5B1BC185/5B1E7FF3" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "C2:/5B1BC185/5B1E80A3:Capacitors_SMD:C_0402".
+
+Changing component "C2:/5B1BC185/5B1E80A3" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "C3:/5B1BC185/5B1C4E8F:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C4:/5B1BC185/5B1E3C76:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C5:/5B1BC185/5B1C4C39:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C6:/5B1BC185/5B1C1DAE:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C7:/5B1BC185/5B5B2330:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Changing component path "C7:/5B1BC185/5B1C1E88" to "/5B1BC185/5B5B2330".
+
+Changing component "C7:/5B1BC185/5B1C1E88" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "C8:/5B1BC185/5B1BDC6D:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C9:/5B1BC185/5B5D53D2:Capacitors_SMD:C_0402".
+
+xReplacing component "C9:/5B22247E/5B231F00" footprint "Capacitors_SMD:C_0805_HandSoldering" with "Capacitors_SMD:C_0402".
+
+xChanging component "C9:/5B22247E/5B231F00" value from "NC" to "100 nF".
+
+Info: Changing component path "C9:/5B22247E/5B231F00" to "/5B1BC185/5B5D53D2".
+
+Changing component "C9:/5B22247E/5B231F00" pin "1" net name from "Net-(C12-Pad1)" to "Net-(C9-Pad1)".
+
+Info: Checking netlist component footprint "C10:/5B1BC185/5B5D5EEA:Capacitors_SMD:C_0402".
+
+xxx0603xReplacing component "C10:/5B22247E/5B231FC9" footprint "Capacitors_SMD:C_0805_HandSoldering" with "Capacitors_SMD:C_0402".
+
+Changing component "C10:/5B22247E/5B231FC9" value from "NC" to "10uF".
+
+Info: Changing component path "C10:/5B22247E/5B231FC9" to "/5B1BC185/5B5D5EEA".
+
+Changing component "C10:/5B22247E/5B231FC9" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/+5V".
+
+Info: Checking netlist component footprint "C11:/5B22247E/5B222A24:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C12:/5B22247E/5B5E057D:Capacitors_SMD:C_0603_HandSoldering".
+
+xChanging component "C12:/5B22247E/5B23227F" value from "33pF" to "1uF".
+
+Info: Changing component path "C12:/5B22247E/5B23227F" to "/5B22247E/5B5E057D".
+
+Changing component "C12:/5B22247E/5B23227F" pin "1" net name from "Net-(C12-Pad1)" to "/MAX_2769/+5V".
+
+Changing component "C12:/5B22247E/5B23227F" pin "2" net name from "Net-(C12-Pad2)" to "GND".
+
+Info: Checking netlist component footprint "C13:/5B22247E/5B222C2B:Capacitors_SMD:C_0402".
+
+Changing component "C13:/5B22247E/5B222C2B" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C14:/5B22247E/5B222D43:Capacitors_SMD:C_0402".
+
+Changing component "C14:/5B22247E/5B222D43" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C15:/5B22247E/5B222E30:Capacitors_SMD:C_0402".
+
+Changing component "C15:/5B22247E/5B222E30" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCD".
+
+Info: Checking netlist component footprint "C16:/5B22247E/5B222E72:Capacitors_SMD:C_0402".
+
+Changing component "C16:/5B22247E/5B222E72" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C17:/5B22247E/5B5DF4D0:Capacitors_SMD:C_0402".
+
+xxReplacing component "C17:/5B22247E/5B2324F5" footprint "Capacitors_SMD:C_0805_HandSoldering" with "Capacitors_SMD:C_0402".
+
+xxChanging component "C17:/5B22247E/5B2324F5" value from "100pF" to "10nF".
+
+Info: Changing component path "C17:/5B22247E/5B2324F5" to "/5B22247E/5B5DF4D0".
+
+Changing component "C17:/5B22247E/5B2324F5" pin "1" net name from "Net-(C12-Pad2)" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C18:/5B22247E/5B2B7313:Capacitors_SMD:C_0603_HandSoldering".
+
+Info: Checking netlist component footprint "C19:/5B22247E/5B222EB0:Capacitors_SMD:C_0805_HandSoldering".
+
+Changing component "C19:/5B22247E/5B222EB0" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C20:/5B22247E/5B22294B:Capacitors_SMD:C_0603_HandSoldering".
+
+Info: Checking netlist component footprint "C21:/5B22247E/5B222F1B:Capacitors_SMD:C_0402".
+
+Changing component "C21:/5B22247E/5B222F1B" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C22:/5B22247E/5B222F73:Capacitors_SMD:C_0402".
+
+Changing component "C22:/5B22247E/5B222F73" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C23:/5B22247E/5B2B743B:Capacitors_SMD:C_0402".
+
+Changing component "C23:/5B22247E/5B2B743B" pin "1" net name from "Net-(C23-Pad1)" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "C24:/5B22247E/5B5E05AD:Capacitors_SMD:C_0402".
+
+xxReplacing component "C24:/5B22247E/5B2B7595" footprint "Capacitors_SMD:C_0805_HandSoldering" with "Capacitors_SMD:C_0402".
+
+xxChanging component "C24:/5B22247E/5B2B7595" value from "10uF" to "10nF".
+
+Info: Changing component path "C24:/5B22247E/5B2B7595" to "/5B22247E/5B5E05AD".
+
+Changing component "C24:/5B22247E/5B2B7595" pin "1" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCD".
+
+Changing component "C24:/5B22247E/5B2B7595" pin "2" net name from "GND" to "Net-(C24-Pad2)".
+
+Info: Checking netlist component footprint "C25:/5B22247E/5B224008:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C26:/5B22247E/5B223F00:Capacitors_SMD:C_0402".
+
+Changing component "C26:/5B22247E/5B223F00" pin "2" net name from "/MAX_2769/CLKOUT" to "Net-(C26-Pad2)".
+
+Info: Checking netlist component footprint "C27:/5B22247E/5B224134:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C28:/5B22247E/5B223AF8:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C29:/5B22247E/5B23CB0F:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C30:/5B22247E/5B23B453:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C31:/5B22247E/5B23B2CD:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C32:/5B22247E/5B23ACDD:Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C33:/5B1BC185/5B46ED5F:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C34:/5B1BC185/5B46F2DD:Capacitors_SMD:C_0805_HandSoldering".
+
+Changing component "C34:/5B1BC185/5B46F2DD" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "C35:/5B1BC185/5B46F3B3:Capacitors_SMD:C_0402".
+
+Changing component "C35:/5B1BC185/5B46F3B3" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "C36:/5B22247E/5B5E0583:Capacitors_SMD:C_0402".
+
+xxAdding new component "C36:/5B22247E/5B5E0583" footprint "Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "C37:/5B22247E/5B5EA13E:Capacitors_SMD:C_0805_HandSoldering".
+
+xxx0402xAdding new component "C37:/5B22247E/5B5EA13E" footprint "Capacitors_SMD:C_0805_HandSoldering".
+
+Info: Checking netlist component footprint "C38:/5B22247E/5B5EE1F7:Capacitors_SMD:C_0402".
+
+Adding new component "C38:/5B22247E/5B5EE1F7" footprint "Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "D1:/5B1BC185/5B1BCC5C:digikey-footprints:SOT23-6L".
+
+Info: Checking netlist component footprint "FB1:/5B1BC185/5B1C3474:digikey-footprints:0603".
+
+Changing component "FB1:/5B1BC185/5B1C3474" pin "2" net name from "Net-(F1-Pad1)" to "/USB_FT2232/VBUS".
+
+Info: Checking netlist component footprint "J1:/5B1BC185/5B1BCC4C:digikey-footprints:USB_Micro_B_Female_10118192".
+
+Changing component "J1:/5B1BC185/5B1BCC4C" pin "6" net name from "Net-(J1-Pad6)" to "Net-(C9-Pad1)".
+
+Changing component "J1:/5B1BC185/5B1BCC4C" pin "6" net name from "Net-(J1-Pad6)" to "Net-(C9-Pad1)".
+
+Changing component "J1:/5B1BC185/5B1BCC4C" pin "6" net name from "Net-(J1-Pad6)" to "Net-(C9-Pad1)".
+
+Changing component "J1:/5B1BC185/5B1BCC4C" pin "6" net name from "Net-(J1-Pad6)" to "Net-(C9-Pad1)".
+
+Changing component "J1:/5B1BC185/5B1BCC4C" pin "6" net name from "Net-(J1-Pad6)" to "Net-(C9-Pad1)".
+
+Changing component "J1:/5B1BC185/5B1BCC4C" pin "6" net name from "Net-(J1-Pad6)" to "Net-(C9-Pad1)".
+
+Info: Checking netlist component footprint "J3:/5B22247E/5B239872:digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G".
+
+Info: Checking netlist component footprint "L4:/5B22247E/5B23AAAA:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "P1:/5B265B59:Pin_Headers:Pin_Header_Straight_2x12".
+
+Changing component "P1:/5B265B59" pin "1" net name from "GND" to "/MAX_2769/+5V".
+
+Changing component "P1:/5B265B59" pin "4" net name from "/MAX_2769/+5V" to "GND".
+
+Info: Checking netlist component footprint "R1:/5B1BC185/5B1BF604:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R1:/5B1BC185/5B1BF604" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "R2:/5B1BC185/5B1E5BF4:Resistors_SMD:R_0603_HandSoldering".
+
+Info: Checking netlist component footprint "R3:/5B1BC185/5B1BF56C:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R3:/5B1BC185/5B1BF56C" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "R4:/5B1BC185/5B1E52EE:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R4:/5B1BC185/5B1E52EE" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "R5:/5B1BC185/5B1BF3F3:Resistors_SMD:R_0805_HandSoldering".
+
+Changing component "R5:/5B1BC185/5B1BF3F3" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "R6:/5B1BC185/5B1BF4B5:Resistors_SMD:R_0603_HandSoldering".
+
+Info: Checking netlist component footprint "R7:/5B22247E/5B2A9337:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R8:/5B22247E/5B2B2C1D:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R9:/5B22247E/5B2B2B5F:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R10:/5B22247E/5B2B0223:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R11:/5B22247E/5B236218:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R12:/5B22247E/5B236373:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R13:/5B22247E/5B22418D:Resistors_SMD:R_0603_HandSoldering".
+
+Info: Checking netlist component footprint "R14:/5B22247E/5B2A0332:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R15:/5B22247E/5B2975D0:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R16:/5B22247E/5B298102:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R17:/5B22247E/5B2981CA:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R18:/5B22247E/5B298297:Resistors_SMD:R_0805_HandSoldering".
+
+Info: Checking netlist component footprint "R19:/5B22247E/5B5EB863:Resistors_SMD:R_0603_HandSoldering".
+
+xxAdding new component "R19:/5B22247E/5B5EB863" footprint "Resistors_SMD:R_0603_HandSoldering".
+
+Info: Checking netlist component footprint "R20:/5B22247E/5B5E9ED0:Resistors_SMD:R_0603_HandSoldering".
+
+xxAdding new component "R20:/5B22247E/5B5E9ED0" footprint "Resistors_SMD:R_0603_HandSoldering".
+
+Info: Checking netlist component footprint "TP1:/5B1BC185/5B2D3A96:Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "TP2:/5B1BC185/5B2D441B:Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "TP3:/5B1BC185/5B2D413A:Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "TP4:/5B1BC185/5B2D4359:Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "TP5:/5B1BC185/5B2D41D2:Measurement_Points:Test_Point".
+
+Changing component "TP5:/5B1BC185/5B2D41D2" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Changing component "TP5:/5B1BC185/5B2D41D2" pin "1" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "TP6:/5B1BC185/5B2D4288:Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "U1:/5B1BC185/5B1BDDB3:mem:SOIC127P600X175-8N".
+
+Changing component "U1:/5B1BC185/5B1BDDB3" pin "8" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "U2:/5B1BC185/5B1BCE94:digikey-footprints:LQFP-64_10x10mm".
+
+Changing component "U2:/5B1BC185/5B1BCE94" pin "4" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Changing component "U2:/5B1BC185/5B1BCE94" pin "9" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Changing component "U2:/5B1BC185/5B1BCE94" pin "20" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Changing component "U2:/5B1BC185/5B1BCE94" pin "31" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Changing component "U2:/5B1BC185/5B1BCE94" pin "42" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Changing component "U2:/5B1BC185/5B1BCE94" pin "50" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Changing component "U2:/5B1BC185/5B1BCE94" pin "56" net name from "/USB_FT2232/VCC3V3" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "U3:/5B1BC185/5B1BCEA4:digikey-footprints:SOIC-8_W3.9mm".
+
+Changing component "U3:/5B1BC185/5B1BCEA4" pin "1" net name from "Net-(FB2-Pad2)" to "/MAX_2769/VCC3V3".
+
+Info: Checking netlist component footprint "U4:/5B22247E/5B5DE469:rf:21-0076E".
+
+xxReplacing component "U4:/5B22247E/5B3352E5" footprint "rf:Sawtek_855969" with "rf:21-0076E".
+
+xxChanging component "U4:/5B22247E/5B3352E5" value from "SAWTEK-855969" to "MAX8510".
+
+Info: Changing component path "U4:/5B22247E/5B3352E5" to "/5B22247E/5B5DE469".
+
+Changing component "U4:/5B22247E/5B3352E5" pin "1" net name from "GND" to "/MAX_2769/+5V".
+
+Changing component "U4:/5B22247E/5B3352E5" pin "2" net name from "Net-(C12-Pad2)" to "GND".
+
+Changing component "U4:/5B22247E/5B3352E5" pin "3" net name from "GND" to "/MAX_2769/+5V".
+
+Clearing component "U4:/5B22247E/5B3352E5" pin "6" net name.
+
+Changing component "U4:/5B22247E/5B3352E5" pin "5" net name from "Net-(C17-Pad2)" to "/MAX_2769/VCCA".
+
+Changing component "U4:/5B22247E/5B3352E5" pin "4" net name from "GND" to "Net-(C17-Pad2)".
+
+Info: Checking netlist component footprint "U5:/5B22247E/5B5E05A7:rf:21-0076E".
+
+xxReplacing component "U5:/5B22247E/5B2B60CE" footprint "TO_SOT_Packages_SMD:SOT-23-5" with "rf:21-0076E".
+
+xxChanging component "U5:/5B22247E/5B2B60CE" value from "AP131-30" to "MAX8510".
+
+Info: Changing component path "U5:/5B22247E/5B2B60CE" to "/5B22247E/5B5E05A7".
+
+Changing component "U5:/5B22247E/5B2B60CE" pin "4" net name from "Net-(C23-Pad1)" to "Net-(C24-Pad2)".
+
+Changing component "U5:/5B22247E/5B2B60CE" pin "5" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCD".
+
+Info: Checking netlist component footprint "U6:/5B22247E/5B22277F:rf:TQFP_29_EP_MAX2769".
+
+Changing component "U6:/5B22247E/5B22277F" pin "14" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Changing component "U6:/5B22247E/5B22277F" pin "13" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Changing component "U6:/5B22247E/5B22277F" pin "11" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Changing component "U6:/5B22247E/5B22277F" pin "23" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Changing component "U6:/5B22247E/5B22277F" pin "27" net name from "/MAX_2769/LNA1" to "Net-(U6-Pad27)".
+
+Changing component "U6:/5B22247E/5B22277F" pin "19" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCD".
+
+Changing component "U6:/5B22247E/5B22277F" pin "4" net name from "/MAX_2769/VCC3V" to "/MAX_2769/VCCA".
+
+Info: Checking netlist component footprint "U7:/5B22247E/5B23DBF7:rf:Sawtek_855969".
+
+Info: Checking netlist component footprint "U8:/5B22247E/5B5E9B54:rf:TSOT-23_S6".
+
+xxAdding new component "U8:/5B22247E/5B5E9B54" footprint "rf:TSOT-23_S6".
+
+Info: Checking netlist component footprint "W1:/5B1BC185/5B5D8295:Measurement_Points:Test_Point".
+
+Adding new component "W1:/5B1BC185/5B5D8295" footprint "Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "W2:/5B1BC185/5B5D8D79:Measurement_Points:Test_Point".
+
+Adding new component "W2:/5B1BC185/5B5D8D79" footprint "Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "W3:/5B1BC185/5B5D8F1F:Measurement_Points:Test_Point".
+
+Adding new component "W3:/5B1BC185/5B5D8F1F" footprint "Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "W4:/5B1BC185/5B5D65B4:Measurement_Points:Test_Point".
+
+Adding new component "W4:/5B1BC185/5B5D65B4" footprint "Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "W5:/5B1BC185/5B5D6358:Measurement_Points:Test_Point".
+
+Adding new component "W5:/5B1BC185/5B5D6358" footprint "Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "W6:/5B1BC185/5B5D7E96:Measurement_Points:Test_Point".
+
+Adding new component "W6:/5B1BC185/5B5D7E96" footprint "Measurement_Points:Test_Point".
+
+Info: Checking netlist component footprint "X1:/5B22247E/5B436041:oscillator:CTS_405_xtal".
+
+Info: Checking netlist component footprint "Y1:/5B1BC185/5B1C4A48:oscillator:CTS_405_xtal".
+
+Removing unused component "REF2:".
+
+Removing unused component "REF3:".
+
+Removing unused component "REF1:".
+
+Removing unused component "F1:/5B1BC185/5B220C23".
+
+Removing unused component "FB2:/5B1BC185/5B1DE4B1".
+
+Removing unused component "J2:/5B22247E/5B2225E9".
+
+Removing unused component "L1:/5B22247E/5B231E73".
+
+Removing unused component "L2:/5B22247E/5B2323B6".
+
+Removing unused component "L3:/5B22247E/5B232A62".
+
+Removing unused component "REF4:".
+
+Removing unused component "G***:".
+

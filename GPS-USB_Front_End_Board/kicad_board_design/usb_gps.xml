@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/hugh/projects/KiCad/usb_gps/usb_gps.sch</source>
+    <date>Sun 24 Jun 2018 11:13:09 PM PDT</date>
+    <tool>Eeschema 4.0.5+dfsg1-4~bpo8+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>usb_gps.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB_FT2232/" tstamps="/5B1BC185/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB_FT2232.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MAX_2769/" tstamps="/5B22247E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MAX_2769.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_02X12</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x12</footprint>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B265B59</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>10118192-0001LF</value>
+      <footprint>digikey-footprints:USB_Micro_B_Female_10118192</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">609-4613-1-ND</field>
+        <field name="MPN">10118192-0001LF</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="DK_Datasheet_Link">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/amphenol-fci/10118192-0001LF/609-4613-1-ND/2785378</field>
+        <field name="Description">CONN USB MICRO B RECPT SMT R/A</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_USB-DVI-HDMI-Connectors" part="10118192-0001LF"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BCC4C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>USBLC6-2SC6</value>
+      <footprint>digikey-footprints:SOT23-6L</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">497-5235-1-ND</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Category">Circuit Protection</field>
+        <field name="Family">TVS - Diodes</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688</field>
+        <field name="Description">TVS DIODE 5.25V 17V SOT23-6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_TVS-Diodes" part="USBLC6-2SC6"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BCC5C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>FT2232HL-REEL</value>
+      <footprint>digikey-footprints:LQFP-64_10x10mm</footprint>
+      <datasheet>http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">768-1024-1-ND</field>
+        <field name="MPN">FT2232HL-REEL</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Interface - Controllers</field>
+        <field name="DK_Datasheet_Link">http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ftdi-future-technology-devices-international-ltd/FT2232HL-REEL/768-1024-1-ND/1986057</field>
+        <field name="Description">IC USB HS DUAL UART/FIFO 64-LQFP</field>
+        <field name="Manufacturer">FTDI, Future Technology Devices International Ltd</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Interface-Controllers" part="FT2232HL-REEL"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BCE94</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L4931ABD33-TR</value>
+      <footprint>digikey-footprints:SOIC-8_W3.9mm</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/ff/95/2f/6a/75/70/42/49/CD00000971.pdf/files/CD00000971.pdf/jcr:content/translations/en.CD00000971.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">497-1155-1-ND</field>
+        <field name="MPN">L4931ABD33-TR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/ff/95/2f/6a/75/70/42/49/CD00000971.pdf/files/CD00000971.pdf/jcr:content/translations/en.CD00000971.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/L4931ABD33-TR/497-1155-1-ND/586155</field>
+        <field name="Description">IC REG LINEAR 3.3V 250MA 8SO</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_PMIC-Voltage-Regulators-Linear" part="L4931ABD33-TR"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BCEA4</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BDC6D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>93LCxxB</value>
+      <footprint>mem:SOIC127P600X175-8N</footprint>
+      <libsource lib="memory" part="93LCxxB"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BDDB3</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BF3F3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BF4B5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BF56C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1BF604</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1C1DAE</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1C1E88</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>BLM18PG471SN1D</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">490-5223-1-ND</field>
+        <field name="MPN">BLM18PG471SN1D</field>
+        <field name="Category">Filters</field>
+        <field name="Family">Ferrite Beads and Chips</field>
+        <field name="DK_Datasheet_Link">https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/murata-electronics-north-america/BLM18PG471SN1D/490-5223-1-ND/1948399</field>
+        <field name="Description">FERRITE BEAD 470 OHM 0603 1LN</field>
+        <field name="Manufacturer">Murata Electronics North America</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Ferrite-Beads-and-Chips" part="BLM18PG471SN1D"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1C3474</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND24</value>
+      <footprint>oscillator:CTS_405_xtal</footprint>
+      <libsource lib="device" part="Crystal_GND24"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1C4A48</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1C4C39</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1C4E8F</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>BLM18PG471SN1D</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">490-5223-1-ND</field>
+        <field name="MPN">BLM18PG471SN1D</field>
+        <field name="Category">Filters</field>
+        <field name="Family">Ferrite Beads and Chips</field>
+        <field name="DK_Datasheet_Link">https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/murata-electronics-north-america/BLM18PG471SN1D/490-5223-1-ND/1948399</field>
+        <field name="Description">FERRITE BEAD 470 OHM 0603 1LN</field>
+        <field name="Manufacturer">Murata Electronics North America</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Ferrite-Beads-and-Chips" part="BLM18PG471SN1D"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1DE4B1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>3.3uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1E3C76</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1E52EE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>12.0K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1E5BF4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1E7FF3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B1E80A3</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse_Small</value>
+      <footprint>fuse:0805L_Littelfuse</footprint>
+      <libsource lib="device" part="Polyfuse_Small"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B220C23</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B2D3A96</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B2D413A</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B2D41D2</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B2D4288</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B2D4359</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/USB_FT2232/" tstamps="/5B1BC185/"/>
+      <tstamp>5B2D441B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Edge Launch SMA</value>
+      <footprint>digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G</footprint>
+      <datasheet>https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CONSMA001-SMD-G-ND</field>
+        <field name="MPN">CONSMA001-SMD-G</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="DK_Datasheet_Link">https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569</field>
+        <field name="Description">CONN SMA RCPT STR 50 OHM SMD</field>
+        <field name="Manufacturer">Linx Technologies Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Coaxial-Connectors-RF" part="CONSMA001-SMD-G"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2225E9</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>TCXO3</value>
+      <footprint>rf:TCXO_Taitien</footprint>
+      <libsource lib="Oscillators" part="TCXO3"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2226EA</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MAX2769CETI+</value>
+      <footprint>rf:TQFP_29_EP_MAX2769</footprint>
+      <datasheet>4.05 USD</datasheet>
+      <fields>
+        <field name="Field4">MAX2769CETI+</field>
+        <field name="Field5">Warning</field>
+        <field name="Field6">Universal Gnss Rx, 8mhz-44mhz, Tqfn-28</field>
+        <field name="Field7">Maxim Integrated</field>
+        <field name="Field8">TQFN-28 Maxim Integrated</field>
+      </fields>
+      <libsource lib="MAX2769CETI_" part="MAX2769CETI+"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B22277F</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>3300pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B22294B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222A24</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222C2B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222D43</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222E30</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222E72</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>.1nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222EB0</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222F1B</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B222F73</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>.47nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B223AF8</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B223F00</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>27pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B224008</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>470pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B224134</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B22418D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>NC</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Handsoldering</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B231E73</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>NC</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B231F00</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>NC</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B231FC9</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>33pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B23227F</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>6.2nH</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2323B6</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2324F5</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>4.3nH</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B232A62</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>NC</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B236218</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B236373</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Edge Launch SMA</value>
+      <footprint>digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G</footprint>
+      <datasheet>https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CONSMA001-SMD-G-ND</field>
+        <field name="MPN">CONSMA001-SMD-G</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="DK_Datasheet_Link">https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569</field>
+        <field name="Description">CONN SMA RCPT STR 50 OHM SMD</field>
+        <field name="Manufacturer">Linx Technologies Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Coaxial-Connectors-RF" part="CONSMA001-SMD-G"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B239872</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>33nH</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B23AAAA</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B23ACDD</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B23B2CD</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B23B453</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>NC</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B23CB0F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>SAWTEK-855969</value>
+      <footprint>rf:Sawtek_855969</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2114.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">AP2114H-3.3TRG1DICT-ND</field>
+        <field name="MPN">AP2114H-3.3TRG1</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">SAW</field>
+        <field name="DK_Datasheet_Link">https://www.mouser.com/datasheet/2/412/855969-846512.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142</field>
+        <field name="Description">IC REG LINEAR 3.3V 1A SOT223</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="sawtek-855969" part="SAWTEK-855969"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B23DBF7</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2975D0</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B298102</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2981CA</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B298297</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2A0332</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2A9337</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2B0223</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2B2B5F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="r_zigzag" part="R"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2B2C1D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AP131-30</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="regul" part="AP131-30"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2B60CE</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2B7313</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>.1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2B743B</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B2B7595</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SAWTEK-855969</value>
+      <footprint>rf:Sawtek_855969</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2114.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">AP2114H-3.3TRG1DICT-ND</field>
+        <field name="MPN">AP2114H-3.3TRG1</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">SAW</field>
+        <field name="DK_Datasheet_Link">https://www.mouser.com/datasheet/2/412/855969-846512.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142</field>
+        <field name="Description">IC REG LINEAR 3.3V 1A SOT223</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="sawtek-855969" part="SAWTEK-855969"/>
+      <sheetpath names="/MAX_2769/" tstamps="/5B22247E/"/>
+      <tstamp>5B3352E5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="dk_USB-DVI-HDMI-Connectors" part="10118192-0001LF">
+      <description>CONN USB MICRO B RECPT SMT R/A</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10118192-0001LF</field>
+        <field name="Footprint">digikey-footprints:USB_Micro_B_Female_10118192</field>
+        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf</field>
+        <field name="Digi-Key_PN">609-4613-1-ND</field>
+        <field name="MPN">10118192-0001LF</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="DK_Datasheet_Link">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/amphenol-fci/10118192-0001LF/609-4613-1-ND/2785378</field>
+        <field name="Description">CONN USB MICRO B RECPT SMT R/A</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="Data-" type="input"/>
+        <pin num="3" name="Data+" type="input"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="memory" part="93LCxxA">
+      <aliases>
+        <alias>93LCxxB</alias>
+      </aliases>
+      <description>Serial EEPROM, 93 series in 8-pin package, 2.5V</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">93LCxxA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CS" type="input"/>
+        <pin num="2" name="SCLK" type="input"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="DO" type="3state"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="NC" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="AP131-15">
+      <aliases>
+        <alias>AP131-18</alias>
+        <alias>AP131-20</alias>
+        <alias>AP131-25</alias>
+        <alias>AP131-28</alias>
+        <alias>AP131-29</alias>
+        <alias>AP131-30</alias>
+        <alias>AP131-33</alias>
+        <alias>AP131-35</alias>
+      </aliases>
+      <description>300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package</description>
+      <docs>http://www.diodes.com/_files/datasheets/AP131.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP131-15</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Ferrite-Beads-and-Chips" part="BLM18PG471SN1D">
+      <description>FERRITE BEAD 470 OHM 0603 1LN</description>
+      <docs>https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf</docs>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">BLM18PG471SN1D</field>
+        <field name="Footprint">digikey-footprints:0603</field>
+        <field name="Datasheet">https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf</field>
+        <field name="Digi-Key_PN">490-5223-1-ND</field>
+        <field name="MPN">BLM18PG471SN1D</field>
+        <field name="Category">Filters</field>
+        <field name="Family">Ferrite Beads and Chips</field>
+        <field name="DK_Datasheet_Link">https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/murata-electronics-north-america/BLM18PG471SN1D/490-5223-1-ND/1948399</field>
+        <field name="Description">FERRITE BEAD 470 OHM 0603 1LN</field>
+        <field name="Manufacturer">Murata Electronics North America</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X12">
+      <description>Connector, double row, 02x12</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X12</fp>
+        <fp>Pin_Header_Angled_2X12</fp>
+        <fp>Socket_Strip_Straight_2X12</fp>
+        <fp>Socket_Strip_Angled_2X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Coaxial-Connectors-RF" part="CONSMA001-SMD-G">
+      <description>CONN SMA RCPT STR 50 OHM SMD</description>
+      <docs>https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONSMA001-SMD-G</field>
+        <field name="Footprint">digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G</field>
+        <field name="Datasheet">https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf</field>
+        <field name="Digi-Key_PN">CONSMA001-SMD-G-ND</field>
+        <field name="MPN">CONSMA001-SMD-G</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="DK_Datasheet_Link">https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569</field>
+        <field name="Description">CONN SMA RCPT STR 50 OHM SMD</field>
+        <field name="Manufacturer">Linx Technologies Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal_GND24">
+      <description>Four pin crystal (GND on pins 2 and 4), e.g. in SMD package</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Interface-Controllers" part="FT2232HL-REEL">
+      <description>IC USB HS DUAL UART/FIFO 64-LQFP</description>
+      <docs>http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT2232HL-REEL</field>
+        <field name="Footprint">digikey-footprints:LQFP-64_10x10mm</field>
+        <field name="Datasheet">http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</field>
+        <field name="Digi-Key_PN">768-1024-1-ND</field>
+        <field name="MPN">FT2232HL-REEL</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Interface - Controllers</field>
+        <field name="DK_Datasheet_Link">http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ftdi-future-technology-devices-international-ltd/FT2232HL-REEL/768-1024-1-ND/1986057</field>
+        <field name="Description">IC USB HS DUAL UART/FIFO 64-LQFP</field>
+        <field name="Manufacturer">FTDI, Future Technology Devices International Ltd</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OSCI" type="input"/>
+        <pin num="3" name="OSCO" type="output"/>
+        <pin num="4" name="VPHY" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="REF" type="input"/>
+        <pin num="7" name="DM" type="BiDi"/>
+        <pin num="8" name="DP" type="BiDi"/>
+        <pin num="9" name="VPLL" type="power_in"/>
+        <pin num="10" name="AGND" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VCORE" type="power_in"/>
+        <pin num="13" name="TEST" type="input"/>
+        <pin num="14" name="RESET" type="input"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="ADBUS0" type="BiDi"/>
+        <pin num="17" name="ADBUS1" type="BiDi"/>
+        <pin num="18" name="ADBUS2" type="BiDi"/>
+        <pin num="19" name="ADBUS3" type="BiDi"/>
+        <pin num="20" name="VCCIO" type="power_in"/>
+        <pin num="21" name="ADBUS4" type="BiDi"/>
+        <pin num="22" name="ADBUS5" type="BiDi"/>
+        <pin num="23" name="ADBUS6" type="BiDi"/>
+        <pin num="24" name="ADBUS7" type="BiDi"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="ACBUS0" type="BiDi"/>
+        <pin num="27" name="ACBUS1" type="BiDi"/>
+        <pin num="28" name="ACBUS2" type="BiDi"/>
+        <pin num="29" name="ACBUS3" type="BiDi"/>
+        <pin num="30" name="ACBUS4" type="BiDi"/>
+        <pin num="31" name="VCCIO" type="power_in"/>
+        <pin num="32" name="ACBUS5" type="BiDi"/>
+        <pin num="33" name="ACBUS6" type="BiDi"/>
+        <pin num="34" name="ACBUS7" type="BiDi"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="SUSPEND" type="output"/>
+        <pin num="37" name="VCORE" type="power_in"/>
+        <pin num="38" name="BDBUS0" type="BiDi"/>
+        <pin num="39" name="BDBUS1" type="BiDi"/>
+        <pin num="40" name="BDBUS2" type="BiDi"/>
+        <pin num="41" name="BDBUS3" type="BiDi"/>
+        <pin num="42" name="VCCIO" type="power_in"/>
+        <pin num="43" name="BDBUS4" type="BiDi"/>
+        <pin num="44" name="BDBUS5" type="BiDi"/>
+        <pin num="45" name="BDBUS6" type="BiDi"/>
+        <pin num="46" name="BDBUS7" type="BiDi"/>
+        <pin num="47" name="GND" type="power_in"/>
+        <pin num="48" name="BCBUS0" type="BiDi"/>
+        <pin num="49" name="VREGOUT" type="power_out"/>
+        <pin num="50" name="VREGIN" type="power_in"/>
+        <pin num="51" name="GND" type="power_in"/>
+        <pin num="52" name="BCBUS1" type="BiDi"/>
+        <pin num="53" name="BCBUS2" type="BiDi"/>
+        <pin num="54" name="BCBUS3" type="BiDi"/>
+        <pin num="55" name="BCBUS4" type="BiDi"/>
+        <pin num="56" name="VCCIO" type="power_in"/>
+        <pin num="57" name="BCBUS5" type="BiDi"/>
+        <pin num="58" name="BCBUS6" type="BiDi"/>
+        <pin num="59" name="BCBUS7" type="BiDi"/>
+        <pin num="60" name="PWREN" type="output"/>
+        <pin num="61" name="EEDATA" type="BiDi"/>
+        <pin num="62" name="EECLK" type="output"/>
+        <pin num="63" name="EECS" type="BiDi"/>
+        <pin num="64" name="VCORE" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_PMIC-Voltage-Regulators-Linear" part="L4931ABD33-TR">
+      <description>IC REG LINEAR 3.3V 250MA 8SO</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/ff/95/2f/6a/75/70/42/49/CD00000971.pdf/files/CD00000971.pdf/jcr:content/translations/en.CD00000971.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L4931ABD33-TR</field>
+        <field name="Footprint">digikey-footprints:SOIC-8_W3.9mm</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/ff/95/2f/6a/75/70/42/49/CD00000971.pdf/files/CD00000971.pdf/jcr:content/translations/en.CD00000971.pdf</field>
+        <field name="Digi-Key_PN">497-1155-1-ND</field>
+        <field name="MPN">L4931ABD33-TR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/ff/95/2f/6a/75/70/42/49/CD00000971.pdf/files/CD00000971.pdf/jcr:content/translations/en.CD00000971.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/L4931ABD33-TR/497-1155-1-ND/586155</field>
+        <field name="Description">IC REG LINEAR 3.3V 250MA 8SO</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="INHIBIT" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX2769CETI_" part="MAX2769CETI+">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX2769CETI+</field>
+        <field name="Footprint">QFN50P500X500X80-29N</field>
+        <field name="Datasheet">4.05 USD</field>
+        <field name="Field4">MAX2769CETI+</field>
+        <field name="Field5">Warning</field>
+        <field name="Field6">Universal Gnss Rx, 8mhz-44mhz, Tqfn-28</field>
+        <field name="Field7">Maxim Integrated</field>
+        <field name="Field8">TQFN-28 Maxim Integrated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANTFLAG" type="output"/>
+        <pin num="2" name="LNAOUT" type="output"/>
+        <pin num="3" name="ANTBIAS" type="output"/>
+        <pin num="4" name="VCCRF" type="power_in"/>
+        <pin num="5" name="MIXIN" type="input"/>
+        <pin num="6" name="LD" type="output"/>
+        <pin num="7" name="~SHDN" type="input"/>
+        <pin num="8" name="SDATA" type="input"/>
+        <pin num="9" name="SCLK" type="input"/>
+        <pin num="10" name="~CS" type="input"/>
+        <pin num="11" name="VCCVCO" type="power_in"/>
+        <pin num="12" name="CPOUT" type="output"/>
+        <pin num="13" name="VCCCP" type="power_in"/>
+        <pin num="14" name="VCCD" type="power_in"/>
+        <pin num="15" name="XTAL" type="input"/>
+        <pin num="16" name="CLKOUT" type="output"/>
+        <pin num="17" name="Q1" type="output"/>
+        <pin num="18" name="Q0" type="output"/>
+        <pin num="19" name="VCCADC" type="power_in"/>
+        <pin num="20" name="I0" type="output"/>
+        <pin num="21" name="I1" type="output"/>
+        <pin num="22" name="N.C._2" type="passive"/>
+        <pin num="23" name="VCCIF" type="power_in"/>
+        <pin num="24" name="~IDLE" type="input"/>
+        <pin num="25" name="LNA2" type="input"/>
+        <pin num="26" name="PGM" type="input"/>
+        <pin num="27" name="LNA1" type="input"/>
+        <pin num="28" name="N.C." type="NotConnected"/>
+        <pin num="29" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse_Small">
+      <description>resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="r_zigzag" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sawtek-855969" part="SAWTEK-855969">
+      <description>IC REG LINEAR 3.3V 1A SOT223</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2114.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SAWTEK-855969</field>
+        <field name="Footprint">digikey-footprints:SOT-223</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2114.pdf</field>
+        <field name="Digi-Key_PN">AP2114H-3.3TRG1DICT-ND</field>
+        <field name="MPN">AP2114H-3.3TRG1</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">SAW</field>
+        <field name="DK_Datasheet_Link">https://www.mouser.com/datasheet/2/412/855969-846512.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142</field>
+        <field name="Description">IC REG LINEAR 3.3V 1A SOT223</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillators" part="TCXO3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TCXO3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="FREQ" type="output"/>
+        <pin num="8" name="+5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TEST">
+      <description>Testpoint, connection for test equipment</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_TVS-Diodes" part="USBLC6-2SC6">
+      <description>TVS DIODE 5.25V 17V SOT23-6</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">digikey-footprints:SOT23-6L</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="Digi-Key_PN">497-5235-1-ND</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Category">Circuit Protection</field>
+        <field name="Family">TVS - Diodes</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688</field>
+        <field name="Description">TVS DIODE 5.25V 17V SOT23-6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="dk_Ferrite-Beads-and-Chips">
+      <uri>/home/hugh/projects/KiCad/libraries/digikey-kicad-library/digikey-symbols/dk_Ferrite-Beads-and-Chips.lib</uri>
+    </library>
+    <library logical="r_zigzag">
+      <uri>/home/hugh/projects/KiCad/parts/r_zigzag.lib</uri>
+    </library>
+    <library logical="dk_PMIC-Voltage-Regulators-Linear">
+      <uri>/home/hugh/projects/KiCad/libraries/digikey-kicad-library/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib</uri>
+    </library>
+    <library logical="Oscillators">
+      <uri>/usr/share/kicad/library/Oscillators.lib</uri>
+    </library>
+    <library logical="dk_Interface-Controllers">
+      <uri>/home/hugh/projects/KiCad/libraries/digikey-kicad-library/digikey-symbols/dk_Interface-Controllers.lib</uri>
+    </library>
+    <library logical="dk_Coaxial-Connectors-RF">
+      <uri>/home/hugh/projects/KiCad/libraries/digikey-kicad-library/digikey-symbols/dk_Coaxial-Connectors-RF.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="dk_TVS-Diodes">
+      <uri>/home/hugh/projects/KiCad/libraries/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib</uri>
+    </library>
+    <library logical="dk_USB-DVI-HDMI-Connectors">
+      <uri>/home/hugh/projects/KiCad/libraries/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib</uri>
+    </library>
+    <library logical="memory">
+      <uri>/usr/share/kicad/library/memory.lib</uri>
+    </library>
+    <library logical="sawtek-855969">
+      <uri>/home/hugh/projects/KiCad/parts/sawtek-855969.lib</uri>
+    </library>
+    <library logical="MAX2769CETI_">
+      <uri>/home/hugh/projects/KiCad/parts/MAX2769CETI_.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/USB_FT2232/SDO">
+      <node ref="U2" pin="17"/>
+      <node ref="P1" pin="21"/>
+    </net>
+    <net code="2" name="/USB_FT2232/WR#">
+      <node ref="P1" pin="15"/>
+      <node ref="U2" pin="54"/>
+    </net>
+    <net code="3" name="/USB_FT2232/SCLK">
+      <node ref="P1" pin="17"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="4" name="/USB_FT2232/SDI">
+      <node ref="P1" pin="19"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="5" name="/USB_FT2232/SCS">
+      <node ref="P1" pin="23"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="6" name="/USB_FT2232/TXE#">
+      <node ref="U2" pin="52"/>
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="7" name="/USB_FT2232/D3">
+      <node ref="U2" pin="41"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="8" name="/USB_FT2232/D2">
+      <node ref="U2" pin="40"/>
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="9" name="/USB_FT2232/D1">
+      <node ref="U2" pin="39"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="10" name="/MAX_2769/SCLK">
+      <node ref="R8" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U6" pin="9"/>
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="11" name="/MAX_2769/SDO">
+      <node ref="P1" pin="22"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="12" name="/MAX_2769/SCS">
+      <node ref="P1" pin="24"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="13" name="/MAX_2769/WR#">
+      <node ref="R14" pin="1"/>
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="14" name="/MAX_2769/ANTFLAG">
+      <node ref="U6" pin="1"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="15" name="/USB_FT2232/GPIO1">
+      <node ref="U2" pin="27"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="16" name="/USB_FT2232/GPIO2">
+      <node ref="U2" pin="28"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="17" name="/USB_FT2232/GPIO3">
+      <node ref="U6" pin="24"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad14)">
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="19" name="Net-(P1-Pad20)">
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="20" name="/USB_FT2232/D0">
+      <node ref="P1" pin="5"/>
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="21" name="/MAX_2769/D3">
+      <node ref="R15" pin="1"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="22" name="/MAX_2769/D2">
+      <node ref="P1" pin="10"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="23" name="/MAX_2769/D1">
+      <node ref="P1" pin="8"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="24" name="/MAX_2769/D0">
+      <node ref="R18" pin="1"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="25" name="/MAX_2769/+5V">
+      <node ref="U3" pin="8"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="1"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="U2" pin="51"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="15"/>
+      <node ref="J1" pin="5"/>
+      <node ref="P1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U6" pin="29"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="X1" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U2" pin="25"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U2" pin="35"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U2" pin="47"/>
+    </net>
+    <net code="27" name="Net-(FB2-Pad2)">
+      <node ref="FB2" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="29" name="/USB_FT2232/VREGOUT">
+      <node ref="U2" pin="37"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="49"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="64"/>
+    </net>
+    <net code="30" name="Net-(R6-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="61"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="31" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="32" name="/USB_FT2232/EECLK">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="62"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="33" name="/USB_FT2232/EECS">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="63"/>
+    </net>
+    <net code="34" name="/USB_FT2232/Data-">
+      <node ref="D1" pin="4"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="35" name="/USB_FT2232/Data+">
+      <node ref="D1" pin="6"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad1)">
+      <node ref="J1" pin="3"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="37" name="/USB_FT2232/VBUS">
+      <node ref="F1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D1" pin="5"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad30)">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="39" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="45" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="47" name="/USB_FT2232/OSCO">
+      <node ref="TP6" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad60)">
+      <node ref="U2" pin="60"/>
+    </net>
+    <net code="50" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad36)">
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad59)">
+      <node ref="U2" pin="59"/>
+    </net>
+    <net code="53" name="Net-(U2-Pad58)">
+      <node ref="U2" pin="58"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad57)">
+      <node ref="U2" pin="57"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad55)">
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad53)">
+      <node ref="U2" pin="53"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad48)">
+      <node ref="U2" pin="48"/>
+    </net>
+    <net code="58" name="Net-(U2-Pad46)">
+      <node ref="U2" pin="46"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad45)">
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad44)">
+      <node ref="U2" pin="44"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad43)">
+      <node ref="U2" pin="43"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad34)">
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad33)">
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="64" name="/USB_FT2232/RESET">
+      <node ref="R4" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="65" name="/USB_FT2232/VCC3V3">
+      <node ref="U1" pin="8"/>
+      <node ref="R5" pin="1"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="U2" pin="56"/>
+      <node ref="U2" pin="50"/>
+      <node ref="U2" pin="42"/>
+      <node ref="U2" pin="31"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="20"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="66" name="/USB_FT2232/REF">
+      <node ref="U2" pin="6"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="67" name="Net-(F1-Pad1)">
+      <node ref="FB1" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D1-Pad3)">
+      <node ref="J1" pin="2"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="69" name="/MAX_2769/ANTBIAS">
+      <node ref="L4" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="70" name="/MAX_2769/Q1">
+      <node ref="U6" pin="17"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="71" name="/MAX_2769/CLKOUT">
+      <node ref="R14" pin="2"/>
+      <node ref="C26" pin="2"/>
+    </net>
+    <net code="72" name="/MAX_2769/I1">
+      <node ref="U6" pin="21"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="73" name="/MAX_2769/I0">
+      <node ref="U6" pin="20"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="74" name="/MAX_2769/Q0">
+      <node ref="U6" pin="18"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="75" name="Net-(R11-Pad1)">
+      <node ref="U6" pin="26"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="76" name="/MAX_2769/MIXIN">
+      <node ref="C29" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="77" name="Net-(C32-Pad1)">
+      <node ref="L4" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="78" name="Net-(C23-Pad1)">
+      <node ref="U5" pin="4"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="79" name="/MAX_2769/LNA2">
+      <node ref="U6" pin="25"/>
+      <node ref="C32" pin="2"/>
+    </net>
+    <net code="80" name="Net-(X1-Pad1)">
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="81" name="Net-(U6-Pad28)">
+      <node ref="U6" pin="28"/>
+    </net>
+    <net code="82" name="Net-(U6-Pad22)">
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="83" name="/MAX_2769/VCC3V">
+      <node ref="R11" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U6" pin="23"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U6" pin="4"/>
+      <node ref="X1" pin="8"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U6" pin="19"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="84" name="/MAX_2769/SDATA">
+      <node ref="R9" pin="1"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="85" name="/MAX_2769/CS#">
+      <node ref="U6" pin="10"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="86" name="Net-(C27-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="C27" pin="1"/>
+    </net>
+    <net code="87" name="Net-(C28-Pad2)">
+      <node ref="C28" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="88" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+      <node ref="L3" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="89" name="/MAX_2769/LNA1">
+      <node ref="U6" pin="27"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="90" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="91" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="X1" pin="5"/>
+    </net>
+    <net code="92" name="Net-(C26-Pad1)">
+      <node ref="U6" pin="16"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C20-Pad2)">
+      <node ref="C20" pin="2"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="94" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="95" name="Net-(C12-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="96" name="Net-(C12-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+  </nets>
+</export>

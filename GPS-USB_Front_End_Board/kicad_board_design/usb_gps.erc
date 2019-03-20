@@ -1,0 +1,13 @@
+ERC report (Sun 24 Jun 2018 02:53:48 PM PDT, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /USB_FT2232/
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (200.66 mm,69.85 mm): Pin 3 (Input) of component J1 is not driven (Net 36).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (177.80 mm,72.39 mm): Pin 2 (Input) of component J1 is not driven (Net 68).
+
+***** Sheet /MAX_2769/
+
+ ** ERC messages: 2  Errors 0  Warnings 2
