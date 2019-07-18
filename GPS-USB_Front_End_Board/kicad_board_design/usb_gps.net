@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hugh/Dropbox/PSAS/PSAS_repos/newGPS/oresat-gps-hardware/GPS-USB_Front_End_Board/kicad_board_design/usb_gps.sch)
-    (date "Wed 17 Jul 2019 07:33:41 PM PDT")
+    (date "Wed 17 Jul 2019 08:23:42 PM PDT")
     (tool "Eeschema 4.0.5+dfsg1-4~bpo8+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1002,7 +1002,7 @@
       (tstamp 5B436041))
     (comp (ref U4)
       (value MAX8510)
-      (footprint rf:21-0076E)
+      (footprint rf:21-0076E_FLIP)
       (datasheet None)
       (fields
         (field (name Field4) Unavailable)
@@ -1056,7 +1056,7 @@
       (tstamp 5B5E0583))
     (comp (ref U5)
       (value MAX8510)
-      (footprint rf:21-0076E)
+      (footprint rf:21-0076E_FLIP)
       (datasheet None)
       (fields
         (field (name Field4) Unavailable)
