@@ -546,17 +546,17 @@ L CONSMA001-SMD-G J3
 U 1 1 5B239872
 P 4100 5375
 F 0 "J3" H 3950 5425 60  0000 L CNN
-F 1 "Edge Launch SMA" H 3600 5525 60  0000 L CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 4300 5575 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 4300 5675 60  0001 L CNN
-F 4 "CONSMA001-SMD-G-ND" H 4300 5775 60  0001 L CNN "Digi-Key_PN"
-F 5 "CONSMA001-SMD-G" H 4300 5875 60  0001 L CNN "MPN"
+F 1 "SMA" H 3600 5525 60  0000 L CNN
+F 2 "digikey-footprints:RF_SMA_Vertical_5-1814832-1" H 4300 5575 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English" H 4300 5675 60  0001 L CNN
+F 4 "A97594-ND" H 4300 5775 60  0001 L CNN "Digi-Key_PN"
+F 5 "5-1814832-1" H 4300 5875 60  0001 L CNN "MPN"
 F 6 "Connectors, Interconnects" H 4300 5975 60  0001 L CNN "Category"
 F 7 "Coaxial Connectors (RF)" H 4300 6075 60  0001 L CNN "Family"
 F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 4300 6175 60  0001 L CNN "DK_Datasheet_Link"
 F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 4300 6275 60  0001 L CNN "DK_Detail_Page"
 F 10 "CONN SMA RCPT STR 50 OHM SMD" H 4300 6375 60  0001 L CNN "Description"
-F 11 "Linx Technologies Inc." H 4300 6475 60  0001 L CNN "Manufacturer"
+F 11 "TE Connectivity AMP Connectors" H 4300 6475 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 4300 6575 60  0001 L CNN "Status"
 F 13 "Linx Technologies" H 0   0   50  0001 C CNN "MFR"
 F 14 "Digikey" H 0   0   50  0001 C CNN "SPR"

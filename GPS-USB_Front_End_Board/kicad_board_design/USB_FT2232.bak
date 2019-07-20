@@ -204,10 +204,10 @@ U 1 1 5B1BCC4C
 P 7400 2750
 F 0 "J1" H 7450 3000 60  0000 C CNN
 F 1 "Micro-USB Connector" H 7825 3100 60  0000 C CNN
-F 2 "digikey-footprints:USB_Micro_B_Female_10118192" H 7600 2950 60  0001 L CNN
+F 2 "digikey-footprints:USB_Micro_B_Female_10118194-0001LF" H 7600 2950 60  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 7600 3050 60  0001 L CNN
-F 4 "609-4613-1-ND" H 7600 3150 60  0001 L CNN "Digi-Key_PN"
-F 5 "10118192-0001LF" H 7600 3250 60  0001 L CNN "MPN"
+F 4 "609-4618-6-ND" H 7600 3150 60  0001 L CNN "Digi-Key_PN"
+F 5 "10118194-0001LF" H 7600 3250 60  0001 L CNN "MPN"
 F 6 "Connectors, Interconnects" H 7600 3350 60  0001 L CNN "Category"
 F 7 "USB, DVI, HDMI Connectors" H 7600 3450 60  0001 L CNN "Family"
 F 8 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 7600 3550 60  0001 L CNN "DK_Datasheet_Link"
