@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hugh/Dropbox/PSAS/PSAS_repos/newGPS/oresat-gps-hardware/GPS-USB_Front_End_Board/kicad_board_design/usb_gps.sch)
-    (date "Wed 17 Jul 2019 08:23:42 PM PDT")
+    (date "Sat 20 Jul 2019 01:29:23 PM PDT")
     (tool "Eeschema 4.0.5+dfsg1-4~bpo8+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -45,11 +45,11 @@
       (tstamp 5B265B59))
     (comp (ref J1)
       (value "Micro-USB Connector")
-      (footprint digikey-footprints:USB_Micro_B_Female_10118192)
+      (footprint digikey-footprints:USB_Micro_B_Female_10118194-0001LF)
       (datasheet https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf)
       (fields
-        (field (name Digi-Key_PN) 609-4613-1-ND)
-        (field (name MPN) 10118192-0001LF)
+        (field (name Digi-Key_PN) 609-4618-6-ND)
+        (field (name MPN) 10118194-0001LF)
         (field (name Category) "Connectors, Interconnects")
         (field (name Family) "USB, DVI, HDMI Connectors")
         (field (name DK_Datasheet_Link) https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf)
