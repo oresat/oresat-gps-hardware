@@ -1158,14 +1158,8 @@ Text HLabel 1425 7350 0    60   Input ~ 0
 GND
 Text HLabel 1425 4850 0    60   Input ~ 0
 SDI
-Text HLabel 1425 5150 0    60   Input ~ 0
-GPIO0
 Text HLabel 1425 5250 0    60   Input ~ 0
 GPIO1
-Text HLabel 1425 5350 0    60   Input ~ 0
-GPIO2
-Text HLabel 1425 5450 0    60   Input ~ 0
-GPIO3
 Text Label 8450 6150 2    60   ~ 0
 RESETIN#
 Text Label 10450 6150 2    60   ~ 0
@@ -1409,25 +1403,11 @@ Wire Wire Line
 Wire Wire Line
 	3450 4800 3450 5150
 Wire Wire Line
-	3450 5150 1425 5150
-Wire Wire Line
 	3850 4900 3500 4900
 Wire Wire Line
 	3500 4900 3500 5250
 Wire Wire Line
 	3500 5250 1425 5250
-Wire Wire Line
-	3850 5000 3550 5000
-Wire Wire Line
-	3550 5000 3550 5350
-Wire Wire Line
-	3550 5350 1425 5350
-Wire Wire Line
-	3850 5100 3600 5100
-Wire Wire Line
-	3600 5100 3600 5450
-Wire Wire Line
-	3600 5450 1425 5450
 Wire Wire Line
 	2600 4100 2650 4100
 Wire Wire Line
@@ -1607,4 +1587,8 @@ Wire Wire Line
 	8150 1350 8100 1350
 Wire Wire Line
 	8100 1350 8100 1850
+Wire Wire Line
+	3450 5150 1425 5150
+Text HLabel 1425 5150 0    60   Input ~ 0
+GPIO0
 $EndSCHEMATC
