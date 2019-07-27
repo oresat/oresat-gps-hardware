@@ -1591,4 +1591,6 @@ Wire Wire Line
 	3450 5150 1425 5150
 Text HLabel 1425 5150 0    60   Input ~ 0
 GPIO0
+NoConn ~ 3850 5100
+NoConn ~ 3850 5000
 $EndSCHEMATC
