@@ -241,7 +241,7 @@ F 11 "STMicroelectronics" H 9300 4150 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 9300 4250 60  0001 L CNN "Status"
 F 13 "STMicro" H 0   0   50  0001 C CNN "MFR"
 F 14 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 15 "497-5235-1-ND USB" H 0   0   50  0001 C CNN "SPN"
+F 15 "497-5235-1-ND" H 0   0   50  0001 C CNN "SPN"
 F 16 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    9100 3050
 	1    0    0    -1  
@@ -1072,22 +1072,6 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    3050 4250
 	1    0    0    1   
 $EndComp
-$Comp
-L C_Small C7
-U 1 1 5B5B2330
-P 9850 1600
-F 0 "C7" H 9860 1670 50  0000 L CNN
-F 1 "2.2uF" H 9860 1520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9850 1600 50  0001 C CNN
-F 3 "" H 9850 1600 50  0001 C CNN
-F 4 "TDK" H 0   0   50  0001 C CNN "MFR"
-F 5 "C2012X7R1C225K125AB" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "445-1420-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9850 1600
-	1    0    0    -1  
-$EndComp
 Text Label 10450 900  0    60   ~ 0
 +5V
 Text Label 10500 2750 0    60   ~ 0
@@ -1593,4 +1577,20 @@ Text HLabel 1425 5150 0    60   Input ~ 0
 GPIO0
 NoConn ~ 3850 5100
 NoConn ~ 3850 5000
+$Comp
+L C_Small C7
+U 1 1 5D400776
+P 9850 1600
+F 0 "C7" H 9860 1670 50  0000 L CNN
+F 1 "10uF" H 9860 1520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9850 1600 50  0001 C CNN
+F 3 "" H 9850 1600 50  0001 C CNN
+F 4 "Samsung" H -625 -3350 50  0001 C CNN "MFR"
+F 5 "CL21A106KPFNNNG" H -625 -3350 50  0001 C CNN "MPN"
+F 6 "Digikey" H -625 -3350 50  0001 C CNN "SPR"
+F 7 "1276-6456-1-ND" H -625 -3350 50  0001 C CNN "SPN"
+F 8 "-" H -625 -3350 50  0001 C CNN "SPURL"
+	1    9850 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

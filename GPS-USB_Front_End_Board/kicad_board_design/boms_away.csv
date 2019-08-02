@@ -1,0 +1,47 @@
+Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
+C8;C6;C2;C35;C33;C9;C11;C13;C14;C15;C16;C21;C22;C30;C38;C37,.1uF,Capacitors_SMD:C_0402,16,TDK,CGA2B1X7R1C104K050BC,Digikey,445-5613-1-ND
+C29,1.7pF,Capacitors_SMD:C_0402,1,Murata,GJM1555C1H1R7WB01D,Digikey,490-11201-1-ND
+C32;C31;C19,100pF,Capacitors_SMD:C_0402,3,Yageo,CC0402JRNPO9BN101,Digikey,311-1024-1-ND
+C26;C24;C17,10nF,Capacitors_SMD:C_0402,3,Murata,GRM155R71C103KA01D,Digikey,490-1313-1-ND
+L4,33nH,Capacitors_SMD:C_0402,1,Bourns,CI100505-33NJ,Digikey,CI100505-33NJCT-ND
+C27;C39;C28,470pF,Capacitors_SMD:C_0402,3,AVX,04025C471KAT2A,Digikey,478-1097-1-ND
+L1,5.6nH,Capacitors_SMD:C_0402,1,Johansen Technology,L-07C5N6SV6T,Digikey,712-1462-1-ND
+C10,10uF,Capacitors_SMD:C_0603_HandSoldering,1,Samsung,CL10B106MQ8NRNC,Digikey,1276-1948-1-ND
+C1;C12;C18,1uF,Capacitors_SMD:C_0603_HandSoldering,3,Samsung,CL10B105KP8NNNC,Digikey,1276-1946-1-ND
+C20,3300pF,Capacitors_SMD:C_0603_HandSoldering,1,AVX,06035C332KAT4A,Digikey,478-10681-1-ND
+C7;C23;C36,10uF,Capacitors_SMD:C_0805,3,Samsung,CL21A106KPFNNNG,Digikey,1276-6456-1-ND
+C5;C3,10pF,Capacitors_SMD:C_0805_HandSoldering,2,Kemet,C0805C100K5RAC7800,Digikey,399-17612-1-ND
+C25,27pF,Capacitors_SMD:C_0805_HandSoldering,1,AVX,08055C270KAT2A,Digikey,478-11394-1-ND
+C4;C34,3.3uF,Capacitors_SMD:C_0805_HandSoldering,2,TDK,C2012X7R1C335K125AB,Digikey,445-7582-1-ND
+P2,CONN_01X03,Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight,1,Sullins,PREC003SAAN-RC,Digikey,S1012EC-03-ND
+W8,+BB,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+W7,-BB,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+W2,D0,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+W3,D1,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+W6,EECLK,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+W1,EECS,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+W4,PWREN,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+W5,SUSPEND,Measurement_Points:Measurement_Point_Round-TH_Small,1,-,-,-,-
+TP3;TP5;TP6;TP4;TP2,TEST,Measurement_Points:Measurement_Point_Round-TH_Small,5,-,-,-,-
+TP1,TEST,Measurement_Points:Test_Point,1,-,-,-,-
+P1,CONN_02X12,Pin_Headers:Pin_Header_Straight_2x12,1,Sullins,SFH11-PBPC-D12-ST-BK,Digikey,S9708-ND
+R19,0,Resistors_SMD:R_0603_HandSoldering,1,Vishay,CRCW06030000Z0EBC,Digikey,541-4013-1-ND
+R2,12.0K,Resistors_SMD:R_0603_HandSoldering,1,TE Connectivity,CPF0603B12KE1,Digikey,A103037CT-ND
+R13,20K,Resistors_SMD:R_0603_HandSoldering,1,Bourns,CRT0603-FZ-2002EST,Digikey,CRT0603-FZ-2002ESTCT-ND
+R6,2K,Resistors_SMD:R_0603_HandSoldering,1,Yageo,AC0603FR-072KL,Digikey,YAG3590CT-ND
+R20,NC,Resistors_SMD:R_0603_HandSoldering,1,Vishay,CRCW06030000Z0EBC,Digikey,541-4013-1-ND
+R15;R16;R17;R18;R14;R10;R9;R8,0,Resistors_SMD:R_0805_HandSoldering,8,Vishay,CRCW06030000Z0EBC,Digikey,541-4013-1-ND
+R5;R3;R1;R4;R7,10K,Resistors_SMD:R_0805_HandSoldering,5,TE Connectivity,CRGH0805F10K,Digikey,A126417DKR-ND
+FB1,BLM18PG471SN1D,digikey-footprints:0603,1,Taiyo Yuden,BK0603HS330-T,Digikey,587-1828-1-ND
+U2,FT2232HL-REEL,digikey-footprints:LQFP-64_10x10mm,1,FTDI,FT2232HL-REEL,Digikey,768-1024-1-ND
+J3,SMA,digikey-footprints:RF_SMA_Vertical_5-1814832-1,1,Linx Technologies,5-1814832-1,Digikey,CONSMA001-SMD-G-ND
+U3,L4931 LDO,digikey-footprints:SOIC-8_W3.9mm,1,STMicro,L4931ABD33-TR,Digikey,497-1155-1-ND
+D1,USBLC6-2SC6,digikey-footprints:SOT23-6L,1,STMicro,USBLC6-2SC6,Digikey,497-5235-1-ND
+J1,Micro-USB Connector,digikey-footprints:USB_Micro_B_Female_10118194-0001LF,1,Amphenol,10118194-0001LF,Digikey,609-4613-1-ND
+U1,93LCxxB,mem:SOIC127P600X175-8N,1,MicroChip,93LC46B-I/SN,Digikey,93LC46B-I/SN-ND
+Y1,12MHz Crystal,oscillator:CTS_405_xtal,1,CTS,405C35E12M00000,Digikey,CTX819DKR-ND
+U4;U5,MAX8510,rf:21-0076E_FLIP,2,Maxim,MAX8510EXK30+T,Digikey,MAX8510EXK30+TCT-ND
+U7,SAWTEK-855969,rf:Sawtek_855969,1,Qorvo,855969,Mouser,772-855969
+X1,13.368MHz TCXO,rf:TCXO_Taitien,1,Taitien,TXETCDSANF-16.368000,Digikey,1664-1271-1-ND
+U6,MAX2771,rf:TQFP_29_EP_MAX2769,1,Maxim,MAX2771ETI+,Digikey,MAX2771ETI+-ND
+U8,LT1719S6 -- Not Populated,rf:TSOT-23_S6,1,Linear Tech,LT1719IS6#TRMPBF,Digikey,LT1719IS6#TRMPBFCT-ND
