@@ -16,7 +16,7 @@
   (layers
     (0 F.Cu signal hide)
     (1 In1.Cu signal hide)
-    (2 In2.Cu signal)
+    (2 In2.Cu signal hide)
     (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (34 B.Paste user)
@@ -3436,14 +3436,14 @@
     )
   )
 
-  (module mem:SOIC127P600X175-8N (layer F.Cu) (tedit 5D3DDFD2) (tstamp 5B42E706)
+  (module mem:SOIC127P600X175-8N (layer F.Cu) (tedit 5D3E16CD) (tstamp 5B42E706)
     (at 93.9927 91.5924)
     (path /5B1BC185/5B1BDDB3)
     (attr smd)
     (fp_text reference U1 (at -0.357089 -3.95345) (layer F.SilkS)
       (effects (font (size 1.64685 1.64685) (thickness 0.1524)))
     )
-    (fp_text value 93LCxxB (at -0.356793 3.87371) (layer F.SilkS)
+    (fp_text value 93LCxxB (at -0.356793 3.87371) (layer F.SilkS) hide
       (effects (font (size 1.64548 1.64548) (thickness 0.05)))
     )
     (fp_line (start -1.9558 -1.651) (end -1.9558 -2.159) (layer Dwgs.User) (width 0.1524))
