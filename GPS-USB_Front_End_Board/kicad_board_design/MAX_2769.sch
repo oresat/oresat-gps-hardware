@@ -933,107 +933,6 @@ F 8 "-" H 0   -1050 50  0001 C CNN "SPURL"
 	1    10125 4850
 	0    1    1    0   
 $EndComp
-$Comp
-L LT1719S6 U8
-U 1 1 5B5E9B54
-P 9375 1250
-F 0 "U8" H 9544 968 50  0000 L BNN
-F 1 "LT1719S6 -- Not Populated" H 9544 705 50  0000 L BNN
-F 2 "rf:TSOT-23_S6" H 9375 1250 60  0001 C CNN
-F 3 "Unavailable" H 9375 1250 50  0001 L BNN
-F 4 "LT1719" H 9375 1250 50  0001 L BNN "Field4"
-F 5 "None" H 9375 1250 50  0001 L BNN "Field5"
-F 6 "Analog Devices / Linear Technology" H 9375 1250 50  0001 L BNN "Field6"
-F 7 "None" H 9375 1250 50  0001 L BNN "Field7"
-F 8 "Linear Tech" H 0   0   50  0001 C CNN "MFR"
-F 9 "LT1719IS6#TRMPBF" H 0   0   50  0001 C CNN "MPN"
-F 10 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 11 "LT1719IS6#TRMPBFCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 12 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9375 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R20
-U 1 1 5B5E9ED0
-P 8825 1550
-F 0 "R20" V 8905 1550 50  0000 C CNN
-F 1 "NC" V 8750 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8680 1550 50  0001 C CNN
-F 3 "" H 8750 1550 50  0001 C CNN
-F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
-F 5 "CRCW06030000Z0EBC" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "541-4013-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    8825 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR040
-U 1 1 5B5EA299
-P 8975 2150
-F 0 "#PWR040" H 8975 1900 50  0001 C CNN
-F 1 "GND" H 8975 2000 50  0000 C CNN
-F 2 "" H 8975 2150 50  0000 C CNN
-F 3 "" H 8975 2150 50  0000 C CNN
-	1    8975 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR041
-U 1 1 5B5EAC9C
-P 9375 1975
-F 0 "#PWR041" H 9375 1725 50  0001 C CNN
-F 1 "GND" H 9375 1825 50  0000 C CNN
-F 2 "" H 9375 1975 50  0000 C CNN
-F 3 "" H 9375 1975 50  0000 C CNN
-	1    9375 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R19
-U 1 1 5B5EB863
-P 8825 1275
-F 0 "R19" V 8905 1275 50  0000 C CNN
-F 1 "0" V 8750 1275 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8680 1275 50  0001 C CNN
-F 3 "" H 8750 1275 50  0001 C CNN
-F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
-F 5 "CRCW06030000Z0EBC" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "541-4013-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    8825 1275
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C38
-U 1 1 5B5EE1F7
-P 9550 950
-F 0 "C38" H 9560 1020 50  0000 L CNN
-F 1 ".1uF" H 9560 870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 9550 950 50  0001 C CNN
-F 3 "" H 9550 950 50  0001 C CNN
-F 4 "TDK" H 0   0   50  0001 C CNN "MFR"
-F 5 "CGA2B1X7R1C104K050BC" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "445-5613-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9550 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR042
-U 1 1 5B5EE330
-P 9550 1050
-F 0 "#PWR042" H 9550 800 50  0001 C CNN
-F 1 "GND" H 9550 900 50  0000 C CNN
-F 2 "" H 9550 1050 50  0000 C CNN
-F 3 "" H 9550 1050 50  0000 C CNN
-	1    9550 1050
-	1    0    0    -1  
-$EndComp
 Text Label 3100 2650 2    60   ~ 0
 VCCA
 Text Label 5075 900  2    60   ~ 0
@@ -1078,7 +977,7 @@ Text Label 7675 1550 0    60   ~ 0
 I0
 Text Label 7675 1650 0    60   ~ 0
 I1
-Text Label 10025 1650 0    60   ~ 0
+Text Label 8575 1750 0    60   ~ 0
 CLKOUT
 Text Label 2175 2650 0    60   ~ 0
 Q1
@@ -1117,8 +1016,6 @@ Text Notes 2400 5650 0    60   ~ 0
 Text Label 7675 1450 0    60   ~ 0
 LD
 Text Label 1850 1650 0    60   ~ 0
-VCC3V3
-Text Label 9250 800  2    60   ~ 0
 VCC3V3
 Text Label 1825 4375 0    60   ~ 0
 +5V
@@ -1257,8 +1154,6 @@ Wire Wire Line
 Wire Wire Line
 	7475 1650 7675 1650
 Wire Wire Line
-	8275 1750 9100 1750
-Wire Wire Line
 	1400 2650 1775 2650
 Wire Wire Line
 	2075 2650 2175 2650
@@ -1357,32 +1252,6 @@ Wire Wire Line
 Wire Wire Line
 	8575 3150 8725 3150
 Wire Wire Line
-	9100 1550 8975 1550
-Wire Wire Line
-	8675 1550 8600 1550
-Wire Wire Line
-	8600 1275 8600 1750
-Wire Wire Line
-	8975 1550 8975 1950
-Wire Wire Line
-	9375 1850 9375 1975
-Wire Wire Line
-	9275 1900 9375 1900
-Wire Wire Line
-	8600 1275 8675 1275
-Wire Wire Line
-	8975 1275 9675 1275
-Wire Wire Line
-	9675 1275 9675 1650
-Wire Wire Line
-	9675 1650 10025 1650
-Wire Wire Line
-	9250 800  9550 800 
-Wire Wire Line
-	9375 800  9375 1450
-Wire Wire Line
-	9550 800  9550 850 
-Wire Wire Line
 	1400 1650 1850 1650
 Wire Wire Line
 	1400 4375 1825 4375
@@ -1418,10 +1287,6 @@ Connection ~ 10475 4750
 Connection ~ 7025 5800
 Connection ~ 10475 5800
 Connection ~ 5625 1450
-Connection ~ 8600 1750
-Connection ~ 9375 1900
-Connection ~ 8600 1550
-Connection ~ 9375 800 
 NoConn ~ 5875 3250
 NoConn ~ 4750 3150
 $Comp
@@ -1658,20 +1523,6 @@ F 8 "-" H 550 200 50  0001 C CNN "SPURL"
 	1    8825 3150
 	0    1    1    0   
 $EndComp
-$Comp
-L C_Small C37
-U 1 1 5D44AA0F
-P 8975 2050
-F 0 "C37" H 8985 2120 50  0000 L CNN
-F 1 ".1uF" H 8985 1970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 8975 2050 50  0001 C CNN
-F 3 "" H 8975 2050 50  0001 C CNN
-F 4 "TDK" H 4050 150 50  0001 C CNN "MFR"
-F 5 "CGA2B1X7R1C104K050BC" H 4050 150 50  0001 C CNN "MPN"
-F 6 "Digikey" H 4050 150 50  0001 C CNN "SPR"
-F 7 "445-5613-1-ND" H 4050 150 50  0001 C CNN "SPN"
-F 8 "-" H 4050 150 50  0001 C CNN "SPURL"
-	1    8975 2050
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	8275 1750 8575 1750
 $EndSCHEMATC
