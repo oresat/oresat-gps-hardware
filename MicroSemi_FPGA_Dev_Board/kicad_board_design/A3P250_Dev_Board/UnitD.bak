@@ -207,12 +207,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 1950 8350 1950
 Wire Wire Line
-	6100 4650 5900 4650
-Wire Wire Line
-	5900 4650 5900 5250
-Wire Wire Line
-	5900 5250 6050 5250
-Wire Wire Line
 	5000 4050 5300 4050
 Wire Wire Line
 	5300 5000 5300 4050
@@ -247,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3450 6100 3450
 Wire Wire Line
-	5300 4050 6100 4050
+	5300 4050 5850 4050
 Wire Wire Line
 	5000 3950 6100 3950
 Wire Wire Line
@@ -299,9 +293,6 @@ Wire Wire Line
 	5650 4550 6100 4550
 Wire Wire Line
 	5650 5150 5650 5250
-Wire Wire Line
-	5650 5250 5900 5250
-Connection ~ 5900 5250
 Text Notes 4550 4700 0    50   ~ 0
 FPGA\nReset out
 $Comp
@@ -332,7 +323,9 @@ $Comp
 L Device:C_Small C?
 U 1 1 5DD15D66
 P 3650 5400
-F 0 "C?" H 3742 5446 50  0000 L CNN
+AR Path="/5DC7725E/5DD15D66" Ref="C?"  Part="1" 
+AR Path="/5DC7725B/5DD15D66" Ref="C29"  Part="1" 
+F 0 "C29" H 3742 5446 50  0000 L CNN
 F 1 "0.01uF" H 3742 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 5400 50  0001 C CNN
 F 3 "~" H 3650 5400 50  0001 C CNN
@@ -348,7 +341,9 @@ $Comp
 L Device:C_Small C?
 U 1 1 5DD15D73
 P 3350 5400
-F 0 "C?" H 3442 5446 50  0000 L CNN
+AR Path="/5DC7725E/5DD15D73" Ref="C?"  Part="1" 
+AR Path="/5DC7725B/5DD15D73" Ref="C28"  Part="1" 
+F 0 "C28" H 3442 5446 50  0000 L CNN
 F 1 ".1uF" H 3400 5350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3350 5400 50  0001 C CNN
 F 3 "~" H 3350 5400 50  0001 C CNN
@@ -381,4 +376,38 @@ Wire Wire Line
 Connection ~ 3350 5000
 Wire Wire Line
 	3350 5000 3650 5000
+Wire Wire Line
+	5650 5250 6050 5250
+Wire Wire Line
+	5850 4650 5850 4050
+Wire Wire Line
+	5850 4650 6100 4650
+Connection ~ 5850 4050
+Wire Wire Line
+	5850 4050 6100 4050
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DD218F3
+P 3350 5000
+F 0 "TP1" H 3408 5120 50  0000 L CNN
+F 1 "VCCIO" H 3400 5200 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 3550 5000 50  0001 C CNN
+F 3 "~" H 3550 5000 50  0001 C CNN
+	1    3350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DD21AC8
+P 6500 5400
+F 0 "TP2" H 6558 5520 50  0000 L CNN
+F 1 "VCCIO" H 6550 5600 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 6700 5400 50  0001 C CNN
+F 3 "~" H 6700 5400 50  0001 C CNN
+	1    6500 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5400 6500 5400
+Connection ~ 5500 5400
 $EndSCHEMATC

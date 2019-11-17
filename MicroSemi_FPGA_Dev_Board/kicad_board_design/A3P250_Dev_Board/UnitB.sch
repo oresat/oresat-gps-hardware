@@ -175,13 +175,9 @@ Wire Wire Line
 Wire Wire Line
 	7500 3150 6950 3150
 Wire Wire Line
-	5950 3150 5950 3300
-Wire Wire Line
-	5700 3300 5950 3300
-Wire Wire Line
 	7500 2750 6950 2750
 Wire Wire Line
-	6050 2750 6050 3900
+	6050 2750 6050 3300
 Connection ~ 6050 3900
 Wire Wire Line
 	6050 3900 6800 3900
@@ -197,12 +193,14 @@ Wire Wire Line
 	6950 2750 6650 2750
 Wire Wire Line
 	6650 3050 6650 3150
-Connection ~ 6650 3150
-Wire Wire Line
-	6650 3150 5950 3150
 Wire Wire Line
 	6950 3050 6950 3150
 Connection ~ 6950 3150
 Wire Wire Line
 	6950 3150 6650 3150
+Wire Wire Line
+	5700 3300 6050 3300
+Connection ~ 6050 3300
+Wire Wire Line
+	6050 3300 6050 3900
 $EndSCHEMATC

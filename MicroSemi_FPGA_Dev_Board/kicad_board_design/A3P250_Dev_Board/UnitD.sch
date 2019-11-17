@@ -207,12 +207,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 1950 8350 1950
 Wire Wire Line
-	6100 4650 5900 4650
-Wire Wire Line
-	5900 4650 5900 5250
-Wire Wire Line
-	5900 5250 6050 5250
-Wire Wire Line
 	5000 4050 5300 4050
 Wire Wire Line
 	5300 5000 5300 4050
@@ -247,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3450 6100 3450
 Wire Wire Line
-	5300 4050 6100 4050
+	5300 4050 5850 4050
 Wire Wire Line
 	5000 3950 6100 3950
 Wire Wire Line
@@ -299,9 +293,6 @@ Wire Wire Line
 	5650 4550 6100 4550
 Wire Wire Line
 	5650 5150 5650 5250
-Wire Wire Line
-	5650 5250 5900 5250
-Connection ~ 5900 5250
 Text Notes 4550 4700 0    50   ~ 0
 FPGA\nReset out
 $Comp
@@ -385,4 +376,38 @@ Wire Wire Line
 Connection ~ 3350 5000
 Wire Wire Line
 	3350 5000 3650 5000
+Wire Wire Line
+	5650 5250 6050 5250
+Wire Wire Line
+	5850 4650 5850 4050
+Wire Wire Line
+	5850 4650 6100 4650
+Connection ~ 5850 4050
+Wire Wire Line
+	5850 4050 6100 4050
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DD218F3
+P 3350 5000
+F 0 "TP1" H 3408 5120 50  0000 L CNN
+F 1 "VCCIO" H 3400 5200 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3550 5000 50  0001 C CNN
+F 3 "~" H 3550 5000 50  0001 C CNN
+	1    3350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DD21AC8
+P 6500 5400
+F 0 "TP2" H 6558 5520 50  0000 L CNN
+F 1 "VCCIO" H 6550 5600 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 6700 5400 50  0001 C CNN
+F 3 "~" H 6700 5400 50  0001 C CNN
+	1    6500 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5400 6500 5400
+Connection ~ 5500 5400
 $EndSCHEMATC
