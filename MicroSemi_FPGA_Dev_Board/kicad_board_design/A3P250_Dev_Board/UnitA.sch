@@ -1,0 +1,174 @@
+EESchema Schematic File Version 4
+LIBS:A3P250_Dev_Board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x20 J1
+U 1 1 5DC8C6E0
+P 6200 2250
+F 0 "J1" V 6417 2196 50  0000 C CNN
+F 1 "Conn_01x20" V 6326 2196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical" H 6200 2250 50  0001 C CNN
+F 3 "~" H 6200 2250 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DCBCE58
+P 4250 3050
+F 0 "#FLG0101" H 4250 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 4250 3224 50  0000 C CNN
+F 2 "" H 4250 3050 50  0001 C CNN
+F 3 "~" H 4250 3050 50  0001 C CNN
+	1    4250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L A3P250:A3P250 U1
+U 1 1 5DCF9410
+P 4800 4650
+F 0 "U1" H 7331 5308 60  0000 L CNN
+F 1 "A3P250" H 7331 5202 60  0000 L CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 4950 4700 60  0001 R CNN
+F 3 "https://www.microsemi.com/document-portal/doc_download/130704-ds0097-proasic3-flash-family-fpgas-datasheet" H 4950 4500 60  0001 R CNN
+F 4 "Microsemi" H 0   0   50  0001 C CNN "MFR"
+F 5 "A3P250-VQG100" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "1100-1030-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    4800 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 3450 0    50   Input ~ 0
+GND
+Text GLabel 4650 2650 0    50   Input ~ 0
+GAA_IO00RSB0
+Wire Wire Line
+	5300 2450 5300 3550
+Wire Wire Line
+	5400 2450 5400 3550
+Wire Wire Line
+	5500 2450 5500 3550
+Wire Wire Line
+	7200 2450 7200 3550
+Wire Wire Line
+	7100 2450 7100 3550
+Wire Wire Line
+	7000 2450 7000 3550
+Wire Wire Line
+	6900 2450 6900 3550
+Wire Wire Line
+	6800 2450 6800 3550
+Wire Wire Line
+	6700 2450 6700 3550
+Wire Wire Line
+	6600 2450 6600 3550
+Wire Wire Line
+	6500 2450 6500 3550
+Wire Wire Line
+	6400 2450 6400 3550
+Wire Wire Line
+	6300 2450 6300 3550
+Wire Wire Line
+	6200 2450 6200 3550
+Wire Wire Line
+	6000 2450 6000 3550
+Wire Wire Line
+	5900 2450 5900 3550
+Wire Wire Line
+	5800 2450 5800 3550
+Wire Wire Line
+	5700 2450 5700 3550
+Wire Wire Line
+	5600 2450 5600 3550
+Wire Wire Line
+	4650 2650 5200 2650
+Wire Wire Line
+	5200 2650 5200 3550
+Wire Wire Line
+	4300 3450 4450 3450
+Wire Wire Line
+	5100 3450 5100 3550
+$Comp
+L Device:C_Small C?
+U 1 1 5DD0839D
+P 4750 3250
+AR Path="/5DC7725E/5DD0839D" Ref="C?"  Part="1" 
+AR Path="/5DC77250/5DD0839D" Ref="C23"  Part="1" 
+F 0 "C23" H 4842 3296 50  0000 L CNN
+F 1 "0.01uF" H 4842 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+F 4 "Murata" H 4750 3250 50  0001 C CNN "MFR"
+F 5 "GRM155R71C103KA01D" H 4750 3250 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4750 3250 50  0001 C CNN "SPR"
+F 7 "490-1313-1-ND" H 4750 3250 50  0001 C CNN "SPN"
+F 8 "-" H -1850 -700 50  0001 C CNN "SPURL"
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DD083AA
+P 4450 3250
+AR Path="/5DC7725E/5DD083AA" Ref="C?"  Part="1" 
+AR Path="/5DC77250/5DD083AA" Ref="C22"  Part="1" 
+F 0 "C22" H 4542 3296 50  0000 L CNN
+F 1 ".1uF" H 4500 3200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4450 3250 50  0001 C CNN
+F 4 "Yageo" H 4450 3250 50  0001 C CNN "TDK"
+F 5 "CGA2B1X7R1C104K050BC" H 4450 3250 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4450 3250 50  0001 C CNN "SPR"
+F 7 "445-5613-1-ND" H 4450 3250 50  0001 C CNN "SPN"
+F 8 "-" H -1850 -700 50  0001 C CNN "MFR"
+F 9 "-" H -1850 -700 50  0001 C CNN "SPURL"
+	1    4450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2450 6100 3050
+Wire Wire Line
+	4250 3050 4450 3050
+Connection ~ 6100 3050
+Wire Wire Line
+	6100 3050 6100 3550
+Wire Wire Line
+	4750 3050 4750 3150
+Connection ~ 4750 3050
+Wire Wire Line
+	4750 3050 6100 3050
+Wire Wire Line
+	4750 3350 4750 3450
+Connection ~ 4750 3450
+Wire Wire Line
+	4750 3450 5100 3450
+Wire Wire Line
+	4450 3350 4450 3450
+Connection ~ 4450 3450
+Wire Wire Line
+	4450 3450 4750 3450
+Wire Wire Line
+	4450 3050 4450 3150
+Connection ~ 4450 3050
+Wire Wire Line
+	4450 3050 4750 3050
+$EndSCHEMATC

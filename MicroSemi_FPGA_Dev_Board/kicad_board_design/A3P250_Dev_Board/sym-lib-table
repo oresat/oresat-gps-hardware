@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ms)(type Legacy)(uri /home/hugh/Dropbox/PSAS/PSAS_repos/newGPS/oresat-gps-hardware/MicroSemi_FPGA_Dev_Board/kicad_board_design/A3P250_Dev_Board/ms.lib)(options "")(descr ""))
+  (lib (name A3P250)(type Legacy)(uri /home/hugh/Dropbox/PSAS/PSAS_repos/newGPS/oresat-gps-hardware/MicroSemi_FPGA_Dev_Board/kicad_board_design/A3P250_Dev_Board/A3P250.lib)(options "")(descr ""))
+  (lib (name LTC3561a)(type Legacy)(uri /home/hugh/Dropbox/PSAS/PSAS_repos/newGPS/oresat-gps-hardware/MicroSemi_FPGA_Dev_Board/kicad_board_design/A3P250_Dev_Board/ltc3561a.lib)(options "")(descr ""))
+)

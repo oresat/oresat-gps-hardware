@@ -1,0 +1,388 @@
+EESchema Schematic File Version 4
+LIBS:A3P250_Dev_Board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x20 J?
+U 1 1 5DC92A26
+P 4800 3650
+AR Path="/5DC77250/5DC92A26" Ref="J?"  Part="1" 
+AR Path="/5DC7725B/5DC92A26" Ref="J4"  Part="1" 
+F 0 "J4" V 5017 3596 50  0000 C CNN
+F 1 "Conn_01x20" V 4926 3596 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical" H 4800 3650 50  0001 C CNN
+F 3 "~" H 4800 3650 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    4800 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Oscillator:ASE-xxxMHz X?
+U 1 1 5DDD5CC5
+P 4900 5400
+AR Path="/5DC7725E/5DDD5CC5" Ref="X?"  Part="1" 
+AR Path="/5DC7725B/5DDD5CC5" Ref="X1"  Part="1" 
+F 0 "X1" H 5150 5300 50  0000 L CNN
+F 1 "ASE-25MHz" H 5150 5200 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 5600 5050 50  0001 C CNN
+F 3 "http://www.abracon.com/Oscillators/ASV.pdf" H 4800 5400 50  0001 C CNN
+F 4 "Abracon" H 4900 5400 50  0001 C CNN "MFR"
+F 5 "ASE-25.000MHZ-LC-T" H 4900 5400 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4900 5400 50  0001 C CNN "SPR"
+F 7 "535-9568-1-ND" H 4900 5400 50  0001 C CNN "SPN"
+F 8 "-" H 400 0   50  0001 C CNN "SPURL"
+	1    4900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DC8E7E9
+P 4200 5400
+AR Path="/5DC7725E/5DC8E7E9" Ref="C?"  Part="1" 
+AR Path="/5DC7725B/5DC8E7E9" Ref="C1"  Part="1" 
+F 0 "C1" H 4292 5446 50  0000 L CNN
+F 1 "0.01uF" H 4292 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4200 5400 50  0001 C CNN
+F 3 "~" H 4200 5400 50  0001 C CNN
+F 4 "Kemet" H 4200 5400 50  0001 C CNN "MFR"
+F 5 "C0603C103K5RAC7081" H 4200 5400 50  0001 C CNN "MPN"
+F 6 "Digikey" H 4200 5400 50  0001 C CNN "SPR"
+F 7 "399-C0603C103K5RAC7081CT-ND" H 4200 5400 50  0001 C CNN "SPN"
+F 8 "-" H 400 0   50  0001 C CNN "SPURL"
+	1    4200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC8E7F0
+P 4900 5750
+AR Path="/5DC7725E/5DC8E7F0" Ref="#PWR?"  Part="1" 
+AR Path="/5DC7725B/5DC8E7F0" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 4900 5500 50  0001 C CNN
+F 1 "GND" H 4905 5577 50  0000 C CNN
+F 2 "" H 4900 5750 50  0001 C CNN
+F 3 "" H 4900 5750 50  0001 C CNN
+	1    4900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5DCB229C
+P 8100 5100
+F 0 "D1" V 8138 4982 50  0000 R CNN
+F 1 "LED_ALT" V 8047 4982 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8100 5100 50  0001 C CNN
+F 3 "~" H 8100 5100 50  0001 C CNN
+F 4 "Digikey" V 8100 5100 50  0001 C CNN "SPR"
+F 5 "160-1427-1-ND" V 8100 5100 50  0001 C CNN "SPN"
+F 6 "Lite-On" V 8100 5100 50  0001 C CNN "MFR"
+F 7 "LTST-C171KRKT" V 8100 5100 50  0001 C CNN "MPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    8100 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DCB5390
+P 8100 5400
+F 0 "R1" H 8170 5446 50  0000 L CNN
+F 1 "200" H 8170 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8030 5400 50  0001 C CNN
+F 3 "~" H 8100 5400 50  0001 C CNN
+F 4 "Susumu" H 8100 5400 50  0001 C CNN "MFR"
+F 5 "RR1220P-201-D" H 8100 5400 50  0001 C CNN "MPN"
+F 6 "Digikey" H 8100 5400 50  0001 C CNN "SPR"
+F 7 "RR12P200DCT-ND" H 8100 5400 50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    8100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCB544C
+P 8100 5550
+AR Path="/5DC7725E/5DCB544C" Ref="#PWR?"  Part="1" 
+AR Path="/5DC7725B/5DCB544C" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 8100 5300 50  0001 C CNN
+F 1 "GND" H 8105 5377 50  0000 C CNN
+F 2 "" H 8100 5550 50  0001 C CNN
+F 3 "" H 8100 5550 50  0001 C CNN
+	1    8100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L A3P250:A3P250 U1
+U 4 1 5DCF963C
+P 6100 2850
+F 0 "U1" H 7131 2003 60  0000 L CNN
+F 1 "A3P250" H 7131 1897 60  0000 L CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 6250 2900 60  0001 R CNN
+F 3 "https://www.microsemi.com/document-portal/doc_download/130704-ds0097-proasic3-flash-family-fpgas-datasheet" H 6250 2700 60  0001 R CNN
+F 4 "Microsemi" H 0   0   50  0001 C CNN "MFR"
+F 5 "A3P250-VQG100" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "1100-1030-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	4    6100 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 2350 0    50   ~ 0
+used for POR
+Text Notes 3000 2050 0    50   ~ 0
+from North
+Text GLabel 8350 1800 2    50   Input ~ 0
++5V
+Text GLabel 8350 1950 2    50   Input ~ 0
+GND
+Text Notes 8300 2150 0    50   ~ 0
+to Power
+Text GLabel 2900 1900 0    50   Input ~ 0
+GAA_IO00RSB0
+Text GLabel 6050 5250 2    50   Input ~ 0
+GND
+Text GLabel 2900 2200 0    50   Input ~ 0
+VCCIB3
+Text Notes 5100 5850 0    50   ~ 0
+CLK input, available to \nFPGA PLL
+Text Notes 3000 2400 0    50   ~ 0
+to Power
+Wire Wire Line
+	5000 4550 5650 4550
+Wire Wire Line
+	5000 4450 6100 4450
+Wire Wire Line
+	5000 3050 6100 3050
+Wire Wire Line
+	5000 3150 6100 3150
+Wire Wire Line
+	5000 3250 6100 3250
+Wire Wire Line
+	5000 3350 6100 3350
+Wire Wire Line
+	5000 3450 6000 3450
+Wire Wire Line
+	5000 3550 5500 3550
+Wire Wire Line
+	5000 3650 6100 3650
+Wire Wire Line
+	5000 3750 6100 3750
+Wire Wire Line
+	5000 3850 6100 3850
+Wire Wire Line
+	5000 4150 6100 4150
+Wire Wire Line
+	5000 4250 6100 4250
+Wire Wire Line
+	5000 4350 6100 4350
+Wire Wire Line
+	5200 2850 5200 1900
+Wire Wire Line
+	5200 1900 2900 1900
+Wire Wire Line
+	5000 2650 5700 2650
+Wire Wire Line
+	5700 2650 5700 1800
+Wire Wire Line
+	5700 1800 8350 1800
+Wire Wire Line
+	5000 2750 5850 2750
+Wire Wire Line
+	5850 2750 5850 1950
+Wire Wire Line
+	5850 1950 8350 1950
+Wire Wire Line
+	6100 4650 5900 4650
+Wire Wire Line
+	5900 4650 5900 5250
+Wire Wire Line
+	5900 5250 6050 5250
+Wire Wire Line
+	5000 4050 5300 4050
+Wire Wire Line
+	5300 5000 5300 4050
+Wire Wire Line
+	4900 5700 4900 5750
+Wire Wire Line
+	4900 5700 4200 5700
+Wire Wire Line
+	4200 5700 4200 5500
+Wire Wire Line
+	4200 5300 4200 5000
+Wire Wire Line
+	4200 5000 4550 5000
+Wire Wire Line
+	4900 5000 4900 5100
+Wire Wire Line
+	4600 5400 4550 5400
+Wire Wire Line
+	4550 5400 4550 5000
+Wire Wire Line
+	4550 5000 4900 5000
+Wire Wire Line
+	4900 5000 5300 5000
+Wire Wire Line
+	5500 5400 5200 5400
+Wire Wire Line
+	6000 3450 6000 4850
+Wire Wire Line
+	6000 4850 8100 4850
+Wire Wire Line
+	8100 4850 8100 4950
+Wire Wire Line
+	6000 3450 6100 3450
+Wire Wire Line
+	5300 4050 6100 4050
+Wire Wire Line
+	5000 3950 6100 3950
+Wire Wire Line
+	5500 5400 5500 3550
+Wire Wire Line
+	5500 3550 6100 3550
+Connection ~ 5300 4050
+Connection ~ 4900 5700
+Connection ~ 4550 5000
+Connection ~ 4200 5000
+Connection ~ 4900 5000
+Connection ~ 6000 3450
+Connection ~ 5500 3550
+$Comp
+L Device:R R8
+U 1 1 5DCCD159
+P 6050 2450
+F 0 "R8" H 6120 2496 50  0000 L CNN
+F 1 "20K" H 6120 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5980 2450 50  0001 C CNN
+F 3 "~" H 6050 2450 50  0001 C CNN
+F 4 "Yageo" H 6050 2450 50  0001 C CNN "MFR"
+F 5 "RC0603FR-0720KL" H 6050 2450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 6050 2450 50  0001 C CNN "SPR"
+F 7 "311-20.0KHRCT-ND" H 6050 2450 50  0001 C CNN "SPN"
+F 8 "-" H -2050 -2950 50  0001 C CNN "SPURL"
+	1    6050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2200 3100 2200
+Wire Wire Line
+	6050 2200 6050 2300
+Wire Wire Line
+	6050 2600 6050 2950
+Wire Wire Line
+	6050 2950 6100 2950
+Wire Wire Line
+	3100 5000 3100 2200
+Wire Wire Line
+	3100 5000 3350 5000
+Connection ~ 3100 2200
+Wire Wire Line
+	3100 2200 6050 2200
+Wire Wire Line
+	5650 4850 5650 4550
+Connection ~ 5650 4550
+Wire Wire Line
+	5650 4550 6100 4550
+Wire Wire Line
+	5650 5150 5650 5250
+Wire Wire Line
+	5650 5250 5900 5250
+Connection ~ 5900 5250
+Text Notes 4550 4700 0    50   ~ 0
+FPGA\nReset out
+$Comp
+L Device:R R7
+U 1 1 5DCDA108
+P 5650 5000
+F 0 "R7" H 5720 5046 50  0000 L CNN
+F 1 "20K" H 5720 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 5000 50  0001 C CNN
+F 3 "~" H 5650 5000 50  0001 C CNN
+F 4 "Yageo" H 5650 5000 50  0001 C CNN "MFR"
+F 5 "RC0603FR-0720KL" H 5650 5000 50  0001 C CNN "MPN"
+F 6 "Digikey" H 5650 5000 50  0001 C CNN "SPR"
+F 7 "311-20.0KHRCT-ND" H 5650 5000 50  0001 C CNN "SPN"
+F 8 "-" H -2450 -400 50  0001 C CNN "SPURL"
+	1    5650 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2850 5000 2850
+Wire Wire Line
+	6100 2850 5650 2850
+Wire Wire Line
+	5650 2850 5650 2950
+Wire Wire Line
+	5650 2950 5000 2950
+$Comp
+L Device:C_Small C?
+U 1 1 5DD15D66
+P 3650 5400
+AR Path="/5DC7725E/5DD15D66" Ref="C?"  Part="1" 
+AR Path="/5DC7725B/5DD15D66" Ref="C29"  Part="1" 
+F 0 "C29" H 3742 5446 50  0000 L CNN
+F 1 "0.01uF" H 3742 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 5400 50  0001 C CNN
+F 3 "~" H 3650 5400 50  0001 C CNN
+F 4 "Murata" H 3650 5400 50  0001 C CNN "MFR"
+F 5 "GRM155R71C103KA01D" H 3650 5400 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3650 5400 50  0001 C CNN "SPR"
+F 7 "490-1313-1-ND" H 3650 5400 50  0001 C CNN "SPN"
+F 8 "-" H -2950 1450 50  0001 C CNN "SPURL"
+	1    3650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DD15D73
+P 3350 5400
+AR Path="/5DC7725E/5DD15D73" Ref="C?"  Part="1" 
+AR Path="/5DC7725B/5DD15D73" Ref="C28"  Part="1" 
+F 0 "C28" H 3442 5446 50  0000 L CNN
+F 1 ".1uF" H 3400 5350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3350 5400 50  0001 C CNN
+F 3 "~" H 3350 5400 50  0001 C CNN
+F 4 "Yageo" H 3350 5400 50  0001 C CNN "TDK"
+F 5 "CGA2B1X7R1C104K050BC" H 3350 5400 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3350 5400 50  0001 C CNN "SPR"
+F 7 "445-5613-1-ND" H 3350 5400 50  0001 C CNN "SPN"
+F 8 "-" H -2950 1450 50  0001 C CNN "MFR"
+F 9 "-" H -2950 1450 50  0001 C CNN "SPURL"
+	1    3350 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5700 3650 5700
+Wire Wire Line
+	3350 5700 3350 5500
+Connection ~ 4200 5700
+Wire Wire Line
+	3650 5500 3650 5700
+Connection ~ 3650 5700
+Wire Wire Line
+	3650 5700 3350 5700
+Wire Wire Line
+	3650 5300 3650 5000
+Connection ~ 3650 5000
+Wire Wire Line
+	3650 5000 4200 5000
+Wire Wire Line
+	3350 5300 3350 5000
+Connection ~ 3350 5000
+Wire Wire Line
+	3350 5000 3650 5000
+$EndSCHEMATC
