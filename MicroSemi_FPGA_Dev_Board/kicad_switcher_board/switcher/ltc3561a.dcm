@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3430-1
+D 3A High Voltage 100kHz Step-Down Switching Regulator, TSSOP-16
+K Step-Down Switching Regulator
+F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+$ENDCMP
+#
+$CMP LTC3561A
+D 3A High Voltage 200kHz Step-Down Switching Regulator, TSSOP-16
+K Step-Down Switching Regulator
+F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+$ENDCMP
+#
+#End Doc Library
