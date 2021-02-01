@@ -31156,8 +31156,6 @@ gpio0_21 == mii1_txd1
 gpio0_17 == mii1_txd2
 gpio0_16 == mii1_txd3
 gpio3_3   == mii1_tx_en
-gpio3_1   == mii1_crs
-gpio3_0   == mii1_col
 
 gpio2_21 == mii1_rxd0
 gpio2_20 == mii1_rxd1
@@ -31167,11 +31165,11 @@ gpio3_2   == mii1_rx_er
 gpio3_4   == mii1_rx_dv
 
 gpio0_0   == mdio </text>
-<text x="538.48" y="459.74" size="1.778" layer="97">Outputs on GPIO2,3 and inputs on GPIO0.</text>
+<text x="538.48" y="454.66" size="1.778" layer="97">Outputs on GPIO2,3 and inputs on GPIO0.</text>
 <wire x1="538.48" y1="408.178" x2="570.23" y2="408.178" width="0.1524" layer="97"/>
-<wire x1="570.23" y1="408.178" x2="570.23" y2="457.2" width="0.1524" layer="97"/>
-<wire x1="570.23" y1="457.2" x2="538.48" y2="457.2" width="0.1524" layer="97"/>
-<wire x1="538.48" y1="457.2" x2="538.48" y2="408.178" width="0.1524" layer="97"/>
+<wire x1="570.23" y1="408.178" x2="570.23" y2="452.12" width="0.1524" layer="97"/>
+<wire x1="570.23" y1="452.12" x2="538.48" y2="452.12" width="0.1524" layer="97"/>
+<wire x1="538.48" y1="452.12" x2="538.48" y2="408.178" width="0.1524" layer="97"/>
 <wire x1="774.7" y1="388.62" x2="774.7" y2="373.38" width="0.1524" layer="97"/>
 <wire x1="774.7" y1="373.38" x2="828.04" y2="373.38" width="0.1524" layer="97"/>
 <wire x1="828.04" y1="373.38" x2="828.04" y2="388.62" width="0.1524" layer="97"/>
@@ -31190,10 +31188,10 @@ SYSBOOT[2] LOW == SD Card</text>
 <text x="165.1" y="469.9" size="2.54" layer="97">SPI Flash/EEPROM
 For SPI boot
 DNP for now</text>
-<text x="572.77" y="447.04" size="1.778" layer="97">To Skytraq Receiver:
+<text x="572.77" y="441.96" size="1.778" layer="97">To Skytraq Receiver:
 UART2_RX == MII1_TX_CLK
 UART2_TX  == MII1_RX_CLK</text>
-<text x="572.77" y="430.53" size="1.778" layer="97">MAX Receiver CFG:
+<text x="572.77" y="425.45" size="1.778" layer="97">MAX Receiver CFG:
 SPI1_D0       == MII1_CRS
 SPI1_SCLK  == M11_COL
 SPI1_CS0    == MII1_REF_CLK</text>
@@ -31394,7 +31392,7 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <attribute name="NAME" x="642.112" y="337.058" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP143" gate="G$1" x="556.26" y="345.44" smashed="yes" rot="R270">
-<attribute name="NAME" x="556.768" y="341.122" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="555.498" y="340.868" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="TP174" gate="G$1" x="571.5" y="342.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="566.928" y="343.662" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -31477,8 +31475,8 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <instance part="TP134" gate="G$1" x="353.06" y="299.72" smashed="yes">
 <attribute name="NAME" x="357.632" y="298.958" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP148" gate="G$1" x="571.5" y="375.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="566.928" y="376.682" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="TP148" gate="G$1" x="556.26" y="375.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="557.022" y="380.492" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="C12" gate="CE" x="464.82" y="332.74" smashed="yes">
 <attribute name="NAME" x="465.836" y="333.375" size="1.778" layer="95"/>
@@ -31559,11 +31557,11 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <instance part="TP17" gate="G$1" x="571.5" y="355.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="566.928" y="356.362" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="TP18" gate="G$1" x="571.5" y="353.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="566.928" y="353.822" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="TP18" gate="G$1" x="551.18" y="353.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="551.942" y="357.632" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="TP19" gate="G$1" x="571.5" y="350.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="566.928" y="351.282" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="TP19" gate="G$1" x="551.18" y="350.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="550.418" y="345.948" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="TP20" gate="G$1" x="266.7" y="337.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="263.652" y="342.138" size="1.778" layer="95" font="vector"/>
@@ -31589,14 +31587,14 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <instance part="TP34" gate="G$1" x="266.7" y="330.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="263.652" y="324.358" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP36" gate="G$1" x="556.26" y="373.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="554.482" y="377.698" size="1.778" layer="95" font="vector"/>
+<instance part="TP36" gate="G$1" x="553.72" y="373.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="552.958" y="368.808" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="TP37" gate="G$1" x="556.26" y="370.84" smashed="yes" rot="R270">
-<attribute name="NAME" x="557.022" y="368.808" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="555.498" y="366.268" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="TP70" gate="G$1" x="571.5" y="378.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="566.928" y="379.222" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="TP70" gate="G$1" x="553.72" y="378.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="554.482" y="383.032" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="TP71" gate="G$1" x="287.02" y="309.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="282.448" y="310.642" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -32519,9 +32517,9 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <segment>
 <pinref part="TP148" gate="G$1" pin="1"/>
 <pinref part="U7" gate="D" pin="MII1_TX_EN"/>
-<wire x1="571.5" y1="375.92" x2="574.04" y2="375.92" width="0.1524" layer="91"/>
-<wire x1="571.5" y1="375.92" x2="549.91" y2="375.92" width="0.1524" layer="91"/>
-<junction x="571.5" y="375.92"/>
+<wire x1="556.26" y1="375.92" x2="574.04" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="556.26" y1="375.92" x2="549.91" y2="375.92" width="0.1524" layer="91"/>
+<junction x="556.26" y="375.92"/>
 <label x="549.91" y="375.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -32782,20 +32780,20 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <segment>
 <pinref part="U7" gate="D" pin="MII1_RX_ER"/>
 <pinref part="TP18" gate="G$1" pin="1"/>
-<wire x1="571.5" y1="353.06" x2="574.04" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="353.06" x2="574.04" y2="353.06" width="0.1524" layer="91"/>
 <label x="549.91" y="353.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="571.5" y1="353.06" x2="549.91" y2="353.06" width="0.1524" layer="91"/>
-<junction x="571.5" y="353.06"/>
+<wire x1="551.18" y1="353.06" x2="549.91" y2="353.06" width="0.1524" layer="91"/>
+<junction x="551.18" y="353.06"/>
 </segment>
 </net>
 <net name="MAX-EN" class="0">
 <segment>
 <pinref part="U7" gate="D" pin="MII1_RX_DV"/>
 <pinref part="TP19" gate="G$1" pin="1"/>
-<wire x1="571.5" y1="350.52" x2="574.04" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="350.52" x2="574.04" y2="350.52" width="0.1524" layer="91"/>
 <label x="549.91" y="350.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="571.5" y1="350.52" x2="549.91" y2="350.52" width="0.1524" layer="91"/>
-<junction x="571.5" y="350.52"/>
+<wire x1="551.18" y1="350.52" x2="549.91" y2="350.52" width="0.1524" layer="91"/>
+<junction x="551.18" y="350.52"/>
 </segment>
 </net>
 <net name="MAX-CLKOUT" class="0">
@@ -32879,11 +32877,11 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <net name="SPI1_D0" class="0">
 <segment>
 <pinref part="U7" gate="D" pin="MII1_CRS"/>
-<wire x1="574.04" y1="373.38" x2="556.26" y2="373.38" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="373.38" x2="553.72" y2="373.38" width="0.1524" layer="91"/>
 <label x="549.91" y="373.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP36" gate="G$1" pin="1"/>
-<wire x1="556.26" y1="373.38" x2="549.91" y2="373.38" width="0.1524" layer="91"/>
-<junction x="556.26" y="373.38"/>
+<wire x1="553.72" y1="373.38" x2="549.91" y2="373.38" width="0.1524" layer="91"/>
+<junction x="553.72" y="373.38"/>
 </segment>
 </net>
 <net name="SPI1_SCLK" class="0">
@@ -32900,9 +32898,9 @@ SPI1_CS0    == MII1_REF_CLK</text>
 <segment>
 <pinref part="U7" gate="D" pin="MII1_TXD3"/>
 <pinref part="TP70" gate="G$1" pin="1"/>
-<wire x1="571.5" y1="378.46" x2="574.04" y2="378.46" width="0.1524" layer="91"/>
-<wire x1="571.5" y1="378.46" x2="549.91" y2="378.46" width="0.1524" layer="91"/>
-<junction x="571.5" y="378.46"/>
+<wire x1="553.72" y1="378.46" x2="574.04" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="378.46" x2="549.91" y2="378.46" width="0.1524" layer="91"/>
+<junction x="553.72" y="378.46"/>
 <label x="549.91" y="378.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
