@@ -24,20 +24,20 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="14" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -229,21 +229,21 @@ Molex 0151660381
 <text x="15.3625" y="51.2" size="0.635" layer="22" font="vector" ratio="20" rot="MR90" align="bottom-center">2</text>
 <text x="15.3625" y="48.1375" size="0.635" layer="22" font="vector" ratio="20" rot="MR90" align="bottom-center">3</text>
 <text x="15.3625" y="45.1375" size="0.635" layer="22" font="vector" ratio="20" rot="MR90" align="bottom-center">4</text>
-<wire x1="94.5" y1="76.9" x2="64.5" y2="76.9" width="0.127" layer="22"/>
-<wire x1="64.5" y1="76.9" x2="64.5" y2="90.0875" width="0.127" layer="22"/>
-<wire x1="64.5" y1="90.0875" x2="94.5" y2="90.0875" width="0.127" layer="22"/>
-<wire x1="94.5" y1="90.0875" x2="94.5" y2="76.9" width="0.127" layer="22"/>
-<text x="93.5" y="88.4" size="1" layer="22" font="vector" ratio="15" rot="MR0">SYSBOOT [4:0]</text>
-<text x="93.5" y="86.9" size="1" layer="22" font="vector" ratio="15" rot="MR0">DEFAULT : 0b11x00</text>
-<text x="93.5" y="85.4" size="1" layer="22" font="vector" ratio="15" rot="MR0">eMMC    : 0b11100</text>
-<text x="93.5" y="83.9" size="1" layer="22" font="vector" ratio="15" rot="MR0">uSD     : 0b11000</text>
+<wire x1="94.6" y1="69.7" x2="64.6" y2="69.7" width="0.127" layer="22"/>
+<wire x1="64.6" y1="69.7" x2="64.6" y2="82.8875" width="0.127" layer="22"/>
+<wire x1="64.6" y1="82.8875" x2="94.6" y2="82.8875" width="0.127" layer="22"/>
+<wire x1="94.6" y1="82.8875" x2="94.6" y2="69.7" width="0.127" layer="22"/>
+<text x="93.6" y="81.2" size="1" layer="22" font="vector" ratio="15" rot="MR0">SYSBOOT [4:0]</text>
+<text x="93.6" y="79.7" size="1" layer="22" font="vector" ratio="15" rot="MR0">DEFAULT : 0b11x00</text>
+<text x="93.6" y="78.2" size="1" layer="22" font="vector" ratio="15" rot="MR0">eMMC    : 0b11100</text>
+<text x="93.6" y="76.7" size="1" layer="22" font="vector" ratio="15" rot="MR0">uSD     : 0b11000</text>
 <text x="17.675" y="51.2" size="0.635" layer="22" font="vector" ratio="20" rot="MR90" align="bottom-center">DEFAULT : 0b11x00</text>
 <text x="16.4875" y="45.2625" size="0.635" layer="22" font="vector" ratio="20" rot="MR90">NOTE: SYSBOOT[2] UNSET</text>
-<text x="93.5" y="77.4" size="1" layer="22" font="vector" ratio="15" rot="MR0">NOTE: SYSBOOT[2] is not set by 
+<text x="93.6" y="70.2" size="1" layer="22" font="vector" ratio="15" rot="MR0">NOTE: SYSBOOT[2] is not set by 
 default. It must be set with J3 or 
 JP107, BUT NOT BOTH. See AM335x 
 TRM Table 26-7 for details.</text>
-<rectangle x1="87.5" y1="11.4" x2="96" y2="62.9" layer="25"/>
+<rectangle x1="87.5" y1="11.4" x2="96" y2="52.9" layer="25"/>
 <text x="62.5" y="56" size="1.4224" layer="48"></text>
 <wire x1="73.3" y1="94.6" x2="73.3" y2="78.7" width="0" layer="41"/>
 <wire x1="73.3" y1="78.7" x2="71.8" y2="77.2" width="0" layer="41"/>
@@ -7192,8 +7192,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U3" library="U-Generic-eMMC-153pin" package="BGA-153(11.5X13)(EMMC-BA)" value="" x="31.5" y="19.9" smashed="yes">
 <attribute name="DPN" value="THGBMJG7C2LBAU8-ND" x="31.5" y="19.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="THGBMJG7C2LBAU8" x="31.5" y="19.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35.925" y="27.0125" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="31.5" y="19.9" size="1.5" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="35.925" y="27.0125" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="25.9" y="12.3" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C9" library="oresat-rcl" package=".0603-A" value="1uF" x="23.375" y="19.18125" smashed="yes" rot="R180">
