@@ -28946,7 +28946,11 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="C2" library="oresat-rcl" deviceset="C-EU" device="0805-B" value="10uF"/>
 <part name="Y1" library="X-ECS-240-12-30BQ-AEN-TR" deviceset="ECS-240-12-30BQ-AEN-TR" device="" value="24MHz"/>
 <part name="GND56" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J100" library="J-Hirose-DM3BT-DSF-PEJS" deviceset="DM3BT-DSF-PEJS" device=""/>
+<part name="J100" library="J-Hirose-DM3BT-DSF-PEJS" deviceset="DM3BT-DSF-PEJS" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="HR1942CT-ND"/>
+<attribute name="MFR" value="Hirose Electric"/>
+</part>
 <part name="C31" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="0.1uF"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -29323,14 +29327,26 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="U$25" library="SparkFun-Aesthetics" deviceset="2.85VA" device=""/>
 <part name="U$26" library="SparkFun-Aesthetics" deviceset="2.85VA" device=""/>
 <part name="U$32" library="SparkFun-Aesthetics" deviceset="2.85VD" device=""/>
-<part name="U6" library="swift-nav" deviceset="7Q-16.368MBG-T" device=""/>
+<part name="U6" library="swift-nav" deviceset="7Q-16.368MBG-T" device="">
+<attribute name="MFR" value="TXC Corporation"/>
+</part>
 <part name="C46" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10n"/>
 <part name="U$6" library="SparkFun-Aesthetics" deviceset="2.85VD" device=""/>
 <part name="U$15" library="SparkFun-Aesthetics" deviceset="2.85VD" device=""/>
 <part name="R16" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="10k"/>
 <part name="U$16" library="SparkFun-Aesthetics" deviceset="2.85VA" device=""/>
-<part name="U8" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD2" value="MAX8510EXK29+T"/>
-<part name="U9" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD2" value="MAX8510EXK29+T"/>
+<part name="U8" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD2" value="MAX8510EXK29+T">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MAX8510EXK29+TCT-ND"/>
+<attribute name="MFR" value="Maxim Integrated"/>
+<attribute name="MPN" value="MAX8510EXK29+T"/>
+</part>
+<part name="U9" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD2" value="MAX8510EXK29+T">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MAX8510EXK29+TCT-ND"/>
+<attribute name="MFR" value="Maxim Integrated"/>
+<attribute name="MPN" value="MAX8510EXK29+T"/>
+</part>
 <part name="C47" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="1u"/>
 <part name="C48" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="1u"/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -29350,7 +29366,12 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="C55" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C57" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100p"/>
-<part name="L8" library="saw_1.4x1.1" deviceset="SAW_1.4X1.1" device="" value="SF14-1575F5UUA1"/>
+<part name="U21" library="saw_1.4x1.1" deviceset="SAW_1.4X1.1" device="" value="SF14-1575F5UUA1">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="478-6834-1-ND"/>
+<attribute name="MFR" value="Kyocera International"/>
+<attribute name="MPN" value="SF14-1575F5UUA1"/>
+</part>
 <part name="C51" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
 <part name="C53" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="2.2u"/>
 <part name="U$19" library="SparkFun-Aesthetics" deviceset="2.85VA" device=""/>
@@ -29360,7 +29381,7 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="TP15" library="Tova" deviceset="TEST-POINT" device="15MIL-TEST-POINT" value="TEST-POINT15MIL-TEST-POINT"/>
 <part name="U19" library="minicircuits-splitter" deviceset="MINICIRCUITS-BP2G" device="" value="BP2G+"/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED7" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
+<part name="D10" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
 <part name="C52" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u"/>
 <part name="C54" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100p"/>
 <part name="C61" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
@@ -29375,7 +29396,12 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="D9" library="diode-0603" deviceset="DIODE-0603" device=""/>
 <part name="R76" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="100"/>
 <part name="TP9" library="Tova" deviceset="TEST-POINT" device="15MIL-TEST-POINT" value="TEST-POINT15MIL-TEST-POINT"/>
-<part name="U20" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD2" value="MAX8510EXK29+T"/>
+<part name="U20" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD2" value="MAX8510EXK29+T">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MAX8510EXK29+TCT-ND"/>
+<attribute name="MFR" value="Maxim Integrated"/>
+<attribute name="MPN" value="MAX8510EXK29+T"/>
+</part>
 <part name="C67" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="1u"/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -29426,7 +29452,12 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="C81" library="rcl_custom" deviceset="C-EU" device="0402-C-NOSILK" value="56p"/>
 <part name="C82" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
 <part name="GND80" library="supply" deviceset="GND" device=""/>
-<part name="SH1" library="hw-laird-bmi-s-202" deviceset="BMI-S-202-SHIELD" device=""/>
+<part name="SH1" library="hw-laird-bmi-s-202" deviceset="BMI-S-202-SHIELD" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="903-1014-ND"/>
+<attribute name="MFR" value="Laird Technologies EMI"/>
+<attribute name="MPN" value="BMI-S-202-C"/>
+</part>
 <part name="AGND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U22" library="ic-comparator-linear-lt1719" deviceset="IC_COMP_W_SD" device="SOT23-6" value="LT1719S6"/>
 <part name="C83" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
@@ -29439,12 +29470,17 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="FRAME7" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME6" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME8" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="U23" library="U-Maxim-MAX2771-Multiband-Universal-GNSS-Receiver" deviceset="MAX2771ETI+" device=""/>
+<part name="U23" library="U-Maxim-MAX2771-Multiband-Universal-GNSS-Receiver" deviceset="MAX2771ETI+" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MAX2771ETI+-ND"/>
+<attribute name="MFR" value="Maxim Integrated"/>
+<attribute name="MPN" value="MAX2771ETI+"/>
+</part>
 <part name="C63" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="470p"/>
 <part name="C64" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="1.7p"/>
 <part name="L3" library="oresat-rcl" deviceset="L-US" device="0402-B-NOSILK" value="5.6n"/>
 <part name="AGND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$8" library="U-Venus-Venus838LPxL-GPS-Module" deviceset="VENUS838LPX-L" device=""/>
+<part name="U24" library="U-Venus-Venus838LPxL-GPS-Module" deviceset="VENUS838LPX-L" device=""/>
 <part name="TP12" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="TP13" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="TP16" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
@@ -29453,7 +29489,12 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="TP19" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="CM1" library="J-Molex-73300-003X-SMPM-M-edge-mount" deviceset="J-MOLEX-SMPM-73300-003X" device=""/>
 <part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.3-GENERIC-1RF-POS2" device=""/>
-<part name="U5" library="U-Skyworks-SKY65723-81-GPS-LNA-with-filter" deviceset="SKY65723-81" device=""/>
+<part name="U5" library="U-Skyworks-SKY65723-81-GPS-LNA-with-filter" deviceset="SKY65723-81" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="863-2063-1-ND"/>
+<attribute name="MFR" value="Skyworks Solutions"/>
+<attribute name="MPN" value="SKY65723-81"/>
+</part>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="2.85VA" device=""/>
 <part name="TP23" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="TP24" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
@@ -31485,6 +31526,8 @@ SPI1_CS0    == MII1_REF_CLK</text>
 </instance>
 <instance part="J100" gate="G$1" x="91.44" y="393.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="104.14" y="378.46" size="1.778" layer="95" ratio="12" rot="MR0"/>
+<attribute name="DIS" x="91.44" y="393.7" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="91.44" y="393.7" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C31" gate="CE" x="208.28" y="523.24" smashed="yes" rot="MR180">
 <attribute name="NAME" x="209.804" y="522.859" size="1.778" layer="95" rot="MR180"/>
@@ -34972,7 +35015,12 @@ the internal EEPROM can be programmed.</text>
 <attribute name="NAME" x="71.12" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="71.12" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="SH1" gate="G$1" x="96.52" y="99.06" smashed="yes"/>
+<instance part="SH1" gate="G$1" x="96.52" y="99.06" smashed="yes">
+<attribute name="DIS" x="96.52" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="96.52" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="96.52" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="96.52" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND20" gate="1" x="96.52" y="91.44" smashed="yes">
 <attribute name="VALUE" x="93.98" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -34985,10 +35033,18 @@ the internal EEPROM can be programmed.</text>
 <instance part="U8" gate="G$1" x="304.8" y="170.18" smashed="yes">
 <attribute name="NAME" x="297.18" y="179.324" size="1.778" layer="95"/>
 <attribute name="VALUE" x="297.18" y="158.75" size="1.778" layer="96"/>
+<attribute name="MFR" x="304.8" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="304.8" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="304.8" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="304.8" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U9" gate="G$1" x="304.8" y="139.7" smashed="yes">
 <attribute name="NAME" x="297.18" y="148.844" size="1.778" layer="95"/>
 <attribute name="VALUE" x="297.18" y="128.27" size="1.778" layer="96"/>
+<attribute name="MFR" x="304.8" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="304.8" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="304.8" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="304.8" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C47" gate="CE" x="264.16" y="167.64" smashed="yes">
 <attribute name="NAME" x="265.684" y="168.021" size="1.778" layer="95"/>
@@ -35054,6 +35110,10 @@ the internal EEPROM can be programmed.</text>
 <instance part="U20" gate="G$1" x="304.8" y="104.14" smashed="yes">
 <attribute name="NAME" x="297.18" y="113.284" size="1.778" layer="95"/>
 <attribute name="VALUE" x="297.18" y="92.71" size="1.778" layer="96"/>
+<attribute name="MFR" x="304.8" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="304.8" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="304.8" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="304.8" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C67" gate="CE" x="264.16" y="102.87" smashed="yes">
 <attribute name="NAME" x="265.684" y="103.251" size="1.778" layer="95"/>
@@ -35092,6 +35152,10 @@ the internal EEPROM can be programmed.</text>
 <instance part="U5" gate="G$1" x="99.06" y="142.24" smashed="yes">
 <attribute name="NAME" x="106.68" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="106.68" y="152.4" size="1.778" layer="96"/>
+<attribute name="DIS" x="99.06" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="99.06" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="99.06" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="104.14" y="172.72" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="105.156" y="176.276" size="1.778" layer="96" rot="MR0"/>
@@ -35527,6 +35591,7 @@ TCXO</text>
 <instance part="U6" gate="U$1" x="92.71" y="148.59" smashed="yes">
 <attribute name="NAME" x="81.28" y="154.94" size="1.27" layer="95"/>
 <attribute name="VALUE" x="100.33" y="154.94" size="1.27" layer="96" align="bottom-right"/>
+<attribute name="MFR" x="92.71" y="148.59" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C46" gate="CE" x="121.92" y="151.13" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.11" y="152.4" size="1.778" layer="95"/>
@@ -35552,9 +35617,13 @@ TCXO</text>
 <attribute name="NAME" x="72.644" y="148.971" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.644" y="143.891" size="1.778" layer="96"/>
 </instance>
-<instance part="L8" gate="U1" x="142.24" y="100.33" smashed="yes">
+<instance part="U21" gate="U1" x="142.24" y="100.33" smashed="yes">
 <attribute name="NAME" x="149.86" y="90.17" size="1.27" layer="95"/>
 <attribute name="VALUE" x="149.86" y="87.63" size="1.27" layer="96" rot="MR0" align="bottom-right"/>
+<attribute name="DIS" x="142.24" y="100.33" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="142.24" y="100.33" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="142.24" y="100.33" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="142.24" y="100.33" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C51" gate="CE" x="63.5" y="148.59" smashed="yes">
 <attribute name="NAME" x="65.024" y="148.971" size="1.778" layer="95"/>
@@ -35650,6 +35719,10 @@ TCXO</text>
 <instance part="U23" gate="G$1" x="182.88" y="144.78" smashed="yes">
 <attribute name="NAME" x="203.2" y="185.42" size="1.27" layer="95"/>
 <attribute name="VALUE" x="203.2" y="182.88" size="1.27" layer="96"/>
+<attribute name="DIS" x="182.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="182.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="182.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="182.88" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C63" gate="CE" x="132.08" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="127.254" y="141.351" size="1.778" layer="95"/>
@@ -35778,9 +35851,9 @@ TCXO</text>
 <wire x1="142.24" y1="90.17" x2="147.32" y2="90.17" width="0.15" layer="91"/>
 <junction x="142.24" y="90.17"/>
 <wire x1="142.24" y1="90.17" x2="142.24" y2="87.63" width="0.1524" layer="91"/>
-<pinref part="L8" gate="U1" pin="GND@1"/>
-<pinref part="L8" gate="U1" pin="GND@2"/>
-<pinref part="L8" gate="U1" pin="GND@3"/>
+<pinref part="U21" gate="U1" pin="GND@1"/>
+<pinref part="U21" gate="U1" pin="GND@2"/>
+<pinref part="U21" gate="U1" pin="GND@3"/>
 <pinref part="AGND6" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -35873,7 +35946,7 @@ TCXO</text>
 <segment>
 <wire x1="132.08" y1="105.41" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="116.84" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="L8" gate="U1" pin="IN"/>
+<pinref part="U21" gate="U1" pin="IN"/>
 <pinref part="U23" gate="G$1" pin="LNAOUT_HI"/>
 <wire x1="144.78" y1="116.84" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="129.54" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
@@ -35882,7 +35955,7 @@ TCXO</text>
 <net name="MIXIN" class="2">
 <segment>
 <wire x1="152.4" y1="105.41" x2="153.67" y2="105.41" width="0.1524" layer="91"/>
-<pinref part="L8" gate="U1" pin="OUT"/>
+<pinref part="U21" gate="U1" pin="OUT"/>
 <pinref part="U23" gate="G$1" pin="MIXIN_HI"/>
 <wire x1="153.67" y1="105.41" x2="153.67" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="153.67" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
@@ -36184,7 +36257,7 @@ BaudSel[1:0]
 </plain>
 <instances>
 <instance part="AGND1" gate="1" x="262.89" y="120.65" smashed="yes"/>
-<instance part="LED7" gate="G$1" x="312.42" y="148.59" smashed="yes" rot="R270">
+<instance part="D10" gate="G$1" x="312.42" y="148.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="304.8" y="152.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="304.8" y="154.94" size="1.778" layer="96"/>
 </instance>
@@ -36279,7 +36352,7 @@ BaudSel[1:0]
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U$8" gate="G$1" x="255.27" y="146.05" smashed="yes"/>
+<instance part="U24" gate="G$1" x="255.27" y="146.05" smashed="yes"/>
 <instance part="R14" gate="R" x="226.06" y="140.97" smashed="yes">
 <attribute name="NAME" x="227.33" y="143.51" size="1.778" layer="95"/>
 <attribute name="VALUE" x="222.25" y="143.51" size="1.778" layer="96"/>
@@ -36321,7 +36394,7 @@ BaudSel[1:0]
 <segment>
 <wire x1="247.65" y1="123.19" x2="247.65" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="GND61" gate="G1" pin="GND"/>
-<pinref part="U$8" gate="G$1" pin="GND"/>
+<pinref part="U24" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C61" gate="CE" pin="1"/>
@@ -36346,7 +36419,7 @@ BaudSel[1:0]
 <pinref part="GND60" gate="G1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="GND_RF"/>
+<pinref part="U24" gate="G$1" pin="GND_RF"/>
 <pinref part="AGND1" gate="1" pin="GND"/>
 <wire x1="262.89" y1="125.73" x2="262.89" y2="123.19" width="0.1524" layer="91" style="longdash"/>
 </segment>
@@ -36354,7 +36427,7 @@ BaudSel[1:0]
 <net name="STQ-RF" class="2">
 <segment>
 <label x="281.94" y="161.29" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$8" gate="G$1" pin="RFIN"/>
+<pinref part="U24" gate="G$1" pin="RFIN"/>
 <wire x1="281.94" y1="161.29" x2="273.05" y2="161.29" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -36378,19 +36451,19 @@ BaudSel[1:0]
 <junction x="185.42" y="161.29"/>
 <pinref part="TP28" gate="G$1" pin="1"/>
 <junction x="193.04" y="161.29"/>
-<pinref part="U$8" gate="G$1" pin="RSTN"/>
+<pinref part="U24" gate="G$1" pin="RSTN"/>
 </segment>
 </net>
 <net name="STQ-PPS" class="0">
 <segment>
 <wire x1="273.05" y1="153.67" x2="279.4" y2="153.67" width="0.1524" layer="91"/>
 <pinref part="TP7" gate="G$1" pin="1"/>
-<pinref part="U$8" gate="G$1" pin="P1PPS"/>
+<pinref part="U24" gate="G$1" pin="P1PPS"/>
 </segment>
 </net>
 <net name="N$125" class="0">
 <segment>
-<pinref part="LED7" gate="G$1" pin="C"/>
+<pinref part="D10" gate="G$1" pin="C"/>
 <pinref part="R17" gate="R" pin="1"/>
 <wire x1="304.8" y1="148.59" x2="307.34" y2="148.59" width="0.1524" layer="91"/>
 </segment>
@@ -36402,7 +36475,7 @@ BaudSel[1:0]
 <wire x1="279.4" y1="148.59" x2="273.05" y2="148.59" width="0.1524" layer="91"/>
 <pinref part="TP29" gate="G$1" pin="1"/>
 <junction x="279.4" y="148.59"/>
-<pinref part="U$8" gate="G$1" pin="LED"/>
+<pinref part="U24" gate="G$1" pin="LED"/>
 </segment>
 </net>
 <net name="STQ-VBAT" class="0">
@@ -36418,7 +36491,7 @@ BaudSel[1:0]
 <junction x="229.87" y="194.31"/>
 <pinref part="C85" gate="G$1" pin="+"/>
 <junction x="217.17" y="194.31"/>
-<pinref part="U$8" gate="G$1" pin="VBAT"/>
+<pinref part="U24" gate="G$1" pin="VBAT"/>
 </segment>
 </net>
 <net name="N$126" class="0">
@@ -36439,7 +36512,7 @@ BaudSel[1:0]
 <junction x="241.3" y="199.39"/>
 <pinref part="C52" gate="CE" pin="1"/>
 <wire x1="241.3" y1="196.85" x2="241.3" y2="199.39" width="0.15" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="VCC@58"/>
+<pinref part="U24" gate="G$1" pin="VCC@58"/>
 <wire x1="255.27" y1="199.39" x2="255.27" y2="168.91" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36452,7 +36525,7 @@ BaudSel[1:0]
 <pinref part="SUPPLY7" gate="G$1" pin="2.85V-S"/>
 </segment>
 <segment>
-<pinref part="LED7" gate="G$1" pin="A"/>
+<pinref part="D10" gate="G$1" pin="A"/>
 <pinref part="SUPPLY8" gate="G$1" pin="2.85V-S"/>
 <wire x1="314.96" y1="148.59" x2="314.96" y2="153.67" width="0.1524" layer="91"/>
 </segment>
@@ -36467,7 +36540,7 @@ BaudSel[1:0]
 <pinref part="SUPPLY9" gate="G$1" pin="2.85V-S"/>
 <wire x1="266.7" y1="198.12" x2="266.7" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="199.39" x2="260.35" y2="199.39" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="VCC@2"/>
+<pinref part="U24" gate="G$1" pin="VCC@2"/>
 <wire x1="260.35" y1="199.39" x2="260.35" y2="168.91" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -36487,27 +36560,27 @@ BaudSel[1:0]
 <net name="N$127" class="0">
 <segment>
 <pinref part="TP8" gate="G$1" pin="1"/>
-<pinref part="U$8" gate="G$1" pin="V12O_RTC"/>
+<pinref part="U24" gate="G$1" pin="V12O_RTC"/>
 <wire x1="279.4" y1="143.51" x2="273.05" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$97" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="RXD0"/>
+<pinref part="U24" gate="G$1" pin="RXD0"/>
 <wire x1="231.14" y1="140.97" x2="237.49" y2="140.97" width="0.1524" layer="91"/>
 <pinref part="R14" gate="R" pin="2"/>
 </segment>
 </net>
 <net name="N$122" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="TXD0"/>
+<pinref part="U24" gate="G$1" pin="TXD0"/>
 <wire x1="237.49" y1="138.43" x2="231.14" y2="138.43" width="0.1524" layer="91"/>
 <pinref part="R18" gate="R" pin="2"/>
 </segment>
 </net>
 <net name="N$134" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="PSE_SEL"/>
+<pinref part="U24" gate="G$1" pin="PSE_SEL"/>
 <pinref part="R29" gate="R" pin="2"/>
 <wire x1="237.49" y1="156.21" x2="226.06" y2="156.21" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="156.21" x2="226.06" y2="163.83" width="0.1524" layer="91"/>
@@ -36515,7 +36588,7 @@ BaudSel[1:0]
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="BAUDSEL0"/>
+<pinref part="U24" gate="G$1" pin="BAUDSEL0"/>
 <pinref part="R80" gate="R" pin="2"/>
 <wire x1="237.49" y1="151.13" x2="220.98" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="151.13" x2="220.98" y2="163.83" width="0.1524" layer="91"/>
@@ -36523,7 +36596,7 @@ BaudSel[1:0]
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="BAUDSEL1"/>
+<pinref part="U24" gate="G$1" pin="BAUDSEL1"/>
 <pinref part="R81" gate="R" pin="2"/>
 <wire x1="237.49" y1="148.59" x2="215.9" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="148.59" x2="215.9" y2="163.83" width="0.1524" layer="91"/>
