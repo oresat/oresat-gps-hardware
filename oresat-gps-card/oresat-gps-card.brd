@@ -7233,12 +7233,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="18.611" y="41.568" size="1.27" layer="27"/>
 </element>
 <element name="TP14" library="SparkFun-Connectors" package="PAD.03X.04" package3d_urn="urn:adsk.eagle:package:38287/1" value="TEST-POINT3X4" x="19.8" y="45.2" smashed="yes" rot="R90"/>
-<element name="C22" library="oresat-rcl" package=".0603-A" value="18pF, 50V" x="46.40625" y="46.55625" smashed="yes">
+<element name="C22" library="oresat-rcl" package=".0603-A" value="12pF, 50V" x="46.40625" y="46.55625" smashed="yes">
 <attribute name="NAME" x="48.25625" y="46.19375" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="46.40625" y="46.55625" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="45.00625" y="44.80625" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C19" library="oresat-rcl" package=".0603-A" value="18pF, 50V" x="46.40625" y="38.68125" smashed="yes">
+<element name="C19" library="oresat-rcl" package=".0603-A" value="12pF, 50V" x="46.40625" y="38.68125" smashed="yes">
 <attribute name="NAME" x="48.19375" y="38.38125" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="46.40625" y="38.68125" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="45.00625" y="36.93125" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -7383,8 +7383,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U3" library="U-Generic-eMMC-153pin" package="BGA-153(11.5X13)(EMMC-BA)" value="THGBMJG7C2LBAU8" x="31.5" y="19.9" smashed="yes">
 <attribute name="DPN" value="THGBMJG7C2LBAU8-ND" x="31.5" y="19.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="THGBMJG7C2LBAU8" x="31.5" y="19.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.5" y="19.9" size="1.5" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="35.925" y="27.0125" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="31.5" y="19.9" size="1.5" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="25.9" y="12.3" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C9" library="oresat-rcl" package=".0603-A" value="1uF" x="23.375" y="19.18125" smashed="yes" rot="R180">
@@ -7950,12 +7950,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="29.1875" y="61.0875" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="27.7875" y="59.3375" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C30" library="oresat-rcl" package=".0603-A" value="18pF, 50V" x="32" y="61.9" smashed="yes" rot="R270">
+<element name="C30" library="oresat-rcl" package=".0603-A" value="12pF, 50V" x="32" y="61.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.075" y="62.83125" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="32" y="61.9" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="30.25" y="63.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C29" library="oresat-rcl" package=".0603-A" value="18pF, 50V" x="26.34375" y="61.9" smashed="yes" rot="R270">
+<element name="C29" library="oresat-rcl" package=".0603-A" value="12pF, 50V" x="26.34375" y="61.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.7" y="62.8" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="26.34375" y="61.9" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="24.59375" y="63.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>

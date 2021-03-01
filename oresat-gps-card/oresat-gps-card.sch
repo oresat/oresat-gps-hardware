@@ -28872,8 +28872,8 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="TP14" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="GND70" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND72" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C22" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="18pF, 50V"/>
-<part name="C19" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="18pF, 50V"/>
+<part name="C22" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="12pF, 50V"/>
+<part name="C19" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="12pF, 50V"/>
 <part name="R13" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="1M"/>
 <part name="J102" library="J-Samtec-FTSH-105-XXX-DV-K-ARM-SWD" deviceset="FTSH-105-XX-X-DV-K" device=""/>
 <part name="3V-24" library="oresat-supplies" deviceset="3.3V" device=""/>
@@ -29254,8 +29254,8 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <part name="C15" library="oresat-rcl" deviceset="C-EU" device="C1210" value="22uF"/>
 <part name="GND75" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R27" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="DNP"/>
-<part name="C30" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="18pF, 50V"/>
-<part name="C29" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="18pF, 50V"/>
+<part name="C30" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="12pF, 50V"/>
+<part name="C29" library="oresat-rcl" deviceset="C-EU" device="0603-A" value="12pF, 50V"/>
 <part name="Y2" library="OSD3358-SM-RED Platform" deviceset="ABS07-32.768KHZ-T" device=""/>
 <part name="TP168" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="R20" library="oresat-rcl" deviceset="R-US_" device="0603-A" value="10k"/>
