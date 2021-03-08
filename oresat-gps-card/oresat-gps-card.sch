@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -35509,7 +35509,7 @@ TCXO</text>
 <wire x1="102.87" y1="172.72" x2="102.87" y2="162.56" width="0.1524" layer="97"/>
 <wire x1="102.87" y1="162.56" x2="105.41" y2="162.56" width="0.1524" layer="97"/>
 <text x="220.98" y="148.59" size="1.778" layer="97" align="center">0.8V clipped sign</text>
-<text x="327.66" y="26.67" size="5.08" layer="94">MAX2769 + CPLD interface</text>
+<text x="327.66" y="26.67" size="5.08" layer="94">Maxim MAX2769</text>
 </plain>
 <instances>
 <instance part="C16" gate="CE" x="175.26" y="83.82" smashed="yes">
@@ -35919,13 +35919,9 @@ TCXO</text>
 <segment>
 <pinref part="U23" gate="G$1" pin="LNAIN_LO"/>
 <wire x1="157.48" y1="134.62" x2="156.21" y2="134.62" width="0.1524" layer="91" style="longdash"/>
-<pinref part="U23" gate="G$1" pin="LNAOUT_LO"/>
-<wire x1="156.21" y1="134.62" x2="156.21" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="156.21" y1="124.46" x2="157.48" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U23" gate="G$1" pin="MIXIN_LO"/>
-<wire x1="156.21" y1="124.46" x2="156.21" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="134.62" x2="156.21" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
-<junction x="156.21" y="124.46"/>
 <wire x1="156.21" y1="114.3" x2="156.21" y2="104.14" width="0.1524" layer="91"/>
 <junction x="156.21" y="114.3"/>
 <pinref part="AGND19" gate="1" pin="GND"/>
@@ -36632,12 +36628,12 @@ BaudSel[1:0]
 <approved hash="104,5,-53.34,50.8,U7A,SYS_VDD_1P8V,N$499,,,"/>
 <approved hash="104,5,-124.46,170.18,U7A,VIN_AC,5V,,,"/>
 <approved hash="104,5,-124.46,139.7,U7A,VIN_BAT,N$401,,,"/>
-<approved hash="104,5,-53.34,71.12,U7A,VDDSHV5,N$26,,,"/>
-<approved hash="104,5,-53.34,81.28,U7A,VDDSHV1,N$26,,,"/>
-<approved hash="104,5,-53.34,78.74,U7A,VDDSHV2,N$26,,,"/>
-<approved hash="104,5,-53.34,76.2,U7A,VDDSHV3,N$26,,,"/>
-<approved hash="104,5,-53.34,73.66,U7A,VDDSHV4,N$26,,,"/>
-<approved hash="104,5,-53.34,68.58,U7A,VDDSHV6,N$26,,,"/>
+<approved hash="104,5,-53.34,71.12,U7A,VDDSHV5,3.3VA,,,"/>
+<approved hash="104,5,-53.34,81.28,U7A,VDDSHV1,3.3VA,,,"/>
+<approved hash="104,5,-53.34,78.74,U7A,VDDSHV2,3.3VA,,,"/>
+<approved hash="104,5,-53.34,76.2,U7A,VDDSHV3,3.3VA,,,"/>
+<approved hash="104,5,-53.34,73.66,U7A,VDDSHV4,3.3VA,,,"/>
+<approved hash="104,5,-53.34,68.58,U7A,VDDSHV6,3.3VA,,,"/>
 <approved hash="104,5,-53.34,170.18,U7A,SYS_VOUT,VDD,,,"/>
 <approved hash="104,5,-53.34,167.64,U7A,SYS_VOUT,VDD,,,"/>
 <approved hash="104,5,-53.34,152.4,U7A,SYS_VDD1_3P3V,3.3V,,,"/>
@@ -36645,18 +36641,18 @@ BaudSel[1:0]
 <approved hash="104,5,-53.34,137.16,U7A,SYS_VDD2_3P3V,N$405,,,"/>
 <approved hash="104,5,-53.34,48.26,U7A,SYS_VDD_1P8V,N$499,,,"/>
 <approved hash="104,5,-53.34,45.72,U7A,SYS_VDD_1P8V,N$499,,,"/>
-<approved hash="104,5,-53.34,109.22,U7A,SYS_VDD3_3P3V,N$26,,,"/>
+<approved hash="104,5,-53.34,109.22,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
 <approved hash="104,5,-53.34,43.18,U7A,SYS_VDD_1P8V,N$499,,,"/>
-<approved hash="104,5,-53.34,127,U7A,SYS_RTC_1P8V,3.3VA,,,"/>
-<approved hash="104,5,-53.34,124.46,U7A,SYS_RTC_1P8V,3.3VA,,,"/>
+<approved hash="104,5,-53.34,127,U7A,SYS_RTC_1P8V,N$133,,,"/>
+<approved hash="104,5,-53.34,124.46,U7A,SYS_RTC_1P8V,N$133,,,"/>
 <approved hash="104,5,-53.34,40.64,U7A,SYS_VDD_1P8V,N$499,,,"/>
-<approved hash="104,5,-53.34,106.68,U7A,SYS_VDD3_3P3V,N$26,,,"/>
-<approved hash="104,5,-53.34,104.14,U7A,SYS_VDD3_3P3V,N$26,,,"/>
-<approved hash="104,5,-53.34,101.6,U7A,SYS_VDD3_3P3V,N$26,,,"/>
-<approved hash="104,5,-53.34,99.06,U7A,SYS_VDD3_3P3V,N$26,,,"/>
-<approved hash="104,5,-53.34,96.52,U7A,SYS_VDD3_3P3V,N$26,,,"/>
-<approved hash="104,5,-53.34,93.98,U7A,SYS_VDD3_3P3V,N$26,,,"/>
-<approved hash="104,5,-53.34,91.44,U7A,SYS_VDD3_3P3V,N$26,,,"/>
+<approved hash="104,5,-53.34,106.68,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
+<approved hash="104,5,-53.34,104.14,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
+<approved hash="104,5,-53.34,101.6,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
+<approved hash="104,5,-53.34,99.06,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
+<approved hash="104,5,-53.34,96.52,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
+<approved hash="104,5,-53.34,93.98,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
+<approved hash="104,5,-53.34,91.44,U7A,SYS_VDD3_3P3V,3.3VA,,,"/>
 <approved hash="104,3,449.58,350.52,U3,VDDQ,3.3V,,,"/>
 <approved hash="104,3,447.04,350.52,U3,VDDIO,3.3V,,,"/>
 <approved hash="104,3,449.58,312.42,U3,VSSIO,GND,,,"/>
@@ -36665,16 +36661,37 @@ BaudSel[1:0]
 <approved hash="104,3,226.06,523.24,U11,VCC,3.3V,,,"/>
 <approved hash="104,4,175.26,96.52,U1,VCC,VIN_USB,,,"/>
 <approved hash="104,2,132.08,170.18,U16,V+,VPD,,,"/>
+<approved hash="104,2,289.56,231.14,U14,VCC,ON/!OFF,,,"/>
 <approved hash="104,2,142.24,63.5,U13,VDD,VPD,,,"/>
 <approved hash="104,2,142.24,104.14,U12,VDD,VPD,,,"/>
 <approved hash="104,3,210.82,467.36,U17,VCC,3.3V,,,"/>
 <approved hash="104,5,-200.66,63.5,U18,VCC,3.3VA,,,"/>
+<approved hash="104,6,96.52,93.98,SH1,P$1,GND,,,"/>
+<approved hash="104,7,248.92,132.08,U22PWR,V+,3.3V,,,"/>
+<approved hash="104,7,248.92,121.92,U22PWR,V-,GND,,,"/>
+<approved hash="104,7,195.58,182.88,U23,VCCADC,2.85VD,,,"/>
+<approved hash="104,7,193.04,182.88,U23,VCCD,2.85VD,,,"/>
+<approved hash="104,7,182.88,182.88,U23,VCCVCO,2.85VA,,,"/>
+<approved hash="104,7,180.34,182.88,U23,VCCIF,2.85VA,,,"/>
+<approved hash="104,7,177.8,182.88,U23,VCCCP,2.85VA,,,"/>
+<approved hash="104,7,172.72,182.88,U23,VCCRF,2.85VA,,,"/>
+<approved hash="202,7,157.48,147.32,U23,ADC_CLKIN,,,,"/>
+<approved hash="104,7,182.88,106.68,U23,BODY,GND,,,"/>
+<approved hash="104,8,260.35,168.91,U24,VCC,2.85V-S,,,"/>
+<approved hash="104,8,262.89,125.73,U24,GND_RF,GND,,,"/>
+<approved hash="104,8,250.19,168.91,U24,VBAT,STQ-VBAT,,,"/>
+<approved hash="104,8,255.27,168.91,U24,VCC,2.85V-S,,,"/>
+<approved hash="104,6,99.06,154.94,U5,VCC,2.85VA,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
-<approved hash="113,3,446.215,331.47,U3,,,,,"/>
 <approved hash="113,3,431.8,279.296,FRAME3,,,,,"/>
 <approved hash="113,4,215.796,139.596,FRAME4,,,,,"/>
 <approved hash="113,5,-12.804,106.576,FRAME5,,,,,"/>
+<approved hash="113,3,724.577,356.802,J3,,,,,"/>
+<approved hash="113,6,215.796,139.596,FRAME7,,,,,"/>
+<approved hash="113,7,215.796,139.596,FRAME6,,,,,"/>
+<approved hash="113,8,215.796,139.596,FRAME8,,,,,"/>
+<approved hash="113,3,560.296,328.693,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>

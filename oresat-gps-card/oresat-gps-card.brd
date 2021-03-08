@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7383,8 +7383,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U3" library="U-Generic-eMMC-153pin" package="BGA-153(11.5X13)(EMMC-BA)" value="THGBMJG7C2LBAU8" x="31.5" y="19.9" smashed="yes">
 <attribute name="DPN" value="THGBMJG7C2LBAU8-ND" x="31.5" y="19.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="THGBMJG7C2LBAU8" x="31.5" y="19.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35.925" y="27.0125" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="31.5" y="19.9" size="1.5" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="35.925" y="27.0125" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="25.9" y="12.3" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C9" library="oresat-rcl" package=".0603-A" value="1uF" x="23.375" y="19.18125" smashed="yes" rot="R180">
@@ -14092,13 +14092,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="64.475" y1="34.2" x2="63.6" y2="34.2" width="0.35" layer="1"/>
 <wire x1="64.475" y1="34.2" x2="65.3" y2="34.2" width="0.35" layer="1"/>
 <contactref element="U23" pad="20"/>
-<contactref element="U23" pad="23"/>
 <contactref element="U23" pad="26"/>
 <via x="67.2" y="38.1" extent="1-16" drill="0.254"/>
 <via x="68.3" y="38.1" extent="1-16" drill="0.254"/>
 <via x="72.7" y="45.8" extent="1-16" drill="0.254"/>
-<wire x1="76.1" y1="44.54" x2="76.1" y2="43.3" width="0.2" layer="1"/>
-<wire x1="76.1" y1="43.3" x2="76.2" y2="43.2" width="0.2" layer="1"/>
 <wire x1="74.6" y1="44.54" x2="74.6" y2="43.7" width="0.2" layer="1"/>
 <wire x1="74.6" y1="43.7" x2="74.1" y2="43.2" width="0.2" layer="1"/>
 <wire x1="77.44" y1="43.2" x2="76.2" y2="43.2" width="0.2" layer="1"/>
@@ -15893,21 +15890,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="5,1,05f36e7f34770690"/>
 <approved hash="5,1,9633fc11b4275322"/>
 <approved hash="5,1,ba3ed21e79f076fa"/>
-<approved hash="5,1,facd2a7d0240c40a"/>
-<approved hash="5,1,9f196cee31d9f2af"/>
 <approved hash="5,1,3928b5e315242e3f"/>
 <approved hash="5,1,c5f1be9b162cecd2"/>
 <approved hash="5,1,09a940c8cb0708da"/>
 <approved hash="5,1,05176fd7386d06e0"/>
 <approved hash="5,1,a6bcbd863bd0ba9e"/>
 <approved hash="5,1,af5ae4e1e58c55ae"/>
-<approved hash="4,1,14a4940795ba9451"/>
 <approved hash="4,1,4a88d7854c5e4849"/>
 <approved hash="19,16,165d21776dea6349"/>
 <approved hash="23,1,21fdfcc50fe86d5a"/>
 <approved hash="23,1,61de0b06c68c34b4"/>
 <approved hash="23,1,2af2d9ea09c07d78"/>
 <approved hash="23,1,1dc753b953991de7"/>
+<approved hash="4,1,8238b2d52d129cb7"/>
 </errors>
 </board>
 </drawing>
