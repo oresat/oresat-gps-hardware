@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "OreSat-Cards")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/OreSat-Cards.pretty")(options "")(descr ""))
+  (lib (name "OreSat-TestPoint")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/OreSat-TestPoint.pretty")(options "")(descr ""))
+  (lib (name "oresat-footprints")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints")(options "")(descr ""))
+)
