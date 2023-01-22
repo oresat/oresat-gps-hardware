@@ -2,4 +2,6 @@
   (lib (name "OreSat-Cards")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/OreSat-Cards.pretty")(options "")(descr ""))
   (lib (name "OreSat-TestPoint")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/OreSat-TestPoint.pretty")(options "")(descr ""))
   (lib (name "oresat-footprints")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints")(options "")(descr ""))
+  (lib (name "oresat-graphics")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-graphics.pretty")(options "")(descr ""))
+  (lib (name "oresat-misc")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-misc.pretty")(options "")(descr ""))
 )
