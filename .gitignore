@@ -1,3 +1,8 @@
+# Ignore local archives and build folders
+archive
+local-archive
+build
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -28,12 +33,15 @@ fp-info-cache
 *.xml
 *.csv
 
+# ----------------------------------------------------------------------------
+
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files
 *.s#?
 *.b#?
 *.l#?
+*.d#?
 *.b$?
 *.s$?
 *.l$?
