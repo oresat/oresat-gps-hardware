@@ -56,7 +56,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|73600000|-48187500|3cf09e37-ec5c-4368-b0b2-d843bc54f8c5|90dddec7-da8c-4608-8600-ed352118bfa0",
+        "clearance|78880000|-49220000|00c9e3e4-e254-422b-ace2-b1409cfe9fb6|345c4424-8cbe-4538-b613-231e81580aee",
+        "clearance|78880000|-49600000|4e6cb1b9-09fe-46e7-bedb-bed07d7e9b58|345c4424-8cbe-4538-b613-231e81580aee",
+        "clearance|78880000|-49980000|27b46267-e75c-48b2-b9a8-dfe0660de554|50037d1b-37cf-4060-9a15-c9d36674e7f5",
+        "clearance|79100000|-49000000|4faadb6c-81df-4a27-ac7a-17d0d1562e58|345c4424-8cbe-4538-b613-231e81580aee",
+        "clearance|79900000|-27500000|556c3327-bbd4-40e4-84ad-06d4c007ffeb|ba836c6b-9924-4837-a3f5-011c058809fa",
+        "clearance|81500000|-28300000|57e14f9d-1fec-4ea7-b0ac-39fb396f06a3|ba836c6b-9924-4837-a3f5-011c058809fa",
+        "isolated_copper|87466233|-88811545|e1a517c7-c360-4410-9fca-ebd55525d196|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
