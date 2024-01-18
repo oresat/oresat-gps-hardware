@@ -9,8 +9,10 @@ The card has two GPS receivers on it:
 
 # Status
 
+TRL 6-7 ish. Flown, but not yet demonstrated to work in space.
+
 * v1.1: Assembled, electrical and software test out, Orion not yet locked and MAX not yet tested.
-* v1.0: Works! SDR datastream captured, and processed, but this software seems to be lost to the sands of time?
+* v1.0: Works! SkyTraq confirmed working. SDR datastream captured, and processed, but this software seems to be lost to the sands of time? Flown on OreSat0 but never turned on due to comms issues with OreSat0.
   
 # Previous Versions
 
