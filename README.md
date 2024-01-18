@@ -17,3 +17,9 @@ TRL 6-7 ish. Flown, but not yet demonstrated to work in space.
 # Previous Versions
 
 * v1.0 used the SkyTraq Venus IC with LEO firmware, which has been discontinued.
+
+
+## License
+
+All materials in this repo are copyright Portland State Aerospace Society and are licensed under the CERN Open Hardware Licence Version 2 -
+Strongly Reciprocal (CERN-OHL-S v2), or any later version. A copy of the license is located in [here](LICENSE.md).
