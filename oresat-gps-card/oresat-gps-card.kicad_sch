@@ -1,167 +1,360 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 65d12cdd-c326-4033-9053-c59fa4e0b25e)
-
-  (paper "B")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 185.42 81.28) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0c1da208-2d1c-4d05-9cc7-59584e50a6ac)
-    (property "Sheetname" "OSD3358 PWR, ETC. : SIP A, E, F" (at 185.42 80.5684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-osd3358-power.kicad_sch" (at 185.42 89.4846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 73.66 81.28) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0c732c1e-ab0d-41ac-9d77-9d7763333b6f)
-    (property "Sheetname" "OSD3358 SYSBOOT : SIP D" (at 73.66 80.5684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-osd3358-sysboot.kicad_sch" (at 73.66 89.4846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 129.54 81.28) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0d3a1fa4-c9ee-4335-9068-a81ae0178f3f)
-    (property "Sheetname" "OSD3358 USB, XTAL, etc : SIP B" (at 129.54 80.5684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-osd3358-usb-xtal.kicad_sch" (at 129.54 89.4846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 129.54 96.52) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1c8d9c73-85bc-4996-9298-3343e4f1f90e)
-    (property "Sheetname" "MAX2771" (at 129.54 95.8084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-max2771.kicad_sch" (at 129.54 104.7246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 129.54 66.04) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2134bb9a-062c-4e32-a41e-d15ce3545372)
-    (property "Sheetname" "Power" (at 129.54 65.3284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-power.kicad_sch" (at 129.54 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 73.66 96.52) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9466b485-4fbd-4df7-9d49-44799fc3f2b8)
-    (property "Sheetname" "RF + RF Power" (at 73.66 95.8084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-rf-power.kicad_sch" (at 73.66 104.7246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 73.66 66.04) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b9a61b98-fba0-4063-a603-e7fc9d7070a0)
-    (property "Sheetname" "Connectors" (at 73.66 64.6934 0)
-      (effects (font (size 2.54 2.54)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-connectors.kicad_sch" (at 73.66 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "1"))
-      )
-    )
-  )
-
-  (sheet (at 185.42 66.04) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f3d147ad-4cea-4d77-ae60-95882b03454e)
-    (property "Sheetname" "OSD3358 SD, eMMC : SIP C" (at 185.42 65.3284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-osd3358-sd-emmc.kicad_sch" (at 185.42 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 185.42 96.52) (size 25.4 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f5ad3acf-d454-4676-a8b6-b39226f675ed)
-    (property "Sheetname" "SkyTraq" (at 185.42 95.8084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-gps-card-sch-skytraq.kicad_sch" (at 185.42 104.7246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-gps-card"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e" (page "9"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "#"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "65d12cdd-c326-4033-9053-c59fa4e0b25e")
+	(paper "B")
+	(title_block
+		(title "OreSat GPS Card")
+		(date "2024-05-25")
+		(rev "v1.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 185.42 81.28)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c1da208-2d1c-4d05-9cc7-59584e50a6ac")
+		(property "Sheetname" "OSD3358 PWR, ETC. : SIP A, E, F"
+			(at 185.42 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-osd3358-power.kicad_sch"
+			(at 185.42 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 81.28)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c732c1e-ab0d-41ac-9d77-9d7763333b6f")
+		(property "Sheetname" "OSD3358 SYSBOOT : SIP D"
+			(at 73.66 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-osd3358-sysboot.kicad_sch"
+			(at 73.66 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 81.28)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d3a1fa4-c9ee-4335-9068-a81ae0178f3f")
+		(property "Sheetname" "OSD3358 USB, XTAL, etc : SIP B"
+			(at 129.54 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-osd3358-usb-xtal.kicad_sch"
+			(at 129.54 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 96.52)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c8d9c73-85bc-4996-9298-3343e4f1f90e")
+		(property "Sheetname" "MAX2771"
+			(at 129.54 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-max2771.kicad_sch"
+			(at 129.54 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 66.04)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2134bb9a-062c-4e32-a41e-d15ce3545372")
+		(property "Sheetname" "Power"
+			(at 129.54 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-power.kicad_sch"
+			(at 129.54 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 96.52)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9466b485-4fbd-4df7-9d49-44799fc3f2b8")
+		(property "Sheetname" "RF + RF Power"
+			(at 73.66 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-rf-power.kicad_sch"
+			(at 73.66 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 66.04)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9a61b98-fba0-4063-a603-e7fc9d7070a0")
+		(property "Sheetname" "Connectors"
+			(at 73.66 64.6934 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-connectors.kicad_sch"
+			(at 73.66 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 66.04)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3d147ad-4cea-4d77-ae60-95882b03454e")
+		(property "Sheetname" "OSD3358 SD, eMMC : SIP C"
+			(at 185.42 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-osd3358-sd-emmc.kicad_sch"
+			(at 185.42 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 96.52)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5ad3acf-d454-4676-a8b6-b39226f675ed")
+		(property "Sheetname" "SkyTraq"
+			(at 185.42 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-gps-card-sch-skytraq.kicad_sch"
+			(at 185.42 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "#")
+		)
+	)
 )
