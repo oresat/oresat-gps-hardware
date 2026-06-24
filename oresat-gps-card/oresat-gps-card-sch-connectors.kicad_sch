@@ -1669,34 +1669,58 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-connectors:J-TE-2-1734592-0"
+		(symbol "oresat-connectors:ORESAT-DEBUG-CONNECTOR-3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 35.56 0)
+				(at -7.62 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "2-1734592-0"
+			(property "Value" "SM14B-SHLS-TF"
+				(at -7.62 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-connectors:J-JST-SM14BSHLSTF"
+				(at -1.524 29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSHL.pdf"
 				(at 0 33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "oresat-connectors:J-TE-2-1734592-0"
-				(at 0 41.91 0)
+			(property "Description" "Connector Header Surface Mount, Right Angle 14 position 0.039\" (1.00mm)"
+				(at 0 35.814 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1706,8 +1730,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/usa-en/product-2-1734592-0.datasheet.pdf"
-				(at 0 44.45 0)
+			(property "MFR" "JST"
+				(at 0 45.974 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1717,8 +1741,8 @@
 					)
 				)
 			)
-			(property "Description" "OreSat card debug connector, 20 pos FPC"
-				(at 0 0 0)
+			(property "MPN" "SM14B-SHLS-TF"
+				(at 0 43.942 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1728,31 +1752,31 @@
 					)
 				)
 			)
-			(symbol "J-TE-2-1734592-0_0_1"
-				(rectangle
-					(start -7.62 30.48)
-					(end 7.62 -33.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
+			(property "DIS" "DigiKey"
+				(at 0 42.164 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "J-TE-2-1734592-0_1_0"
-				(text "PADs"
-					(at -2.54 -31.75 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
+			(property "DPN" "455-SM14B-SHLS-TFCT-ND"
+				(at 0 40.132 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
+			)
+			(symbol "ORESAT-DEBUG-CONNECTOR-3_1_0"
 				(pin passive line
-					(at 10.16 27.94 180)
+					(at 10.16 19.05 180)
 					(length 2.54)
 					(name "VBUSP"
 						(effects
@@ -1764,14 +1788,15 @@
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 27.94 180)
+					(at 10.16 19.05 180)
 					(length 2.54)
+					(hide yes)
 					(name "VBUSP"
 						(effects
 							(font
@@ -1788,9 +1813,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -27.94 180)
+					(at 10.16 13.97 180)
 					(length 2.54)
-					(name "GND"
+					(name "DEVICE-D+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1800,15 +1825,15 @@
 					(number "3"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 0 180)
+					(at 10.16 11.43 180)
 					(length 2.54)
-					(name "DEVICE-D+"
+					(name "DEVICE-D-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1818,15 +1843,15 @@
 					(number "4"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 180)
+					(at 10.16 -19.05 180)
 					(length 2.54)
-					(name "DEVICE-D-"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1836,15 +1861,15 @@
 					(number "5"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 -27.94 180)
+					(at 10.16 -8.89 180)
 					(length 2.54)
-					(name "GND"
+					(name "CARD-TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1854,15 +1879,15 @@
 					(number "6"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 -7.62 180)
+					(at 10.16 -11.43 180)
 					(length 2.54)
-					(name "HOST-D+"
+					(name "CARD-RX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1872,15 +1897,15 @@
 					(number "7"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 -10.16 180)
+					(at 10.16 -15.24 180)
 					(length 2.54)
-					(name "HOST-D-"
+					(name "DEBUG-0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1890,15 +1915,15 @@
 					(number "8"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 -27.94 180)
+					(at 10.16 6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name "VTARGET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1908,13 +1933,13 @@
 					(number "9"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 20.32 180)
+					(at 10.16 3.81 180)
 					(length 2.54)
 					(name "NRST"
 						(effects
@@ -1926,15 +1951,15 @@
 					(number "10"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 22.86 180)
+					(at 10.16 1.27 180)
 					(length 2.54)
-					(name "VTARGET"
+					(name "SWDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1944,15 +1969,15 @@
 					(number "11"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 5.08 180)
+					(at 10.16 -1.27 180)
 					(length 2.54)
-					(name "CARD-RX"
+					(name "SWCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1962,15 +1987,15 @@
 					(number "12"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 7.62 180)
+					(at 10.16 -3.81 180)
 					(length 2.54)
-					(name "CARD-TX"
+					(name "SWO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1980,15 +2005,16 @@
 					(number "13"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 17.78 180)
+					(at 10.16 -19.05 180)
 					(length 2.54)
-					(name "SWDIO"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1998,15 +2024,15 @@
 					(number "14"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 15.24 180)
+					(at 0 -24.13 90)
 					(length 2.54)
-					(name "SWCLK"
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2022,9 +2048,10 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 12.7 180)
+					(at 0 -24.13 90)
 					(length 2.54)
-					(name "SWO"
+					(hide yes)
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2034,117 +2061,23 @@
 					(number "16"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -15.24 180)
-					(length 2.54)
-					(name "DEBUG-0"
-						(effects
-							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "17"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
 				)
-				(pin passive line
-					(at 10.16 -17.78 180)
-					(length 2.54)
-					(name "DEBUG-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(symbol "ORESAT-DEBUG-CONNECTOR-3_1_1"
+				(rectangle
+					(start -7.62 21.59)
+					(end 7.62 -21.59)
+					(stroke
+						(width 0)
+						(type solid)
 					)
-					(number "18"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -20.32 180)
-					(length 2.54)
-					(name "DEBUG-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -22.86 180)
-					(length 2.54)
-					(name "DEBUG-3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PAD1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PAD2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -2786,10 +2719,10 @@
 		(uuid "65e91bfc-1938-4347-b891-098c2a0e9ace")
 	)
 	(junction
-		(at 281.305 140.335)
+		(at 281.94 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68b9354f-d726-44a8-9fe0-b76f740be9ab")
+		(uuid "65fe1083-ad1f-4e6c-b173-e01201ecf93e")
 	)
 	(junction
 		(at 141.224 122.682)
@@ -2900,20 +2833,20 @@
 		(uuid "fc72c4f8-1bd5-4fca-8298-ec91d84b2176")
 	)
 	(no_connect
-		(at 291.465 79.375)
-		(uuid "81c13faa-6257-4d1b-8b85-497365781154")
+		(at 292.1 102.87)
+		(uuid "0e7df6b7-2f8f-4100-b5f1-f239cc96ab7c")
 	)
 	(no_connect
-		(at 291.465 84.455)
-		(uuid "81c13faa-6257-4d1b-8b85-497365781156")
+		(at 292.1 95.25)
+		(uuid "916dd5f7-ddab-4c66-9c85-fab33598a4bc")
 	)
 	(no_connect
-		(at 291.465 86.995)
-		(uuid "81c13faa-6257-4d1b-8b85-497365781157")
+		(at 292.1 100.33)
+		(uuid "c4f1a8d7-e18b-4201-be01-7fb3ac1c6219")
 	)
 	(no_connect
-		(at 291.465 89.535)
-		(uuid "81c13faa-6257-4d1b-8b85-497365781158")
+		(at 292.1 105.41)
+		(uuid "e3752129-c109-444d-9f67-b77b1bda4ead")
 	)
 	(wire
 		(pts
@@ -2924,6 +2857,16 @@
 			(type default)
 		)
 		(uuid "008291aa-2e98-4a05-bd42-25fa88320cf1")
+	)
+	(wire
+		(pts
+			(xy 299.72 82.55) (xy 292.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0181b2b3-38ec-43c1-a306-7e786a5414f0")
 	)
 	(wire
 		(pts
@@ -2944,6 +2887,16 @@
 			(type default)
 		)
 		(uuid "037a8ef2-5f0b-41ad-a946-2bc8578b6064")
+	)
+	(wire
+		(pts
+			(xy 281.94 128.27) (xy 281.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b5dee2-7849-4d66-9692-2257d8299fa0")
 	)
 	(wire
 		(pts
@@ -2977,16 +2930,6 @@
 	)
 	(wire
 		(pts
-			(xy 291.465 130.175) (xy 294.005 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d496995-d13f-4d6a-b46b-c553d5c89c57")
-	)
-	(wire
-		(pts
 			(xy 141.478 135.382) (xy 144.018 135.382)
 		)
 		(stroke
@@ -3004,6 +2947,16 @@
 			(type default)
 		)
 		(uuid "0eb90594-98b5-4757-89e8-3926f12bfd9b")
+	)
+	(wire
+		(pts
+			(xy 299.72 90.17) (xy 292.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12763e11-de87-43d2-9b8c-32af330996b5")
 	)
 	(wire
 		(pts
@@ -3057,6 +3010,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 128.27) (xy 281.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f35b686-de05-480f-9800-71173a417b28")
+	)
+	(wire
+		(pts
 			(xy 138.938 170.942) (xy 144.018 170.942)
 		)
 		(stroke
@@ -3067,16 +3030,6 @@
 	)
 	(wire
 		(pts
-			(xy 291.465 117.475) (xy 299.085 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2199ffa4-e37c-4bde-a445-7b7ec7d7bb9e")
-	)
-	(wire
-		(pts
 			(xy 141.478 145.542) (xy 144.018 145.542)
 		)
 		(stroke
@@ -3084,6 +3037,16 @@
 			(type default)
 		)
 		(uuid "22081ab0-f8b0-4a23-8f06-a9759899582b")
+	)
+	(wire
+		(pts
+			(xy 293.37 120.65) (xy 293.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228ffeea-65b7-4ba6-86f9-76e83a83778f")
 	)
 	(wire
 		(pts
@@ -3137,16 +3100,6 @@
 	)
 	(wire
 		(pts
-			(xy 291.465 125.095) (xy 299.085 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1d8bc1-5658-40d8-841f-d2a6133a5c1d")
-	)
-	(wire
-		(pts
 			(xy 141.478 165.862) (xy 141.478 163.322)
 		)
 		(stroke
@@ -3167,16 +3120,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.085 104.775) (xy 291.465 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3287e948-5349-4f02-a4d8-1b9dcd6dcfbd")
-	)
-	(wire
-		(pts
 			(xy 138.938 99.822) (xy 146.558 99.822)
 		)
 		(stroke
@@ -3184,6 +3127,16 @@
 			(type default)
 		)
 		(uuid "3572332b-b744-43a8-9eed-25d2006e7f57")
+	)
+	(wire
+		(pts
+			(xy 304.8 97.79) (xy 307.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35837c0c-0b5c-40cf-93a6-06766b953b81")
 	)
 	(wire
 		(pts
@@ -3227,16 +3180,6 @@
 	)
 	(wire
 		(pts
-			(xy 291.465 109.855) (xy 299.085 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395216e0-1c1d-4ffd-be96-fdc62306b9de")
-	)
-	(wire
-		(pts
 			(xy 138.938 82.042) (xy 146.558 82.042)
 		)
 		(stroke
@@ -3244,6 +3187,16 @@
 			(type default)
 		)
 		(uuid "3a3696f7-b65e-4948-8412-2a592ca5ee00")
+	)
+	(wire
+		(pts
+			(xy 281.94 125.73) (xy 281.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404ed188-5772-494d-90fe-abee85cf991b")
 	)
 	(wire
 		(pts
@@ -3304,6 +3257,26 @@
 			(type default)
 		)
 		(uuid "55c566d5-136e-4a9d-b455-e2c9456eb2d8")
+	)
+	(wire
+		(pts
+			(xy 299.72 113.03) (xy 292.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b402f1d-bc3d-4e9c-850d-dd62b6eaa069")
+	)
+	(wire
+		(pts
+			(xy 292.1 116.84) (xy 297.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e44c1b6-3b7a-4fc1-80a3-1d3d5730cbeb")
 	)
 	(wire
 		(pts
@@ -3417,16 +3390,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.895 81.915) (xy 306.705 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b229c27-5353-4b26-baac-b1b96fb7f9a9")
-	)
-	(wire
-		(pts
 			(xy 138.938 168.402) (xy 144.018 168.402)
 		)
 		(stroke
@@ -3434,16 +3397,6 @@
 			(type default)
 		)
 		(uuid "7c9a4af8-ef85-4ae4-8c92-bf6ac1097962")
-	)
-	(wire
-		(pts
-			(xy 291.465 81.915) (xy 295.275 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1a827c-a079-471e-80cf-58240270c805")
 	)
 	(wire
 		(pts
@@ -3517,16 +3470,6 @@
 	)
 	(wire
 		(pts
-			(xy 291.465 122.555) (xy 299.085 122.555)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87809814-cc25-4b9f-9b69-720407c507ff")
-	)
-	(wire
-		(pts
 			(xy 140.97 107.442) (xy 144.272 107.442)
 		)
 		(stroke
@@ -3567,16 +3510,6 @@
 	)
 	(wire
 		(pts
-			(xy 291.465 120.015) (xy 299.085 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f15ef8b-7b22-4d32-92b1-204d3916c05c")
-	)
-	(wire
-		(pts
 			(xy 138.938 97.282) (xy 146.558 97.282)
 		)
 		(stroke
@@ -3597,6 +3530,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 110.49) (xy 292.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bd5cf4-19d4-4319-bd3d-21dceb48a1be")
+	)
+	(wire
+		(pts
 			(xy 146.558 82.042) (xy 146.558 81.788)
 		)
 		(stroke
@@ -3607,13 +3550,13 @@
 	)
 	(wire
 		(pts
-			(xy 299.085 97.155) (xy 291.465 97.155)
+			(xy 299.72 87.63) (xy 292.1 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "927dad66-7356-4e39-854c-33ed4ad52e7c")
+		(uuid "952a771c-a03b-4eeb-96e6-735a8f7ff59a")
 	)
 	(wire
 		(pts
@@ -3647,6 +3590,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 97.79) (xy 292.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f271eb3-851f-43b8-b5a6-39321f9f16b7")
+	)
+	(wire
+		(pts
 			(xy 138.938 102.362) (xy 140.716 102.362)
 		)
 		(stroke
@@ -3664,16 +3617,6 @@
 			(type default)
 		)
 		(uuid "a50f996c-95a9-458a-b15e-0c68c89e2f31")
-	)
-	(wire
-		(pts
-			(xy 294.005 130.175) (xy 294.005 140.335)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9937861-8143-429a-9346-1099eafdd5e5")
 	)
 	(wire
 		(pts
@@ -3727,16 +3670,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.085 102.235) (xy 291.465 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf4d2044-3395-4c9d-9a10-7ea1b7682d40")
-	)
-	(wire
-		(pts
 			(xy 138.938 140.462) (xy 141.478 140.462)
 		)
 		(stroke
@@ -3777,26 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.305 140.335) (xy 281.305 142.875)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6fb8e0-2cfd-4813-957c-10469a489c4e")
-	)
-	(wire
-		(pts
-			(xy 299.085 94.615) (xy 291.465 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb53923e-0b87-4d95-9e96-214f30cc6321")
-	)
-	(wire
-		(pts
 			(xy 140.716 104.902) (xy 144.272 104.902)
 		)
 		(stroke
@@ -3834,6 +3747,16 @@
 			(type default)
 		)
 		(uuid "d63bd9fd-10a2-4612-b7eb-86a9178751cc")
+	)
+	(wire
+		(pts
+			(xy 293.37 120.65) (xy 292.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd2a014-abf5-4ff8-ad9b-d1e85f7de53e")
 	)
 	(wire
 		(pts
@@ -3947,26 +3870,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.305 137.795) (xy 281.305 140.335)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4043891-79d5-4278-9889-cb7200ead992")
-	)
-	(wire
-		(pts
-			(xy 294.005 140.335) (xy 281.305 140.335)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46ae03a-2585-4789-a6ea-dc1c3d75d5f3")
-	)
-	(wire
-		(pts
 			(xy 146.558 97.028) (xy 156.718 97.028)
 		)
 		(stroke
@@ -3974,16 +3877,6 @@
 			(type default)
 		)
 		(uuid "f61b441e-f098-4db9-adc6-f5ec3edec9e9")
-	)
-	(wire
-		(pts
-			(xy 291.465 112.395) (xy 299.085 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6752212-b9b0-40be-bafd-ddc88dbf451f")
 	)
 	(wire
 		(pts
@@ -4005,15 +3898,28 @@
 		)
 		(uuid "f922ecf7-22b1-4029-af9a-b2f0a4a72d50")
 	)
-	(wire
-		(pts
-			(xy 299.085 74.295) (xy 291.465 74.295)
+	(global_label "USB_CLI_P"
+		(shape input)
+		(at 299.72 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "0236a5f0-fb76-4383-8dfc-f17df01ed416")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 312.5439 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
-		(uuid "fe63cb1a-6c2b-4f13-80b8-1bd18faaa601")
 	)
 	(global_label "SPARE2"
 		(shape input)
@@ -4061,9 +3967,9 @@
 			)
 		)
 	)
-	(global_label "UART0_TX"
+	(global_label "UART0_RX"
 		(shape input)
-		(at 299.085 94.615 0)
+		(at 299.72 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4071,9 +3977,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1e689f42-d47a-4074-b216-e580d2ac743b")
+		(uuid "129c68f8-f65e-4550-af12-d980e3ca9d75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.0017 94.615 0)
+			(at 311.9391 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4153,29 +4059,6 @@
 			)
 		)
 	)
-	(global_label "UART0_RX"
-		(shape input)
-		(at 299.085 97.155 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e1e434d-eed5-4d41-ad71-f9a79bb40e69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.3041 97.155 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CAN2_L"
 		(shape input)
 		(at 144.272 122.682 0)
@@ -4199,29 +4082,6 @@
 			)
 		)
 	)
-	(global_label "USB_CLI_N"
-		(shape input)
-		(at 299.085 104.775 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31cf2c4f-f10a-425d-bbc1-639cda8e05d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.9694 104.775 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SPARE32"
 		(shape input)
 		(at 156.718 155.702 0)
@@ -4235,52 +4095,6 @@
 		(uuid "3206ebaf-65fe-4d37-81b6-ae1b22f3ba44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.5373 155.6226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USB_CLI_VBUS"
-		(shape input)
-		(at 299.085 74.295 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3542e345-d70a-41f9-9d4a-c56504dc5d63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.5375 74.295 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "nRESET"
-		(shape input)
-		(at 306.705 81.915 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b96dc22-ec8e-40f9-a1f4-2e5732831d15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.5049 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4383,6 +4197,29 @@
 			)
 		)
 	)
+	(global_label "UART0_TX"
+		(shape input)
+		(at 299.72 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e1e6cfd-f092-4d5a-96e4-d9f36bc3489a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 311.6367 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CAN1_L"
 		(shape input)
 		(at 144.018 163.322 0)
@@ -4442,6 +4279,29 @@
 		(uuid "872d514f-1c91-4542-a386-bcf9d138145d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.5146 109.9026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "nRESET"
+		(shape input)
+		(at 307.34 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "891e706d-9e9f-4a13-970c-5c8d623cf0ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.1399 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4567,29 +4427,6 @@
 			)
 		)
 	)
-	(global_label "USB_CLI_P"
-		(shape input)
-		(at 299.085 102.235 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd45b4e0-7cb3-4352-9d62-c27acc569132")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.9089 102.235 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "C3-UART-RX"
 		(shape input)
 		(at 144.018 170.942 0)
@@ -4603,6 +4440,29 @@
 		(uuid "bddbb6aa-c5be-45c9-9488-bf62ae74964f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.1916 170.8626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_CLI_VBUS"
+		(shape input)
+		(at 299.72 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2de46cb-b8ac-427a-9611-e69e5692bc78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.1725 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4764,6 +4624,29 @@
 		(uuid "ed08c782-1d5d-4e1b-a6d0-ad12be733374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.3278 91.8686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_CLI_N"
+		(shape input)
+		(at 299.72 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efca9171-47f3-405c-8391-f07c4429ed01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 312.6044 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5087,7 +4970,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 299.085 109.855 270)
+		(at 297.18 116.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5097,7 +4980,7 @@
 		(dnp no)
 		(uuid "158006e4-cc59-4518-b44f-4b19e2b39096")
 		(property "Reference" "TP159"
-			(at 301.625 109.22 90)
+			(at 299.72 116.205 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5108,7 +4991,7 @@
 			)
 		)
 		(property "Value" "0.03x0.04"
-			(at 301.625 109.855 0)
+			(at 299.72 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5119,7 +5002,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 301.625 109.855 0)
+			(at 299.72 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,7 +5013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 301.625 109.855 0)
+			(at 299.72 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5141,7 +5024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 299.085 109.855 0)
+			(at 297.18 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5235,224 +5118,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-connectors:J-TE-2-1734592-0")
-		(at 281.305 102.235 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22482023-161d-485d-9c81-59bc426ea0fb")
-		(property "Reference" "J3"
-			(at 271.145 103.505 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "J-TE-Debug-2-1734592-0"
-			(at 268.605 103.505 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-TE-2-1734592-0"
-			(at 281.305 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/usa-en/product-2-1734592-0.datasheet.pdf"
-			(at 281.305 57.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "OreSat card debug connector, 20 pos FPC"
-			(at 281.305 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f7b489f-d6b4-42f6-868c-6dd8d43c1b83")
-		)
-		(pin "10"
-			(uuid "e9f582ed-51e2-49d6-9c53-ea7f6b6b3272")
-		)
-		(pin "11"
-			(uuid "eaac3290-53b2-47e4-96ca-e1b90b63f111")
-		)
-		(pin "12"
-			(uuid "e12a3bdb-d6ba-46b4-8bd7-182dae5d0fd7")
-		)
-		(pin "13"
-			(uuid "1cdefd59-e925-42ae-be29-637b11c3de28")
-		)
-		(pin "14"
-			(uuid "1131675d-a717-42e9-942b-e340255d1b2b")
-		)
-		(pin "15"
-			(uuid "20bafe1d-7366-48d3-bc0b-0c56bd6ffffa")
-		)
-		(pin "16"
-			(uuid "9e22ab28-3800-40e8-833e-0eda3b39d7be")
-		)
-		(pin "17"
-			(uuid "a01d0a50-95cc-4a2a-823b-3679d811c51e")
-		)
-		(pin "18"
-			(uuid "f632a2db-6071-476f-b4de-938cbd9d369a")
-		)
-		(pin "19"
-			(uuid "c9988b6e-e59e-411f-a699-cfe82ad77426")
-		)
-		(pin "2"
-			(uuid "1a6980e5-bec6-4cde-bb2c-6c625e99daed")
-		)
-		(pin "20"
-			(uuid "436dc284-3ed8-449d-919f-4a745666727a")
-		)
-		(pin "3"
-			(uuid "88646ce8-d714-47ff-8902-69fbbf9fc772")
-		)
-		(pin "4"
-			(uuid "3b78803f-f2b3-430b-95bc-cba124af8a3d")
-		)
-		(pin "5"
-			(uuid "d15aa019-52ab-4a9e-9cdd-20c622b80b77")
-		)
-		(pin "6"
-			(uuid "ed6e9f3f-61ab-4f94-8057-1e2435f2fb9f")
-		)
-		(pin "7"
-			(uuid "2158e17c-2be5-4270-a39d-4b807f38273b")
-		)
-		(pin "8"
-			(uuid "238e5541-7979-4602-9c79-88d55aa170ef")
-		)
-		(pin "9"
-			(uuid "1773cea8-5451-4f19-9261-4baa7b80644b")
-		)
-		(pin "PAD1"
-			(uuid "3d407dca-d6bf-408f-86d8-034de6339e25")
-		)
-		(pin "PAD2"
-			(uuid "6daafd4c-e0da-4183-bb70-78fcd90535c6")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 299.085 117.475 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c359416-4a11-4b18-9c2e-0d937b77f186")
-		(property "Reference" "TP161"
-			(at 301.625 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 301.625 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 301.625 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 301.625 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.085 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "097ada18-5ae4-4883-8e05-1d752040e99d")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP161")
 					(unit 1)
 				)
 			)
@@ -6005,84 +5670,6 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 299.085 120.015 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4fd6f7dd-e109-43c4-a405-4ff56fe12c84")
-		(property "Reference" "TP162"
-			(at 301.625 119.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 301.625 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 301.625 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 301.625 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.085 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cae1a37b-bc5b-46fd-ac39-37f7db26c097")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP162")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 146.558 79.248 270)
 		(unit 1)
 		(body_style 1)
@@ -6154,84 +5741,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "TP143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 299.085 112.395 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e96f113-88fc-41a7-a191-40469c5712b9")
-		(property "Reference" "TP160"
-			(at 301.625 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 301.625 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 301.625 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 301.625 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.085 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d8cb44dc-ec8a-4d1b-a996-4f08371b9cca")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP160")
 					(unit 1)
 				)
 			)
@@ -6976,84 +6485,6 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 299.085 122.555 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c5aa4f49-84aa-4e99-ac19-2f596bdeb66e")
-		(property "Reference" "TP163"
-			(at 301.625 121.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 301.625 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 301.625 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 301.625 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.085 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c3785d2-1f16-4380-a797-6da2d4c641c3")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 146.812 130.302 270)
 		(unit 1)
 		(body_style 1)
@@ -7131,86 +6562,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 299.085 125.095 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cae1a617-031b-4f83-b230-db4f567803b4")
-		(property "Reference" "TP164"
-			(at 301.625 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 301.625 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 301.625 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 301.625 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.085 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "133c5b2e-9a38-4580-a0d2-45d6f964f80e")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 281.305 142.875 0)
+		(at 281.94 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7220,7 +6573,7 @@
 		(dnp no)
 		(uuid "cd2e678d-2489-4341-a91e-1d3b6c46624d")
 		(property "Reference" "#GND0101"
-			(at 281.305 149.225 0)
+			(at 281.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7231,7 +6584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 147.32 0)
+			(at 280.035 135.255 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7242,7 +6595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.305 142.875 0)
+			(at 281.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,7 +6606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.305 142.875 0)
+			(at 281.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +6617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.305 142.875 0)
+			(at 281.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7676,8 +7029,174 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-connectors:ORESAT-DEBUG-CONNECTOR-3")
+		(at 281.94 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a6badb-4d8c-40ea-ab82-5b43cebb1e6d")
+		(property "Reference" "J?"
+			(at 281.94 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM14B-SHLS-TF"
+			(at 281.94 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-JST-SM14BSHLSTF"
+			(at 280.416 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSHL.pdf"
+			(at 281.94 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 14 position 0.039\" (1.00mm)"
+			(at 281.94 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "JST"
+			(at 281.94 55.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM14B-SHLS-TF"
+			(at 281.94 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 281.94 59.436 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "455-SM14B-SHLS-TFCT-ND"
+			(at 281.94 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "334464d8-cc72-470c-bce3-78546122641b")
+		)
+		(pin "1"
+			(uuid "2c01f558-d925-4390-9ac2-9bff6aad0c84")
+		)
+		(pin "5"
+			(uuid "e0ca05d5-fcb8-4638-8bb4-6272f7573a83")
+		)
+		(pin "6"
+			(uuid "e1e7c8f0-f225-4817-8bb6-37be33158e53")
+		)
+		(pin "7"
+			(uuid "4b713d90-1f97-4929-935b-74a51a9362c1")
+		)
+		(pin "8"
+			(uuid "0023a28b-dea3-4052-8729-832f2a00bbce")
+		)
+		(pin "14"
+			(uuid "416c1db2-aa7e-4b54-9e05-4224f96e5c5f")
+		)
+		(pin "4"
+			(uuid "a5249252-994f-4487-b223-a18dc35e5640")
+		)
+		(pin "11"
+			(uuid "7cfbf1d1-4232-4a30-a78e-35bbe552e16c")
+		)
+		(pin "2"
+			(uuid "f798ef0d-9829-44c7-8656-712e2091fcb9")
+		)
+		(pin "3"
+			(uuid "ec298b81-09c9-4193-9b10-e37f830017bf")
+		)
+		(pin "9"
+			(uuid "1ae5a05a-4bb6-424c-a905-10086daf926f")
+		)
+		(pin "10"
+			(uuid "66ff0541-8d2b-47e6-9198-8443cbdf7365")
+		)
+		(pin "12"
+			(uuid "dc7bd193-6a09-4842-8049-d3cfa7cd3175")
+		)
+		(pin "15"
+			(uuid "fd8b7262-7d2e-48fe-ae40-0156b6e4598a")
+		)
+		(pin "16"
+			(uuid "5016b939-9163-4ebb-bba1-2a53a7bfc003")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
-		(at 299.085 81.915 90)
+		(at 300.99 97.79 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7688,7 +7207,7 @@
 		(dnp no)
 		(uuid "f4c37153-a923-48aa-92af-ae4dd70ad11e")
 		(property "Reference" "R68"
-			(at 299.085 84.455 90)
+			(at 300.99 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7698,8 +7217,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
-			(at 302.895 84.455 90)
+		(property "Value" "75"
+			(at 304.8 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7710,7 +7229,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 299.339 82.931 90)
+			(at 301.244 98.806 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.085 81.915 0)
+			(at 300.99 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7732,7 +7251,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 299.085 81.915 0)
+			(at 300.99 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
