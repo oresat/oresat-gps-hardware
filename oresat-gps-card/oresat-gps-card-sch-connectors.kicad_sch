@@ -2659,24 +2659,6 @@
 		(uuid "580f9c76-0c91-4205-96ef-b4ce09c1dac4")
 	)
 	(junction
-		(at 146.558 81.788)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20111ca4-478a-41da-96c4-dd6c940132ba")
-	)
-	(junction
-		(at 146.558 84.328)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2028b0a0-bbb6-4c49-8e4d-3143280d5c3f")
-	)
-	(junction
-		(at 146.558 97.028)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28dd0485-37e9-4c84-b639-b560d03b2b69")
-	)
-	(junction
 		(at 143.002 112.522)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2689,34 +2671,10 @@
 		(uuid "38675dbb-3c7c-451a-a1c1-0a390778d833")
 	)
 	(junction
-		(at 146.812 127.762)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c458165-ce25-4301-aa2a-41f4a286ef28")
-	)
-	(junction
-		(at 146.558 89.408)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "561d0ac1-2bf9-4395-a929-56e5c530c536")
-	)
-	(junction
 		(at 141.478 135.382)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "617c6322-b5a5-4a72-ae3a-8b6c4abdb452")
-	)
-	(junction
-		(at 146.558 76.708)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6474f1ef-5c6c-43e7-b80c-86c010cf8c22")
-	)
-	(junction
-		(at 146.558 99.568)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65e91bfc-1938-4347-b891-098c2a0e9ace")
 	)
 	(junction
 		(at 281.94 128.27)
@@ -2743,36 +2701,6 @@
 		(uuid "7b15b209-970d-4ac2-8ac5-13b16b262991")
 	)
 	(junction
-		(at 146.558 155.702)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c51fa98-867d-41dc-8480-194c5aa3e9a0")
-	)
-	(junction
-		(at 146.558 79.248)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa2166f3-55f8-4cc2-9bca-6b0a1cf9f785")
-	)
-	(junction
-		(at 146.558 91.948)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa9b7b3b-fe13-44d1-b18c-b9c0ffc86748")
-	)
-	(junction
-		(at 146.812 130.302)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5ae71db-012b-4cdf-8bcf-de64b9311aeb")
-	)
-	(junction
-		(at 146.558 94.488)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb5b1ece-528e-4602-81d6-4e206c7c7c1f")
-	)
-	(junction
 		(at 140.97 107.442)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2797,12 +2725,6 @@
 		(uuid "da6e4c88-638a-4c68-a515-0c830f455794")
 	)
 	(junction
-		(at 146.558 86.868)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e334aeb6-8e2a-4045-9b93-9f29a4c7c88c")
-	)
-	(junction
 		(at 141.478 163.322)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2819,12 +2741,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f142b203-ff1d-4af4-b30b-81b0a488f845")
-	)
-	(junction
-		(at 146.558 153.162)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8ded303-b1fe-44fd-aee2-790f171c7299")
 	)
 	(junction
 		(at 141.478 137.922)
@@ -2850,7 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 89.662) (xy 146.558 89.662)
+			(xy 138.938 89.662) (xy 144.78 89.662)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 94.742) (xy 146.558 94.488)
+			(xy 144.78 94.742) (xy 144.78 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 97.282) (xy 146.558 97.028)
+			(xy 144.78 97.282) (xy 144.78 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 127.762) (xy 146.812 127.762)
+			(xy 138.938 127.762) (xy 156.718 127.762)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 91.948) (xy 156.718 91.948)
+			(xy 144.78 92.71) (xy 154.94 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 76.962) (xy 146.558 76.708)
+			(xy 144.78 76.962) (xy 144.78 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 94.488) (xy 156.718 94.488)
+			(xy 144.78 95.25) (xy 154.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3080,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 99.822) (xy 146.558 99.568)
+			(xy 144.78 99.822) (xy 144.78 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 99.822) (xy 146.558 99.822)
+			(xy 138.938 99.822) (xy 144.78 99.822)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 76.708) (xy 156.718 76.708)
+			(xy 144.78 77.47) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3160,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.812 130.302) (xy 156.718 130.302)
+			(xy 138.938 130.302) (xy 156.718 130.302)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 155.702) (xy 156.718 155.702)
+			(xy 138.938 155.702) (xy 156.718 155.702)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 82.042) (xy 146.558 82.042)
+			(xy 138.938 82.042) (xy 144.78 82.042)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 89.662) (xy 146.558 89.408)
+			(xy 144.78 89.662) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3250,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 99.568) (xy 156.718 99.568)
+			(xy 144.78 100.33) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3280,16 +3196,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.812 127.762) (xy 156.718 127.762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ee6f246-7d24-4f4e-ba5b-7eba93de4596")
-	)
-	(wire
-		(pts
 			(xy 290.195 201.295) (xy 295.275 201.295)
 		)
 		(stroke
@@ -3300,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 87.122) (xy 146.558 86.868)
+			(xy 144.78 87.122) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3310,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 86.868) (xy 156.718 86.868)
+			(xy 144.78 87.63) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3320,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 79.502) (xy 146.558 79.502)
+			(xy 138.938 79.502) (xy 144.78 79.502)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 79.248) (xy 156.718 79.248)
+			(xy 144.78 80.01) (xy 154.94 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 92.202) (xy 146.558 91.948)
+			(xy 144.78 92.202) (xy 144.78 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3420,23 +3326,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 81.788) (xy 156.718 81.788)
+			(xy 144.78 82.55) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81bcb955-263b-4e7c-9429-e2b9bf5bd30c")
-	)
-	(wire
-		(pts
-			(xy 138.938 130.302) (xy 146.812 130.302)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846a694a-2e66-4eeb-bd64-ecf9e9fede3a")
 	)
 	(wire
 		(pts
@@ -3510,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 97.282) (xy 146.558 97.282)
+			(xy 138.938 97.282) (xy 144.78 97.282)
 		)
 		(stroke
 			(width 0)
@@ -3540,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 82.042) (xy 146.558 81.788)
+			(xy 144.78 82.042) (xy 144.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 153.162) (xy 156.718 153.162)
+			(xy 138.938 153.162) (xy 156.718 153.162)
 		)
 		(stroke
 			(width 0)
@@ -3620,16 +3516,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 155.702) (xy 146.558 155.702)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaaee6a7-9844-4d81-8703-c7ca57af9f72")
-	)
-	(wire
-		(pts
 			(xy 141.224 120.142) (xy 141.224 117.602)
 		)
 		(stroke
@@ -3637,16 +3523,6 @@
 			(type default)
 		)
 		(uuid "adb5529a-3763-4c46-8e20-92e14ea2f4f3")
-	)
-	(wire
-		(pts
-			(xy 138.938 153.162) (xy 146.558 153.162)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06f99d4-8520-4c34-93b0-b6e6b0368e91")
 	)
 	(wire
 		(pts
@@ -3660,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 76.962) (xy 146.558 76.962)
+			(xy 138.938 76.962) (xy 144.78 76.962)
 		)
 		(stroke
 			(width 0)
@@ -3690,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 79.502) (xy 146.558 79.248)
+			(xy 144.78 79.502) (xy 144.78 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3730,7 +3606,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 84.328) (xy 156.718 84.328)
+			(xy 144.78 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3740,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 89.408) (xy 156.718 89.408)
+			(xy 144.78 90.17) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +3636,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 87.122) (xy 146.558 87.122)
+			(xy 138.938 87.122) (xy 144.78 87.122)
 		)
 		(stroke
 			(width 0)
@@ -3800,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 92.202) (xy 146.558 92.202)
+			(xy 138.938 92.202) (xy 144.78 92.202)
 		)
 		(stroke
 			(width 0)
@@ -3810,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 94.742) (xy 146.558 94.742)
+			(xy 138.938 94.742) (xy 144.78 94.742)
 		)
 		(stroke
 			(width 0)
@@ -3850,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 84.582) (xy 146.558 84.582)
+			(xy 138.938 84.582) (xy 144.78 84.582)
 		)
 		(stroke
 			(width 0)
@@ -3860,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 84.582) (xy 146.558 84.328)
+			(xy 144.78 84.582) (xy 144.78 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3870,7 +3746,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 97.028) (xy 156.718 97.028)
+			(xy 144.78 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3923,7 +3799,7 @@
 	)
 	(global_label "SPARE2"
 		(shape input)
-		(at 156.718 79.248 0)
+		(at 154.94 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3933,7 +3809,7 @@
 		)
 		(uuid "030029ab-696f-4305-b64f-1104860d9a6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 79.1686 0)
+			(at 164.5498 79.9306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3946,7 +3822,7 @@
 	)
 	(global_label "SPARE1"
 		(shape input)
-		(at 156.718 76.708 0)
+		(at 154.94 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3956,7 +3832,7 @@
 		)
 		(uuid "0f8b5b78-af97-44fa-af88-4b6e808a5879")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 76.6286 0)
+			(at 164.5498 77.3906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3992,7 +3868,7 @@
 	)
 	(global_label "SPARE6"
 		(shape input)
-		(at 156.718 89.408 0)
+		(at 154.94 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4002,7 +3878,7 @@
 		)
 		(uuid "23c0932d-5664-40d9-8afa-e0877d9f6a6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 89.3286 0)
+			(at 164.5498 90.0906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4038,7 +3914,7 @@
 	)
 	(global_label "SPARE10"
 		(shape input)
-		(at 156.718 99.568 0)
+		(at 154.94 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4048,7 +3924,7 @@
 		)
 		(uuid "29584262-7731-49f8-b1a7-5239d4b73b1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.5373 99.4886 0)
+			(at 165.7593 100.2506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4107,7 +3983,7 @@
 	)
 	(global_label "SPARE4"
 		(shape input)
-		(at 156.718 84.328 0)
+		(at 154.94 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4117,7 +3993,7 @@
 		)
 		(uuid "5d1fea33-2249-47fa-8621-4bbba35c5d56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 84.2486 0)
+			(at 164.5498 85.0106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4130,7 +4006,7 @@
 	)
 	(global_label "SPARE8"
 		(shape input)
-		(at 156.718 94.488 0)
+		(at 154.94 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4140,7 +4016,7 @@
 		)
 		(uuid "668ec466-a280-47e3-a0e2-bf21201d086c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 94.4086 0)
+			(at 164.5498 95.1706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4153,7 +4029,7 @@
 	)
 	(global_label "SPARE5"
 		(shape input)
-		(at 156.718 86.868 0)
+		(at 154.94 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4163,7 +4039,7 @@
 		)
 		(uuid "6b0c8609-eeca-4b74-a486-ae6e8bf9b33b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 86.7886 0)
+			(at 164.5498 87.5506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4521,7 +4397,7 @@
 	)
 	(global_label "SPARE9"
 		(shape input)
-		(at 156.718 97.028 0)
+		(at 154.94 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4531,7 +4407,7 @@
 		)
 		(uuid "d9c16b8d-ee4b-4e91-a1bc-b9a1153e0d23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 96.9486 0)
+			(at 164.5498 97.7106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4544,7 +4420,7 @@
 	)
 	(global_label "SPARE3"
 		(shape input)
-		(at 156.718 81.788 0)
+		(at 154.94 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4554,7 +4430,7 @@
 		)
 		(uuid "de65a05a-f7a2-426b-965f-30b54df2d8f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 81.7086 0)
+			(at 164.5498 82.4706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4613,7 +4489,7 @@
 	)
 	(global_label "SPARE7"
 		(shape input)
-		(at 156.718 91.948 0)
+		(at 154.94 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4623,7 +4499,7 @@
 		)
 		(uuid "ed08c782-1d5d-4e1b-a6d0-ad12be733374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3278 91.8686 0)
+			(at 164.5498 92.6306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4654,162 +4530,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 89.408 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03f6a4b7-feca-4ea0-beec-a0458171cfa1")
-		(property "Reference" "TP147"
-			(at 149.098 88.773 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "724261bc-0f0c-4edd-98d7-5426f8edb18e")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 84.328 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "084eb7d8-03c4-4a72-87c5-e7a46a815aed")
-		(property "Reference" "TP145"
-			(at 149.098 83.693 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 84.328 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 84.328 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 84.328 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 84.328 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0cedb428-1106-474b-ab97-0cb59bcb7593")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP145")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5201,162 +4921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 91.948 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "308bda11-5594-4a99-a963-7ae4c63043c7")
-		(property "Reference" "TP148"
-			(at 149.098 91.313 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 91.948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 91.948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 91.948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 91.948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0cffa23-4193-47a6-8c06-bf6ab56019e1")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 81.788 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3204c6f8-5475-4310-8e7b-acc1f01caf4b")
-		(property "Reference" "TP144"
-			(at 149.098 81.153 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 81.788 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 81.788 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 81.788 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 81.788 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82513928-42c2-4cf3-b331-f7acbbb1446c")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 160.02 248.92 0)
 		(unit 1)
@@ -5428,84 +4992,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 99.568 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "35023a75-c20b-45a4-ae4d-fa580e1bd6ab")
-		(property "Reference" "TP151"
-			(at 149.098 98.933 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ddb4ee2-85c0-4d10-afaf-40df29c033e9")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP151")
 					(unit 1)
 				)
 			)
@@ -5669,84 +5155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 79.248 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "567852a2-a976-4ccf-a866-140e4dc6d476")
-		(property "Reference" "TP143"
-			(at 149.098 78.613 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 79.248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 79.248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 79.248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 79.248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e26ae633-949a-4f49-9b54-307b9c4ec097")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 180.34 248.92 0)
 		(unit 1)
@@ -5902,84 +5310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 153.162 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "853bb27c-3048-4f95-b253-c908b1c6fc55")
-		(property "Reference" "TP154"
-			(at 149.098 152.527 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 153.162 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 153.162 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 153.162 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 153.162 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11eff5c9-138d-46d6-ac91-c396d7809de5")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-pcbs:ORESAT-CARD-V1.3-1RF-POS2")
 		(at 172.72 226.06 0)
 		(unit 1)
@@ -6050,84 +5380,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "PCB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 86.868 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a231964e-6a37-4d50-9005-c91e94d017d0")
-		(property "Reference" "TP146"
-			(at 149.098 86.233 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a77b14dd-417f-4ac4-a1c6-21fc7ea230c7")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP146")
 					(unit 1)
 				)
 			)
@@ -6406,162 +5658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 97.028 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c0c0ae24-ce55-4c8f-9d04-1df955dc7492")
-		(property "Reference" "TP150"
-			(at 149.098 96.393 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 97.028 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 97.028 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 97.028 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 97.028 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f35675e-39e0-47dd-a22a-a933fb92403f")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.812 130.302 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca249993-e078-41ac-a8c6-1a10ff81360d")
-		(property "Reference" "TP153"
-			(at 149.352 129.667 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.352 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.352 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.352 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.812 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fcd1a89c-fbab-4f91-a9a0-4ba7250a2ec2")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP153")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 281.94 130.81 0)
 		(unit 1)
@@ -6640,84 +5736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 94.488 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cfaa0c22-6b2f-4791-a3b2-c005ee0c7662")
-		(property "Reference" "TP149"
-			(at 149.098 93.853 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 94.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 94.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 94.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 94.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46fc5630-13a2-47f5-a3e4-40efdbdb72c9")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 285.115 208.915 0)
 		(unit 1)
@@ -6789,240 +5807,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "#GND0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 76.708 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d4c3b683-da43-4c8b-864d-511cca0f2dc3")
-		(property "Reference" "TP142"
-			(at 149.098 76.073 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d5b821a-6f62-40a4-82c5-03f6363fefa5")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.812 127.762 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d69e856a-9728-41cc-9e51-a1d5e74194a5")
-		(property "Reference" "TP152"
-			(at 149.352 127.127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.352 127.762 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.352 127.762 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.352 127.762 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.812 127.762 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ed23c66-dff4-465e-b76c-bd95a0aa0e49")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 146.558 155.702 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d6c5bf13-ac07-4ac0-bf31-88aa3c16f740")
-		(property "Reference" "TP155"
-			(at 149.098 155.067 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 149.098 155.702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 149.098 155.702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.098 155.702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.558 155.702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13351f29-bc43-461a-8f83-76d8ab0557fa")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP155")
 					(unit 1)
 				)
 			)
