@@ -1450,13 +1450,13 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "PCB1,C53-54,CM1,R51-52,R68,#FLG2,#GND101-102,#GND142,J1,J3,J6,FID1-6,FLIGHT1,TP140-141,TP159",
     "variants": []
   },
   "sheets": [
     [
-      "b9a61b98-fba0-4063-a603-e7fc9d7070a0",
-      "Connectors"
+      "65d12cdd-c326-4033-9053-c59fa4e0b25e",
+      "oresat-gps-card"
     ],
     [
       "2134bb9a-062c-4e32-a41e-d15ce3545372",
@@ -1489,10 +1489,6 @@
     [
       "8d9bd19c-7585-4051-9f00-67484709f60e",
       "MAX2769"
-    ],
-    [
-      "65d12cdd-c326-4033-9053-c59fa4e0b25e",
-      "oresat-gps-card"
     ]
   ],
   "text_variables": {},

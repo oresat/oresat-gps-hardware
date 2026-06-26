@@ -14389,212 +14389,104 @@
 		)
 		(uuid "fff61216-df67-4407-87ce-b931de6a6f8d")
 	)
-	(global_label "I1"
-		(shape input)
-		(at 134.62 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b569dbc-aa4c-4c89-a126-c8dd6dbeec92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3926 170.1006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Q0"
+	(hierarchical_label "Q0"
 		(shape input)
 		(at 134.62 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4baaa7b7-1d9b-4860-873a-978b744e0205")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6669 177.7206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "6870c81d-5222-4963-983a-f1023694fd9c")
 	)
-	(global_label "MAX-CLKOUT"
-		(shape input)
-		(at 134.62 198.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73ed8443-7747-40fd-ac63-cd81430300fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6883 198.0406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Q1"
+	(hierarchical_label "Q1"
 		(shape input)
 		(at 134.62 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7cb71d47-c10d-483c-b107-5fd53f0213c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6669 175.1806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "8aacfda8-5d80-462e-8bac-79d99d1a489c")
 	)
-	(global_label "UART0_RX"
-		(shape input)
-		(at 157.48 91.44 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0ff78f1-d045-4f7b-b103-59c361ab4d8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4006 79.7136 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CAN2_L"
-		(shape input)
-		(at 180.34 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d03039d0-be9a-43c9-833a-a1dceaafcf51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.6474 50.7206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I0"
-		(shape input)
-		(at 134.62 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8690a9c-ada9-4385-bfa1-06ed4db20fd5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3926 172.6406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CAN2_H"
-		(shape input)
-		(at 180.34 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e17009fb-5186-487e-850c-7b161fbb0725")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.9498 45.6406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UART0_TX"
+	(hierarchical_label "UART0_TX"
 		(shape input)
 		(at 160.02 91.44 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e6d6fee7-5f5c-4665-919d-b6987cb8e605")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.9406 80.0159 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "a73c67ff-eddf-460f-97ea-2bb8b34b9ede")
+	)
+	(hierarchical_label "CAN2_L"
+		(shape input)
+		(at 180.34 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "b6d365a9-6001-45c9-a769-fa70cddf48ca")
+	)
+	(hierarchical_label "MAX-CLKOUT"
+		(shape input)
+		(at 134.62 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1ea53c0-eaab-4629-a6a0-f1ceb8327202")
+	)
+	(hierarchical_label "UART0_RX"
+		(shape output)
+		(at 157.48 91.44 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccf45846-a915-4400-a0c9-f38cab856bd1")
+	)
+	(hierarchical_label "CAN2_H"
+		(shape input)
+		(at 180.34 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d069f4fe-dea2-453b-9dfc-d76b369b3a92")
+	)
+	(hierarchical_label "I1"
+		(shape input)
+		(at 134.62 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3c0cbb8-a1a1-44cf-9d23-5d243481c885")
+	)
+	(hierarchical_label "I0"
+		(shape input)
+		(at 134.62 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f610c663-0dfe-461c-8607-4ed249c9d096")
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")

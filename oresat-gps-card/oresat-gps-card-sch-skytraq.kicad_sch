@@ -1331,97 +1331,49 @@
 		)
 		(uuid "dfb261d0-d96f-451d-a4c5-2c800557363a")
 	)
-	(global_label "STQ_UART2_RX"
-		(shape input)
-		(at 167.64 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14f0367a-e0cd-4b50-b8b6-a566a7f0ea8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4383 147.2406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "STQ-1PPS"
-		(shape input)
-		(at 238.76 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6bdeadc2-686e-4958-b019-955816f93ccb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.2121 126.9206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "STQ-RF"
+	(hierarchical_label "STQ-RF"
 		(shape input)
 		(at 238.76 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7685ed13-5efd-4f61-9733-863abe5fec0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.6117 119.3006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "12a20216-569e-444e-bce3-33799e26067e")
 	)
-	(global_label "STQ_UART2_TX"
+	(hierarchical_label "STQ-1PPS"
 		(shape input)
-		(at 167.64 144.78 180)
-		(fields_autoplaced yes)
+		(at 238.76 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c8d18de-afb9-4ba7-8a72-798539a29e8b")
+	)
+	(hierarchical_label "STQ_UART2_RX"
+		(shape input)
+		(at 167.64 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "864a8221-04b2-4190-ab9e-2d1e6e66091c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.7407 144.7006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "9f570cc2-c752-437c-a3bb-5136ba775a24")
+	)
+	(hierarchical_label "STQ_UART2_TX"
+		(shape input)
+		(at 167.64 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "c2be029f-339d-4fc4-9994-13a4578369cf")
 	)
 	(symbol
 		(lib_id "power:GND")

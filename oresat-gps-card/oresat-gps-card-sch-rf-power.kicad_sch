@@ -3574,97 +3574,49 @@
 		)
 		(uuid "f496991f-bdd4-49c2-854f-d4b09e2fb0b9")
 	)
-	(global_label "MAX-RF"
-		(shape input)
-		(at 157.48 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "408e648d-9bce-45fb-96e1-04e5087051c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.5736 104.0606 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RF-IN"
+	(hierarchical_label "RF-IN"
 		(shape input)
 		(at 81.28 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "623ff611-1d99-4c99-bb0f-1dc8c9d92ef7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.0007 101.5206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "2d45e46a-e84a-4197-a507-58ee00acdd7e")
 	)
-	(global_label "STQ-RF"
+	(hierarchical_label "GPS-EN"
+		(shape input)
+		(at 269.24 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "632465db-3836-4fa9-9289-82a5a0312ea1")
+	)
+	(hierarchical_label "STQ-RF"
 		(shape input)
 		(at 157.48 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6f59f08b-5906-4f46-9f47-d29bf902e91d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.3317 98.9806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "7c09e75e-c308-43ff-97e9-48d3a3086245")
 	)
-	(global_label "GPS-EN"
+	(hierarchical_label "MAX-RF"
 		(shape input)
-		(at 269.24 167.64 180)
-		(fields_autoplaced yes)
+		(at 157.48 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "7b863488-b78c-43f5-92bc-40797ea94347")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.0255 167.5606 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "7f7bcd87-7769-4460-a826-0f55ad2de2a3")
 	)
 	(symbol
 		(lib_id "power:GND")

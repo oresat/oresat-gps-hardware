@@ -9218,235 +9218,115 @@
 		)
 		(uuid "fe7d970b-b21d-47b7-805a-32964c4418d6")
 	)
-	(global_label "GPS-EN"
+	(hierarchical_label "MAX_~{SHDN}"
+		(shape input)
+		(at 33.02 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "011e2858-b59d-4027-bd31-8c2189ec38e8")
+	)
+	(hierarchical_label "MAX_SPI1_CS0"
+		(shape input)
+		(at 48.26 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0610a762-b580-4b80-aebf-586f769cfc1f")
+	)
+	(hierarchical_label "GPS-EN"
 		(shape input)
 		(at 33.02 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "16c1609b-0405-421b-9da8-a91ddcc10eb2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8055 124.3806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "24789190-87c9-4c30-9027-c5743f8b4b27")
 	)
-	(global_label "STQ_UART2_TX"
+	(hierarchical_label "MAX_SPI1_D0"
+		(shape input)
+		(at 43.18 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "258a8a21-aaa0-4d98-a1d9-fd57bd0866e0")
+	)
+	(hierarchical_label "STQ_UART2_TX"
 		(shape input)
 		(at 53.34 165.1 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2481b0b9-4dd5-4b3b-abd4-4ac064217248")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2606 180.9993 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "2e66b5bc-25d2-42f5-bf19-8dcfe9a8d56d")
 	)
-	(global_label "SYSBOOT2"
+	(hierarchical_label "STQ_UART2_RX"
+		(shape input)
+		(at 50.8 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c80700d-2fae-40cb-8a52-c1b3b8815eba")
+	)
+	(hierarchical_label "SYSBOOT2"
 		(shape input)
 		(at 220.98 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "33754a3f-9a9b-4116-b247-40f3f717b7b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.5015 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "5e93ace5-36c7-46bf-911a-ccf75a178e9d")
 	)
-	(global_label "STQ_UART2_RX"
-		(shape input)
-		(at 50.8 165.1 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ee081ae-5213-43f9-a7c0-74b8633ad9fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7206 181.3017 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "STQ-1PPS"
-		(shape input)
-		(at 33.02 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f34c5ce-7188-40eb-a797-cf0f46d71e8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.5679 121.8406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MAX_SPI1_CS0"
-		(shape input)
-		(at 48.26 165.1 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46b14295-786f-4528-8432-d34d6eeb4972")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.1806 181.1807 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MAX_SPI1_D0"
-		(shape input)
-		(at 43.18 165.1 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a48b887-73dc-4f8e-8d2c-dc644fc445b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1006 179.9712 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MAX_~{SHDN}"
-		(shape input)
-		(at 33.02 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8c4c190-6876-406a-bed4-ffe6731d1d01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.7493 98.9806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MAX-LD"
-		(shape input)
-		(at 33.02 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1f01efa-99a9-4193-bd04-51c6991df461")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.5917 96.4406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MAX_SPI1_SCLK"
+	(hierarchical_label "MAX_SPI1_SCLK"
 		(shape input)
 		(at 45.72 165.1 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f1484171-be62-490e-ab93-f4bfdc0b3ac1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.6406 182.2693 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "9367f801-434b-4182-b712-78083ab447c0")
+	)
+	(hierarchical_label "STQ-1PPS"
+		(shape input)
+		(at 33.02 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "936bbdbe-da55-4c08-bd9f-850a7d3e9357")
+	)
+	(hierarchical_label "MAX-LD"
+		(shape input)
+		(at 33.02 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b870cb3b-d1ff-43c6-a513-2d1ebf6d75a6")
 	)
 	(symbol
 		(lib_id "power:GND")

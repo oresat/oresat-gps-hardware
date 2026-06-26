@@ -8861,120 +8861,60 @@
 		)
 		(uuid "e611dfc6-31b7-46a0-b535-112799a15e75")
 	)
-	(global_label "USB_CLI_P"
-		(shape input)
-		(at 119.38 198.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0443ee29-f84e-4ca8-8c9b-a9e200e8258c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0488 198.0406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB_CLI_N"
+	(hierarchical_label "USB_CLI_N"
 		(shape input)
 		(at 119.38 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "55437954-75e4-48f4-b353-2671c6c9a7f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.9883 195.5006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "3b2f7f9e-cbb3-4020-8cc1-ed8e703b92b7")
 	)
-	(global_label "USB_CLI_VBUS"
-		(shape input)
-		(at 119.38 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba7d88e5-ca81-42cd-b6d9-78de32b5d643")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4202 192.9606 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "nRESET"
+	(hierarchical_label "nRESET"
 		(shape input)
 		(at 147.32 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c0b9710f-4a7a-4a80-95c0-741821177679")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.5201 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "4884e861-5619-4251-ada2-8656a37db323")
 	)
-	(global_label "VIN_USB"
+	(hierarchical_label "USB_CLI_VBUS"
+		(shape input)
+		(at 119.38 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e18380a-4c49-4fcb-887f-8fbcbdd97307")
+	)
+	(hierarchical_label "VIN_USB"
 		(shape input)
 		(at 137.16 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f2f853fb-b194-4568-b540-0f38029b9085")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9455 177.7206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "af5aca5f-7e5a-47fe-a862-91d9d3832850")
+	)
+	(hierarchical_label "USB_CLI_P"
+		(shape input)
+		(at 119.38 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "d6ecfc57-84d1-4bb3-95be-e5090249819f")
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
