@@ -12062,12 +12062,6 @@
 		(uuid "290395bf-8706-44fc-9c98-e04ef9945d3f")
 	)
 	(junction
-		(at 350.52 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3058ff4c-d35c-4089-b6b4-17c459bb2374")
-	)
-	(junction
 		(at 160.02 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12104,6 +12098,12 @@
 		(uuid "3f0825f3-6e2e-4299-beb8-5d2cd8e25474")
 	)
 	(junction
+		(at 350.52 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41b23b55-13a3-464c-a55d-8a8306da7db1")
+	)
+	(junction
 		(at 284.48 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12116,12 +12116,6 @@
 		(uuid "576681ea-423e-4641-a953-4a99d6425775")
 	)
 	(junction
-		(at 350.52 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b87640f-a375-41a1-aed9-86de01e55ca6")
-	)
-	(junction
 		(at 381 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12132,6 +12126,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c41aa9-8f60-4bb3-9746-9687ceb53b20")
+	)
+	(junction
+		(at 350.52 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75664a64-2464-445c-9471-90041cceb196")
 	)
 	(junction
 		(at 279.4 162.56)
@@ -12372,6 +12372,10 @@
 		(uuid "882128b9-82d9-4959-8681-af623800ef57")
 	)
 	(no_connect
+		(at 147.32 53.34)
+		(uuid "8c1eaadf-0d7d-4ac0-8f2b-d1b54b9c5a09")
+	)
+	(no_connect
 		(at 223.52 101.6)
 		(uuid "8cdbcc98-5b6d-4fbe-8796-231497868c37")
 	)
@@ -12434,6 +12438,10 @@
 	(no_connect
 		(at 162.56 106.68)
 		(uuid "f6dd0a2c-c996-426d-924a-f4a2126de1f9")
+	)
+	(no_connect
+		(at 147.32 50.8)
+		(uuid "f9a667bc-c89f-4aec-96a8-01bbef2d7c0d")
 	)
 	(no_connect
 		(at 223.52 210.82)
@@ -12548,6 +12556,16 @@
 			(type default)
 		)
 		(uuid "0beee7c2-5390-4fe5-b85e-5a01bc6031e6")
+	)
+	(wire
+		(pts
+			(xy 350.52 182.88) (xy 350.52 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df0c19b-4016-4ee7-aca0-9d02ed9cc63c")
 	)
 	(wire
 		(pts
@@ -12678,6 +12696,16 @@
 			(type default)
 		)
 		(uuid "1a97de9e-66e9-4019-b8e5-5492c3fa965a")
+	)
+	(wire
+		(pts
+			(xy 350.52 182.88) (xy 355.6 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca32590-7bae-4395-a844-ab86eec6a511")
 	)
 	(wire
 		(pts
@@ -12848,6 +12876,16 @@
 			(type default)
 		)
 		(uuid "35a4f24e-1b97-494c-a6d5-c99f5a36f33f")
+	)
+	(wire
+		(pts
+			(xy 345.44 167.64) (xy 350.52 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bbaf53-c6a3-434b-b6ee-1671eb03cda7")
 	)
 	(polyline
 		(pts
@@ -13038,16 +13076,6 @@
 			(type default)
 		)
 		(uuid "52f41406-53bb-4ac4-9c94-fe910158768c")
-	)
-	(wire
-		(pts
-			(xy 350.52 182.88) (xy 350.52 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54716e07-e55f-448c-8460-7a61e4016ef2")
 	)
 	(wire
 		(pts
@@ -13391,6 +13419,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 167.64) (xy 355.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874963d7-b270-41fe-8b7c-ea7d61e54f2a")
+	)
+	(wire
+		(pts
 			(xy 147.32 63.5) (xy 137.16 63.5)
 		)
 		(stroke
@@ -13631,7 +13669,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 182.88) (xy 350.52 182.88)
+			(xy 345.44 182.88) (xy 350.52 182.88)
 		)
 		(stroke
 			(width 0)
@@ -13728,16 +13766,6 @@
 			(type default)
 		)
 		(uuid "a89cd599-632e-4649-83f0-66422cbe5cf9")
-	)
-	(wire
-		(pts
-			(xy 345.44 182.88) (xy 350.52 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0ed0ad-36f7-4458-8e04-5707a8106ad5")
 	)
 	(wire
 		(pts
@@ -13921,16 +13949,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 167.64) (xy 350.52 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb01907-78a1-4a1d-bcf9-2766ecbef186")
-	)
-	(wire
-		(pts
 			(xy 312.42 187.96) (xy 312.42 157.48)
 		)
 		(stroke
@@ -13978,6 +13996,16 @@
 			(type default)
 		)
 		(uuid "ca6fbf3d-5d32-4295-bf48-083115584063")
+	)
+	(wire
+		(pts
+			(xy 350.52 157.48) (xy 350.52 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac2106b-fcc6-4340-ba08-e1149f0ebbde")
 	)
 	(wire
 		(pts
@@ -14208,26 +14236,6 @@
 			(type default)
 		)
 		(uuid "e8a321d5-2f72-4e0a-b650-568fbb038649")
-	)
-	(wire
-		(pts
-			(xy 355.6 167.64) (xy 350.52 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ce479d-5306-4695-b695-fa415ed192e1")
-	)
-	(wire
-		(pts
-			(xy 345.44 167.64) (xy 350.52 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f08820-99e8-4af7-8f89-9cab9437ef49")
 	)
 	(wire
 		(pts
@@ -16925,7 +16933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 193.04 157.48 0)
 			(hide yes)
 			(show_name no)

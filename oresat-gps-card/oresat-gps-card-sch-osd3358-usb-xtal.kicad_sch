@@ -7944,6 +7944,10 @@
 		(uuid "9de7e374-e17e-4095-9de5-8eed5aefbcea")
 	)
 	(no_connect
+		(at 215.9 60.96)
+		(uuid "b693912f-3455-4215-8343-406904abfd3c")
+	)
+	(no_connect
 		(at 215.9 149.86)
 		(uuid "e6acd405-53c9-4605-80f3-2295ef115f7c")
 	)
@@ -8420,16 +8424,6 @@
 			(type default)
 		)
 		(uuid "7b1651ba-ef04-4e04-824b-da64baf6a9a0")
-	)
-	(wire
-		(pts
-			(xy 215.9 60.96) (xy 218.44 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8007ac47-195c-4550-b353-5455596dde94")
 	)
 	(wire
 		(pts
@@ -10087,7 +10081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)

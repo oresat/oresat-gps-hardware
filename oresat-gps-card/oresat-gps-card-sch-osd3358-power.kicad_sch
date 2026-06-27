@@ -10053,6 +10053,14 @@
 		(uuid "fe11c2ba-4a72-4621-adcc-ced685718928")
 	)
 	(no_connect
+		(at 294.64 185.42)
+		(uuid "0e1258a3-2749-4d28-84d2-b881c64c422b")
+	)
+	(no_connect
+		(at 294.64 160.02)
+		(uuid "110551f1-dff1-4fcb-af9c-26085d9b6480")
+	)
+	(no_connect
 		(at 99.06 172.72)
 		(uuid "1ac0a082-d71a-48c0-af47-145a50954210")
 	)
@@ -10069,12 +10077,28 @@
 		(uuid "2f11d433-afaf-41fc-ada2-aa53e5d1a941")
 	)
 	(no_connect
+		(at 350.52 187.96)
+		(uuid "3330b61d-aa19-4ae2-95b1-8f55fe494b9e")
+	)
+	(no_connect
 		(at 99.06 154.94)
 		(uuid "39758e37-9b3c-47ca-a6c4-b1e47dd189ba")
 	)
 	(no_connect
+		(at 350.52 190.5)
+		(uuid "48e5e487-c58a-4b03-9406-7a6b0bf21de8")
+	)
+	(no_connect
+		(at 294.64 190.5)
+		(uuid "59e83f3b-210d-449e-b28e-5056a9422d69")
+	)
+	(no_connect
 		(at 99.06 147.32)
 		(uuid "72cc0e5a-4237-48a6-8224-cce2c976d578")
+	)
+	(no_connect
+		(at 294.64 175.26)
+		(uuid "7de4d546-e1d1-4345-b70e-545143c6d469")
 	)
 	(no_connect
 		(at 99.06 165.1)
@@ -10085,12 +10109,24 @@
 		(uuid "85f342a3-67b0-482e-a120-f1e011fa1bb1")
 	)
 	(no_connect
+		(at 294.64 170.18)
+		(uuid "93cfef04-5d82-4b2b-b84a-6723e1b8ddac")
+	)
+	(no_connect
 		(at 99.06 127)
 		(uuid "b54db2a7-0f5e-411b-b212-7cdf1e74a741")
 	)
 	(no_connect
+		(at 350.52 185.42)
+		(uuid "c6fca88e-aa1d-413a-896e-3faa38133c0f")
+	)
+	(no_connect
 		(at 99.06 137.16)
 		(uuid "e3d25d78-3c3a-46a5-91ba-ef8dcf0deb1f")
+	)
+	(no_connect
+		(at 294.64 165.1)
+		(uuid "ed307c1c-0c0d-4bd2-9a59-05b71e9317cb")
 	)
 	(no_connect
 		(at 99.06 96.52)
@@ -10155,16 +10191,6 @@
 			(type default)
 		)
 		(uuid "0997073a-a48a-4838-a782-006de8bc01d1")
-	)
-	(wire
-		(pts
-			(xy 99.06 68.58) (xy 96.52 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09c2fc96-8e4e-433a-b199-b2774bfe5e0d")
 	)
 	(wire
 		(pts
@@ -10245,6 +10271,16 @@
 			(type default)
 		)
 		(uuid "1dc37193-4a4b-4fd5-862a-809375fc9589")
+	)
+	(wire
+		(pts
+			(xy 96.52 68.58) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200c7f28-93a5-40b9-8152-e692d904b6bf")
 	)
 	(wire
 		(pts
@@ -13044,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 322.58 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -14695,7 +14731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 134.62 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16048,7 +16084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 322.58 76.2 0)
 			(hide yes)
 			(show_name no)
