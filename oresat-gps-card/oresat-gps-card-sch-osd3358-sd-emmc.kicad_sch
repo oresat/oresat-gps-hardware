@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2024-05-25")
-		(rev "v1.1")
+		(date "2026-06-28")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -11982,6 +11982,17 @@
 		)
 		(uuid "496bb3be-6bfd-4190-8e8d-c473b1c4ba37")
 	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 117.856 260.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c91f919-bf9d-4586-bdda-d4f7f7f115d5")
+	)
 	(text "SD Card Circuit\npinout from RED board"
 		(exclude_from_sim no)
 		(at 20.32 88.9 0)
@@ -12004,17 +12015,6 @@
 		)
 		(uuid "676ce24b-7861-43d6-9baa-18a16e326383")
 	)
-	(text "USR LEDs"
-		(exclude_from_sim no)
-		(at 256.794 88.392 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "9243e27b-f4e2-43b2-bf9a-20709416316a")
-	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
 		(at 184.15 25.4 0)
@@ -12036,12 +12036,6 @@
 			(justify left bottom)
 		)
 		(uuid "fec80863-877f-430a-88bc-da2a154f0d0f")
-	)
-	(junction
-		(at 274.32 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e416924-b645-49ce-8a45-f11cfdfc20dd")
 	)
 	(junction
 		(at 99.06 134.62)
@@ -12084,12 +12078,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3db857d0-ee82-4092-a084-9a03fbe519fd")
-	)
-	(junction
-		(at 274.32 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e0e6b64-fa43-4c21-ae20-f37c8ac9b859")
 	)
 	(junction
 		(at 388.62 182.88)
@@ -12242,12 +12230,6 @@
 		(uuid "c9409461-9915-443b-925e-c34edb417d3f")
 	)
 	(junction
-		(at 274.32 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e94a2dcc-59b0-4991-b25a-1aac86cf05d3")
-	)
-	(junction
 		(at 269.24 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12308,6 +12290,10 @@
 		(uuid "3764f65e-d794-49e9-97be-69674dfb63db")
 	)
 	(no_connect
+		(at 223.52 119.38)
+		(uuid "3ec6d98f-ad81-4a12-a9c8-663ad2a6648a")
+	)
+	(no_connect
 		(at 223.52 193.04)
 		(uuid "41cc0a55-e458-4d38-8a78-f8e63f2ca7ef")
 	)
@@ -12322,6 +12308,10 @@
 	(no_connect
 		(at 223.52 149.86)
 		(uuid "4d494c4c-6ac9-4196-bc14-0c6f312ee69d")
+	)
+	(no_connect
+		(at 223.52 124.46)
+		(uuid "4e6ddd71-a6b1-4c81-a4c9-683b34e69c19")
 	)
 	(no_connect
 		(at 223.52 106.68)
@@ -12428,6 +12418,10 @@
 		(uuid "d1924299-aa07-4918-8ee1-442286f9915c")
 	)
 	(no_connect
+		(at 223.52 121.92)
+		(uuid "d999dad9-d779-41a8-a512-9a5e89030203")
+	)
+	(no_connect
 		(at 162.56 195.58)
 		(uuid "e4067c9d-b5a0-4f07-9cfe-2ee70d98dd53")
 	)
@@ -12446,26 +12440,6 @@
 	(no_connect
 		(at 223.52 210.82)
 		(uuid "fd38d5a8-e4d9-4020-8047-b423ad54b9d2")
-	)
-	(wire
-		(pts
-			(xy 223.52 119.38) (xy 238.76 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00d525e8-911b-47a1-8022-1031c742df43")
-	)
-	(wire
-		(pts
-			(xy 274.32 96.52) (xy 274.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02537e97-d13b-4b37-a971-2789772edc59")
 	)
 	(wire
 		(pts
@@ -12549,16 +12523,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 121.92) (xy 241.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0beee7c2-5390-4fe5-b85e-5a01bc6031e6")
-	)
-	(wire
-		(pts
 			(xy 350.52 182.88) (xy 350.52 185.42)
 		)
 		(stroke
@@ -12606,16 +12570,6 @@
 			(type default)
 		)
 		(uuid "10cca791-7fcf-4581-94d3-7017c512cd02")
-	)
-	(wire
-		(pts
-			(xy 271.78 111.76) (xy 274.32 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c3dba9-4a9b-4f9e-b3be-4afbc73bf8f4")
 	)
 	(wire
 		(pts
@@ -12869,16 +12823,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 96.52) (xy 274.32 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35a4f24e-1b97-494c-a6d5-c99f5a36f33f")
-	)
-	(wire
-		(pts
 			(xy 345.44 167.64) (xy 350.52 167.64)
 		)
 		(stroke
@@ -13009,16 +12953,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 111.76) (xy 251.46 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3f6ff7-2901-419c-9849-a5a61086aecb")
-	)
-	(wire
-		(pts
 			(xy 381 182.88) (xy 381 185.42)
 		)
 		(stroke
@@ -13086,16 +13020,6 @@
 			(type default)
 		)
 		(uuid "54ba7d5a-572f-4a44-bdcd-ec8821f6eed5")
-	)
-	(wire
-		(pts
-			(xy 238.76 96.52) (xy 251.46 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5602b782-4036-45b7-828d-18ca9cf9351d")
 	)
 	(wire
 		(pts
@@ -13249,16 +13173,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 119.38) (xy 238.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afc668e-032b-44ab-94d1-de93ce05b9da")
-	)
-	(wire
-		(pts
 			(xy 223.52 167.64) (xy 284.48 167.64)
 		)
 		(stroke
@@ -13309,16 +13223,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 124.46) (xy 243.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "791ef6e4-6f78-4903-b2e8-1064a89aa199")
-	)
-	(wire
-		(pts
 			(xy 81.28 127) (xy 83.82 127)
 		)
 		(stroke
@@ -13326,16 +13230,6 @@
 			(type default)
 		)
 		(uuid "7a3af312-44ce-4d70-8956-d2b44ace2552")
-	)
-	(wire
-		(pts
-			(xy 223.52 121.92) (xy 241.3 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c962c05-45fe-4837-8637-3dd218060c63")
 	)
 	(wire
 		(pts
@@ -13389,16 +13283,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 104.14) (xy 274.32 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8491b494-3605-4c57-8327-e97309655307")
-	)
-	(wire
-		(pts
 			(xy 81.28 134.62) (xy 99.06 134.62)
 		)
 		(stroke
@@ -13439,16 +13323,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 104.14) (xy 264.16 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898bdfcc-2ac0-4637-9db0-393b3832ab7e")
-	)
-	(wire
-		(pts
 			(xy 160.02 58.42) (xy 160.02 60.96)
 		)
 		(stroke
@@ -13466,16 +13340,6 @@
 			(type default)
 		)
 		(uuid "8a68a6e6-3acd-46a1-ab0f-7d99be49cc5e")
-	)
-	(wire
-		(pts
-			(xy 223.52 124.46) (xy 243.84 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a71f04c-aa1d-41ef-8a73-44d21a761fc2")
 	)
 	(wire
 		(pts
@@ -13839,16 +13703,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 104.14) (xy 274.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b260801a-4f58-4529-9239-109bfce4711f")
-	)
-	(wire
-		(pts
 			(xy 91.44 111.76) (xy 91.44 121.92)
 		)
 		(stroke
@@ -13886,16 +13740,6 @@
 			(type default)
 		)
 		(uuid "b5b12212-3205-4142-b6b3-b6520b6d24a5")
-	)
-	(wire
-		(pts
-			(xy 259.08 96.52) (xy 264.16 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6741c69-21d4-46bf-999d-ff07e405b5b2")
 	)
 	(wire
 		(pts
@@ -13959,16 +13803,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 104.14) (xy 251.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0335922-845d-416d-a1ba-d06b2ad499fa")
-	)
-	(wire
-		(pts
 			(xy 396.24 182.88) (xy 388.62 182.88)
 		)
 		(stroke
@@ -13976,16 +13810,6 @@
 			(type default)
 		)
 		(uuid "c447fe66-4d54-4077-92a6-35ac010d3f79")
-	)
-	(wire
-		(pts
-			(xy 259.08 111.76) (xy 264.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca41a746-c72b-40f0-8ffd-580d2c4a0e58")
 	)
 	(polyline
 		(pts
@@ -14006,16 +13830,6 @@
 			(type default)
 		)
 		(uuid "cac2106b-fcc6-4340-ba08-e1149f0ebbde")
-	)
-	(wire
-		(pts
-			(xy 274.32 111.76) (xy 274.32 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd23a015-1678-44e9-bbe2-fd5aea3ad55f")
 	)
 	(wire
 		(pts
@@ -14529,7 +14343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
 			(at 157.48 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14802,175 +14616,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "#GND0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 267.97 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ebe13b0-988a-4e8d-a109-825cab29debc")
-		(property "Reference" "D4"
-			(at 265.43 92.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 270.51 92.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 267.97 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 267.97 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0094e3dd-609a-4a9f-a731-beea9402eeb7")
-		)
-		(pin "2"
-			(uuid "4b72fe4f-0acb-4a53-b897-29eb7cfa7db9")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 255.27 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f9f926e-30a5-4a0f-80bc-b6e85c280897")
-		(property "Reference" "R44"
-			(at 252.73 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.81 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 255.524 110.744 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 255.27 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e20e6945-acba-48cc-a00b-9273c013490b")
-		)
-		(pin "2"
-			(uuid "09d2fe19-6db6-4d9c-84ca-957907054f99")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -15832,85 +15477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 255.27 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2eb952fc-5f17-4f1b-87a5-21ab512333f0")
-		(property "Reference" "R42"
-			(at 252.73 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.81 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 255.524 95.504 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 255.27 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33595696-7691-4837-9e16-63521292cfa5")
-		)
-		(pin "2"
-			(uuid "325ab8e5-529f-414e-b37e-24fe950bb312")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 35.56 109.22 0)
 		(unit 1)
@@ -15943,7 +15509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.5252 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16718,96 +16284,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 267.97 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "707423f0-f543-4d87-b0e4-3f2cdab477e7")
-		(property "Reference" "D5"
-			(at 265.43 100.838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 270.51 100.838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 267.97 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 267.97 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "166bba7e-2169-4f6f-bd35-49a088ff5035")
-		)
-		(pin "2"
-			(uuid "1521906c-e5df-4a69-965a-4dc8327e4203")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17836,85 +17312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 255.27 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d81070c-e6b0-48df-9ab0-89b52bb5adf3")
-		(property "Reference" "R43"
-			(at 252.73 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.81 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 255.524 103.124 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 255.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "817d475e-e921-473c-a3cc-f4b072b6f4f3")
-		)
-		(pin "2"
-			(uuid "40b63ef2-ac39-4427-bca4-4d19b96796d1")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-power:3.3V")
 		(at 58.42 99.06 0)
 		(unit 1)
@@ -18024,7 +17421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
 			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -18064,96 +17461,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 267.97 111.76 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c02d85df-599a-4edd-bfe9-1c4a705baf7a")
-		(property "Reference" "D6"
-			(at 265.43 108.458 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 270.51 108.458 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 267.97 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 267.97 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae0c7bdf-6f63-4f6b-b246-ca41ac04f84f")
-		)
-		(pin "2"
-			(uuid "f7a9f6e0-ec9b-41cd-bc33-0b407efe6e06")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -18275,7 +17582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 395.2748 180.34 0)
 			(hide yes)
 			(show_name no)

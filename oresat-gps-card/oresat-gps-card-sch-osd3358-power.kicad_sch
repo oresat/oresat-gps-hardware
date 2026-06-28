@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2024-05-25")
-		(rev "v1.1")
+		(date "2026-06-28")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -9509,6 +9509,17 @@
 		)
 		(uuid "5f3af87b-186c-420a-a62d-f5d506b8dda2")
 	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 116.332 258.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70350eba-cd07-40df-adec-f8b8023f69ca")
+	)
 	(text "VBAT isn't used"
 		(exclude_from_sim no)
 		(at 60.96 93.98 0)
@@ -15666,7 +15677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17263,7 +17274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 62.484 0)
 			(hide yes)
 			(show_name no)
@@ -17506,7 +17517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 80.518 0)
 			(hide yes)
 			(show_name no)

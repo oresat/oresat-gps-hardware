@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2024-05-25")
-		(rev "v1.1")
+		(date "2026-06-28")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -482,30 +482,30 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 10.16 25.4 0)
+			(property "Reference" "U23"
+				(at 4.5594 26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 2.0828 1.7703)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "ORION-B16"
-				(at 10.16 22.86 0)
+				(at 4.5594 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 2.0828 1.7703)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "oresat-footprints:U-SkyTraq-ORION-B16"
-				(at 0 0 0)
+			(property "Footprint" "oresat-ics:U-SkyTraq-ORION-B16"
+				(at 0 45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -516,7 +516,7 @@
 				)
 			)
 			(property "Datasheet" "https://navspark.mybigcommerce.com/content/Orion_B16_DS.pdf"
-				(at 0 0 0)
+				(at 0.762 37.592 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -526,8 +526,8 @@
 					)
 				)
 			)
-			(property "Description" "GPS Receiver Module"
-				(at 0 0 0)
+			(property "Description" ""
+				(at -53.34 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -538,54 +538,6 @@
 				)
 			)
 			(symbol "ORION-B16_1_0"
-				(polyline
-					(pts
-						(xy -15.24 20.32) (xy 15.24 20.32)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -15.24 -20.32) (xy -15.24 20.32)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 20.32) (xy 15.24 -20.32)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -20.32) (xy -15.24 -20.32)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin input line
 					(at -17.78 7.62 0)
 					(length 2.54)
@@ -911,6 +863,115 @@
 					)
 				)
 			)
+			(symbol "ORION-B16_1_1"
+				(rectangle
+					(start -15.24 20.32)
+					(end 15.24 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-misc:Test-Point-0.75mm-th"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" "Test-Point"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
@@ -1029,6 +1090,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 116.332 259.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "beaa5c70-9b6d-4869-8bdc-c60977c73c83")
+	)
 	(junction
 		(at 213.36 88.9)
 		(diameter 0)
@@ -1046,6 +1118,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c531151-049e-4a19-8700-d48b70ca5434")
+	)
+	(junction
+		(at 236.22 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b03704-a08e-4495-85c4-9effb546b888")
+	)
+	(junction
+		(at 175.26 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6284813-0191-4512-8757-e19623d8719a")
+	)
+	(junction
+		(at 175.26 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2f201ea-68ae-480c-88c0-0d96af6c41af")
 	)
 	(no_connect
 		(at 233.68 134.62)
@@ -1103,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 147.32) (xy 179.07 147.32)
+			(xy 167.64 147.32) (xy 175.26 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1143,6 +1233,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 127) (xy 238.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c15252-1d9f-45b0-91c1-51ab89444906")
+	)
+	(wire
+		(pts
 			(xy 186.69 147.32) (xy 198.12 147.32)
 		)
 		(stroke
@@ -1150,6 +1250,16 @@
 			(type default)
 		)
 		(uuid "507f37b6-0fdd-4a0a-b2b0-bf6550a3027d")
+	)
+	(wire
+		(pts
+			(xy 175.26 147.32) (xy 179.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56aada44-1d3e-42d5-8a55-cf93f9b40663")
 	)
 	(wire
 		(pts
@@ -1183,7 +1293,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 144.78) (xy 179.07 144.78)
+			(xy 167.64 144.78) (xy 175.26 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1233,6 +1343,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 144.78) (xy 179.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc72189-7eef-47e5-93d8-f5a279ff72b5")
+	)
+	(wire
+		(pts
 			(xy 205.74 97.79) (xy 205.74 99.06)
 		)
 		(stroke
@@ -1263,7 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 127) (xy 238.76 127)
+			(xy 233.68 127) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
@@ -1455,6 +1575,84 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 175.26 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0da4cb3c-cd00-4044-959c-f9aa7cc87715")
+		(property "Reference" "TP23"
+			(at 168.91 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1x01"
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10e80e0a-587b-41e7-a588-06da4b38454d")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f5ad3acf-d454-4676-a8b6-b39226f675ed"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 205.74 99.06 0)
 		(unit 1)
@@ -1613,6 +1811,84 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 175.26 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d118f8e-90cc-4264-a3d4-c31b9c98e3d5")
+		(property "Reference" "TP20"
+			(at 168.91 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1x01"
+			(at 175.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 175.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a13e056e-aeda-40f0-b641-08128104eaf0")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f5ad3acf-d454-4676-a8b6-b39226f675ed"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 226.06 93.98 0)
 		(unit 1)
@@ -1689,6 +1965,84 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f5ad3acf-d454-4676-a8b6-b39226f675ed"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 236.22 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d509409-6aed-4a6c-aaa4-ed96ef5078fc")
+		(property "Reference" "TP24"
+			(at 229.87 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1x01"
+			(at 236.22 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 236.22 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f212d736-3d15-44e6-8135-f499c4de18a2")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f5ad3acf-d454-4676-a8b6-b39226f675ed"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -1969,7 +2323,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:U-SkyTraq-ORION-B16"
-			(at 215.9 134.62 0)
+			(at 215.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,7 +2334,7 @@
 			)
 		)
 		(property "Datasheet" "https://navspark.mybigcommerce.com/content/Orion_B16_DS.pdf"
-			(at 215.9 134.62 0)
+			(at 216.662 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1991,7 +2345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 134.62 0)
+			(at 162.56 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

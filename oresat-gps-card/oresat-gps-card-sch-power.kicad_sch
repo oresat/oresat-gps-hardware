@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2024-05-25")
-		(rev "v1.1")
+		(date "2026-06-28")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1582,6 +1582,121 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_6"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_6_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_6_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4645,7 +4760,7 @@
 		)
 		(uuid "1b4cf5ee-5a67-4c71-b3c7-3bd297ff669b")
 	)
-	(text "Vbus = (6.0,7.2,8.4)V"
+	(text ""
 		(exclude_from_sim no)
 		(at 198.12 33.02 0)
 		(effects
@@ -4661,7 +4776,9 @@
 		(at 203.2 205.74 0)
 		(effects
 			(font
-				(size 3.81 3.2385)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -4678,34 +4795,27 @@
 		)
 		(uuid "4add2e21-1d69-42f3-a32f-fdd450adc53e")
 	)
-	(text "OreSat Power Domain (OPD)\nPower Supply (3.3V)"
+	(text "OreSat Power Domain (OPD)\nPower Supply (3.3V)\nAddress\n0011001 or 19"
 		(exclude_from_sim no)
-		(at 35.56 38.1 0)
+		(at 40.64 38.608 0)
 		(effects
 			(font
-				(size 1.778 1.5113)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 		(uuid "52f05abf-29e9-4d86-b1dd-6d992040853f")
 	)
-	(text "OreSat Power Domain (OPD) Controller"
-		(exclude_from_sim no)
-		(at 38.1 27.94 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "610e9bf3-6efe-4954-8a0c-6f50e11d9df8")
-	)
 	(text "UART Switch"
 		(exclude_from_sim no)
-		(at 200.66 139.7 0)
+		(at 197.104 155.448 0)
 		(effects
 			(font
-				(size 3.81 3.2385)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -4713,10 +4823,12 @@
 	)
 	(text "Card Power Switch and Circuit Breaker"
 		(exclude_from_sim no)
-		(at 251.46 27.94 0)
+		(at 251.206 30.48 0)
 		(effects
 			(font
-				(size 3.81 3.2385)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -4738,29 +4850,46 @@
 		(at 40.64 60.96 0)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 		(uuid "a82c8e09-0a62-46ef-a648-769662c85e82")
+	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 119.634 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b301e4dc-96ba-4355-b16b-66da9129eab3")
 	)
 	(text "OreSat Power Enable\n(PEN)"
 		(exclude_from_sim no)
 		(at 58.42 160.02 0)
 		(effects
 			(font
-				(size 2.54 2.159)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right bottom)
 		)
 		(uuid "d2b37db3-36b0-4610-a36d-08995dbcc4c2")
 	)
-	(text "Main Power Switch"
+	(text "Main Power Switch\nVbus = (6.0,7.2,8.4)V"
 		(exclude_from_sim no)
-		(at 199.39 29.21 0)
+		(at 198.628 31.75 0)
 		(effects
 			(font
-				(size 2.54 2.159)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -5264,6 +5393,12 @@
 		(color 0 0 0 0)
 		(uuid "f8b73f01-cb8a-4a49-8f5e-41a5e0293535")
 	)
+	(junction
+		(at 215.9 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa12ca2f-6b9b-421d-a53b-38ca961c7d30")
+	)
 	(no_connect
 		(at 203.2 220.98)
 		(uuid "c8a7cbd6-f996-490b-8572-4bb1b6c2a5b9")
@@ -5348,16 +5483,6 @@
 		)
 		(uuid "0792ebf2-5a4f-4f93-ae9f-b3c7745d80de")
 	)
-	(polyline
-		(pts
-			(xy 180.34 193.04) (xy 180.34 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "089116af-7c4b-4b25-bb80-0865242ac660")
-	)
 	(wire
 		(pts
 			(xy 182.88 127) (xy 182.88 165.1)
@@ -5377,16 +5502,6 @@
 			(type default)
 		)
 		(uuid "09da3351-7f71-4e15-b54c-08ceb979efce")
-	)
-	(polyline
-		(pts
-			(xy 180.34 193.04) (xy 294.64 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a4e0867-cce5-4715-a30b-f97b7cdd5dca")
 	)
 	(wire
 		(pts
@@ -5498,26 +5613,6 @@
 		)
 		(uuid "11d8a3b7-bb0b-47d6-bc1a-8c67825fee52")
 	)
-	(polyline
-		(pts
-			(xy 153.67 17.78) (xy 33.02 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13a093b0-84d8-48a9-9316-f547328db8e7")
-	)
-	(polyline
-		(pts
-			(xy 261.62 187.96) (xy 261.62 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13efdee1-f1c5-48bd-ae22-2212025a3eda")
-	)
 	(wire
 		(pts
 			(xy 91.44 127) (xy 96.52 127)
@@ -5557,16 +5652,6 @@
 			(type default)
 		)
 		(uuid "18922db1-0740-4a9e-bbf9-1b5ac569dc6b")
-	)
-	(polyline
-		(pts
-			(xy 17.78 144.78) (xy 124.46 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19213ab2-bb8f-4291-8ab4-8fe363b2347d")
 	)
 	(wire
 		(pts
@@ -5677,16 +5762,6 @@
 			(type default)
 		)
 		(uuid "24415fc5-c83e-46fd-be13-de55728690db")
-	)
-	(polyline
-		(pts
-			(xy 124.46 248.92) (xy 124.46 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2687b5b2-dee6-4b32-81cd-07c82a4aab80")
 	)
 	(wire
 		(pts
@@ -6028,16 +6103,6 @@
 		)
 		(uuid "423fdef9-33e1-45b0-a393-fafcb88d0e8f")
 	)
-	(polyline
-		(pts
-			(xy 180.34 243.84) (xy 294.64 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b4b684-8ca1-4938-9045-803cb95643a1")
-	)
 	(wire
 		(pts
 			(xy 187.96 215.9) (xy 187.96 218.44)
@@ -6047,16 +6112,6 @@
 			(type default)
 		)
 		(uuid "4326928f-dd4c-4795-8921-a7c73b27ef88")
-	)
-	(polyline
-		(pts
-			(xy 153.67 142.24) (xy 153.67 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43987208-e9ed-45ea-ab94-1383c95c37a5")
 	)
 	(wire
 		(pts
@@ -6200,7 +6255,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 142.24) (xy 215.9 116.84)
+			(xy 215.9 142.24) (xy 215.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6840,6 +6895,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.918 134.62) (xy 232.918 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de61980-5705-426f-b6dc-6cfba9d1a8d3")
+	)
+	(wire
+		(pts
 			(xy 30.48 223.52) (xy 34.29 223.52)
 		)
 		(stroke
@@ -6877,16 +6942,6 @@
 			(type default)
 		)
 		(uuid "7ffc4678-ddc3-4071-aea9-838489fe57c6")
-	)
-	(polyline
-		(pts
-			(xy 167.64 132.08) (xy 261.62 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80792039-9ae0-4f30-8ef0-a258e66de25a")
 	)
 	(wire
 		(pts
@@ -7048,16 +7103,6 @@
 		)
 		(uuid "8fbdd044-7d57-473e-b69a-08ed1864522c")
 	)
-	(polyline
-		(pts
-			(xy 391.16 109.22) (xy 175.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a96a01-373d-4243-b6ac-8fd644470286")
-	)
 	(wire
 		(pts
 			(xy 182.88 116.84) (xy 182.88 99.06)
@@ -7138,16 +7183,6 @@
 		)
 		(uuid "941083f1-a82f-4cc0-9830-42f7d6a9d0ef")
 	)
-	(polyline
-		(pts
-			(xy 17.78 144.78) (xy 17.78 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9712427c-7412-4f6a-bb16-7d867249f639")
-	)
 	(wire
 		(pts
 			(xy 109.22 93.98) (xy 109.22 99.06)
@@ -7197,6 +7232,16 @@
 			(type default)
 		)
 		(uuid "9cd38a09-c287-4fac-913e-6c544a8609f4")
+	)
+	(wire
+		(pts
+			(xy 223.52 134.62) (xy 225.298 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9def4c94-6e7b-489f-b834-7ef65892aef9")
 	)
 	(wire
 		(pts
@@ -7268,16 +7313,6 @@
 		)
 		(uuid "a6fa41fd-3b08-4dea-9fd3-886bc3214fd7")
 	)
-	(polyline
-		(pts
-			(xy 33.02 142.24) (xy 153.67 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7390d51-836d-4c77-bc1a-5a3dd38f7774")
-	)
 	(wire
 		(pts
 			(xy 246.38 223.52) (xy 246.38 226.06)
@@ -7317,16 +7352,6 @@
 			(type default)
 		)
 		(uuid "a9cf7fad-83ca-4e30-9bd8-aa0b84d4e9e7")
-	)
-	(polyline
-		(pts
-			(xy 167.64 187.96) (xy 261.62 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf89a8c-1308-47f7-8fc1-b9890c744a12")
 	)
 	(wire
 		(pts
@@ -7418,16 +7443,6 @@
 		)
 		(uuid "b57ddbee-0893-4bfb-a6b8-31019f0538ce")
 	)
-	(polyline
-		(pts
-			(xy 175.26 109.22) (xy 175.26 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5cbf961-2514-47b2-b8bb-2d85af39b514")
-	)
 	(wire
 		(pts
 			(xy 292.1 63.5) (xy 289.56 63.5)
@@ -7517,16 +7532,6 @@
 			(type default)
 		)
 		(uuid "bee8cb17-c7d4-4629-bd27-7ddef0833064")
-	)
-	(polyline
-		(pts
-			(xy 33.02 17.78) (xy 33.02 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16b7585-3534-4d86-b1b5-8b69ae60e405")
 	)
 	(wire
 		(pts
@@ -7768,16 +7773,6 @@
 		)
 		(uuid "d2dac5d5-6dbe-4f1f-9150-d353de951596")
 	)
-	(polyline
-		(pts
-			(xy 175.26 17.78) (xy 391.16 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3fa1d49-323c-4b64-9846-6650dc37ed53")
-	)
 	(wire
 		(pts
 			(xy 193.04 55.88) (xy 198.12 55.88)
@@ -7827,16 +7822,6 @@
 			(type default)
 		)
 		(uuid "d9284e9b-116f-424f-95ce-0bda3248756c")
-	)
-	(polyline
-		(pts
-			(xy 17.78 248.92) (xy 124.46 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da573afd-bf85-4d93-96f7-8ace075249e4")
 	)
 	(wire
 		(pts
@@ -8048,16 +8033,6 @@
 		)
 		(uuid "ec7b48c7-be78-437b-b420-b15d1376bc46")
 	)
-	(polyline
-		(pts
-			(xy 391.16 17.78) (xy 391.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecab54f9-9dfc-4398-80fc-16bee1d1f7ca")
-	)
 	(wire
 		(pts
 			(xy 121.92 116.84) (xy 140.97 116.84)
@@ -8088,16 +8063,6 @@
 		)
 		(uuid "ee6e7cc1-bb65-4086-ae2c-0d961c54db72")
 	)
-	(polyline
-		(pts
-			(xy 167.64 132.08) (xy 167.64 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff1cb8e-298b-438e-97ff-2618e7795c8f")
-	)
 	(wire
 		(pts
 			(xy 66.04 149.86) (xy 66.04 121.92)
@@ -8117,16 +8082,6 @@
 			(type default)
 		)
 		(uuid "f04159c2-42dd-438f-8f9d-35d9c056b49a")
-	)
-	(polyline
-		(pts
-			(xy 294.64 243.84) (xy 294.64 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f12dff31-1245-41e8-9c3d-b06730a0dbfc")
 	)
 	(wire
 		(pts
@@ -8167,6 +8122,16 @@
 			(type default)
 		)
 		(uuid "f560d0d1-0cc2-4ddb-8b4a-1fc9dc154aa3")
+	)
+	(wire
+		(pts
+			(xy 215.9 134.62) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d8ef7a-7382-4332-afd7-225e88b50350")
 	)
 	(wire
 		(pts
@@ -9342,7 +9307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.9348 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9932,7 +9897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.9252 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10116,7 +10081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.5052 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10781,7 +10746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70.1548 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10905,6 +10870,85 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3508ea2b-db4e-4b7b-bafe-dfd35a34e0e0")
+		(property "Reference" "R61"
+			(at 217.17 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 222.25 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.964 133.604 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 219.71 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4069f358-07ed-4f6a-abe1-05dccfb79b2e")
+		)
+		(pin "2"
+			(uuid "337d5018-c839-477a-8208-899f402b4508")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -11429,7 +11473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 328.6252 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11746,6 +11790,86 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_6")
+		(lib_id "power:GND")
+		(at 232.918 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418e983f-c162-4e0f-9061-d498a30bdbc3")
+		(property "Reference" "#GND0194"
+			(at 232.918 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 235.458 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.918 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.918 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.918 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c45a2d1-afa5-4892-ac5d-574c3976148e")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
+					(reference "#GND0194")
 					(unit 1)
 				)
 			)
@@ -13564,7 +13688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 265.1252 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -14105,7 +14229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 351.4852 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14675,6 +14799,97 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 229.108 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c601c67-a23d-475e-bfa9-d7138b98c317")
+		(property "Reference" "D11"
+			(at 230.6955 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 230.6955 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 229.108 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.108 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 229.108 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 229.108 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0819ff52-2939-4962-8c16-199f5589bedf")
+		)
+		(pin "2"
+			(uuid "7842e4b2-0718-4b05-8261-0ca07fd1885b")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -17873,7 +18088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70.1548 177.8 0)
 			(hide yes)
 			(show_name no)

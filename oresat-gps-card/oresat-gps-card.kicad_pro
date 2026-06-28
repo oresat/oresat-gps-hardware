@@ -77,7 +77,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|133810000|119825000|6b49fe1d-bd1c-41cf-9f59-74fa31bcfa59|ac046b54-8b8f-4420-8107-f5d0bad48815",
+          ""
+        ],
+        [
+          "shorting_items|133810000|120825000|7392d0ad-732d-4665-bc25-33e277c74703|cb7fd3ac-88df-40ce-bbd0-cdaa754b8e03",
+          ""
+        ],
+        [
+          "shorting_items|133950001|117824999|0df28253-4ae4-4625-b15d-049051a271c0|c3a4d4d9-1035-4bb1-b656-3445a283ae3b",
+          ""
+        ],
+        [
+          "shorting_items|135450000|119185000|71b98f3d-45e4-48a2-9650-c76a874f6d7c|c5194ee7-51f6-4dcf-9c63-7f505229d468",
+          ""
+        ],
+        [
+          "shorting_items|135950000|118965000|778dc056-d911-42bf-9e08-22ff5ed70576|8411752a-fc8d-4c2d-9169-e7f151e8e149",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -276,7 +297,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.1"
+      "sch_revision": "1.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -611,7 +632,6 @@
         "bus_width": 12,
         "clearance": 1.0105,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -630,7 +650,6 @@
         "bus_width": 12,
         "clearance": 0.6063,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -890,7 +909,7 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#5V105,TP20,TP23-24,R61-62,#GND143,#GND194-195,D11-12,#VBUSP103",
     "variants": []
   },
   "sheets": [

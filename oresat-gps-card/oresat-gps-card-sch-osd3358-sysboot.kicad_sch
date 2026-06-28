@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2024-05-25")
-		(rev "v1.1")
+		(date "2026-06-28")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -6610,136 +6610,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-misc:Test-Point-1mm-round"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1mm round SMT test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Test-Point-1mm-round_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-passives:EXB-A10P391J"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8111,6 +7981,17 @@
 		)
 		(uuid "17439c17-48c3-48a4-a9e1-cc4e8ed76b23")
 	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 116.84 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21d93756-b230-4037-b403-f6674130ebb2")
+	)
 	(text "Default Sysboot Pins\nSYSBOOT[4 : 0] == 0b11x00\nSYSBOOT[2] HIGH == eMMC\nSYSBOOT[2] LOW == SD Card"
 		(exclude_from_sim no)
 		(at 295.91 168.91 0)
@@ -8377,12 +8258,6 @@
 		(uuid "31a1fcd6-c5ad-4ba0-bfd2-e743121de30d")
 	)
 	(junction
-		(at 128.27 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4642287f-b49b-4b1f-bea6-03e4fbf603b1")
-	)
-	(junction
 		(at 138.43 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8399,24 +8274,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "705a83d3-710f-46b4-9a26-d47c8833115b")
-	)
-	(junction
-		(at 128.27 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84dc91ec-1fec-4230-92b6-53644b8a8b0c")
-	)
-	(junction
-		(at 128.27 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "906169df-d261-414a-9803-c2bb55b32900")
-	)
-	(junction
-		(at 128.27 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5397896-f799-42ad-8648-deea36d557a9")
 	)
 	(junction
 		(at 135.89 184.15)
@@ -8612,7 +8469,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 153.67) (xy 128.27 153.67)
+			(xy 125.73 153.67) (xy 153.67 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8662,7 +8519,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 125.73) (xy 128.27 125.73)
+			(xy 125.73 125.73) (xy 153.67 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8762,7 +8619,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 151.13) (xy 153.67 151.13)
+			(xy 125.73 151.13) (xy 153.67 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8822,16 +8679,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 128.27) (xy 153.67 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "515e02f7-bbc1-405f-8225-d44570aca418")
-	)
-	(wire
-		(pts
 			(xy 138.43 184.15) (xy 138.43 194.31)
 		)
 		(stroke
@@ -8859,16 +8706,6 @@
 			(type default)
 		)
 		(uuid "5b2524ce-b21e-4dfd-b654-866abf51e682")
-	)
-	(wire
-		(pts
-			(xy 125.73 151.13) (xy 128.27 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60de864e-25b0-46ae-bdfd-16eadb150df5")
 	)
 	(wire
 		(pts
@@ -8979,16 +8816,6 @@
 			(type default)
 		)
 		(uuid "8837a318-db6a-4e31-8d1b-7ff21db3efce")
-	)
-	(wire
-		(pts
-			(xy 128.27 153.67) (xy 153.67 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc99cae-989f-4c33-bd95-58c97df57c1b")
 	)
 	(wire
 		(pts
@@ -9112,17 +8939,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 125.73) (xy 153.67 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36d1b0c-00a9-4a80-88e3-b286f3e50796")
-	)
-	(wire
-		(pts
-			(xy 125.73 128.27) (xy 128.27 128.27)
+			(xy 125.73 128.27) (xy 153.67 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9636,162 +9453,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
 					(reference "R73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 128.27 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a8d8800-90db-4ae4-a671-9685e2a3fa9e")
-		(property "Reference" "TP113"
-			(at 133.096 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 125.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 125.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "286cb8bf-490b-4b5e-ba4d-0217d1aa091e")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-					(reference "TP113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 128.27 125.73 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4f223e6b-4497-4c9a-9fc5-1944ec662c44")
-		(property "Reference" "TP20"
-			(at 127 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 130.81 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 130.81 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f65b314-3f57-402c-b63e-697ab7a7c231")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -10905,162 +10566,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
 					(reference "#GND0153")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 128.27 153.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cad9bdd6-fe79-40a5-b817-e312bdde3c1b")
-		(property "Reference" "TP112"
-			(at 127 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 125.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 125.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "038b877d-f429-4909-8fa9-21992dea5b64")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-					(reference "TP112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 128.27 151.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e4fb58a8-627a-4bb6-81e2-e35149c9426e")
-		(property "Reference" "TP111"
-			(at 127 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 130.81 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 130.81 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e76e2d9-16de-4258-ae2e-7e6ff3a1fd1d")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-					(reference "TP111")
 					(unit 1)
 				)
 			)

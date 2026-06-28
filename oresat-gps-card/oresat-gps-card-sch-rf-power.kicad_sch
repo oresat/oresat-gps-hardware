@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2024-05-25")
-		(rev "v1.1")
+		(date "2026-06-28")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1458,8 +1458,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 10.16 0)
+			(property "Reference" "U16"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1469,7 +1469,7 @@
 				)
 			)
 			(property "Value" "BP2G+"
-				(at 5.08 10.16 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1478,7 +1478,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "oresat-ics:U-Minicircuits-BP2G+"
 				(at 1.27 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1500,7 +1500,7 @@
 					)
 				)
 			)
-			(property "Description" "L-band power splitter/combiner"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1508,19 +1508,6 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BP2G+_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -1671,6 +1658,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "BP2G+_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -1848,8 +1849,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -5.08 11.43 0)
+			(property "Reference" "U15"
+				(at 10.16 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1859,7 +1860,7 @@
 				)
 			)
 			(property "Value" "SKY65723-81"
-				(at -8.89 8.89 0)
+				(at 10.16 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1868,7 +1869,7 @@
 					)
 				)
 			)
-			(property "Footprint" "oresat-footprints:U-Skyworks-SKY65723-81-gps-lna"
+			(property "Footprint" "oresat-ics:U-Skyworks-SKY65723-81-gps-lna"
 				(at -2.54 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1876,6 +1877,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -1890,7 +1892,7 @@
 					)
 				)
 			)
-			(property "Description" "GPS LNA"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1898,19 +1900,6 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SKY65723-81_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -2006,133 +1995,17 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-misc:Test-Point-1mm-round"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1mm round SMT test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Test-Point-1mm-round_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
+			(symbol "SKY65723-81_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -2401,9 +2274,20 @@
 		)
 		(uuid "2ef310a3-8556-4ae8-9da1-d7c8394f4c77")
 	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 116.586 259.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac619140-5bbe-48c8-898d-f6290bdfc68b")
+	)
 	(text "2.85V digital supply for MAX2771"
 		(exclude_from_sim no)
-		(at 287.02 66.04 0)
+		(at 290.576 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2425,7 +2309,7 @@
 	)
 	(text "2.85V analog supply for MAX2771"
 		(exclude_from_sim no)
-		(at 287.02 96.52 0)
+		(at 290.576 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2479,12 +2363,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d22fb81-9fd0-47a0-8805-bf7703ef4d26")
-	)
-	(junction
-		(at 345.44 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "144974b9-e78e-4d7b-8263-eb7e1169bc98")
 	)
 	(junction
 		(at 274.32 73.66)
@@ -2541,12 +2419,6 @@
 		(uuid "9b1ec391-928f-433a-a3c6-b1a8878b1812")
 	)
 	(junction
-		(at 345.44 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a30be896-f7d5-4ab1-a620-8ee637def2bd")
-	)
-	(junction
 		(at 314.96 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2588,12 +2460,6 @@
 		(color 0 0 0 0)
 		(uuid "ec854a99-aca6-4ab9-ade0-a879afed0df8")
 	)
-	(junction
-		(at 345.44 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed54e958-dfe4-4042-81c0-7e600a9a049a")
-	)
 	(wire
 		(pts
 			(xy 279.4 104.14) (xy 274.32 104.14)
@@ -2623,16 +2489,6 @@
 			(type default)
 		)
 		(uuid "063e9b4a-028a-4031-80cd-947cd6a6169f")
-	)
-	(polyline
-		(pts
-			(xy 45.72 160.02) (xy 45.72 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0659b691-dfb3-4073-8adb-1cc7e40a0039")
 	)
 	(wire
 		(pts
@@ -2676,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 104.14) (xy 345.44 104.14)
+			(xy 335.28 104.14) (xy 350.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2894,16 +2750,6 @@
 		)
 		(uuid "480738d0-7c55-4761-8d31-71506067e8b7")
 	)
-	(polyline
-		(pts
-			(xy 373.38 190.5) (xy 373.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e54bf4f-bd7e-4908-bc53-9008a7637cb1")
-	)
 	(wire
 		(pts
 			(xy 259.08 73.66) (xy 261.62 73.66)
@@ -2916,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 149.86) (xy 345.44 149.86)
+			(xy 335.28 149.86) (xy 350.52 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2933,16 +2779,6 @@
 			(type default)
 		)
 		(uuid "552c87c9-ea5c-443a-ab68-da03093209ee")
-	)
-	(polyline
-		(pts
-			(xy 243.84 190.5) (xy 373.38 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "580dd47c-bdb2-47dd-a89a-079088d9399a")
 	)
 	(polyline
 		(pts
@@ -2963,16 +2799,6 @@
 			(type default)
 		)
 		(uuid "60776530-f40a-40d2-a957-163117cad1be")
-	)
-	(polyline
-		(pts
-			(xy 373.38 45.72) (xy 243.84 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69862f9f-0f87-4a50-ac50-99e8ebc71617")
 	)
 	(wire
 		(pts
@@ -3016,16 +2842,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 104.14) (xy 350.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75cc0207-3489-4266-bab5-7de2852c353d")
-	)
-	(wire
-		(pts
 			(xy 269.24 83.82) (xy 269.24 86.36)
 		)
 		(stroke
@@ -3033,16 +2849,6 @@
 			(type default)
 		)
 		(uuid "77aa4354-1d60-4005-8ce6-eb4f737b8883")
-	)
-	(wire
-		(pts
-			(xy 345.44 73.66) (xy 350.52 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ddb89b-da8d-4ce0-9350-36fa957e1f2d")
 	)
 	(wire
 		(pts
@@ -3104,16 +2910,6 @@
 		)
 		(uuid "89687cfd-4980-4ad0-862b-f4cbc779a3f8")
 	)
-	(polyline
-		(pts
-			(xy 190.5 53.34) (xy 190.5 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a284cc1-a533-461e-9bf8-d2184c175cd8")
-	)
 	(wire
 		(pts
 			(xy 83.82 87.884) (xy 83.82 88.9)
@@ -3163,26 +2959,6 @@
 			(type default)
 		)
 		(uuid "9ced7ee9-3404-4e7c-9816-7749d434a213")
-	)
-	(polyline
-		(pts
-			(xy 243.84 45.72) (xy 243.84 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d51bb60-7a1c-43c2-88f8-bbb997c57798")
-	)
-	(wire
-		(pts
-			(xy 345.44 149.86) (xy 350.52 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e76cd5e-29cf-452d-b0a2-750bcfdaa96d")
 	)
 	(wire
 		(pts
@@ -3283,16 +3059,6 @@
 			(type default)
 		)
 		(uuid "b031a9eb-ada5-4d8c-bf72-80c7e95ac609")
-	)
-	(polyline
-		(pts
-			(xy 45.72 160.02) (xy 190.5 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03ea06a-b301-4937-9b15-0dbf85cebce3")
 	)
 	(wire
 		(pts
@@ -3474,16 +3240,6 @@
 		)
 		(uuid "e793efb9-29c8-49bf-b682-7e87626b78fd")
 	)
-	(polyline
-		(pts
-			(xy 45.72 53.34) (xy 190.5 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e820fe34-97ef-4b83-a5a5-b8c4fda150f7")
-	)
 	(wire
 		(pts
 			(xy 99.06 78.74) (xy 99.06 91.44)
@@ -3536,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 73.66) (xy 345.44 73.66)
+			(xy 335.28 73.66) (xy 350.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4471,7 +4227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.8548 87.884 0)
 			(hide yes)
 			(show_name no)
@@ -4558,6 +4314,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 255 194 1)
 				)
 			)
 		)
@@ -5561,84 +5318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 345.44 149.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74dcd89b-3252-43e7-8664-5539075255fe")
-		(property "Reference" "TP97"
-			(at 342.9 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 345.44 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 345.44 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 345.44 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4123049-0ee9-4fcc-a18e-ecc83b6aaa52")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/9466b485-4fbd-4df7-9d49-44799fc3f2b8"
-					(reference "TP97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 88.9 0)
 		(unit 1)
@@ -6362,84 +6041,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 345.44 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7a69ce9-fce3-4d64-adc6-cae1097a49ec")
-		(property "Reference" "TP95"
-			(at 342.9 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 345.44 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 345.44 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 345.44 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60ea8a23-7f15-4591-ad2d-684d77d13164")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/9466b485-4fbd-4df7-9d49-44799fc3f2b8"
-					(reference "TP95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 264.16 73.66 90)
 		(unit 1)
@@ -6787,7 +6388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 258.1148 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6830,84 +6431,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/9466b485-4fbd-4df7-9d49-44799fc3f2b8"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 345.44 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b46eb1d2-ca25-4591-ba99-c4ab57ec7e1e")
-		(property "Reference" "TP96"
-			(at 342.9 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.03x0.04"
-			(at 345.44 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 345.44 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 345.44 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b6aef40-357c-44cb-8880-a656a348114f")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/9466b485-4fbd-4df7-9d49-44799fc3f2b8"
-					(reference "TP96")
 					(unit 1)
 				)
 			)
@@ -7974,7 +7497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 268.2748 83.82 0)
 			(hide yes)
 			(show_name no)
