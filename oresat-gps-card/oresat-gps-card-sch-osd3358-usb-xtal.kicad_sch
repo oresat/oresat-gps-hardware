@@ -7667,7 +7667,7 @@
 	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
-		(at 116.586 260.096 0)
+		(at 116.84 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7976,7 +7976,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 182.88) (xy 175.26 188.976)
+			(xy 175.26 182.88) (xy 175.26 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8046,7 +8046,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 145.542) (xy 119.38 147.32)
+			(xy 119.38 146.05) (xy 119.38 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8146,7 +8146,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 123.952 109.22)
+			(xy 127 109.22) (xy 124.46 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8156,7 +8156,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.332 109.22) (xy 113.03 109.22)
+			(xy 116.84 109.22) (xy 113.03 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8216,7 +8216,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 74.676) (xy 139.7 78.74)
+			(xy 139.7 74.93) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8266,7 +8266,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 134.62) (xy 119.38 137.922)
+			(xy 119.38 134.62) (xy 119.38 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8296,7 +8296,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.316 63.5) (xy 113.03 63.5)
+			(xy 115.57 63.5) (xy 113.03 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8336,7 +8336,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 139.7 67.056)
+			(xy 139.7 63.5) (xy 139.7 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8386,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.444 93.98) (xy 127 93.98)
+			(xy 123.19 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8446,7 +8446,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 115.824 93.98)
+			(xy 113.03 93.98) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8566,7 +8566,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 196.596) (xy 175.26 200.66)
+			(xy 175.26 196.85) (xy 175.26 200.66)
 		)
 		(stroke
 			(width 0)
@@ -8636,7 +8636,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.936 63.5) (xy 125.73 63.5)
+			(xy 123.19 63.5) (xy 125.73 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9330,7 +9330,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.26 192.786 180)
+		(at 175.26 193.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9340,7 +9340,7 @@
 		(dnp no)
 		(uuid "82693ad8-08de-4303-9351-c7755999dfa8")
 		(property "Reference" "C30"
-			(at 179.07 190.881 0)
+			(at 179.07 191.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9350,7 +9350,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 179.705 194.691 0)
+			(at 179.705 194.945 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9360,7 +9360,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 174.2948 188.976 0)
+			(at 174.2948 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9371,7 +9371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 192.786 0)
+			(at 175.26 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +9382,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 175.26 192.786 0)
+			(at 175.26 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9409,7 +9409,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.142 109.22 90)
+		(at 120.65 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9419,7 +9419,7 @@
 		(dnp no)
 		(uuid "91d9b129-4c3d-447f-b935-b6fb10ff7b56")
 		(property "Reference" "C29"
-			(at 120.142 103.632 90)
+			(at 120.65 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9429,7 +9429,7 @@
 			)
 		)
 		(property "Value" "12pF, 50V"
-			(at 120.142 105.664 90)
+			(at 120.65 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9439,7 +9439,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 123.952 108.2548 0)
+			(at 124.46 108.2548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9450,7 +9450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.142 109.22 0)
+			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,7 +9461,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.142 109.22 0)
+			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10508,7 +10508,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.634 93.98 90)
+		(at 119.38 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10518,7 +10518,7 @@
 		(dnp no)
 		(uuid "a8b25800-7c66-4461-acda-b14efd77f6e7")
 		(property "Reference" "C28"
-			(at 119.634 97.282 90)
+			(at 119.38 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10528,7 +10528,7 @@
 			)
 		)
 		(property "Value" "12pF, 50V"
-			(at 119.634 99.314 90)
+			(at 119.38 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10538,7 +10538,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 123.444 93.0148 0)
+			(at 123.19 93.0148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10549,7 +10549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.634 93.98 0)
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10560,7 +10560,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.634 93.98 0)
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10824,7 +10824,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.126 63.5 90)
+		(at 119.38 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10834,7 +10834,7 @@
 		(dnp no)
 		(uuid "cfc8cc01-37a9-4abe-9189-4bf1b9d6e0a1")
 		(property "Reference" "C26"
-			(at 119.126 57.404 90)
+			(at 119.38 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10844,7 +10844,7 @@
 			)
 		)
 		(property "Value" "12pF, 50V"
-			(at 119.126 59.69 90)
+			(at 119.38 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10854,7 +10854,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 122.936 62.5348 0)
+			(at 123.19 62.5348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,7 +10865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.126 63.5 0)
+			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10876,7 +10876,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.126 63.5 0)
+			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,7 +10903,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 139.7 70.866 0)
+		(at 139.7 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10913,7 +10913,7 @@
 		(dnp no)
 		(uuid "d2999f34-d07e-472b-a6e5-27a7cf8547c8")
 		(property "Reference" "R47"
-			(at 142.24 69.5959 0)
+			(at 142.24 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10924,7 +10924,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 142.24 72.1359 0)
+			(at 142.24 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10935,7 +10935,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 140.716 71.12 90)
+			(at 140.716 71.374 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10946,7 +10946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 70.866 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10957,7 +10957,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 139.7 70.866 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11062,7 +11062,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 119.38 141.732 0)
+		(at 119.38 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11072,7 +11072,7 @@
 		(dnp no)
 		(uuid "e5642282-e2fc-4c3e-9b2e-323f72a2c7ba")
 		(property "Reference" "R75"
-			(at 121.92 140.462 90)
+			(at 121.92 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11083,7 +11083,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.92 145.542 90)
+			(at 121.92 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11094,7 +11094,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.396 141.986 90)
+			(at 120.396 142.494 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11105,7 +11105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 141.732 0)
+			(at 119.38 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,7 +11116,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 119.38 141.732 0)
+			(at 119.38 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

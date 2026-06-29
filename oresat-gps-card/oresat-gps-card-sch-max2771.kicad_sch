@@ -3262,7 +3262,7 @@
 	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
-		(at 117.602 260.604 0)
+		(at 118.11 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3273,7 +3273,7 @@
 	)
 	(text "4 bits I/Q data @ 4.092 Msps"
 		(exclude_from_sim no)
-		(at 228.092 110.998 0)
+		(at 228.6 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3317,12 +3317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a687bc0-7b9e-42b9-b3a7-69429e4c6d2e")
-	)
-	(junction
-		(at 308.61 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2afb43b6-41c3-4c54-90e4-7535c6c66c1b")
 	)
 	(junction
 		(at 294.64 157.48)
@@ -3373,6 +3367,12 @@
 		(uuid "af99555b-bb2d-43d5-a3a0-095b56cdb6a8")
 	)
 	(junction
+		(at 308.61 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b29f4081-82f8-4d56-ad5d-064938b6313f")
+	)
+	(junction
 		(at 152.4 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3394,7 +3394,7 @@
 		(at 308.61 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f20fabed-d6f4-4690-83c7-bc93a786abe2")
+		(uuid "e31612a9-1851-4ea5-b190-6aaa424424ef")
 	)
 	(no_connect
 		(at 173.99 144.78)
@@ -3610,6 +3610,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 143.51) (xy 308.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daf086f-2ba3-42e1-8bf4-f0e26b2d7b34")
+	)
+	(wire
+		(pts
 			(xy 294.64 157.48) (xy 294.64 158.75)
 		)
 		(stroke
@@ -3700,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 125.73) (xy 237.744 125.73)
+			(xy 224.79 125.73) (xy 237.49 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4150,6 +4160,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 130.81) (xy 308.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c437a73-aae3-4069-98f4-ec9419152ce6")
+	)
+	(wire
+		(pts
 			(xy 217.17 63.5) (xy 217.17 60.96)
 		)
 		(stroke
@@ -4460,7 +4480,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 121.92) (xy 237.744 121.92)
+			(xy 224.79 121.92) (xy 237.49 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4748,9 +4768,57 @@
 		)
 		(uuid "fdff0a2c-ea0a-4a23-ba1e-8caeace4643e")
 	)
+	(label "LNA2-RF"
+		(at 161.29 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4be67eb1-8c92-4a4c-b1a9-f8ca8f46ce7b")
+	)
+	(label "MAX-FLT-RF"
+		(at 138.43 182.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e4c78b6-89ce-45c3-8b90-6fe76d77136f")
+	)
+	(label "LNAOUT-RF"
+		(at 161.29 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "82061866-6d24-4d79-8bb6-ae516512f2e9")
+	)
+	(label "MIXIN-RF"
+		(at 144.7098 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "afe7f066-84f9-4f1e-9456-48b5df60e6fb")
+	)
 	(hierarchical_label "Q0"
 		(shape input)
-		(at 237.744 121.92 0)
+		(at 237.49 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4860,7 +4928,7 @@
 	)
 	(hierarchical_label "Q1"
 		(shape input)
-		(at 237.744 125.73 0)
+		(at 237.49 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8211,7 +8279,7 @@
 		(dnp no)
 		(uuid "85210be0-d43a-44d1-bb6c-e873aec0678e")
 		(property "Reference" "C88"
-			(at 243.84 153.67 90)
+			(at 241.3 151.638 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8221,7 +8289,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 238.76 153.67 90)
+			(at 241.3 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9075,7 +9143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.61 142.24 0)
+		(at 308.61 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9086,7 +9154,7 @@
 		(fields_autoplaced yes)
 		(uuid "a79ee768-d0cc-45ec-9f69-4b5ab8e7e995")
 		(property "Reference" "#GND0248"
-			(at 308.61 148.59 0)
+			(at 308.61 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9097,7 +9165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 311.15 143.5099 0)
+			(at 311.15 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9108,7 +9176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 142.24 0)
+			(at 308.61 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,7 +9187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 142.24 0)
+			(at 308.61 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9130,7 +9198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 142.24 0)
+			(at 308.61 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10309,7 +10377,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:3.3V")
-		(at 308.61 132.08 0)
+		(at 308.61 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10317,10 +10385,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cddcebd2-60f7-40a8-b9d3-e7264b1db25f")
 		(property "Reference" "#3V0115"
-			(at 308.61 135.89 0)
+			(at 308.61 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10331,7 +10398,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 308.61 127 0)
+			(at 308.61 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10341,7 +10408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 132.08 0)
+			(at 308.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10352,7 +10419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 132.08 0)
+			(at 308.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10363,7 +10430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 132.08 0)
+			(at 308.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

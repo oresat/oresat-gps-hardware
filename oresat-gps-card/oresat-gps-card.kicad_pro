@@ -52,9 +52,9 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "border_hatch_pitch": 0.508,
+          "corner_radius": 0.2,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,10 +63,10 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.127,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.127,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -96,18 +96,6 @@
         ],
         [
           "shorting_items|134048995|118423995|755756f8-c56e-430c-901e-8cd50febe42a|a1fda3ba-2503-4d73-a034-6ff4d3869117",
-          ""
-        ],
-        [
-          "shorting_items|134048995|119923995|0b7dd4ff-19cc-45b1-a109-5cbc3a686e6e|6b49fe1d-bd1c-41cf-9f59-74fa31bcfa59",
-          ""
-        ],
-        [
-          "shorting_items|134310000|119325000|e3e68e69-5376-4a4f-a6ab-50aa020923b5|f6683d43-26cc-4c2a-b39e-d16297312f10",
-          ""
-        ],
-        [
-          "shorting_items|134351005|120423995|1481975a-0ce9-40c5-80f1-93a1c364eaed|fc18a08a-6920-4b36-9a83-e7e31737a295",
           ""
         ],
         [
@@ -407,6 +395,14 @@
         ""
       ],
       [
+        "power_pin_not_driven|1752600|1168400|fd53f5e2-5182-4bba-930b-92c637bb5f10|00000000-0000-0000-0000-000000000000|/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac|/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1803400|508000|7125f216-0e82-42b1-a44e-3ce90cf9f505|00000000-0000-0000-0000-000000000000|/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac|/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac|",
+        ""
+      ],
+      [
         "power_pin_not_driven|1905000|685800|aaba4637-870f-4a97-83c7-a2d4b6566cea|00000000-0000-0000-0000-000000000000|/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372|/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372|",
         ""
       ],
@@ -415,7 +411,15 @@
         ""
       ],
       [
+        "power_pin_not_driven|2641600|558800|7c886f8f-8586-4dfc-a144-44605dd8ee47|00000000-0000-0000-0000-000000000000|/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372|/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372|",
+        ""
+      ],
+      [
         "power_pin_not_driven|2946400|736600|f200c9e3-ea37-4848-8c74-fa4dc58dee8a|00000000-0000-0000-0000-000000000000|/65d12cdd-c326-4033-9053-c59fa4e0b25e/9466b485-4fbd-4df7-9d49-44799fc3f2b8|/65d12cdd-c326-4033-9053-c59fa4e0b25e/9466b485-4fbd-4df7-9d49-44799fc3f2b8|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|736600|2184400|06b94f66-a48f-42bc-b765-ed5d8e9098a9|00000000-0000-0000-0000-000000000000|/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac|/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac|",
         ""
       ],
       [
@@ -724,36 +728,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "RF-50-max",
-        "pattern": "/RF + RF Power/RF-OUT"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "MAX-RF"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "Net-(C60-Pad2)"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "Net-(L2-Pad2)"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "RF-IN"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "STQ-RF"
-      },
-      {
         "netclass": "RF-50-min",
-        "pattern": "/MAX2771/LNAOUT"
-      },
-      {
-        "netclass": "RF-50-min",
-        "pattern": "/MAX2771/MIXIN"
+        "pattern": "*RF*"
       }
     ]
   },
@@ -961,7 +937,7 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C55",
     "variants": []
   },
   "sheets": [

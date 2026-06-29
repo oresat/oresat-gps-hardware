@@ -1,9 +1,23 @@
 (version 1)
-(rule RF_Clearance_Relaxation_at_Pad
-	(constraint clearance (min 0.17mm))
-	(condition "A.hasNetclass('RF-50-max') && B.Type == 'Pad'")
+
+# For the RF netclass, ignore erors caused by pads being withing 0.5 mm
+
+(rule "RF_Clearance_Relaxation_at_Pad"
+    (condition "A.NetClass == 'RF-50-min' && B.Type == 'Pad'")
+    (constraint clearance (min 0.17mm))
 )
-(rule RF_Clearance_Trace_to_Trace_Relaxation
-	(constraint clearance (min 0.15mm))
-	(condition "A.hasNetclass('RF-50-max') && B.Type == 'Track'")
+
+# For the RF netclass, ignore erors caused by traces being withing 0.5 mm
+# while still allowing the clearance to be 0.5 mm
+
+(rule "RF_Clearance_Trace_to_Trace_Relaxation"
+    (condition "A.NetClass == 'RF-50-min' && B.Type == 'Track'")
+    (constraint clearance (min 0.15mm))
+)
+
+# For the SMPM edge connectors, ignore copper near edge cuts errors
+
+(rule "Allow_Copper_To_Edge"
+    (condition "A.insideArea('EDGE_PERMIT_ZONE')")
+    (constraint edge_clearance (min -1mm))
 )

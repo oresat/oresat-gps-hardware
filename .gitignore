@@ -1,6 +1,5 @@
 # Ignore local archives and build folders
 archive
-local-archive
 build
 
 # For PCBs designed using KiCad: https://www.kicad.org/
@@ -10,17 +9,19 @@ build
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
 *.kicad_prl
 *.sch-bak
 *~
-_autosave-*
+*_autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+.history
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -32,59 +33,3 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-
-# ----------------------------------------------------------------------------
-
-# Ignore list for Eagle, a PCB layout tool
-
-# Backup files
-*.s#?
-*.b#?
-*.l#?
-*.d#?
-*.b$?
-*.s$?
-*.l$?
-
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
-
-# Autorouter files
-*.pro
-*.job
-
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
-
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.gpi
-*.xln
-
-*.drd
-*.drd.*
-
-*.s#*
-*.b#*
-
-*.info
-
-*.eps
-
-# file locks introduced since 7.x
-*.lck
