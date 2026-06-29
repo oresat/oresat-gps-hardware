@@ -5178,12 +5178,6 @@
 		(uuid "7a519da1-6d68-4e75-8f17-1927272cc31a")
 	)
 	(junction
-		(at 182.88 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b3ed7e2-bb30-42b5-af15-80bc015809d5")
-	)
-	(junction
 		(at 60.96 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6295,16 +6289,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 195.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522df062-2917-49e9-a5f7-51af3d6540fa")
-	)
-	(wire
-		(pts
 			(xy 71.12 210.82) (xy 71.12 214.63)
 		)
 		(stroke
@@ -7105,7 +7089,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 116.84) (xy 182.88 99.06)
+			(xy 182.88 68.58) (xy 182.88 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7425,16 +7409,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 182.88 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a6298b-44ca-42a5-84c8-2e4aa0b7e6b9")
-	)
-	(wire
-		(pts
 			(xy 200.66 173.99) (xy 204.47 173.99)
 		)
 		(stroke
@@ -7462,16 +7436,6 @@
 			(type default)
 		)
 		(uuid "b7adf1b7-11d6-4e29-86a6-816fd9ca5cb1")
-	)
-	(wire
-		(pts
-			(xy 203.2 99.06) (xy 203.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8485975-ed39-4722-8779-54c2972115d1")
 	)
 	(wire
 		(pts
@@ -7962,16 +7926,6 @@
 			(type default)
 		)
 		(uuid "e6a9cfb6-3aa0-4819-a5c1-ef3cc64683b6")
-	)
-	(wire
-		(pts
-			(xy 182.88 99.06) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6beb27d-954c-4dd4-877e-9919f6cbef4d")
 	)
 	(wire
 		(pts
@@ -14897,84 +14851,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8007326f-72f4-4d29-b7a7-1b0d9cfdb343")
-		(property "Reference" "#GND0137"
-			(at 203.2 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.295 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc6f7136-e9b0-4ab0-8bc6-7da0a6287f3d")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "#GND0137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 124.46 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -19349,96 +19225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 199.39 99.06 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db45bded-f020-420b-aef0-0ed85a0019c4")
-		(property "Reference" "D1"
-			(at 199.39 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMBER"
-			(at 198.755 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 199.39 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 199.39 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 199.39 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ac1e303-7917-4cb6-ac61-30e9ceca1f38")
-		)
-		(pin "2"
-			(uuid "9f2de226-d9cc-4a8e-8df4-de31765f4060")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 60.96 76.2 0)
 		(unit 1)
@@ -20417,87 +20203,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "#GND0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 189.23 99.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "edd6bff4-6c16-47bb-936b-006dc2e5f2eb")
-		(property "Reference" "R24"
-			(at 187.96 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.7k"
-			(at 193.04 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.484 98.044 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 189.23 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9881630b-f66d-4630-9990-396822dda75a")
-		)
-		(pin "2"
-			(uuid "b5e985db-7e22-4dbe-94b8-00d28dfe0d28")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "R24")
 					(unit 1)
 				)
 			)
