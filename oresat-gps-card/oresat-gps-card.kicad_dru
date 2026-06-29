@@ -1,0 +1,9 @@
+(version 1)
+(rule RF_Clearance_Relaxation_at_Pad
+	(constraint clearance (min 0.17mm))
+	(condition "A.hasNetclass('RF-50-max') && B.Type == 'Pad'")
+)
+(rule RF_Clearance_Trace_to_Trace_Relaxation
+	(constraint clearance (min 0.15mm))
+	(condition "A.hasNetclass('RF-50-max') && B.Type == 'Track'")
+)

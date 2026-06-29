@@ -8752,7 +8752,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:D32G-016.368M")
-		(at 276.86 160.02 0)
+		(at 276.86 158.75 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8764,7 +8764,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fb4f062-8e0a-4456-b6e7-24cac93b422c")
 		(property "Reference" "U24"
-			(at 276.86 151.13 0)
+			(at 276.86 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8774,7 +8774,7 @@
 			)
 		)
 		(property "Value" "D32G-016.368M"
-			(at 276.86 153.67 0)
+			(at 276.86 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8784,7 +8784,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:U-Connor-Winfield-D32G-016368M"
-			(at 276.86 148.082 0)
+			(at 276.86 146.812 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8795,7 +8795,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.conwin.com/datasheets/tx/tx240.pdf"
-			(at 276.86 146.304 0)
+			(at 276.86 145.034 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8806,7 +8806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 160.02 0)
+			(at 276.86 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
