@@ -5396,7 +5396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 208.534 209.296 90)
 			(hide yes)
 			(show_name no)

@@ -8946,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 123.19 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -9028,7 +9028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 125.984 128.524 90)
 			(hide yes)
 			(show_name no)
@@ -9098,7 +9098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NP"
+		(property "Value" "1M"
 			(at 139.954 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 174.2948 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9438,7 +9438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 124.46 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -10537,7 +10537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 123.19 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -10774,7 +10774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 133.096 128.524 90)
 			(hide yes)
 			(show_name no)
@@ -10853,7 +10853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 123.19 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -10934,7 +10934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 140.716 71.374 90)
 			(hide yes)
 			(show_name no)
@@ -11093,7 +11093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 120.396 142.494 90)
 			(hide yes)
 			(show_name no)

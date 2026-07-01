@@ -11963,6 +11963,12 @@
 		(uuid "290395bf-8706-44fc-9c98-e04ef9945d3f")
 	)
 	(junction
+		(at 274.32 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29188765-5f40-4c13-a6d7-ad706159f24f")
+	)
+	(junction
 		(at 330.2 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12009,6 +12015,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "525a16b1-c4ee-498b-a417-550ef5a02caf")
+	)
+	(junction
+		(at 274.32 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53edeb4b-578d-4028-a912-3e3a5abc88a4")
 	)
 	(junction
 		(at 274.32 170.18)
@@ -12137,6 +12149,12 @@
 		(uuid "c3ea7bb5-361a-43f3-b027-e695a1755588")
 	)
 	(junction
+		(at 274.32 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce8d617e-ae87-4d3a-8926-19971fa3c001")
+	)
+	(junction
 		(at 269.24 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12197,10 +12215,6 @@
 		(uuid "3764f65e-d794-49e9-97be-69674dfb63db")
 	)
 	(no_connect
-		(at 223.52 119.38)
-		(uuid "3ec6d98f-ad81-4a12-a9c8-663ad2a6648a")
-	)
-	(no_connect
 		(at 223.52 193.04)
 		(uuid "41cc0a55-e458-4d38-8a78-f8e63f2ca7ef")
 	)
@@ -12215,10 +12229,6 @@
 	(no_connect
 		(at 223.52 149.86)
 		(uuid "4d494c4c-6ac9-4196-bc14-0c6f312ee69d")
-	)
-	(no_connect
-		(at 223.52 124.46)
-		(uuid "4e6ddd71-a6b1-4c81-a4c9-683b34e69c19")
 	)
 	(no_connect
 		(at 223.52 106.68)
@@ -12323,10 +12333,6 @@
 	(no_connect
 		(at 162.56 121.92)
 		(uuid "d1924299-aa07-4918-8ee1-442286f9915c")
-	)
-	(no_connect
-		(at 223.52 121.92)
-		(uuid "d999dad9-d779-41a8-a512-9a5e89030203")
 	)
 	(no_connect
 		(at 162.56 195.58)
@@ -12460,6 +12466,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 100.33) (xy 274.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10152c30-6957-43b5-bc08-b416275ceb2a")
+	)
+	(wire
+		(pts
 			(xy 162.56 160.02) (xy 111.76 160.02)
 		)
 		(stroke
@@ -12467,6 +12483,16 @@
 			(type default)
 		)
 		(uuid "10742e31-e251-4114-80f4-c2813b73b4e1")
+	)
+	(wire
+		(pts
+			(xy 259.08 113.03) (xy 264.16 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109b9331-b281-44ba-befd-0e848fe6652e")
 	)
 	(wire
 		(pts
@@ -12560,6 +12586,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 113.03) (xy 274.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b13f7e7-5139-4f16-bce6-972f3ca1dfe5")
+	)
+	(wire
+		(pts
 			(xy 350.52 146.05) (xy 355.6 146.05)
 		)
 		(stroke
@@ -12620,6 +12656,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 106.68) (xy 274.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d1725d-a390-4d73-96a4-0f6a4b28deda")
+	)
+	(wire
+		(pts
 			(xy 45.72 105.41) (xy 45.72 104.14)
 		)
 		(stroke
@@ -12677,6 +12723,16 @@
 			(type default)
 		)
 		(uuid "28bb7de7-291b-46ba-b074-953620e91d78")
+	)
+	(wire
+		(pts
+			(xy 259.08 106.68) (xy 264.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d05480-81e8-4e16-af95-59feca5f53db")
 	)
 	(wire
 		(pts
@@ -12777,6 +12833,16 @@
 			(type default)
 		)
 		(uuid "3d1eaa2e-b395-448c-8578-0a4ddaf36061")
+	)
+	(wire
+		(pts
+			(xy 271.78 106.68) (xy 274.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e98f4a4-3dae-43ba-8486-577a26b49029")
 	)
 	(wire
 		(pts
@@ -13020,6 +13086,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 100.33) (xy 274.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6685e273-8663-4baf-b7d8-62c65b5d1964")
+	)
+	(wire
+		(pts
 			(xy 116.84 154.94) (xy 162.56 154.94)
 		)
 		(stroke
@@ -13130,6 +13206,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 100.33) (xy 242.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f1eb05-3539-49aa-a103-9d8ae35b0105")
+	)
+	(wire
+		(pts
 			(xy 162.56 104.14) (xy 157.48 104.14)
 		)
 		(stroke
@@ -13187,6 +13273,16 @@
 			(type default)
 		)
 		(uuid "81578304-696a-47fd-ab60-2659899edc12")
+	)
+	(wire
+		(pts
+			(xy 242.57 119.38) (xy 223.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834528d8-1726-483c-9a5a-82206753e544")
 	)
 	(wire
 		(pts
@@ -13267,6 +13363,16 @@
 			(type default)
 		)
 		(uuid "8a68a6e6-3acd-46a1-ab0f-7d99be49cc5e")
+	)
+	(wire
+		(pts
+			(xy 243.84 121.92) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7effee-e262-4bfe-b071-35753a2796f2")
 	)
 	(wire
 		(pts
@@ -13420,6 +13526,36 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 113.03) (xy 245.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b59804-6fc5-4c6b-9925-3e2d27e6796b")
+	)
+	(wire
+		(pts
+			(xy 245.11 124.46) (xy 223.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ed182a-3df3-435e-9c52-bffc815fc5ba")
+	)
+	(wire
+		(pts
+			(xy 243.84 106.68) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990385a6-3cf9-40ec-b511-61a2eeb29af2")
+	)
+	(wire
+		(pts
 			(xy 114.3 137.16) (xy 114.3 157.48)
 		)
 		(stroke
@@ -13457,6 +13593,16 @@
 			(type default)
 		)
 		(uuid "9c7d669a-aac7-4eb7-ad13-3fb6d34b8c3d")
+	)
+	(wire
+		(pts
+			(xy 242.57 100.33) (xy 242.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d856a16-15b4-4ea6-828b-2f3baec8a4ad")
 	)
 	(wire
 		(pts
@@ -13610,6 +13756,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 113.03) (xy 245.11 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdc5250-d629-4bf5-a695-3a128cd1e0c2")
+	)
+	(wire
+		(pts
 			(xy 317.5 187.96) (xy 312.42 187.96)
 		)
 		(stroke
@@ -13738,6 +13894,16 @@
 		)
 		(uuid "c447fe66-4d54-4077-92a6-35ac010d3f79")
 	)
+	(wire
+		(pts
+			(xy 259.08 100.33) (xy 264.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46a4a25-a67c-4320-ab1f-f07323fca5d2")
+	)
 	(polyline
 		(pts
 			(xy 194.31 43.18) (xy 194.31 53.34)
@@ -13837,6 +14003,16 @@
 			(type default)
 		)
 		(uuid "d3beed3c-4bd0-47f1-8aa4-b43929459429")
+	)
+	(wire
+		(pts
+			(xy 223.52 121.92) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e70530-d647-432b-b30c-86db247ace02")
 	)
 	(wire
 		(pts
@@ -13967,6 +14143,16 @@
 			(type default)
 		)
 		(uuid "e6232949-4e5c-40e9-a237-3eac61dbd748")
+	)
+	(wire
+		(pts
+			(xy 271.78 113.03) (xy 274.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7db385a-999d-4129-a9e2-0ac1497e9f9c")
 	)
 	(wire
 		(pts
@@ -14236,6 +14422,85 @@
 			(justify right)
 		)
 		(uuid "f610c663-0dfe-461c-8607-4ed249c9d096")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 255.27 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00adb713-7698-4acc-bdbf-9ece285cc6c3")
+		(property "Reference" "R49"
+			(at 252.73 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 257.81 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 255.524 112.014 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 255.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9b0ab4d-900f-4bb4-9f9a-0a7942400804")
+		)
+		(pin "2"
+			(uuid "39f9ae0d-3610-462b-99e6-dbb61a340ba9")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
@@ -14582,7 +14847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 364.7948 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14664,7 +14929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 387.6548 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15436,7 +15701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 36.5252 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15619,7 +15884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 372.4148 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16057,6 +16322,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57c168a5-b222-4d15-a1a3-d28ac4733d64")
+		(property "Reference" "D11"
+			(at 265.43 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 270.51 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 267.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 267.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 267.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57c1820f-dbae-4b76-a4e3-9ba92eaefdd7")
+		)
+		(pin "2"
+			(uuid "0f7b06dd-a4af-43ba-8bb6-7d7d02be0d33")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 114.3 0)
 		(unit 1)
@@ -16135,6 +16490,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e10b77e-144b-479f-8c1f-9e10381bc1c6")
+		(property "Reference" "D10"
+			(at 265.43 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 270.51 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b17e785-90a7-46e2-88b3-4c1afd5e3966")
+		)
+		(pin "2"
+			(uuid "eed5e3bb-1348-465f-84d0-d5649fcc3358")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 345.44 139.7 0)
 		(mirror y)
@@ -16168,7 +16613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 344.4748 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17190,7 +17635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 145.7452 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17233,6 +17678,85 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 255.27 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f763908-7533-4749-8c63-4d7aa810d3b0")
+		(property "Reference" "R61"
+			(at 252.73 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 257.81 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 255.524 99.314 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 255.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72ae7433-dd7f-4515-8b2e-02f79664f304")
+		)
+		(pin "2"
+			(uuid "5e012ed4-f86e-4a77-81ab-ea43bb376c40")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -17310,6 +17834,85 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "#3V0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 255.27 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4e23da6-371a-41cb-b601-86573db1c202")
+		(property "Reference" "R50"
+			(at 252.73 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 257.81 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 255.524 105.664 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 255.27 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc175f47-c41e-4d68-92f6-cd9afaa050af")
+		)
+		(pin "2"
+			(uuid "54c176be-a841-4c29-93bc-5b17251a234b")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -17427,7 +18030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 380.0348 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17476,6 +18079,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d745da7a-a683-491b-9b0f-86ab9d5653d6")
+		(property "Reference" "D14"
+			(at 265.43 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 270.51 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 267.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83b8b2ba-ca1e-4396-abee-d4b489a55206")
+		)
+		(pin "2"
+			(uuid "a8c8dcf9-4af6-42a3-a8e7-3c085bf06f25")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 396.24 139.7 0)
 		(mirror y)
@@ -17509,7 +18202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 395.2748 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17791,7 +18484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 356.5652 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18065,7 +18758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 255.524 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -18146,7 +18839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 46.6852 113.03 0)
 			(hide yes)
 			(show_name no)

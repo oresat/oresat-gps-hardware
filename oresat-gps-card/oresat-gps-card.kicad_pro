@@ -1112,6 +1112,12 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Value_1",
+          "name": "Value_1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1180,7 +1186,7 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D10-11,D14,R49-50,R61,Q1-2,Q7-9",
     "variants": []
   },
   "sheets": [

@@ -9497,19 +9497,6 @@
 		)
 		(uuid "158eeeb4-4df5-48bc-8ba3-309382cc90df")
 	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 74.168 76.708 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "158f1bef-a4f2-46cd-9362-99fe2f2ca8a9")
-	)
 	(text "5V Power in (OR'd)"
 		(exclude_from_sim no)
 		(at 19.05 62.23 0)
@@ -9575,32 +9562,6 @@
 			(justify left bottom)
 		)
 		(uuid "ba73fe71-ae5d-4e2b-89ec-e6df108e8ff1")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 193.294 59.436 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "c4df352e-e256-49f7-b618-0fb108dd51d8")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 72.39 59.69 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "cf91025c-3634-4379-9683-9f2be22d89fa")
 	)
 	(junction
 		(at 172.72 203.2)
@@ -12748,7 +12709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 92.964 214.884 90)
 			(hide yes)
 			(show_name no)
@@ -12830,7 +12791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 209.2452 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -14008,7 +13969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 207.264 140.716 90)
 			(hide yes)
 			(show_name no)
@@ -14087,7 +14048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 217.424 140.716 90)
 			(hide yes)
 			(show_name no)
@@ -14637,7 +14598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 217.424 115.316 90)
 			(hide yes)
 			(show_name no)
@@ -15663,7 +15624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 186.3852 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -16933,7 +16894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 188.214 77.724 90)
 			(hide yes)
 			(show_name no)
@@ -17260,7 +17221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 77.1652 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17421,7 +17382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 219.4052 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -17503,7 +17464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 77.1652 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17662,7 +17623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 217.424 210.566 90)
 			(hide yes)
 			(show_name no)
