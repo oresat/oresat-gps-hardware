@@ -79,7 +79,23 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|183952500|71545000|e217ae70-0557-471b-a91a-25fade9322bb|f7fb1e80-13de-4618-b778-0611c2490c6e",
+          ""
+        ],
+        [
+          "clearance|184327500|73915000|4ac31db4-f285-4d66-b3b3-0d2ea69b8114|f0586281-8256-4c47-84d6-282e5414e31c",
+          ""
+        ],
+        [
+          "clearance|184408750|74223629|499ac34b-f717-42cb-b3b2-70e0611b9e9e|f0586281-8256-4c47-84d6-282e5414e31c",
+          ""
+        ],
+        [
           "shorting_items|133810000|118325000|755756f8-c56e-430c-901e-8cd50febe42a|b3b288cc-22b6-47ed-9fcd-ceac7eab45b4",
+          ""
+        ],
+        [
+          "shorting_items|133810000|119325000|9c1f5f9d-4b3f-424c-aefa-b26a64cac52e|f6683d43-26cc-4c2a-b39e-d16297312f10",
           ""
         ],
         [
@@ -96,6 +112,10 @@
         ],
         [
           "shorting_items|134048995|118423995|755756f8-c56e-430c-901e-8cd50febe42a|a1fda3ba-2503-4d73-a034-6ff4d3869117",
+          ""
+        ],
+        [
+          "shorting_items|134351005|120423995|1481975a-0ce9-40c5-80f1-93a1c364eaed|fc18a08a-6920-4b36-9a83-e7e31737a295",
           ""
         ],
         [
@@ -132,10 +152,6 @@
         ],
         [
           "shorting_items|136950000|118965000|6635b936-0aa7-443a-965f-470bdf48a9f7|6ccea498-d979-4bc5-99eb-34ce0bf8b7b1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|133848250|118325000|c890a42c-f92a-4527-b7a0-4e5de3c96b67|755756f8-c56e-430c-901e-8cd50febe42a",
           ""
         ]
       ],
@@ -1164,7 +1180,7 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "C55-64,U12,U20-21,#VPD8-9,R24,R42-44,R63-64,R78-79,R82-83,R85,R87,R89-109,#GND9-22,#GND29-32,#GND66-67,#GND72-74,TP25,TP28-42,#VBUSP4-5,D4-5,D13,Q7-12,#PWR2,#VBUS1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
