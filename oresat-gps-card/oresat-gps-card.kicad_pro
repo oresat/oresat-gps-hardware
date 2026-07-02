@@ -87,10 +87,6 @@
           ""
         ],
         [
-          "clearance|183412500|72205000|894a4581-e846-42de-a784-52b018ffd96e|f7fb1e80-13de-4618-b778-0611c2490c6e",
-          ""
-        ],
-        [
           "clearance|183952500|71545000|e217ae70-0557-471b-a91a-25fade9322bb|f7fb1e80-13de-4618-b778-0611c2490c6e",
           ""
         ],
@@ -1130,7 +1126,7 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "D10-11,D14,R49-50,R61,Q1-2,Q7-9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

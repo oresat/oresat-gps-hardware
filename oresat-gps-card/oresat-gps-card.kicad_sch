@@ -2565,6 +2565,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-power:VBUS"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#VBUS"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2680,121 +2816,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "RF SMPM Connector"
 		(exclude_from_sim no)
@@ -2875,12 +2896,6 @@
 		(uuid "22987e1e-25a5-4bab-ad9f-3d52a99d940b")
 	)
 	(junction
-		(at 152.4 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2347c1fc-3300-458c-96a1-42229601d09c")
-	)
-	(junction
 		(at 245.11 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2915,6 +2930,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8583777c-06a5-4614-8da5-09caf67af76d")
+	)
+	(junction
+		(at 152.4 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc32afb3-001e-4a2a-b3f8-4930fbb5d57b")
 	)
 	(junction
 		(at 153.67 80.01)
@@ -2981,6 +3002,10 @@
 		(uuid "5ed51b84-728b-4dc8-8215-ae9f244075fb")
 	)
 	(no_connect
+		(at 149.86 138.43)
+		(uuid "5f639a58-7ed3-405b-8556-a94b6a0357b6")
+	)
+	(no_connect
 		(at 149.86 92.71)
 		(uuid "60088cfb-1c92-4a2f-9d23-cd32b78a1a9f")
 	)
@@ -2991,6 +3016,10 @@
 	(no_connect
 		(at 149.86 54.61)
 		(uuid "705b18f3-89f5-4ea9-a4f1-1d273f7b7f9e")
+	)
+	(no_connect
+		(at 149.86 135.89)
+		(uuid "738d564c-eb4a-4715-afbf-17ee08cadd45")
 	)
 	(no_connect
 		(at 149.86 44.45)
@@ -3450,16 +3479,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 135.89) (xy 152.4 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c27030-d581-4a36-87f9-d668509c201c")
-	)
-	(wire
-		(pts
 			(xy 203.2 200.66) (xy 256.54 200.66)
 		)
 		(stroke
@@ -3477,6 +3496,16 @@
 			(type default)
 		)
 		(uuid "6bd933ac-7c50-4e77-8311-6d4b86226094")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6feb52f7-0056-4579-990e-be54c235b550")
 	)
 	(wire
 		(pts
@@ -3547,16 +3576,6 @@
 			(type default)
 		)
 		(uuid "7a370177-76b3-4b70-ab73-9d5d1f08aab4")
-	)
-	(wire
-		(pts
-			(xy 149.86 135.89) (xy 152.4 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8081c469-afaf-4804-9e94-6541ed8f0dd3")
 	)
 	(wire
 		(pts
@@ -3680,16 +3699,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 138.43) (xy 152.4 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae28971-724e-4f79-b8fb-31515d304be5")
-	)
-	(wire
-		(pts
 			(xy 242.57 80.01) (xy 256.54 80.01)
 		)
 		(stroke
@@ -3787,16 +3796,6 @@
 			(type default)
 		)
 		(uuid "a9f4f07f-51bd-4a6f-8644-8fe593629644")
-	)
-	(wire
-		(pts
-			(xy 152.4 135.89) (xy 156.21 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0a0e09-606d-4435-9e26-e61da62a0ff6")
 	)
 	(wire
 		(pts
@@ -3987,16 +3986,6 @@
 			(type default)
 		)
 		(uuid "dc8340fd-b253-4c76-ad08-08ccad9668be")
-	)
-	(wire
-		(pts
-			(xy 152.4 100.33) (xy 157.48 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b7ff91-5b7d-4154-ad7c-285a0471dbd8")
 	)
 	(wire
 		(pts
@@ -4238,16 +4227,6 @@
 		)
 		(uuid "ac0375a0-bc3d-4dbb-a0dc-84b6ce7a3bca")
 	)
-	(label "GND"
-		(at 156.21 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b91f1510-ef7f-4531-b1a0-ecd6ede06c93")
-	)
 	(label "C3-UART-RX"
 		(at 177.8 133.35 180)
 		(effects
@@ -4257,16 +4236,6 @@
 			(justify right bottom)
 		)
 		(uuid "d01eb763-cb27-4991-8f89-84d56bba7c3b")
-	)
-	(label "VBUS"
-		(at 152.4 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1b2a9a1-9664-4139-9db9-5e1bf03059f9")
 	)
 	(label "RF-IN"
 		(at 383.54 147.32 180)
@@ -4307,29 +4276,6 @@
 			(justify right bottom)
 		)
 		(uuid "f5fb3a61-6b2f-4f1d-83ef-669433ec3bac")
-	)
-	(global_label "~{SD}"
-		(shape input)
-		(at 156.21 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05442973-756b-4142-a88c-8294761c83a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.1026 135.8106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4534,6 +4480,161 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 156.21 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ac7a70d-4e3f-4f12-b757-5fda0cafe5e4")
+		(property "Reference" "#VBUS02"
+			(at 156.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 156.21 92.456 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 156.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "994e351b-349f-403e-89c2-e5f0adef1018")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(reference "#VBUS02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31c89e9d-b9fb-4c0b-b384-839e495d1526")
+		(property "Reference" "#GND0103"
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaa28990-242e-4148-ba19-f45fbf9444fe")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(reference "#GND0103")
 					(unit 1)
 				)
 			)
@@ -4977,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tfm.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 144.78 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4988,7 +5089,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
+			(at 144.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 144.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "SAM10145-ND"
+			(at 144.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 144.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TFM-120-01-L-D-RA"
 			(at 144.78 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5439,85 +5584,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
 					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 157.48 100.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e208c4d4-a0a1-4049-94f9-3c76ff8e49cf")
-		(property "Reference" "#FLG02"
-			(at 159.385 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 161.29 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e67bef7-53fd-4eab-ad55-c73cf7c903f4")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

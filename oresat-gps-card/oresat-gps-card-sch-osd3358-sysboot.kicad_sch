@@ -9748,6 +9748,28 @@
 				)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 184.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Octavo Systems LLC"
+			(at 184.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C10"
 			(uuid "45d3e83a-4dca-4a43-a6e2-17193dc3c8d3")
 		)
