@@ -3,7 +3,7 @@
 # For the RF netclass, ignore erors caused by pads being withing 0.5 mm
 
 (rule "RF_Clearance_Relaxation_at_Pad"
-    (condition "A.NetClass == 'RF-50-min' && B.Type == 'Pad'")
+    (condition "A.NetClass == 'RF-50-OSH' && B.Type == 'Pad'")
     (constraint clearance (min 0.17mm))
 )
 
@@ -11,8 +11,14 @@
 # while still allowing the clearance to be 0.5 mm
 
 (rule "RF_Clearance_Trace_to_Trace_Relaxation"
-    (condition "A.NetClass == 'RF-50-min' && B.Type == 'Track'")
+    (condition "A.NetClass == 'RF-50-OSH' && B.Type == 'Track'")
     (constraint clearance (min 0.15mm))
+)
+# For the eMMC, ignore routing through unconnected pins.
+
+(rule "Allow_Trace_Through_Unconnected_Pads"
+    (condition "A.Type == 'Track' && B.Type == 'Pad' && B.NetName == 'unconnected-*'")
+    (constraint clearance (min -1mm))
 )
 
 # For the SMPM edge connectors, ignore copper near edge cuts errors
