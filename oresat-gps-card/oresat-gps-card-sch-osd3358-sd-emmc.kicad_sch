@@ -16332,7 +16332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57c168a5-b222-4d15-a1a3-d28ac4733d64")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 265.43 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16405,7 +16405,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16500,7 +16500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e10b77e-144b-479f-8c1f-9e10381bc1c6")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 265.43 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16573,7 +16573,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -18089,7 +18089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d745da7a-a683-491b-9b0f-86ab9d5653d6")
-		(property "Reference" "D14"
+		(property "Reference" "D6"
 			(at 265.43 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18162,7 +18162,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "D14")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -18543,7 +18543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0beb065-48ad-4547-9bc5-0daea516e9b2")
-		(property "Reference" "D7"
+		(property "Reference" "D9"
 			(at 265.43 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18616,7 +18616,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "D7")
+					(reference "D9")
 					(unit 1)
 				)
 			)

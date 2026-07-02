@@ -5747,12 +5747,6 @@
 		(uuid "ac435d46-b490-48df-a88b-fc985e710ebd")
 	)
 	(junction
-		(at 140.97 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "add5ece6-df10-4389-b6ee-c2457cf13c1c")
-	)
-	(junction
 		(at 109.22 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5831,12 +5825,6 @@
 		(uuid "dab2e940-5924-475b-b61f-6503af0e02ef")
 	)
 	(junction
-		(at 297.18 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e082c2b7-dee2-4976-8863-c0747ca963c3")
-	)
-	(junction
 		(at 81.28 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5865,12 +5853,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f372b442-57f4-4f54-9dcc-a0e00dd8932c")
-	)
-	(junction
-		(at 140.97 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6ccfe9c-2d6a-430c-8b41-a1adf5312a23")
 	)
 	(junction
 		(at 48.26 81.28)
@@ -6679,16 +6661,6 @@
 			(type default)
 		)
 		(uuid "474671ec-e9f6-490f-94a7-2a41c4d88409")
-	)
-	(wire
-		(pts
-			(xy 140.97 111.76) (xy 156.21 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "475d8075-2325-4376-ae5e-8c3e7db9e409")
 	)
 	(wire
 		(pts
@@ -7709,16 +7681,6 @@
 			(type default)
 		)
 		(uuid "8b962100-3469-4802-bb53-ca0e5a39a8a2")
-	)
-	(wire
-		(pts
-			(xy 140.97 109.22) (xy 156.21 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed84d3f-690f-41ed-8df2-9e1c447a04f8")
 	)
 	(wire
 		(pts
@@ -11893,7 +11855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e1d441c-e16a-42bb-a14e-beefbcacd274")
-		(property "Reference" "D13"
+		(property "Reference" "D1"
 			(at 191.516 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12027,7 +11989,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "D13")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15843,84 +15805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 156.21 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "835ccc59-ec8f-4558-8b7e-e9d892928e87")
-		(property "Reference" "TP36"
-			(at 157.988 109.982 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 156.21 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 156.21 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 156.21 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e01d9181-f385-474b-b8d6-ad49346b8fd5")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "TP36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 334.01 44.45 180)
 		(unit 1)
@@ -18989,7 +18873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5578e19-25d5-4167-b718-22a6b52d8afc")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 73.66 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19073,7 +18957,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -19456,7 +19340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc6ce062-2763-4356-b67b-f3be560d9ff6")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 372.872 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19590,7 +19474,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19927,7 +19811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c268fbe7-6561-439c-8ca4-2b55b77d7ced")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 270.256 225.552 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20002,7 +19886,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -20321,84 +20205,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "#GND0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 297.18 80.01 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf133533-a88e-45c7-866a-975ceed9a10d")
-		(property "Reference" "TP38"
-			(at 299.72 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 297.18 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 297.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 297.18 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eab07eb5-fba2-4396-8894-5e545933e285")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -22527,84 +22333,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "R92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 156.21 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc115d4f-2b29-418c-8808-023ccfa419eb")
-		(property "Reference" "TP33"
-			(at 157.734 112.776 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 156.21 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 156.21 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 156.21 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f9ad1ac-cfdb-430b-9366-104e66c416c5")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "TP33")
 					(unit 1)
 				)
 			)

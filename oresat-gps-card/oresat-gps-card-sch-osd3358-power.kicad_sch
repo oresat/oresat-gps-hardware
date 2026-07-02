@@ -12597,7 +12597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bc342cc-952c-463d-85f5-a1eb78189e43")
-		(property "Reference" "D8"
+		(property "Reference" "D4"
 			(at 195.326 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12672,7 +12672,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
-					(reference "D8")
+					(reference "D4")
 					(unit 1)
 				)
 			)

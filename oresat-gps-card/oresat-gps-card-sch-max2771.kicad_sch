@@ -5276,7 +5276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ba10470-1e45-41fd-9845-0a8a204a05cb")
-		(property "Reference" "D12"
+		(property "Reference" "D5"
 			(at 90.17 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5351,7 @@
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
-					(reference "D12")
+					(reference "D5")
 					(unit 1)
 				)
 			)
