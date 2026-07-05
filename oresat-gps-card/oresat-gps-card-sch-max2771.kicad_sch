@@ -9867,7 +9867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 146.05 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9878,7 +9878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0002.pdf"
 			(at 146.05 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9889,7 +9889,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.6 nH Unshielded Multilayer Inductor 800 mA 200mOhm Max 0603 (1608 Metric)"
 			(at 146.05 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9902,6 +9902,50 @@
 		)
 		(property "Field4" "0402"
 			(at 146.05 184.785 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 146.05 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "490-1107-1-ND"
+			(at 146.05 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 146.05 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FIXED IND 5.6NH 800MA 200 MOHM"
+			(at 146.05 182.88 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -21994,7 +21994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:L_ECS-MPI4040"
+		(property "Footprint" "oresat-passives:L_ECS_MPIP0420"
 			(at 231.14 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -22005,7 +22005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-MPI4040.pdf"
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-MPIP0420.pdf"
 			(at 231.14 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -22016,7 +22016,7 @@
 				)
 			)
 		)
-		(property "Description" "FIXED IND 3.3UH 3A 60 MOHM SMD"
+		(property "Description" "3.3 µH Shielded Molded Inductor 3 A 87mOhm Max Nonstandard"
 			(at 231.14 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -22038,7 +22038,29 @@
 				)
 			)
 		)
-		(property "MPN" "ECS-MPI4040R3-3R3-R"
+		(property "MPN" "ECS-MPIP0420-3R3MC"
+			(at 231.14 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 231.14 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "50-ECS-MPIP0420-3R3MCCT-ND"
 			(at 231.14 215.9 90)
 			(hide yes)
 			(show_name no)
