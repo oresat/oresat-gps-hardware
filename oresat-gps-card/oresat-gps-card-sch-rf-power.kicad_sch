@@ -6,8 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-06-28")
+		(date "2026-07-06")
 		(rev "1.2")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1086,128 +1087,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "gps-power:2.85VA"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85A"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VA"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "gps-power:2.85VD"
 			(power global)
 			(exclude_from_sim no)
@@ -1458,8 +1337,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U16"
-				(at 0 12.7 0)
+			(property "Reference" "U"
+				(at -6.35 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1469,7 +1348,7 @@
 				)
 			)
 			(property "Value" "BP2G+"
-				(at 0 10.16 0)
+				(at 5.08 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1478,7 +1357,7 @@
 					)
 				)
 			)
-			(property "Footprint" "oresat-ics:U-Minicircuits-BP2G+"
+			(property "Footprint" ""
 				(at 1.27 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1500,7 +1379,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "L-band power splitter/combiner"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1508,6 +1387,19 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BP2G+_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1658,20 +1550,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "BP2G+_1_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
 					)
 				)
 			)
@@ -1849,8 +1727,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U15"
-				(at 10.16 -10.16 0)
+			(property "Reference" "U"
+				(at -5.08 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1860,7 +1738,7 @@
 				)
 			)
 			(property "Value" "SKY65723-81"
-				(at 10.16 -12.7 0)
+				(at -8.89 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1869,20 +1747,19 @@
 					)
 				)
 			)
-			(property "Footprint" "oresat-ics:U-Skyworks-SKY65723-81-gps-lna"
-				(at -2.54 12.7 0)
+			(property "Footprint" "oresat-footprints:U-Skyworks-SKY65723-81-gps-lna"
+				(at -2.54 25.654 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(color 255 255 194 1)
 					)
 				)
 			)
 			(property "Datasheet" "https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2801-2900/SKY65723_81_203923G.pdf"
-				(at -2.54 12.7 0)
+				(at -4.064 28.702 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1892,14 +1769,27 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "GPS LNA"
+				(at -0.254 23.114 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SKY65723-81_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1994,18 +1884,23 @@
 						)
 					)
 				)
-			)
-			(symbol "SKY65723-81_1_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type solid)
+				(pin no_connect line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
+					(number "[4,5]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2243,6 +2138,145 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDDF"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDF"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDF\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDF_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDF_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name ""
 						(effects
@@ -4522,6 +4556,9 @@
 		(pin "7"
 			(uuid "d2415f92-2519-435d-8b7c-401a72ddbff4")
 		)
+		(pin "[4,5]"
+			(uuid "d1610e43-97ec-4075-96a1-46a6ef034e12")
+		)
 		(instances
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/9466b485-4fbd-4df7-9d49-44799fc3f2b8"
@@ -4741,13 +4778,13 @@
 		)
 	)
 	(symbol
-		(lib_id "gps-power:2.85VA")
+		(lib_id "power:VDDF")
 		(at 93.98 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4764,17 +4801,18 @@
 			)
 		)
 		(property "Value" "2.85VA"
-			(at 93.98 71.12 0)
+			(at 96.52 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 71.12 0)
+			(at 93.98 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4785,7 +4823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 71.12 0)
+			(at 93.98 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4833,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDF\""
 			(at 93.98 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6269,13 +6307,13 @@
 		)
 	)
 	(symbol
-		(lib_id "gps-power:2.85VA")
+		(lib_id "power:VDDF")
 		(at 104.14 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6292,17 +6330,18 @@
 			)
 		)
 		(property "Value" "2.85VA"
-			(at 104.14 71.12 0)
+			(at 106.68 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 71.12 0)
+			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,7 +6352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 71.12 0)
+			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDF\""
 			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6551,13 +6590,13 @@
 		)
 	)
 	(symbol
-		(lib_id "gps-power:2.85VA")
+		(lib_id "power:VDDF")
 		(at 350.52 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a877aeb6-940d-48ab-9588-c946ddfe70d4")
@@ -6583,7 +6622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 96.52 0)
+			(at 350.52 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6594,7 +6633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 96.52 0)
+			(at 350.52 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6604,7 +6643,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDF\""
 			(at 350.52 101.6 0)
 			(hide yes)
 			(show_name no)

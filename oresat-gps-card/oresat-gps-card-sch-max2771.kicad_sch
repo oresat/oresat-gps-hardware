@@ -6,498 +6,11 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-06-28")
+		(date "2026-07-06")
 		(rev "1.2")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "2.85VA_1"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85A"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VA_1"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VA_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VA_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "2.85VA_2"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85A"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VA_2"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VA_2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VA_2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "2.85VA_3"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85A"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VA_3"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VA_3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VA_3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "2.85VA_4"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85A"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VA_4"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VA_4_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VA_4_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "2.85VD_1"
 			(power global)
 			(exclude_from_sim no)
@@ -1993,28 +1506,30 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U24"
-				(at 0 8.89 0)
+			(property "Reference" "U"
+				(at -8.89 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.27 1.0795)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "D32G-016.368M"
-				(at 0 6.35 0)
+				(at 10.16 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.27 1.0795)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Footprint" "oresat-ics:U-Connor-Winfield-D32G-016368M"
-				(at 0 11.938 0)
+			(property "Footprint" "oresat-footprints:U-Connor-Winfield-D32G-016368M"
+				(at 2.032 15.748 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2025,7 +1540,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.conwin.com/datasheets/tx/tx240.pdf"
-				(at 0 13.716 0)
+				(at 1.27 13.462 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2035,8 +1550,8 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "16.368 MHz TCXO, 4-pin 3.2x2.5mm"
+				(at 0 18.542 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2047,8 +1562,75 @@
 				)
 			)
 			(symbol "D32G-016.368M_1_0"
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy -10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin no_connect line
+					(at -6.35 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 0 -8.89 90)
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2066,7 +1648,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 1.27 180)
+					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "OUT"
 						(effects
@@ -2084,7 +1666,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 1.27 0)
+					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -2099,19 +1681,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "D32G-016.368M_1_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -6.35)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -2414,26 +1983,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U13"
-				(at 4.6833 -35.56 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "MAX2769"
-				(at 4.6833 -38.1 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:TQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm"
@@ -2488,7 +2055,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -29.21 -17.78 0)
 					(length 2.54)
 					(name "LNAOUT"
@@ -2506,7 +2073,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -29.21 12.7 0)
 					(length 2.54)
 					(name "ANTBIAS"
@@ -2524,7 +2091,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -16.51 40.64 270)
 					(length 2.54)
 					(name "VCCRF"
@@ -2542,7 +2109,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -29.21 5.08 0)
 					(length 2.54)
 					(name "MIXIN"
@@ -2560,7 +2127,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 21.59 -22.86 180)
 					(length 2.54)
 					(name "LD"
@@ -2578,8 +2145,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -29.21 24.13 0)
+				(pin bidirectional line
+					(at -29.21 30.48 0)
 					(length 2.54)
 					(name "~{SHDN}"
 						(effects
@@ -2597,7 +2164,7 @@
 					)
 				)
 				(pin input line
-					(at -29.21 26.67 0)
+					(at -29.21 25.4 0)
 					(length 2.54)
 					(name "SDATA"
 						(effects
@@ -2615,7 +2182,7 @@
 					)
 				)
 				(pin input line
-					(at -29.21 29.21 0)
+					(at -29.21 27.94 0)
 					(length 2.54)
 					(name "SCLK"
 						(effects
@@ -2632,8 +2199,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -29.21 31.75 0)
+				(pin output line
+					(at -29.21 22.86 0)
 					(length 2.54)
 					(name "~{CS}"
 						(effects
@@ -2650,7 +2217,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -5.08 40.64 270)
 					(length 2.54)
 					(name "VCCVCO"
@@ -2686,7 +2253,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -12.7 40.64 270)
 					(length 2.54)
 					(name "VCCCP"
@@ -2722,7 +2289,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 21.59 -17.78 180)
 					(length 2.54)
 					(name "XTAL"
@@ -2776,7 +2343,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 21.59 17.78 180)
 					(length 2.54)
 					(name "Q0"
@@ -2812,7 +2379,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 21.59 25.4 180)
 					(length 2.54)
 					(name "I0"
@@ -2830,7 +2397,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 21.59 21.59 180)
 					(length 2.54)
 					(name "I1"
@@ -2848,7 +2415,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_in line
 					(at 21.59 -26.67 180)
 					(length 2.54)
 					(name "N.C."
@@ -2866,7 +2433,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -8.89 40.64 270)
 					(length 2.54)
 					(name "VCCIF"
@@ -2884,7 +2451,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -29.21 -12.7 0)
 					(length 2.54)
 					(name "~{IDLE}"
@@ -2938,7 +2505,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -29.21 -5.08 0)
 					(length 2.54)
 					(name "LNA1"
@@ -2956,7 +2523,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at -29.21 -8.89 0)
 					(length 2.54)
 					(name "TSENS"
@@ -2974,7 +2541,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -3.81 -35.56 90)
 					(length 2.54)
 					(name "GND"
@@ -3259,6 +2826,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDDF"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDF"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDF\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDF_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDF_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
@@ -3373,13 +3079,13 @@
 		(uuid "b29f4081-82f8-4d56-ad5d-064938b6313f")
 	)
 	(junction
-		(at 152.4 107.95)
+		(at 152.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b60ff005-7a10-470b-a5dd-d5d2c22f8dbe")
 	)
 	(junction
-		(at 152.4 115.57)
+		(at 152.4 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d244a3b3-f426-4f4c-a5f4-b053d0a48226")
@@ -3407,6 +3113,10 @@
 	(no_connect
 		(at 191.77 175.26)
 		(uuid "8b21e64e-98f7-46db-a0b6-67f56edb8b20")
+	)
+	(no_connect
+		(at 224.79 166.37)
+		(uuid "a8ff8cde-805d-4c73-97e4-ec1448a30eea")
 	)
 	(wire
 		(pts
@@ -3660,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 110.49) (xy 173.99 110.49)
+			(xy 151.13 111.76) (xy 173.99 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3910,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 152.4 115.57)
+			(xy 151.13 116.84) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4040,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 173.99 107.95)
+			(xy 152.4 109.22) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4440,6 +4150,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 168.91) (xy 276.86 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba10b7f8-36e9-4427-a784-e80bcd34a2ce")
+	)
+	(wire
+		(pts
 			(xy 198.12 63.5) (xy 189.23 63.5)
 		)
 		(stroke
@@ -4490,7 +4210,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 107.95) (xy 152.4 107.95)
+			(xy 151.13 109.22) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4610,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 115.57) (xy 173.99 115.57)
+			(xy 152.4 116.84) (xy 173.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 113.03) (xy 173.99 113.03)
+			(xy 151.13 114.3) (xy 173.99 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4862,7 +4582,7 @@
 	)
 	(hierarchical_label "MAX_~{SHDN}"
 		(shape input)
-		(at 151.13 107.95 180)
+		(at 151.13 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4884,7 +4604,7 @@
 	)
 	(hierarchical_label "MAX_SPI1_CS0"
 		(shape input)
-		(at 151.13 115.57 180)
+		(at 151.13 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4906,7 +4626,7 @@
 	)
 	(hierarchical_label "MAX_SPI1_SCLK"
 		(shape input)
-		(at 151.13 110.49 180)
+		(at 151.13 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4917,7 +4637,7 @@
 	)
 	(hierarchical_label "MAX_SPI1_D0"
 		(shape input)
-		(at 151.13 113.03 180)
+		(at 151.13 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5447,7 +5167,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 152.4 119.38 0)
+		(at 152.4 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5458,7 +5178,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e98554e-cafa-4a17-a979-6d1a538275cb")
 		(property "Reference" "R88"
-			(at 154.94 118.1099 0)
+			(at 154.94 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5469,7 +5189,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 154.94 120.6499 0)
+			(at 154.94 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5480,7 +5200,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 153.416 119.634 90)
+			(at 153.416 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5491,7 +5211,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 152.4 119.38 0)
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5502,7 +5222,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 152.4 119.38 0)
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5513,7 +5233,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 152.4 119.38 0)
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5524,7 +5244,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 152.4 119.38 0)
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5255,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 152.4 119.38 0)
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,7 +5266,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 152.4 119.38 0)
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5372,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 123.19 0)
+		(at 152.4 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5663,7 +5383,7 @@
 		(fields_autoplaced yes)
 		(uuid "14f886bb-5777-41c7-9e0e-ec37b0f9a7ba")
 		(property "Reference" "#GND0254"
-			(at 152.4 129.54 0)
+			(at 152.4 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5394,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 124.4599 0)
+			(at 154.94 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5685,7 +5405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 123.19 0)
+			(at 152.4 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,7 +5416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 123.19 0)
+			(at 152.4 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,7 +5427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 123.19 0)
+			(at 152.4 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,8 +5606,7 @@
 		)
 	)
 	(symbol
-		(lib_name "2.85VA_3")
-		(lib_id "gps-power:2.85VA")
+		(lib_id "power:VDDF")
 		(at 138.43 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -5896,7 +5615,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1be28134-d5bb-4afc-8bb6-db76d70a3c67")
 		(property "Reference" "#2V85A0119"
 			(at 138.43 55.88 0)
@@ -5910,17 +5628,18 @@
 			)
 		)
 		(property "Value" "2.85VA"
-			(at 138.43 55.88 0)
+			(at 135.382 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 55.88 0)
+			(at 138.43 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5931,7 +5650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 55.88 0)
+			(at 138.43 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +5660,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDF\""
 			(at 138.43 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6206,7 +5925,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 152.4 104.14 0)
+		(at 152.4 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6217,7 +5936,7 @@
 		(fields_autoplaced yes)
 		(uuid "252c2fe6-3de7-4a7d-9532-9abba0530a8b")
 		(property "Reference" "R86"
-			(at 154.94 102.8699 0)
+			(at 154.94 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6228,7 +5947,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 154.94 105.4099 0)
+			(at 154.94 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6239,7 +5958,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 153.416 104.394 90)
+			(at 153.416 105.664 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +5969,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 152.4 104.14 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6261,7 +5980,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 152.4 104.14 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +5991,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 152.4 104.14 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,7 +6002,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 152.4 104.14 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,7 +6013,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 152.4 104.14 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,7 +6024,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 152.4 104.14 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +6839,7 @@
 	(symbol
 		(lib_name "2.85VD_1")
 		(lib_id "gps-power:2.85VD")
-		(at 152.4 100.33 0)
+		(at 152.4 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7131,7 +6850,7 @@
 		(fields_autoplaced yes)
 		(uuid "3954ebcb-f458-47f7-9e33-b65978388740")
 		(property "Reference" "#2V85D0111"
-			(at 152.4 95.25 0)
+			(at 152.4 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7142,7 +6861,7 @@
 			)
 		)
 		(property "Value" "2.85VD"
-			(at 152.4 95.25 0)
+			(at 152.4 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7152,7 +6871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 95.25 0)
+			(at 152.4 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7163,7 +6882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 95.25 0)
+			(at 152.4 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7174,7 +6893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 100.33 0)
+			(at 152.4 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7197,8 +6916,7 @@
 		)
 	)
 	(symbol
-		(lib_name "2.85VA_2")
-		(lib_id "gps-power:2.85VA")
+		(lib_id "power:VDDF")
 		(at 163.83 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -7207,7 +6925,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c220a4c-3c1d-4f5e-b1e3-f9be23ddecdc")
 		(property "Reference" "#2V85A0120"
 			(at 163.83 55.88 0)
@@ -7221,17 +6938,18 @@
 			)
 		)
 		(property "Value" "2.85VA"
-			(at 163.83 55.88 0)
+			(at 160.528 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 55.88 0)
+			(at 163.83 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +6960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 55.88 0)
+			(at 163.83 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,7 +6970,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDF\""
 			(at 163.83 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7618,7 +7336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 167.64 0)
+		(at 276.86 168.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7629,7 +7347,7 @@
 		(dnp no)
 		(uuid "63018755-1c18-4a20-8839-dd8bc8aa148a")
 		(property "Reference" "#GND0230"
-			(at 276.86 173.99 0)
+			(at 276.86 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,7 +7358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 278.892 171.45 0)
+			(at 278.892 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7651,7 +7369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 167.64 0)
+			(at 276.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +7380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 167.64 0)
+			(at 276.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7673,7 +7391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 167.64 0)
+			(at 276.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9348,7 +9066,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:D32G-016.368M")
-		(at 276.86 158.75 0)
+		(at 276.86 160.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9360,7 +9078,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fb4f062-8e0a-4456-b6e7-24cac93b422c")
 		(property "Reference" "U24"
-			(at 276.86 149.86 0)
+			(at 276.86 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9370,7 +9088,7 @@
 			)
 		)
 		(property "Value" "D32G-016.368M"
-			(at 276.86 152.4 0)
+			(at 276.86 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9380,7 +9098,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:U-Connor-Winfield-D32G-016368M"
-			(at 276.86 146.812 0)
+			(at 276.86 148.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9109,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.conwin.com/datasheets/tx/tx240.pdf"
-			(at 276.86 145.034 0)
+			(at 276.86 146.304 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9402,7 +9120,7 @@
 			)
 		)
 		(property "Description" "16.368 MHz TCXO Clipped Sine Wave Oscillator 3.3V 4-SMD, No Lead"
-			(at 276.86 158.75 0)
+			(at 276.86 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9413,7 +9131,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 276.86 158.75 0)
+			(at 276.86 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9424,7 +9142,7 @@
 			)
 		)
 		(property "DPN" "CW660CT-ND"
-			(at 276.86 158.75 0)
+			(at 276.86 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9435,7 +9153,7 @@
 			)
 		)
 		(property "MFR" "Connor Winfield"
-			(at 276.86 158.75 0)
+			(at 276.86 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9446,7 +9164,7 @@
 			)
 		)
 		(property "MPN" "D32G-016.368M"
-			(at 276.86 158.75 0)
+			(at 276.86 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,6 +9182,9 @@
 		)
 		(pin "4"
 			(uuid "9ad017b6-c9de-4351-85e8-77f048552c17")
+		)
+		(pin "1"
+			(uuid "9464f2ed-a90d-45a4-aeda-1ff2c6e8cee0")
 		)
 		(instances
 			(project "oresat-gps-card"
@@ -10752,8 +10473,7 @@
 		)
 	)
 	(symbol
-		(lib_name "2.85VA_1")
-		(lib_id "gps-power:2.85VA")
+		(lib_id "power:VDDF")
 		(at 189.23 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -10762,7 +10482,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf849054-75b2-4879-a17e-e63df221ce3e")
 		(property "Reference" "#2V85A0121"
 			(at 189.23 55.88 0)
@@ -10776,17 +10495,18 @@
 			)
 		)
 		(property "Value" "2.85VA"
-			(at 189.23 55.88 0)
+			(at 185.928 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 55.88 0)
+			(at 189.23 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10797,7 +10517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 55.88 0)
+			(at 189.23 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,7 +10527,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDF\""
 			(at 189.23 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11585,8 +11305,7 @@
 		)
 	)
 	(symbol
-		(lib_name "2.85VA_4")
-		(lib_id "gps-power:2.85VA")
+		(lib_id "power:VDDF")
 		(at 113.03 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -11595,7 +11314,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d61f097a-6bea-4c37-8d95-7a38cbf4ef05")
 		(property "Reference" "#2V85A0118"
 			(at 113.03 55.88 0)
@@ -11609,7 +11327,7 @@
 			)
 		)
 		(property "Value" "2.85VA"
-			(at 113.03 55.88 0)
+			(at 113.03 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11619,7 +11337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 55.88 0)
+			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11630,7 +11348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 55.88 0)
+			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11640,7 +11358,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDF\""
 			(at 113.03 60.96 0)
 			(hide yes)
 			(show_name no)

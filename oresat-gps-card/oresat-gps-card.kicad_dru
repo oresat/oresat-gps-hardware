@@ -4,7 +4,7 @@
 
 (rule "RF_Clearance_Relaxation_at_Pad"
     (condition "A.NetClass == 'RF-50-min' && B.Type == 'Pad'")
-    (constraint clearance (min 0.17mm))
+    (constraint clearance (min 0.14mm))
 )
 
 # For the RF netclass, ignore erors caused by traces being withing 0.5 mm
@@ -12,7 +12,7 @@
 
 (rule "RF_Clearance_Trace_to_Trace_Relaxation"
     (condition "A.NetClass == 'RF-50-min' && B.Type == 'Track'")
-    (constraint clearance (min 0.15mm))
+    (constraint clearance (min 0.14mm))
 )
 # For the eMMC, ignore routing through unconnected pins.
 
@@ -26,4 +26,9 @@
 (rule "Allow_Copper_To_Edge"
     (condition "A.insideArea('EDGE_PERMIT_ZONE')")
     (constraint edge_clearance (min -1mm))
+)
+
+(rule "Allow_Pads_Near_NPTHs"
+    (condition "A.insideArea('EDGE_PERMIT_ZONE')")
+    (constraint hole_clearance (min -1mm))
 )

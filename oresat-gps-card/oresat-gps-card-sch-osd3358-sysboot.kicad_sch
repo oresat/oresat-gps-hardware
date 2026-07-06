@@ -6,8 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-06-28")
+		(date "2026-07-06")
 		(rev "1.2")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -9183,7 +9184,7 @@
 		)
 		(uuid "4c80700d-2fae-40cb-8a52-c1b3b8815eba")
 	)
-	(hierarchical_label "SYSBOOT2"
+	(hierarchical_label "BOOTCFG"
 		(shape input)
 		(at 313.69 138.43 0)
 		(effects

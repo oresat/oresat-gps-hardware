@@ -6,8 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-06-28")
+		(date "2026-07-06")
 		(rev "1.2")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -304,196 +305,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3799,7 +3610,7 @@
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -3887,142 +3698,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-power:3.3V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#3V3"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -4603,7 +4278,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4628,7 +4303,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "P-Channel Power MOSFET, SOT-23-6"
+			(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5058,121 +4733,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Circuit breaker switch\nwith ~10 ms soft start"
 		(exclude_from_sim no)
@@ -5243,9 +4803,9 @@
 		)
 		(uuid "52f05abf-29e9-4d86-b1dd-6d992040853f")
 	)
-	(text "Feedback settings trips at 295m mA"
+	(text "Feedback settings trips at 985m mA"
 		(exclude_from_sim no)
-		(at 295.402 47.498 0)
+		(at 295.148 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5332,7 +4892,7 @@
 	)
 	(text "C3-UART signals protected\nwhen IC unpowered"
 		(exclude_from_sim no)
-		(at 234.188 158.242 0)
+		(at 241.808 157.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5374,19 +4934,6 @@
 			(justify left bottom)
 		)
 		(uuid "c25c2e1a-853e-4faa-97aa-156e0a1ba1ca")
-	)
-	(text "OreSat Power Enable\n(PEN)"
-		(exclude_from_sim no)
-		(at 58.42 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "d2b37db3-36b0-4610-a36d-08995dbcc4c2")
 	)
 	(text "250 ms inhibit\non power up"
 		(exclude_from_sim no)
@@ -5505,12 +5052,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2222fd02-55d9-431c-bc48-5a7abc7258e3")
-	)
-	(junction
-		(at 285.75 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "276011f0-3acd-4d02-9c14-e7a7b7df3cef")
 	)
 	(junction
 		(at 200.66 215.9)
@@ -5753,6 +5294,12 @@
 		(uuid "b58846b4-5870-496f-8a35-f66ebed9dea2")
 	)
 	(junction
+		(at 140.97 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e20b5d-5946-4745-b05c-7a3f362a5450")
+	)
+	(junction
 		(at 334.01 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5811,12 +5358,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dab2e940-5924-475b-b61f-6503af0e02ef")
-	)
-	(junction
-		(at 81.28 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e734de3c-42b2-4f77-b066-62227dee88a3")
 	)
 	(junction
 		(at 219.71 135.89)
@@ -6039,16 +5580,6 @@
 			(type default)
 		)
 		(uuid "100e606c-c12d-4811-8d09-e78142a0c414")
-	)
-	(wire
-		(pts
-			(xy 76.2 45.72) (xy 81.28 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101c882e-641d-4e22-bd7b-137b05d332af")
 	)
 	(wire
 		(pts
@@ -6309,26 +5840,6 @@
 			(type solid)
 		)
 		(uuid "29737405-300c-4375-8e8c-5ec3506167cb")
-	)
-	(wire
-		(pts
-			(xy 81.28 45.72) (xy 101.6 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a72df82-1b90-46c3-9660-69beb411b3b2")
-	)
-	(wire
-		(pts
-			(xy 285.75 54.61) (xy 285.75 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba9bd12-e5d8-4d9a-abc3-b9b287583a5e")
 	)
 	(wire
 		(pts
@@ -7062,7 +6573,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 52.07) (xy 303.53 52.07)
+			(xy 276.86 52.07) (xy 303.53 52.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -7502,16 +7013,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 52.07) (xy 285.75 52.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "800bc07e-88ae-43b9-bb48-69d86237e132")
-	)
-	(wire
-		(pts
 			(xy 71.12 162.56) (xy 71.12 166.37)
 		)
 		(stroke
@@ -7862,16 +7363,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 54.61) (xy 285.75 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0899404-18f5-492f-8644-6f573c4469ae")
-	)
-	(wire
-		(pts
 			(xy 63.5 119.38) (xy 63.5 162.56)
 		)
 		(stroke
@@ -8162,7 +7653,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 45.72) (xy 71.12 45.72)
+			(xy 67.31 45.72) (xy 81.28 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8372,16 +7863,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 215.9) (xy 250.19 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8301408-2b02-40c0-8e8f-ea5c49accf1d")
-	)
-	(wire
-		(pts
 			(xy 91.44 210.82) (xy 91.44 218.44)
 		)
 		(stroke
@@ -8459,16 +7940,6 @@
 			(type solid)
 		)
 		(uuid "e03113ab-2245-4cec-be2d-a06aa8e048d5")
-	)
-	(wire
-		(pts
-			(xy 101.6 45.72) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0805ddd-6aaa-4a23-9b3b-37ea75b6cb35")
 	)
 	(wire
 		(pts
@@ -8552,16 +8023,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 83.82 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e60afd49-d9a1-459f-b726-460b40af9898")
-	)
-	(wire
-		(pts
 			(xy 147.32 127) (xy 147.32 128.27)
 		)
 		(stroke
@@ -8639,6 +8100,16 @@
 			(type default)
 		)
 		(uuid "ed4bc97b-5d47-4923-8193-a797a9642a5d")
+	)
+	(wire
+		(pts
+			(xy 140.97 121.92) (xy 147.32 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee50bff4-7cae-4e7d-a4ab-1b75adbf2266")
 	)
 	(wire
 		(pts
@@ -8996,12 +8467,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "06250394-a40e-49cd-970d-e1f2a23f82b1")
 	)
-	(hierarchical_label "MCU-UART-RX"
+	(hierarchical_label "UART0_RX"
 		(shape output)
 		(at 204.47 153.67 180)
 		(effects
@@ -9027,12 +8500,27 @@
 		)
 		(uuid "0ca5d989-2347-4931-9ce0-1242a1719fa2")
 	)
+	(hierarchical_label "BOOTCFG"
+		(shape input)
+		(at 147.32 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "589d8c09-abf1-4932-9217-e19a6a73b755")
+	)
 	(hierarchical_label "OPD_PWR"
 		(shape input)
 		(at 55.88 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -9051,7 +8539,7 @@
 		)
 		(uuid "8069be6e-b215-4631-92b6-48372b9d77b1")
 	)
-	(hierarchical_label "MCU-UART-TX"
+	(hierarchical_label "UART0_TX"
 		(shape input)
 		(at 204.47 148.59 180)
 		(effects
@@ -9064,25 +8552,14 @@
 		)
 		(uuid "8ab8b862-83cc-4d6a-ade1-0deac6d984f7")
 	)
-	(hierarchical_label "411-IOUT"
-		(shape passive)
-		(at 287.02 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "c3020b79-16eb-464a-aa45-2d88ba2b036c")
-	)
 	(hierarchical_label "OPD_SCL"
 		(shape input)
 		(at 30.48 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -10342,7 +9819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100"
 			(at 67.31 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10375,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" ""
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10397,7 +9874,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT10R0CT-ND"
+		(property "DPN" ""
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -10419,7 +9896,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT10R0"
+		(property "MPN" ""
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -12086,7 +11563,7 @@
 		(dnp no)
 		(uuid "2e1d441c-e16a-42bb-a14e-beefbcacd274")
 		(property "Reference" "D1"
-			(at 191.516 135.636 0)
+			(at 191.262 133.096 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12096,8 +11573,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "AMBER"
-			(at 195.326 137.668 0)
+		(property "Value" "AMB"
+			(at 191.008 136.398 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12923,84 +12400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 83.82 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3931a3c0-ba14-4483-8d52-7380b876814c")
-		(property "Reference" "#FLG01"
-			(at 85.725 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 86.36 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d9ee06b-6248-4878-a3bc-ef2ed84315b7")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 38.1 175.26 90)
 		(unit 1)
@@ -13483,84 +12882,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 250.19 215.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44995df8-82b7-4e2c-9bdd-636a6f57bf62")
-		(property "Reference" "#FLG04"
-			(at 252.095 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 254 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 250.19 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa26d93d-250f-4fdf-8687-98b37d972d2f")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -14060,7 +13381,7 @@
 		(dnp no)
 		(uuid "53e65f82-8fa1-4636-b18b-c733bdfa4a1f")
 		(property "Reference" "R109"
-			(at 365.76 44.45 90)
+			(at 372.618 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14069,8 +13390,8 @@
 				)
 			)
 		)
-		(property "Value" "2.7k"
-			(at 370.84 44.45 90)
+		(property "Value" "10k"
+			(at 372.11 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14101,7 +13422,7 @@
 				)
 			)
 		)
-		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" ""
 			(at 368.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14124,7 +13445,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" ""
 			(at 368.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14148,7 +13469,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT2K70"
+		(property "MPN" ""
 			(at 368.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -16202,7 +15523,7 @@
 		(dnp no)
 		(uuid "7921bc78-530d-4c48-a6e4-c1dc24f35aac")
 		(property "Reference" "R102"
-			(at 307.34 54.61 90)
+			(at 307.594 47.498 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16211,7 +15532,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "100"
 			(at 307.34 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16518,84 +15839,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
 					(reference "R105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-power:3.3V")
-		(at 101.6 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8707ca45-03da-4fd8-ad81-22c82902ead1")
-		(property "Reference" "#3V02"
-			(at 101.6 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 101.6 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "770be82a-4f98-48e5-bbf2-7a3d623c58ac")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "#3V02")
 					(unit 1)
 				)
 			)
@@ -18002,7 +17245,7 @@
 		(dnp no)
 		(uuid "96aad12a-e9b9-4f0b-b63e-10bf30a08d75")
 		(property "Reference" "R94"
-			(at 235.458 146.558 90)
+			(at 237.236 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18011,8 +17254,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 239.014 146.558 90)
+		(property "Value" "100"
+			(at 236.728 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18043,7 +17286,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" ""
 			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18076,7 +17319,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" ""
 			(at 237.49 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -18087,7 +17330,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" ""
 			(at 237.49 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -19531,107 +18774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 73.66 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5578e19-25d5-4167-b718-22a6b52d8afc")
-		(property "Reference" "D10"
-			(at 73.66 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR0520L"
-			(at 73.66 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 73.66 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 73.66 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25bb8d1a-59fd-4aff-9fe1-b6a8ae0278e8")
-		)
-		(pin "2"
-			(uuid "6be974f6-a8cc-41a8-810c-6391a580fb37")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 214.63 233.68 0)
 		(unit 1)
@@ -21022,7 +20164,7 @@
 		(dnp no)
 		(uuid "d14bdd90-870f-4cc7-bd57-8965e8d34eb5")
 		(property "Reference" "R101"
-			(at 302.26 62.23 90)
+			(at 302.514 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21031,7 +20173,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "100"
 			(at 302.26 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21440,7 +20582,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100m"
+		(property "Value" "30m"
 			(at 264.668 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21473,7 +20615,7 @@
 				)
 			)
 		)
-		(property "Description" "100 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"
+		(property "Description" ""
 			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21496,7 +20638,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "CSR1206FKR100CT-ND"
+		(property "DPN" ""
 			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21520,7 +20662,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CSR1206FKR100"
+		(property "MPN" ""
 			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21770,7 +20912,7 @@
 		(dnp no)
 		(uuid "def61dba-45b4-478d-af93-9eeada9054e2")
 		(property "Reference" "R95"
-			(at 235.458 155.702 90)
+			(at 237.49 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21779,8 +20921,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 239.268 155.702 90)
+		(property "Value" "100"
+			(at 237.744 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21811,7 +20953,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" ""
 			(at 237.49 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -21844,7 +20986,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" ""
 			(at 237.49 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21855,7 +20997,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" ""
 			(at 237.49 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21994,7 +21136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:L_ECS_MPIP0420"
+		(property "Footprint" "oresat-passives:L_ECS-MPI4040"
 			(at 231.14 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -23177,7 +22319,7 @@
 		(dnp no)
 		(uuid "f8c763b8-c2e3-431c-9ef9-84a3c40bb190")
 		(property "Reference" "R92"
-			(at 191.77 127 90)
+			(at 192.532 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23186,8 +22328,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 186.69 127 90)
+		(property "Value" "4.7k"
+			(at 192.532 127.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23218,7 +22360,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" ""
 			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
@@ -23241,7 +22383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" ""
 			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
@@ -23265,7 +22407,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" ""
 			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
