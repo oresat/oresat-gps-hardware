@@ -9417,7 +9417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 46.736 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -9749,7 +9749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 51.816 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -12682,7 +12682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 77.216 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -14727,7 +14727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 67.056 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -16697,7 +16697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 46.736 86.614 90)
 			(hide yes)
 			(show_name no)
@@ -18580,7 +18580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 82.296 86.614 90)
 			(hide yes)
 			(show_name no)
@@ -19948,7 +19948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 61.976 86.614 90)
 			(hide yes)
 			(show_name no)
@@ -21056,7 +21056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 61.976 76.454 90)
 			(hide yes)
 			(show_name no)
@@ -22545,7 +22545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 82.296 76.454 90)
 			(hide yes)
 			(show_name no)
