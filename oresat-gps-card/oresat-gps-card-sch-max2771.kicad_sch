@@ -11,372 +11,6 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "2.85VD_1"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VD_1"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VD_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VD_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "2.85VD_2"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VD_2"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VD_2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VD_2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "2.85VD_3"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VD_3"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VD_3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VD_3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -515,207 +149,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1378,128 +811,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "gps-power:2.85VD"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#2V85D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.85VD"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.85VD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.85VD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "2.85VD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-ics:D32G-016.368M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1984,7 +1295,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 14.224 -34.544 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1994,7 +1305,7 @@
 				)
 			)
 			(property "Value" "MAX2769"
-				(at 0 0 0)
+				(at 17.018 -36.322 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2055,7 +1366,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -29.21 -17.78 0)
 					(length 2.54)
 					(name "LNAOUT"
@@ -2073,7 +1384,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -29.21 12.7 0)
 					(length 2.54)
 					(name "ANTBIAS"
@@ -2091,7 +1402,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at -16.51 40.64 270)
 					(length 2.54)
 					(name "VCCRF"
@@ -2127,7 +1438,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 21.59 -22.86 180)
 					(length 2.54)
 					(name "LD"
@@ -2145,7 +1456,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -29.21 30.48 0)
 					(length 2.54)
 					(name "~{SHDN}"
@@ -2163,7 +1474,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -29.21 25.4 0)
 					(length 2.54)
 					(name "SDATA"
@@ -2199,7 +1510,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -29.21 22.86 0)
 					(length 2.54)
 					(name "~{CS}"
@@ -2217,7 +1528,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at -5.08 40.64 270)
 					(length 2.54)
 					(name "VCCVCO"
@@ -2253,7 +1564,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at -12.7 40.64 270)
 					(length 2.54)
 					(name "VCCCP"
@@ -2289,7 +1600,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 21.59 -17.78 180)
 					(length 2.54)
 					(name "XTAL"
@@ -2343,7 +1654,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 21.59 17.78 180)
 					(length 2.54)
 					(name "Q0"
@@ -2361,7 +1672,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 8.89 40.64 270)
 					(length 2.54)
 					(name "VCCADC"
@@ -2379,7 +1690,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 21.59 25.4 180)
 					(length 2.54)
 					(name "I0"
@@ -2397,7 +1708,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 21.59 21.59 180)
 					(length 2.54)
 					(name "I1"
@@ -2415,10 +1726,11 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 21.59 -26.67 180)
+				(pin no_connect line
+					(at -3.81 -15.24 180)
 					(length 2.54)
-					(name "N.C."
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2433,7 +1745,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at -8.89 40.64 270)
 					(length 2.54)
 					(name "VCCIF"
@@ -2451,7 +1763,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -29.21 -12.7 0)
 					(length 2.54)
 					(name "~{IDLE}"
@@ -2505,7 +1817,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -29.21 -5.08 0)
 					(length 2.54)
 					(name "LNA1"
@@ -2826,6 +2138,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDDF"
 			(power global)
 			(pin_numbers
@@ -2995,12 +2446,6 @@
 		(uuid "0142f140-6d7d-49a4-97d5-af21f808e024")
 	)
 	(junction
-		(at 241.3 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06f9e69c-d70b-4302-8ae2-c0b9f9010f28")
-	)
-	(junction
 		(at 217.17 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3019,10 +2464,28 @@
 		(uuid "1d58674f-c5c3-4a77-ae70-5bcb9f8b4578")
 	)
 	(junction
+		(at 205.74 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20373b46-9736-425e-87f1-b11701877b5f")
+	)
+	(junction
 		(at 254 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a687bc0-7b9e-42b9-b3a7-69429e4c6d2e")
+	)
+	(junction
+		(at 120.65 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dac245a-6aec-4677-b9ed-d5e361744f3e")
+	)
+	(junction
+		(at 152.4 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "407ff017-7bb4-4dc1-80fc-c74e9d21970d")
 	)
 	(junction
 		(at 294.64 157.48)
@@ -3031,28 +2494,16 @@
 		(uuid "6423d7ca-84d5-4fea-9b99-a0ce608e841d")
 	)
 	(junction
-		(at 102.87 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "724af7f2-270a-4e16-8396-ee61ff867934")
-	)
-	(junction
-		(at 120.65 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c148999-b80b-4deb-b380-5def9e0d00b0")
-	)
-	(junction
 		(at 189.23 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cde424a-d9e7-46b0-b23c-6a0411eace75")
 	)
 	(junction
-		(at 205.74 184.15)
+		(at 241.3 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91191e5e-9357-4785-a2ad-e56f2aaf87ae")
+		(uuid "8cb95e55-8394-418a-bad8-e0911af7aa09")
 	)
 	(junction
 		(at 304.8 157.48)
@@ -3079,16 +2530,10 @@
 		(uuid "b29f4081-82f8-4d56-ad5d-064938b6313f")
 	)
 	(junction
-		(at 152.4 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b60ff005-7a10-470b-a5dd-d5d2c22f8dbe")
-	)
-	(junction
 		(at 152.4 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d244a3b3-f426-4f4c-a5f4-b053d0a48226")
+		(uuid "ba3e4269-e4d5-4b64-ad4a-5e19d9f088ef")
 	)
 	(junction
 		(at 138.43 63.5)
@@ -3113,10 +2558,6 @@
 	(no_connect
 		(at 191.77 175.26)
 		(uuid "8b21e64e-98f7-46db-a0b6-67f56edb8b20")
-	)
-	(no_connect
-		(at 224.79 166.37)
-		(uuid "a8ff8cde-805d-4c73-97e4-ec1448a30eea")
 	)
 	(wire
 		(pts
@@ -3980,16 +3421,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 63.5) (xy 102.87 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc736e6-6f5f-4294-9b63-0467bff9cc27")
-	)
-	(wire
-		(pts
 			(xy 113.03 63.5) (xy 113.03 64.77)
 		)
 		(stroke
@@ -4407,16 +3838,6 @@
 			(type default)
 		)
 		(uuid "eada858e-7b00-4acb-8fdc-177840976118")
-	)
-	(wire
-		(pts
-			(xy 87.63 63.5) (xy 87.63 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba15482-8b9c-4e2b-931c-941cd9553cd5")
 	)
 	(wire
 		(pts
@@ -5030,142 +4451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 87.63 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ba10470-1e45-41fd-9845-0a8a204a05cb")
-		(property "Reference" "D5"
-			(at 90.17 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GRN"
-			(at 90.17 80.645 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 87.63 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
-			(at 87.63 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
-			(at 87.63 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 87.63 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 87.63 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "732-4971-1-ND"
-			(at 87.63 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Wurth"
-			(at 87.63 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "150060GS75000"
-			(at 87.63 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b01a2e04-cf5c-4461-acf3-11ce12e32c2e")
-		)
-		(pin "2"
-			(uuid "e608d6e5-8a87-4c75-b2f9-dd85ee361964")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 152.4 120.65 0)
 		(unit 1)
@@ -5292,8 +4577,7 @@
 		)
 	)
 	(symbol
-		(lib_name "2.85VD_3")
-		(lib_id "gps-power:2.85VD")
+		(lib_id "power:VDD")
 		(at 217.17 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -5302,7 +4586,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11ffe1de-3eae-45aa-87b3-42356d7b02ae")
 		(property "Reference" "#2V85D0114"
 			(at 217.17 55.88 0)
@@ -5316,7 +4599,7 @@
 			)
 		)
 		(property "Value" "2.85VD"
-			(at 217.17 55.88 0)
+			(at 217.17 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5326,7 +4609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 55.88 0)
+			(at 217.17 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5337,7 +4620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 55.88 0)
+			(at 217.17 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +4630,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 217.17 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5763,8 +5046,7 @@
 		)
 	)
 	(symbol
-		(lib_name "2.85VD_2")
-		(lib_id "gps-power:2.85VD")
+		(lib_id "power:VDD")
 		(at 242.57 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -5773,7 +5055,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e4bc2ca-09b5-472e-988e-dc0a768e7800")
 		(property "Reference" "#2V85D0115"
 			(at 242.57 55.88 0)
@@ -5787,17 +5068,18 @@
 			)
 		)
 		(property "Value" "2.85VD"
-			(at 242.57 55.88 0)
+			(at 239.268 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 55.88 0)
+			(at 242.57 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,7 +5090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 55.88 0)
+			(at 242.57 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 242.57 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6837,8 +6119,7 @@
 		)
 	)
 	(symbol
-		(lib_name "2.85VD_1")
-		(lib_id "gps-power:2.85VD")
+		(lib_id "power:VDD")
 		(at 152.4 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -6847,7 +6128,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3954ebcb-f458-47f7-9e33-b65978388740")
 		(property "Reference" "#2V85D0111"
 			(at 152.4 96.52 0)
@@ -6861,17 +6141,18 @@
 			)
 		)
 		(property "Value" "2.85VD"
-			(at 152.4 96.52 0)
+			(at 149.606 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 96.52 0)
+			(at 152.4 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6882,7 +6163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 96.52 0)
+			(at 152.4 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6892,7 +6173,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 152.4 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7912,7 +7193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "gps-power:2.85VD")
+		(lib_id "power:VDD")
 		(at 294.64 152.4 0)
 		(mirror y)
 		(unit 1)
@@ -7922,7 +7203,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e7cdc44-12b0-44cf-ae92-83bd344ac124")
 		(property "Reference" "#2V85D0106"
 			(at 294.64 147.32 0)
@@ -7936,17 +7216,18 @@
 			)
 		)
 		(property "Value" "2.85VD"
-			(at 294.64 147.32 0)
+			(at 291.846 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 147.32 0)
+			(at 294.64 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +7238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 147.32 0)
+			(at 294.64 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7248,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 294.64 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9275,131 +8556,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 87.63 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a41f5f21-4a34-48f4-9840-d9795ca401ca")
-		(property "Reference" "R62"
-			(at 85.09 70.485 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 85.09 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 86.614 70.866 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 87.63 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 87.63 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Stackpole Electronics"
-			(at 87.63 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
-			(at 87.63 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84809c1f-af7f-41be-a849-33aceb28d9a4")
-		)
-		(pin "2"
-			(uuid "24366363-4c3c-4bd8-95b5-b247a127c05d")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 110.49 142.24 0)
 		(unit 1)
@@ -10389,84 +9545,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
 					(reference "#GND0214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be935a85-c415-42fc-80a0-fc8f0f6bf209")
-		(property "Reference" "#GND0143"
-			(at 87.63 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.725 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e62d6a6-450c-4ec6-bead-898cb2cbeeaf")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
-					(reference "#GND0143")
 					(unit 1)
 				)
 			)

@@ -2481,6 +2481,112 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-misc:Test-Point-RF-Probe-Stripline"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+				(at 0.254 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Test-Point-RF-Probe-Stripline_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Test-Point-RF-Probe-Stripline_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-pcbs:ORESAT-CARD-V1.3-1RF-POS2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2817,10 +2923,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "RF SMPM Connector"
 		(exclude_from_sim no)
-		(at 341.63 129.54 0)
+		(at 351.79 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2891,6 +3112,12 @@
 		(uuid "13fab168-63cc-47ca-9a26-dad7e4f854e6")
 	)
 	(junction
+		(at 303.53 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f074b15-9a0b-4510-b1a9-1e132d9427e0")
+	)
+	(junction
 		(at 115.57 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2927,10 +3154,28 @@
 		(uuid "614644de-5d21-4e55-a5d6-c4d2b0e06c26")
 	)
 	(junction
+		(at 335.28 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f3bfca-4de6-417f-b2fe-f30aeb377199")
+	)
+	(junction
 		(at 115.57 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8583777c-06a5-4614-8da5-09caf67af76d")
+	)
+	(junction
+		(at 115.57 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a9501ff-70a7-40c6-b6af-eb49acc966aa")
+	)
+	(junction
+		(at 303.53 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2e0ec71-24de-4da1-8ce8-9ccc0b182b30")
 	)
 	(junction
 		(at 115.57 87.63)
@@ -2955,6 +3200,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb37f5bd-d249-49a9-8d7f-c88f8062a21e")
+	)
+	(junction
+		(at 115.57 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6388e63-d472-4b37-af48-2b57b7d422a0")
 	)
 	(junction
 		(at 116.84 77.47)
@@ -3120,6 +3371,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 143.51) (xy 299.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1482be02-b912-4083-b32e-5fb5a940ff5b")
+	)
+	(wire
+		(pts
 			(xy 113.03 72.39) (xy 116.84 72.39)
 		)
 		(stroke
@@ -3190,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 144.78) (xy 351.79 147.32)
+			(xy 361.95 144.78) (xy 361.95 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3530,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 139.7) (xy 299.72 154.94)
+			(xy 299.72 143.51) (xy 299.72 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 139.7) (xy 346.71 139.7)
+			(xy 331.47 139.7) (xy 335.28 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3910,6 +4171,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 95.25) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd5fc01-9167-4bb1-9f91-28e58fd64454")
+	)
+	(wire
+		(pts
 			(xy 208.28 74.93) (xy 219.71 74.93)
 		)
 		(stroke
@@ -3917,6 +4188,16 @@
 			(type default)
 		)
 		(uuid "ce668ba6-5c6f-4eea-bf34-49aa31181c44")
+	)
+	(wire
+		(pts
+			(xy 115.57 97.79) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb060a6-ee07-49a7-bcb2-ba5110a6bef7")
 	)
 	(wire
 		(pts
@@ -3940,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 132.08) (xy 311.15 132.08)
+			(xy 299.72 132.08) (xy 303.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3990,6 +4271,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 139.7) (xy 356.87 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5608960-764b-4a6b-b11e-611648d01442")
+	)
+	(wire
+		(pts
 			(xy 116.84 68.58) (xy 116.84 67.31)
 		)
 		(stroke
@@ -4007,6 +4298,16 @@
 			(type default)
 		)
 		(uuid "e80db5b1-e2da-4fd1-a03f-f8e19fe351d8")
+	)
+	(wire
+		(pts
+			(xy 303.53 132.08) (xy 311.15 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9035c57-70bc-4076-bfac-7192223024c3")
 	)
 	(wire
 		(pts
@@ -4030,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 139.7) (xy 299.72 139.7)
+			(xy 311.15 143.51) (xy 303.53 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4117,6 +4418,16 @@
 			(justify right bottom)
 		)
 		(uuid "031930c7-6adb-48d1-b4b7-d6bfd398af4b")
+	)
+	(label "LNA-IN-RF"
+		(at 341.63 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "094b7478-c698-4b9e-96fb-1a0bdf854ae6")
 	)
 	(label "PMIC_SCL"
 		(at 196.85 234.95 0)
@@ -4238,16 +4549,6 @@
 		)
 		(uuid "d01eb763-cb27-4991-8f89-84d56bba7c3b")
 	)
-	(label "RF-IN"
-		(at 346.71 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d311a03e-bd22-4802-8070-4f81e79c3227")
-	)
 	(label "OPD_SDA"
 		(at 130.81 59.69 180)
 		(effects
@@ -4277,6 +4578,162 @@
 			(justify right bottom)
 		)
 		(uuid "f5fb3a61-6b2f-4f1d-83ef-669433ec3bac")
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
+		(at 335.28 139.7 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "025a6644-6c7f-4699-9dd3-9aa76c06e891")
+		(property "Reference" "TP6"
+			(at 335.28 142.494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 335.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+			(at 335.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+			(at 335.026 147.066 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abeb2581-8d45-4cfb-9c39-d75c1a9edc5a")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0425030c-9267-4e4b-a4f8-c5e16eb06043")
+		(property "Reference" "#FLG02"
+			(at 118.745 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 120.65 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fabdd072-338d-4768-923f-312bec1128a7")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4559,6 +5016,83 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
 					(reference "#VBUS02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
+		(at 303.53 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fecb773-bf09-4504-8a0f-f2a13af23614")
+		(property "Reference" "TP7"
+			(at 303.53 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 303.53 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+			(at 303.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+			(at 303.276 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bcd3ca9-8f09-4a6e-875e-e3447d113792")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -4960,6 +5494,83 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
+		(at 303.53 143.51 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e3bac42-f74f-4937-9709-d71ba8464358")
+		(property "Reference" "TP16"
+			(at 303.53 146.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 303.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
+			(at 303.53 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
+			(at 303.276 150.876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77b09a5f-6072-4971-a0de-15de3d73b650")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 195.58 243.84 0)
 		(unit 1)
@@ -5031,6 +5642,85 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
 					(reference "#GND0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88bb5f2f-92c6-4745-a779-8a3e930af769")
+		(property "Reference" "#FLG03"
+			(at 118.745 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 120.65 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1289e32-e301-4331-844c-83fad7ed74da")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5431,7 +6121,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 351.79 139.7 0)
+		(at 361.95 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5441,7 +6131,7 @@
 		(dnp no)
 		(uuid "ba492a59-1873-4958-a783-2eb51d8f875c")
 		(property "Reference" "CM1"
-			(at 351.79 132.08 0)
+			(at 361.95 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5451,7 +6141,7 @@
 			)
 		)
 		(property "Value" "J-MOLEX-SMPM-73300-003X"
-			(at 351.79 134.62 0)
+			(at 361.95 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5461,7 +6151,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-073300-002X"
-			(at 351.79 133.35 0)
+			(at 361.95 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +6162,7 @@
 			)
 		)
 		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
-			(at 351.79 130.81 0)
+			(at 361.95 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5483,7 +6173,7 @@
 			)
 		)
 		(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
-			(at 351.79 139.7 0)
+			(at 361.95 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5592,7 +6282,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 147.32 0)
+		(at 361.95 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5602,7 +6292,7 @@
 		(dnp no)
 		(uuid "e3ccca2f-7aa5-46ca-8472-5510b1aa450e")
 		(property "Reference" "#GND0102"
-			(at 351.79 153.67 0)
+			(at 361.95 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,7 +6303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 151.13 0)
+			(at 361.95 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5623,7 +6313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 147.32 0)
+			(at 361.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5634,7 +6324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 147.32 0)
+			(at 361.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5645,7 +6335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 147.32 0)
+			(at 361.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,18 +7101,8 @@
 				(justify left)
 			)
 		)
-		(pin "RF-IN" input
-			(at 331.47 139.7 0)
-			(uuid "2a8403d3-338a-405d-bc3e-e5082667e966")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "STQ-RF" input
-			(at 311.15 139.7 180)
+			(at 311.15 143.51 180)
 			(uuid "1c5f7314-1f6c-480c-8895-d4e4dad9e38c")
 			(effects
 				(font
@@ -6439,6 +7119,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "LNA-IN-RF" input
+			(at 331.47 139.7 0)
+			(uuid "c30cb1cd-b626-4c53-9d02-c59f9c479244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
