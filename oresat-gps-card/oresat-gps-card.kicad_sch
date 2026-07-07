@@ -6618,7 +6618,7 @@
 				(justify right)
 			)
 		)
-		(pin "STQ_UART2_RX" input
+		(pin "UART2_RX" input
 			(at 248.92 153.67 0)
 			(uuid "24c083a9-5164-414d-b5ed-f164bb7544fc")
 			(effects
@@ -6658,7 +6658,7 @@
 				(justify right)
 			)
 		)
-		(pin "STQ_UART2_TX" input
+		(pin "UART2_TX" input
 			(at 248.92 151.13 0)
 			(uuid "d63bfca1-3af4-45b2-a5e8-b2208bbce193")
 			(effects
@@ -7333,7 +7333,7 @@
 				(justify right)
 			)
 		)
-		(pin "STQ_UART2_RX" input
+		(pin "UART2_RX" input
 			(at 266.7 153.67 180)
 			(uuid "65b4e32a-fa4d-43d4-81d1-1cd1bf15de89")
 			(effects
@@ -7343,7 +7343,7 @@
 				(justify left)
 			)
 		)
-		(pin "STQ_UART2_TX" input
+		(pin "UART2_TX" input
 			(at 266.7 151.13 180)
 			(uuid "39f7badf-fbeb-4e85-9ffa-2a9a6f8f6eaa")
 			(effects

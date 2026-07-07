@@ -1453,7 +1453,7 @@
 		)
 		(uuid "2c8d18de-afb9-4ba7-8a72-798539a29e8b")
 	)
-	(hierarchical_label "STQ_UART2_RX"
+	(hierarchical_label "UART2_RX"
 		(shape input)
 		(at 167.64 147.32 180)
 		(effects
@@ -1464,7 +1464,7 @@
 		)
 		(uuid "9f570cc2-c752-437c-a3bb-5136ba775a24")
 	)
-	(hierarchical_label "STQ_UART2_TX"
+	(hierarchical_label "UART2_TX"
 		(shape input)
 		(at 167.64 144.78 180)
 		(effects
