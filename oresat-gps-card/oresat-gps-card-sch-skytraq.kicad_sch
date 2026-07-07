@@ -1920,10 +1920,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "377163c4-233b-4e19-9526-51fe55b9ef9f")
 		(property "Reference" "C76"
-			(at 229.87 92.7099 0)
+			(at 228.6 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1934,7 +1933,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 229.87 95.2499 0)
+			(at 228.6 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2195,6 +2194,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 205.74 93.98 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2202,10 +2202,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48d927b6-057d-435f-bd8e-b8759520418d")
 		(property "Reference" "C75"
-			(at 209.55 92.7099 0)
+			(at 202.946 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2216,7 +2215,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 209.55 95.2499 0)
+			(at 202.946 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2227,7 +2226,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 206.7052 97.79 0)
+			(at 204.7748 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2407,26 +2406,25 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7bec5461-1b86-40d9-a299-520e5bcc8cd7")
 		(property "Reference" "U23"
-			(at 220.4594 107.95 0)
+			(at 221.996 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.0828 1.7703)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "ORION-B16"
-			(at 220.4594 111.76 0)
+			(at 220.472 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.0828 1.7703)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -2609,10 +2607,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c39a862a-2040-45aa-b231-add4efac33cf")
 		(property "Reference" "C77"
-			(at 240.03 92.7099 0)
+			(at 238.506 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2623,7 +2620,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 240.03 95.2499 0)
+			(at 238.506 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
