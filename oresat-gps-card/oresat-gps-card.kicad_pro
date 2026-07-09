@@ -1230,7 +1230,7 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "#FLG1-9,TP6-7,TP16,TP21,R62,C51-52,D5,#GND134-135,#GND143",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -9444,7 +9444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
 			(at 283.21 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9455,8 +9455,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
 			(at 283.21 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 283.21 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "738-RAVF164DJT47K0CT-ND"
+			(at 283.21 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 283.21 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RAVF164DJT47K0"
+			(at 283.21 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10593,7 +10637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
 			(at 257.81 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10604,8 +10648,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
 			(at 257.81 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 257.81 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "738-RAVF164DJT47K0CT-ND"
+			(at 257.81 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 257.81 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RAVF164DJT47K0"
+			(at 257.81 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10699,7 +10787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
 			(at 285.75 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10710,8 +10798,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
 			(at 285.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 285.75 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "738-RAVF164DJT47K0CT-ND"
+			(at 285.75 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 285.75 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RAVF164DJT47K0"
+			(at 285.75 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
