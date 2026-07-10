@@ -9444,7 +9444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P473J"
 			(at 283.21 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9455,7 +9455,7 @@
 				)
 			)
 		)
-		(property "Description" "47k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 283.21 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9477,7 +9477,7 @@
 				)
 			)
 		)
-		(property "DPN" "738-RAVF164DJT47K0CT-ND"
+		(property "DPN" "U7473CT-ND"
 			(at 283.21 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -9488,7 +9488,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Electronic Components"
 			(at 283.21 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -9499,7 +9499,7 @@
 				)
 			)
 		)
-		(property "MPN" "RAVF164DJT47K0"
+		(property "MPN" "EXB-A10P473J"
 			(at 283.21 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +9684,7 @@
 				)
 			)
 		)
-		(property "Description" "OSD335x Embedded Module 1GHz 512MB"
+		(property "Description" "Embedded Module ARM® Cortex®-A8, AM3358 1GHz 1GB"
 			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +9706,7 @@
 				)
 			)
 		)
-		(property "MPN" "OSD3358-512M-BSM"
+		(property "MPN" "OSD3358-1G-ISM"
 			(at 184.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +9728,18 @@
 				)
 			)
 		)
-		(property "MFR" "Octavo Systems LLC"
+		(property "MFR" "Octavo Systems"
+			(at 184.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "1676-OSD3358-1G-ISM-ND"
 			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10637,7 +10648,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P473J"
 			(at 257.81 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10648,7 +10659,7 @@
 				)
 			)
 		)
-		(property "Description" "47k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 257.81 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10670,7 +10681,7 @@
 				)
 			)
 		)
-		(property "DPN" "738-RAVF164DJT47K0CT-ND"
+		(property "DPN" "U7473CT-ND"
 			(at 257.81 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10681,7 +10692,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Electronic Components"
 			(at 257.81 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10692,7 +10703,7 @@
 				)
 			)
 		)
-		(property "MPN" "RAVF164DJT47K0"
+		(property "MPN" "EXB-A10P473J"
 			(at 257.81 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10787,7 +10798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P473J"
 			(at 285.75 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10798,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Description" "47k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 285.75 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10820,7 +10831,7 @@
 				)
 			)
 		)
-		(property "DPN" "738-RAVF164DJT47K0CT-ND"
+		(property "DPN" "U7473CT-ND"
 			(at 285.75 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -10831,7 +10842,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Panasonic Electronic Components"
 			(at 285.75 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -10842,7 +10853,7 @@
 				)
 			)
 		)
-		(property "MPN" "RAVF164DJT47K0"
+		(property "MPN" "EXB-A10P473J"
 			(at 285.75 90.17 90)
 			(hide yes)
 			(show_name no)

@@ -2638,6 +2638,16 @@
 		)
 		(uuid "2ef310a3-8556-4ae8-9da1-d7c8394f4c77")
 	)
+	(text "Cover: Laird BMI-S-202-C"
+		(exclude_from_sim no)
+		(at 114.046 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9754d493-c9a9-4763-905d-0a67b197f4d0")
+	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
 		(at 116.84 259.08 0)
@@ -3913,7 +3923,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Power Divider 1.2 GHz ~ 2 GHz Isolation (Min) 10dB, 1.3 VSWR (Typ), 3° Imbalance (Max) 8-SOIC (0.154\", 3.90mm Width)"
+			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "3157-BP2G1+CT-ND"
+			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Mini-Circuits"
+			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BP2G1+"
 			(at 142.24 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4323,7 +4377,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4339,7 +4393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 276.86 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4351,7 +4405,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 276.86 170.18 0)
+			(at 276.86 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +4416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 170.18 0)
+			(at 276.86 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 276.86 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5294,6 +5348,17 @@
 				)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 99.06 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7bb095a5-6552-4cef-b135-99b860b91ed5")
 		)
@@ -6179,11 +6244,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "6762ae3c-3c01-4132-8abb-280f4b47bcdb")
 		(property "Reference" "SH1"
-			(at 130.81 135.8899 0)
+			(at 113.284 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6193,8 +6257,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BMI-S-202-C"
-			(at 130.81 138.4299 0)
+		(property "Value" "BMI-S-202-F"
+			(at 108.204 133.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6215,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.laird.com/document/datasheet/bmi-s-202-sales"
 			(at 114.3 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6290,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Shield Frame 0.650\" (16.50mm) X 0.650\" (16.50mm) Surface Mount"
+			(at 114.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 114.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "903-1051-1-ND"
+			(at 114.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Laird Technologies EMI"
+			(at 114.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BMI-S-202-F"
 			(at 114.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6369,7 +6477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0005_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20260105172120"
 			(at 251.46 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6380,8 +6488,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 1.5A 70mOhm"
 			(at 251.46 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 251.46 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "490-5988-1-ND"
+			(at 251.46 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 251.46 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM21PG331SN1D"
+			(at 251.46 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

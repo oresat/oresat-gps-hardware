@@ -9152,7 +9152,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9168,7 +9168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9180,7 +9180,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 124.46 0)
+			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,7 +9191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 124.46 0)
+			(at 140.97 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9201,7 +9201,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 127 0)
 			(hide yes)
 			(show_name no)
@@ -10256,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10278,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -10300,7 +10300,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT100R"
 			(at 63.5 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -10459,7 +10459,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10475,7 +10475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10487,7 +10487,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 119.38 0)
+			(at 140.97 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10498,7 +10498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 119.38 0)
+			(at 140.97 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10508,7 +10508,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11480,7 +11480,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11496,7 +11496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 63.5 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11508,7 +11508,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 63.5 172.72 0)
+			(at 63.5 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11519,7 +11519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 172.72 0)
+			(at 63.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11529,7 +11529,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 63.5 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13263,7 +13263,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13279,7 +13279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13291,7 +13291,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 121.92 0)
+			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13302,7 +13302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 121.92 0)
+			(at 140.97 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13312,7 +13312,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13892,7 +13892,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 368.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13915,7 +13915,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 368.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13939,7 +13939,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT10K0"
 			(at 368.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14937,7 +14937,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14953,7 +14953,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14965,7 +14965,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 81.28 43.18 0)
+			(at 81.28 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14976,7 +14976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 43.18 0)
+			(at 81.28 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14986,7 +14986,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 81.28 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15092,7 +15092,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15108,7 +15108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 247.65 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -15120,7 +15120,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 247.65 213.36 0)
+			(at 247.65 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15131,7 +15131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 213.36 0)
+			(at 247.65 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15141,7 +15141,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 247.65 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -16034,7 +16034,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 307.34 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16057,7 +16057,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 307.34 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16081,7 +16081,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 307.34 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16858,7 +16858,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16874,7 +16874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16886,7 +16886,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 114.3 0)
+			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16897,7 +16897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 114.3 0)
+			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16907,7 +16907,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17268,7 +17268,7 @@
 				)
 			)
 		)
-		(property "Description" "IC REG BUCK 5V 2A 8DFN"
+		(property "Description" "Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A 8-WFDFN Exposed Pad"
 			(at 214.63 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -17323,7 +17323,7 @@
 				)
 			)
 		)
-		(property "DPN" "1676-1002-ND"
+		(property "DPN" "LTC3624EDD-5#PBF-ND"
 			(at 214.63 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -17756,7 +17756,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17789,7 +17789,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 237.49 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -17800,7 +17800,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT100R"
 			(at 237.49 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -18521,7 +18521,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18537,7 +18537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18549,7 +18549,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 109.22 0)
+			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18560,7 +18560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 109.22 0)
+			(at 140.97 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18570,7 +18570,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -18945,7 +18945,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18961,7 +18961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 83.82 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -18973,7 +18973,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 83.82 116.84 0)
+			(at 83.82 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18984,7 +18984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 116.84 0)
+			(at 83.82 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18994,7 +18994,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 83.82 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19766,7 +19766,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19782,7 +19782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 63.5 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -19794,7 +19794,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 63.5 220.98 0)
+			(at 63.5 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19805,7 +19805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 220.98 0)
+			(at 63.5 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19815,7 +19815,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 63.5 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -20798,7 +20798,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 302.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20821,7 +20821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 302.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20845,7 +20845,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 302.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20878,7 +20878,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -20894,7 +20894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 83.82 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20906,7 +20906,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 83.82 119.38 0)
+			(at 83.82 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20917,7 +20917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 119.38 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20927,7 +20927,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -20956,7 +20956,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -20972,7 +20972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -20984,7 +20984,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 106.68 0)
+			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20995,7 +20995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 106.68 0)
+			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21005,7 +21005,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -21546,7 +21546,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 237.49 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -21579,7 +21579,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 237.49 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21590,7 +21590,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT100R"
 			(at 237.49 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -22595,7 +22595,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -22611,7 +22611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -22623,7 +22623,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 116.84 0)
+			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22634,7 +22634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 116.84 0)
+			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22644,7 +22644,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22874,7 +22874,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -22890,7 +22890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 140.97 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -22902,7 +22902,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 111.76 0)
+			(at 140.97 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22913,7 +22913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 111.76 0)
+			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22923,7 +22923,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)

@@ -380,7 +380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P103J"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -391,7 +391,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -399,6 +399,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5fb708f-cb49-4f14-a67a-93916dc1f6c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "U7103CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "826d69d0-9d25-45fe-891d-d634287a3baf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8484ac67-4bb4-4049-ab0e-7de5102b1836")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EXB-A10P103J"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e21c6f4-af72-42af-ae12-33487db5a4a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1561,7 +1613,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1573,7 +1625,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1581,6 +1633,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b5842ab-90bb-4682-a568-cada7c52b016")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cd92d26-6cff-4b4a-a4c7-f402f65fd385")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13948526-7984-4d45-a478-9648b8357a50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "effe6f0b-db98-497f-a57d-21f825696efe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2255,7 +2359,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2279,7 +2383,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2299,7 +2403,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3052,7 +3156,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3064,7 +3168,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3072,6 +3176,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5efd81a-a534-4595-b3ef-caca33b90d49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d44a9f8f-0c15-4b72-9747-f9dfdf6fb899")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dfbe0b3-1aa9-4d86-9a8d-4782f9c0392d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRT21BC71E106KE13K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47dda7a7-81d8-48ce-ad7b-50629f7f309d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3253,7 +3409,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3265,7 +3421,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3273,6 +3429,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4a4ea0d-2900-434b-8676-a3c43a814dcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7761bde-e5ff-435e-84a0-8b253dcae552")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "018c9438-847b-4945-94cd-d3f0ef27401c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b447a368-2ed5-4ec3-9c8d-a5ef573f26b1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3707,7 +3915,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0005_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20260105172120"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3719,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 1.5A 70mOhm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3727,6 +3935,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df2939b7-84a0-42fc-bb88-ac61fca0c472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-5988-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d003ed50-30e7-43a9-98f0-63148f3757df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4e04b17-820f-4ea5-8c1b-f97bdbda9746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BLM21PG331SN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b52cfeab-4185-4b5e-90b2-71775d02fef0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3895,7 +4155,7 @@
 				)
 			)
 		)
-		(property "Value" "0.03x0.04"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3919,7 +4179,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3939,7 +4199,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4258,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan337.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4269,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/1 Transceiver CANbus SOT-23-8"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4285,6 +4545,58 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b7e806b3-30a1-4af7-882c-cae2a39249bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af04118e-bd4a-44ef-8e93-916e2803bc6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "296-48971-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa6aab6c-4928-45f9-b66a-9a9a2b6c3e7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0a34ba4-dacd-406c-8232-9dbd905e4e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TCAN337GDCNR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1180e610-7028-42a3-aac9-2ab8c8041719")
 			(effects
 				(font
 					(size 1 1)
@@ -4700,6 +5012,19 @@
 				)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48f43e7f-8e30-4788-81c5-74b56acdb912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9466b485-4fbd-4df7-9d49-44799fc3f2b8/28bfb121-35dc-4529-9b13-e6e19b8565b2")
 		(sheetname "/RF + RF Power/")
 		(sheetfile "oresat-gps-card-sch-rf-power.kicad_sch")
@@ -4916,7 +5241,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4928,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4936,6 +5261,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1338fb45-8d4c-4639-93e2-7c553a546eb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10247b09-0232-4374-8d22-722d6ea74b31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c532f2f6-1e5e-4bc4-a8f2-61e980ecd66d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRT21BC71E106KE13K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee730f67-a1e2-44ca-80c7-7fc3937191db")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5117,7 +5494,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5129,7 +5506,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "40.2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5137,6 +5514,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd833ce7-a256-4a8d-a6d6-33eefa85b588")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT40K2CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df642559-d863-473d-afc5-a4f8e24c422b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c93b0882-941c-4138-acb0-11f480464337")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT40K2"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7b91c3f-c8aa-4bd7-98a7-be5ef5bc8284")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5318,7 +5747,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5330,7 +5759,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5338,6 +5767,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "356d8f32-58e4-45f0-9901-59f783f3eee3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-1405-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5885dc7e-7432-4a51-9de4-4a3865724a30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79da8d9d-980a-47d9-a916-21dddca1e2e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRM1885C1H120JA01D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94ad492f-60e0-470e-bc39-7a4b2f6fe023")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5519,7 +6000,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5531,7 +6012,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5539,6 +6020,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d749a1d3-7eaa-4a31-8339-dce6eccc4bbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-12983-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "507710ee-0c46-4054-b615-cf36b84a9b52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d81b28cf-bf29-4cb0-87dc-64f9438d1896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C103J5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f054e14d-44f4-48db-89b0-4ad07691d96b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5805,7 +6338,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5829,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5849,7 +6382,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6169,7 +6702,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6181,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6189,6 +6722,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c97696f-6df7-4847-8ba1-0a385e89447d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c63851ed-4556-4af6-af08-9bc1400d6b66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbdb42ae-a4e1-4da3-959a-b94ca39f6993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRT21BC71E106KE13K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2129a09-4dfe-4f67-8276-19ecca21aca0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7432,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Description" "IC REG BUCK 5V 2A 8DFN"
+		(property "Description" "Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A 8-WFDFN Exposed Pad"
 			(at 133.6 -14.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7492,7 +8077,7 @@
 				)
 			)
 		)
-		(property "DPN" "1676-1002-ND"
+		(property "DPN" "LTC3624EDD-5#PBF-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7880,7 +8465,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P103J"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7891,7 +8476,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7899,6 +8484,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4b1aaa6-460c-47a3-9ce5-10be8edc6ce5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "U7103CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3208b4e6-3ad2-459b-8c80-19c06fba4d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07464b2d-dc5d-4525-8e06-522269363f80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EXB-A10P103J"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f71279ea-0ca5-41ee-a797-6f0071517c0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8820,7 +9457,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.micron.com/products/managed-nand/emmc/part-catalog/mtfc32gazaqhd-it?login"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8831,7 +9468,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FLASH - NAND Memory IC 256Gbit eMMC 200 MHz 153-VFBGA (11.5x13)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8839,6 +9476,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ff27b6e-d488-4d23-b3d0-6ca4deaf36da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "557-MTFC32GAZAQHD-IT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a66ece3-5ba0-4636-ab79-41e32ad7db8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Micron Technology Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "932b5bea-3567-4c0a-bdd6-c966804be719")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MTFC32GAZAQHD-IT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04b998c9-c6ed-490b-8f1f-6f28901951f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16439,7 +17128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P473J"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16450,7 +17139,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16458,6 +17147,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "368beb09-b886-4ffb-9825-c9e5e5656932")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "U7473CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86cdd352-0706-477b-9759-2068097e9218")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d2dc34c-d3a7-4d89-80fc-352747dd0a5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EXB-A10P473J"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aac529c-c018-4766-97a3-de9cd51e4ad6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17861,7 +18602,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Power Divider 1.2 GHz ~ 2 GHz Isolation (Min) 10dB, 1.3 VSWR (Typ), 3° Imbalance (Max) 8-SOIC (0.154\", 3.90mm Width)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17869,6 +18610,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81e39076-c997-49ce-8d69-d3e9279702ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "3157-BP2G1+CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67ea480d-67e8-4687-b283-4a5a2e47c955")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Mini-Circuits"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69157436-f25a-4ce2-8565-2088d967a434")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BP2G1+"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3469cb92-ea59-47f0-8dc7-6580b2819f54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18031,7 +18824,7 @@
 				)
 			)
 		)
-		(property "Value" "0.03x0.04"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18055,7 +18848,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18075,7 +18868,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18143,7 +18936,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18155,7 +18948,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18167,7 +18960,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18180,12 +18973,38 @@
 				)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "264ea2cb-af3e-4362-943c-b6922ce288da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7770d5c6-d1ba-4680-84c4-ca0f618e7118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62302423-a4ac-4d85-8e35-e4880e33e606")
 			(effects
 				(font
 					(size 1 1)
@@ -18383,7 +19202,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18408,7 +19227,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "CSR1206FK30L0CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18434,7 +19253,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CSR1206FK30L0"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18934,7 +19753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://global.kyocera.com/prdct/electro/product/pdf/sf14_gnss.pdf"
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/saw-device/specification/SF14-1575F5UUR1_DS.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18947,7 +19766,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.57542GHz Frequency GPS RF SAW Filter (Surface Acoustic Wave) 0.45dB 2MHz Bandwidth 5-SMD, No Lead"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18956,6 +19775,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eddfc1c-c0f4-4e95-9feb-3b36a7cc7626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "478-SF14-1575F5UUR1CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ee5522e-b7f8-4576-ac9a-5ffb223405f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KYOCERA AVX"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f28c88b-5710-4a91-becc-da57ff3d21a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SF14-1575F5UUR1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af8e491b-346d-4265-a666-4b46f71a09d1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19709,7 +20580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/QNFA9129_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250918112959"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19720,7 +20591,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 3.3A 10mOhm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19736,6 +20607,58 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e1490bb7-3a62-4abe-b930-bb9da9420fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8335eb9-e786-4bcb-94d7-f9ca629533e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-14027-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ac283b5-9029-4dc2-afc6-89de1337544c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb3a54f5-b72f-4d0d-9cb2-1a3e4197ce16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BLM18KG300JH1D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39fb92da-a6d7-4cee-b241-03c20997bd63")
 			(effects
 				(font
 					(size 1 1)
@@ -19866,7 +20789,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P103J"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19877,7 +20800,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19885,6 +20808,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8952c058-14e9-4a32-8da1-76a193674939")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "U7103CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14facbd6-70ea-4eb2-8288-6ddb8012dcc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4822807d-bfb4-4689-a53c-c98bb4dc6fd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EXB-A10P103J"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d3d0e5-300c-4c14-b217-5bf890450740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20370,7 +21345,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20382,7 +21357,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20390,6 +21365,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9e974e6-e037-45c8-ae8c-af39c8393ea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f741383b-251d-4a9a-9afd-57f231640475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5b8343c-5b78-447d-903e-cd59479d0ced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc95a90-ed04-49be-9600-aedf09f6f6bd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20982,7 +22009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20994,7 +22021,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21002,6 +22029,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdedb605-5e72-4491-b3f6-dd0aa28379d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-12983-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28eab868-7e6f-46e0-bd75-3fae936016c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a224a80-8d25-40cd-95a6-4e170694fa28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C103J5RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e6a397f-7b70-45e7-a57c-99a9dbba3365")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21182,7 +22261,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-x-xh-xr-mkt.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21193,7 +22272,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
+		(property "Description" "40 Position Receptacle Connector 0.050\"\" (1.27mm) Surface Mount, Right Angle Gold"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21217,7 +22296,7 @@
 				)
 			)
 		)
-		(property "DPN" "SAM10145-ND"
+		(property "DPN" "SAM14509CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21243,7 +22322,7 @@
 				)
 			)
 		)
-		(property "MPN" "TFM-120-01-L-D-RA"
+		(property "MPN" "SFM-120-02-L-DH-TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22094,7 +23173,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22118,7 +23197,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22138,7 +23217,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22909,7 +23988,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22921,7 +24000,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22929,6 +24008,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d040647-2ce7-4b2f-8f3d-0592d8f8a0c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed4aa49e-fe3a-4df3-9fd3-90e6485f776f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98240802-4b68-4bdd-9918-950eb022d810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38a3469c-ba0f-48ee-aa39-8ff46ff93a4c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23395,7 +24526,7 @@
 				(pins)
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23458,7 +24589,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23470,7 +24601,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23478,6 +24609,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b72a7be4-3c6b-470c-a042-b503d6567838")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8372fb01-1785-46c6-8aa8-b27b1b5dbfa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e7dbd6-21a6-4ce0-b50a-1f6bfd71818e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1977f534-ccf4-47b2-b76a-ca5a51dd1b43")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24547,7 +25730,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24571,7 +25754,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24591,7 +25774,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -24923,7 +26106,7 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24948,7 +26131,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6851-1-ND"
+		(property "DPN" "399-12983-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24974,7 +26157,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C103K5RACAUTO"
+		(property "MPN" "C0603C103J5RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26618,7 +27801,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26642,7 +27825,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26662,7 +27845,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26716,7 +27899,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26740,7 +27923,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26760,7 +27943,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26839,7 +28022,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26864,7 +28047,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26890,7 +28073,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT10K0"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27535,7 +28718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27547,7 +28730,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27555,6 +28738,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d9411b5-581a-48bd-afc2-1eab4a28f656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-1405-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "157c01be-1e2b-44b9-b3f2-261849434ee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a3522b-86f8-4f98-bf5d-0f9c61214ec0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRM1885C1H120JA01D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "956525a1-0ebd-43cb-bd58-b668f9f10b0a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28191,7 +29426,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28203,7 +29438,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28211,6 +29446,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f43b2b4-af0d-469b-9086-5c25cb634ae9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-1405-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9143f690-578c-456f-b3b7-a6e6443781b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac5c5166-3fdf-40a0-bbc5-d902886e9a62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRM1885C1H120JA01D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5718d03-98f2-4f3d-91d5-844d298cc17a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28594,7 +29881,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28606,7 +29893,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28614,6 +29901,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a9b645-805a-402a-a527-d5426443978a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7ffda36-0b30-4b6d-894c-9e75e03c5747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64176c80-1c03-453d-9968-d32a85b9c044")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b13943a7-2b9e-4be4-9777-eea0a779b3bd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29310,7 +30649,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LEO capable GNSS receiver"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29318,6 +30657,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffbc3cf7-25f7-4e3c-abcf-b1eeedb1b97c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59f1c347-a85d-43d5-bc10-304755af1307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Skytraq"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f21f44a-cc5b-4a5b-a794-5f54344d222d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ORION B16"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d13673d-67de-481d-ae4c-1e16710c26ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -29844,7 +31235,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29856,7 +31247,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29864,6 +31255,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b3ff2c7-9438-4c8a-84cc-dfaaf5bc862c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eded01e9-317f-47da-8c82-7871704c84ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90a70558-9f71-4070-811b-17f3696e8cec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50b80641-4846-4bfc-ba3e-d82d5af23e7f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30045,7 +31488,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30057,7 +31500,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30065,6 +31508,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4f277cf-bce0-4b1b-85dc-99dc395b9619")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-12983-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed3a6e39-014e-457f-8145-bc7d33530575")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e5734d-dd15-4760-b1ce-1234bce6053b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C103J5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f97fc65d-c5a5-4d0b-8add-0c8aec7ee667")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30486,7 +31981,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30510,7 +32005,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30530,7 +32025,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -32025,7 +33520,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32049,7 +33544,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32069,7 +33564,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33040,7 +34535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=SMPM_Connectors_Product_Extension-en&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2477330-1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33052,7 +34547,7 @@
 				)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50Ohm Board Edge, Cutout; Surface Mount Solder"
+		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Board Edge, Cutout; Surface Mount Solder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33061,6 +34556,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23cefd00-6330-48c7-8443-99e09415e407")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "343-2477330-1CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e64d49d-3eb9-4ed8-81ec-7a9874dba293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "TE Connectivity Linx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dd5803e-02a0-4f19-819b-5e7e88277614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "2477330-1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "165f75fd-61c8-42ee-89e7-0b13915d1961")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -33741,7 +35288,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33766,7 +35313,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33792,7 +35339,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33971,7 +35518,7 @@
 				)
 			)
 		)
-		(property "Value" "BMI-S-202-C"
+		(property "Value" "BMI-S-202-F"
 			(at 0 9.6 0)
 			(layer "F.Fab")
 			(uuid "b4c923e4-9f52-4f5e-95cd-74a004cbcad0")
@@ -33982,7 +35529,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.laird.com/document/datasheet/bmi-s-202-sales"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33993,7 +35540,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Shield Frame 0.650\" (16.50mm) X 0.650\" (16.50mm) Surface Mount"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34016,6 +35563,58 @@
 				)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e0e1fcf-bede-4648-985f-5e2d4ab85aad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "903-1051-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "815c9f1b-a78e-4796-af4f-5f51c1d7d1cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Laird Technologies EMI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1c91775-1a88-4218-baff-53dc721fa34e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BMI-S-202-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d7af9b-82a6-4447-9b41-be2c4a78091a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9466b485-4fbd-4df7-9d49-44799fc3f2b8/6762ae3c-3c01-4132-8abb-280f4b47bcdb")
 		(sheetname "/RF + RF Power/")
 		(sheetfile "oresat-gps-card-sch-rf-power.kicad_sch")
@@ -34025,7 +35624,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -8.9 -8.9)
@@ -34992,7 +36591,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35016,7 +36615,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35036,7 +36635,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -35101,7 +36700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P473J"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35112,7 +36711,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35120,6 +36719,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e945eb6-cbaf-4dcc-89cb-2a0435179483")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "U7473CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccdb4d36-c891-4a37-9732-1bd89bd1cf2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dc55ed1-394f-4da8-a1a1-82b34a17923f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EXB-A10P473J"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ad69c50-ab48-4b37-a707-c719aed55ff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35880,7 +37531,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -35892,7 +37543,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -35900,6 +37551,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "829c67b8-591e-4eb5-8bff-7482b109752f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8c8dd13-1d39-4f48-9bd0-f37fa26e7411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c5d3d64-73aa-4274-b7ee-c2aed386c60c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c46c5461-d7c5-4f2d-81da-a7ac9ae9fb87")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -36079,7 +37782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-53BQ.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36090,7 +37793,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CRYSTAL 24.0000MHZ 12PF SMD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36098,6 +37801,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b95d9490-277a-46be-be73-241abf64e86f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "XC2580CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b53a854-1af6-4d34-bc25-e332d9f41a7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "ECS Inc"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c30bdca-d04f-4476-936c-b27aacd7e710")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ECS-240-12-30BQ-AEN-TR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58dd35ce-a43c-48bb-a272-4cb8948d614b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -37565,7 +39320,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37603,7 +39358,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37616,7 +39371,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37806,7 +39561,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37818,7 +39573,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37826,6 +39581,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40db319e-80d8-480d-8cff-215c46896377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09d7ddb3-2b6e-48e0-b0ee-3afc472fca5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e9bf7e1-bee8-4e71-8e00-9939eb4f39a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3a69f29-e978-4f45-bfce-ffdaa72b371c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -38400,7 +40207,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38425,7 +40232,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38451,7 +40258,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38882,7 +40689,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "100"
 			(at -1 1.55 180)
 			(layer "F.Fab")
 			(uuid "d3b05919-659d-47ce-a514-b71f1cf398d9")
@@ -38894,7 +40701,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -38906,7 +40713,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -38914,6 +40721,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9380eb88-4292-4dd9-be89-2f1cf574ef11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT100RCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a771c3e-d89d-4666-ad63-3a1e36402fb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "526020f0-010a-45cb-a6b0-ead070d036fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT100R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11004d82-15cd-4298-b579-748a219bc4b0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -39190,7 +41049,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39214,7 +41073,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39234,7 +41093,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39794,7 +41653,7 @@
 				)
 			)
 		)
-		(property "Value" "0.03x0.04"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39818,7 +41677,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39838,7 +41697,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -40482,7 +42341,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40494,7 +42353,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40502,6 +42361,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1117b0f-6c72-4a2c-b4e0-a9d692e44aa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45ed6537-a097-41d7-8e3b-b0b0f2f5288e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3071592-a15a-4ee0-927a-c3f4e01482d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f13880b3-c7cb-4951-ae95-f56c2b650651")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -40935,7 +42846,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2907.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -40946,7 +42857,7 @@
 				)
 			)
 		)
-		(property "Description" "PNP transistor, base/emitter/collector"
+		(property "Description" "Bipolar (BJT) Transistor PNP 40 V 600 mA 200MHz 250 mW Surface Mount TO-236AB"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -40976,6 +42887,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f137f41-8897-49e6-887a-d43b172db28d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5fb6c82-bb2e-40c2-9d03-0370c323e75c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "1727-5176-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a54a9e6-477f-4eb7-aeb6-e3605c0e2272")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae270df9-9464-4898-9eb2-5cd1ea1a8b60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PMBT2907,215"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2794e2f8-9630-47a6-adf1-f69d97ebb6cf")
 			(effects
 				(font
 					(size 1 1)
@@ -41524,7 +43487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -41536,7 +43499,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -41544,6 +43507,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7702bc2-e901-4a8c-8cbc-b1f3a270c067")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5120e0d4-74f8-4207-b06b-472bb03a8180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a38bb3af-4db8-4ac7-b4d8-dcec1593122e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf23953a-261c-47ca-bfaf-3bad08deb1a3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -41990,7 +44005,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42015,7 +44030,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42041,7 +44056,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42724,7 +44739,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42748,7 +44763,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42768,7 +44783,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -42833,7 +44848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P473J"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -42844,7 +44859,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -42852,6 +44867,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8dcd734-c0b6-4392-bc52-62ebf1d5aa68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "U7473CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b81800b5-f665-42df-b6ec-ad2236e6bb31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b929220-3c98-438b-a923-b6f74b99e01e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "EXB-A10P473J"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68e5cbe7-0dba-4a4f-a41c-36bce9d94c31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -43591,7 +45658,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H1R7BA01-01A.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -43603,7 +45670,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -43621,6 +45688,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "85520e4f-bcf6-4d69-b0f7-62d56d9ac69d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82e38896-f331-4e68-a2cb-15e93188a1fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-GRM1885C1H1R7BA01DCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12923c5a-fcb1-49ca-bcc8-ddbb5715db0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4985490-263a-4593-b715-18210790714b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRM1885C1H1R7BA01D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4295753c-7309-4d31-aae5-ea658d011f7e")
 			(effects
 				(font
 					(size 1 1)
@@ -45306,7 +47425,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45318,7 +47437,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "20k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45326,6 +47445,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b8bcb26-8ed5-4373-b207-e1faf4eeffb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "738-RAVF164DJT20K0CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0cff0b4-2e21-4468-bebf-1339ad7c8c6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d47ac9b-9cb4-444c-b65f-3ffea63fd48f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RAVF164DJT20K0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d421417-0eca-4522-92a2-665d70975439")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -45538,6 +47709,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -47727,7 +49899,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47739,7 +49911,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47747,6 +49919,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39103a82-39a7-4859-8b19-9952b0d644e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53d3494a-b74e-43b5-9fb7-5cc3441288d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96dc4626-6a96-4aee-9ccf-c03778a78431")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ddae21b-6493-4f55-87d3-df5e9cc5e317")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -47916,7 +50140,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47940,7 +50164,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47960,7 +50184,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -48533,7 +50757,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48557,7 +50781,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48577,7 +50801,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -48644,7 +50868,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C2A270JA16-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48656,7 +50880,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "27 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48664,6 +50888,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63f187c4-1ba1-420d-ae4e-bd56d8c0e8f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-17767-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be0e4f8b-a12f-466a-af18-c489296f1c19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36306347-b67b-4d06-83c7-a9b97ac21d3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GCM1885C2A270JA16D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cbb087e-663e-4ed1-b6c0-d59758ec3968")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -48845,7 +51121,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48857,7 +51133,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "499 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48865,6 +51141,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e5f1bd2-5360-4d74-b69c-dee07c66f51c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT499RCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6036fbb6-4cc0-4ea8-8f8e-699951e83cf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "256b0432-3c0f-4711-bb14-2b67b2b463f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT499R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e21f5e0-bb4d-4c74-82f7-9c2a1b5c72b5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -49058,7 +51386,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49096,7 +51424,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49109,7 +51437,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49753,7 +52081,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49765,7 +52093,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49773,6 +52101,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "950aa08c-9408-44f3-92d2-662a4d27cad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef347c1-0508-42eb-8542-9e76189a7323")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdd50011-e3b7-4b50-b801-c00b294aa45b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a1f265f-934a-4425-be0f-cec9b019f0f0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -49954,7 +52334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49966,7 +52346,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49974,6 +52354,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e3b4d54-5b3f-4118-8811-0039e2d6f7c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef786836-7e38-48f9-af26-d394848c004d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae15683a-f7a4-4dce-a70f-f3d4917867e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "462a8b67-78fe-4b89-bea4-5a8260047fe3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -50661,7 +53093,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -50673,7 +53105,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -50681,6 +53113,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a32501bc-7aff-41df-b781-7521a8e7d159")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-12983-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c69fc6c-480b-4521-a5b5-cae25acd4958")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ab58b1b-30ce-46df-904f-6e5b6d7bc9ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C103J5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81effe8d-93f5-4a06-8caa-d8e2a70ec636")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -50894,7 +53378,7 @@
 				(pins)
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -51242,7 +53726,7 @@
 				(pins)
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -51305,7 +53789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51317,7 +53801,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51325,6 +53809,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "835bdd90-fa21-460a-931c-1672103672f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b44d1b8a-08ad-49e7-822e-52f6d407e481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d989a6e-594b-48cb-b9f7-d235d0b90a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e643aa08-358d-4d9d-a57a-015c5eba121b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -52106,7 +54642,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -52118,7 +54654,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -52126,6 +54662,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e79aab4a-02c7-4e3e-a1dd-dc36e32c24fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b73b5fb-e77a-4fdf-b86f-216f223b1b95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f756267-887b-45d1-94dd-375a02e32a74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ca2dfbe-2428-48d8-b1e6-b8616137bc83")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -53894,7 +56482,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -53906,7 +56494,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "56 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -53914,6 +56502,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d55e70ef-7772-4d89-a8b8-351e9962b110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-1345-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f378eae-1ffe-4b85-bd4d-a84b59f418a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a701677-7861-4df0-8338-eb205c3c4804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRM1885C2A560JA01D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af6664af-06a9-4a1d-8d54-5e89a872dc66")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -54336,7 +56976,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54360,7 +57000,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54380,7 +57020,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -54700,7 +57340,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54712,7 +57352,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54720,6 +57360,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7441268c-e0b1-458f-bb2a-215a698da4cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05242c8c-892b-4f1f-bb21-1b452aeb5927")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5965efe-f50b-4037-bcfb-267ca39a62fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42d4a14e-ffb6-4c29-b6d0-12f9a79bfe0d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -54888,7 +57580,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54912,7 +57604,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54932,7 +57624,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -57056,7 +59748,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -57068,7 +59760,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -57076,6 +59768,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1462b468-9218-478d-a4c7-f0bf355f28ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9111a008-bf19-4080-a33e-67c56730fc67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56b6c856-0b80-443f-a180-1a098391d37c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ea19856-19e8-4461-af34-d570de3642b5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -58217,7 +60961,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -58229,7 +60973,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -58237,6 +60981,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "483b7ccd-7cb5-490f-a06c-e03f9939925a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05bcc4c8-70e4-4432-8b9b-94866faecc9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd9a7df-99f0-4a1f-a274-d028bd0632f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a71b3dc1-aed5-4b1c-9f7c-08d2ebd8a946")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -58599,7 +61395,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -58611,7 +61407,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -58619,6 +61415,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9ec432c-28ec-4393-bba3-fb3a7da64b88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3be490a2-85d3-4c7e-b5b9-7ebaf022004f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4ac2133-70f9-401d-95ff-1e35c48fd55e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9653bb-4ec8-4a24-97af-b3a92b29c731")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -59243,7 +62091,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at -1 1.55 180)
 			(layer "F.Fab")
 			(uuid "ffa6efa1-9c4d-4972-bb22-2e40946f4d6b")
@@ -59267,7 +62115,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -59292,7 +62140,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59318,7 +62166,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59783,7 +62631,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -59795,7 +62643,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -59803,6 +62651,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96c3148a-45e9-4426-b0d8-f77dadc1f472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2248f3a6-b0db-4963-8e65-11667b129763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd6f4a63-fa37-4f7e-9bc3-bb668e38a24b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49d55497-18ac-4aca-aa5d-40ecc1d7b4f9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -61620,7 +64520,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61645,7 +64545,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61671,7 +64571,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT4K70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61861,7 +64761,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -61873,7 +64773,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -61881,6 +64781,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c256178-8afe-48dc-b834-ea493fe98fe0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d4c696b-ef97-4969-825f-445309697e4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8e5d1cc-8342-4156-8d08-d4e0e9c7e133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "703c4464-8167-418d-b1f7-a9eacdab179b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -62073,7 +65025,7 @@
 				)
 			)
 		)
-		(property "Description" "OSD335x Embedded Module 1GHz 512MB"
+		(property "Description" "Embedded Module ARM® Cortex®-A8, AM3358 1GHz 1GB"
 			(at 81.9 -15.9 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62096,7 +65048,7 @@
 				)
 			)
 		)
-		(property "MPN" "OSD3358-512M-BSM"
+		(property "MPN" "OSD3358-1G-ISM"
 			(at 81.9 -15.9 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62121,12 +65073,25 @@
 				)
 			)
 		)
-		(property "MFR" "Octavo Systems LLC"
+		(property "MFR" "Octavo Systems"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c07b6d6f-a720-464d-9bfd-18134c33c47b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "1676-OSD3358-1G-ISM-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47683d5e-2505-4eda-9d5c-0ca00c3ec2c6")
 			(effects
 				(font
 					(size 1 1)
@@ -65173,7 +68138,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65197,7 +68162,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65217,7 +68182,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -65825,7 +68790,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65837,7 +68802,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65845,6 +68810,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2339172e-4581-46a5-87f5-fb74d9d2ba9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f50e7ac2-999e-4dc6-9430-a1d288c9d075")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfb0bbf7-7e5c-499a-a3c3-09af83197c43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff6c6178-4bf7-4f8f-b6c0-46c82585e555")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -66224,7 +69241,7 @@
 				)
 			)
 		)
-		(property "Value" "0.03x0.04"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66248,7 +69265,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -66268,7 +69285,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -67294,7 +70311,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://abracon.com/Resonators/ABS07.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67305,7 +70322,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67313,6 +70330,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da31af36-bb96-4663-a578-8d573e448f8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "535-9542-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33874a07-ca35-42b1-8292-c41353901ef4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Abracon LLC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7de4cee4-e3ac-4e14-b8f7-b9a4187837a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ABS07-32.768KHZ-T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7faf35f-2a0c-4c53-a78a-d02236457929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -68073,7 +71142,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68085,7 +71154,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68093,6 +71162,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba34e06f-8b96-4b11-a85a-91fd2cc07e53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e493df19-7328-4670-a044-f2033cc0c894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "016bb76e-db17-4e34-94aa-fbf9865470dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRT21BC71E106KE13K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83658021-15d7-44a5-ae18-36710e2339aa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -69475,7 +72596,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69499,7 +72620,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69519,7 +72640,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -69573,7 +72694,7 @@
 				)
 			)
 		)
-		(property "Value" "1x01"
+		(property "Value" "Test-Point"
 			(at 0 -3.7 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69597,7 +72718,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -69617,7 +72738,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -70444,7 +73565,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -70456,7 +73577,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -70464,6 +73585,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64886784-d9a4-4a07-9f28-3d0b669b842b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-1405-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ca8ecb8-eb19-4f60-af9a-aa58f6910d99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d31475ec-845d-4e62-8d31-f1068944889b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRM1885C1H120JA01D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66260b8b-b468-4dc6-a457-c4b39af09455")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -70645,7 +73818,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -70657,7 +73830,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -70665,6 +73838,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f9ead9a-346b-43c7-9b1b-4a9dbf9bfbe5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c13e569-45f8-413f-a4cf-2dbdcb41d4a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9e03c0a-4cf4-412f-aa77-8ebb8d6273ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7519fe03-7e6c-4ddc-9fb7-1b9e320eb263")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -123584,6 +126809,144 @@
 		(uuid "4bf083c9-137a-4a8a-b1a4-07f766335791")
 	)
 	(segment
+		(start 147.6 87.875)
+		(end 147.98 87.875)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "216195cd-ced0-42c1-b1a0-08a5e1c2e5a9")
+	)
+	(segment
+		(start 170 117.6)
+		(end 170 116.425)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "d358d2ca-789a-4b68-8be9-d202fe78ebeb")
+	)
+	(segment
+		(start 147.98 87.875)
+		(end 148.225 87.63)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "fe481287-058a-4579-840f-d16d7f1aeeab")
+	)
+	(via
+		(at 147.6 87.875)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "8e15569a-c8e9-4442-9a49-650b50db3d48")
+	)
+	(segment
+		(start 167.6 111.7)
+		(end 170 114.1)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "0982c237-8ef2-46be-98d8-560d7921689f")
+	)
+	(segment
+		(start 144.95 78.6)
+		(end 155.525 78.6)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "16f3fb38-445d-4ac8-a4cc-19f8ba0d43fe")
+	)
+	(segment
+		(start 170 114.1)
+		(end 170 116.425)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "29a90ef7-e005-4f06-8469-b69e34ad3f80")
+	)
+	(segment
+		(start 158.525 81.6)
+		(end 158.525 107.075)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "365eb1c3-870c-4959-98db-de7ba0f154de")
+	)
+	(segment
+		(start 144.1 87.675)
+		(end 141.8 85.375)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "52e8b3d3-09ba-4c6d-abe2-0d8642599e99")
+	)
+	(segment
+		(start 147.6 87.875)
+		(end 147.4 87.675)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "57c4946d-96ce-4c32-9868-1c0e9932a609")
+	)
+	(segment
+		(start 155.525 78.6)
+		(end 158.525 81.6)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "660988bd-8d67-46d9-9b70-535deff71f83")
+	)
+	(segment
+		(start 147.4 87.675)
+		(end 144.1 87.675)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "67055b11-fd29-494f-b9a2-e7905d9ec4d2")
+	)
+	(segment
+		(start 163.15 111.7)
+		(end 167.6 111.7)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "67081ea3-19a6-4d9b-a973-ac4f7c308070")
+	)
+	(segment
+		(start 141.8 85.375)
+		(end 141.8 81.75)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "a19d05f3-2045-4f39-baaf-d427bceea72c")
+	)
+	(segment
+		(start 141.8 81.75)
+		(end 144.95 78.6)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "a2ee207b-c5b1-4ca1-a83d-a825d99c172c")
+	)
+	(segment
+		(start 158.525 107.075)
+		(end 163.15 111.7)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
+		(uuid "eaa02b7e-a5c2-4992-960f-801b8a8f2581")
+	)
+	(segment
 		(start 173.175 122.675)
 		(end 172.9 122.4)
 		(width 0.2)
@@ -126964,6 +130327,150 @@
 		(layer "F.Cu")
 		(net "Net-(Q1A-S)")
 		(uuid "9da58344-9295-4926-8cc5-ea21fdca2c2f")
+	)
+	(segment
+		(start 172 117.6)
+		(end 172 116.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "d162fc01-71b5-440d-bf4e-9ab8a2ce480b")
+	)
+	(segment
+		(start 148.9 90.765)
+		(end 148.225 91.44)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "d4597803-cd4d-47b3-a467-5f7815326b45")
+	)
+	(segment
+		(start 148.9 88.675)
+		(end 148.9 90.765)
+		(width 0.127)
+		(layer "F.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "f454b4f1-2344-4b59-8618-07aafcb903b7")
+	)
+	(via
+		(at 148.9 88.675)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "a218f27b-7e83-49cb-b130-06e7e8a4c149")
+	)
+	(segment
+		(start 172 114.9)
+		(end 172 116.4)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "1f165b8e-1c51-4fd5-ac64-636f98839961")
+	)
+	(segment
+		(start 163.35 111.3)
+		(end 158.8 106.75)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "33abd375-b594-4be5-9c58-07e81199b799")
+	)
+	(segment
+		(start 155.6 78.3)
+		(end 144.875 78.3)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "45a69f32-af68-4266-9787-00379b93fe6a")
+	)
+	(segment
+		(start 148.861 88.636)
+		(end 148.9 88.675)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "536ea425-9a6a-42bc-bc53-3599f5340d42")
+	)
+	(segment
+		(start 141.546 81.629)
+		(end 141.546 85.480213)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "563e85a5-2e69-4f9f-8627-2f07b05f426e")
+	)
+	(segment
+		(start 141.546 85.480213)
+		(end 143.994787 87.929)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "6f6c1152-1a12-4f2c-b4ee-005aa64d6853")
+	)
+	(segment
+		(start 158.8 106.75)
+		(end 158.8 81.5)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "75402427-84b1-49eb-9e72-b8226de27562")
+	)
+	(segment
+		(start 147.7162 88.636)
+		(end 148.861 88.636)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "892cc9a5-dde5-4f92-8891-4dc35be7e20c")
+	)
+	(segment
+		(start 158.8 81.5)
+		(end 155.6 78.3)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "ac2eb84d-3b2a-4e91-87c6-8e987b47a0d8")
+	)
+	(segment
+		(start 168.4 111.3)
+		(end 163.35 111.3)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "adb7f4f5-7b37-4c8f-a9ea-54206433a3e7")
+	)
+	(segment
+		(start 143.994787 87.929)
+		(end 147.0092 87.929)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "d607f505-9ac0-4de9-a89d-9b408257bb6b")
+	)
+	(segment
+		(start 147.0092 87.929)
+		(end 147.7162 88.636)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "e49715e0-2721-43bd-b2be-296377625705")
+	)
+	(segment
+		(start 144.875 78.3)
+		(end 141.546 81.629)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "ebece5e2-22ef-4820-9c62-f79ead39ad3d")
+	)
+	(segment
+		(start 168.4 111.3)
+		(end 172 114.9)
+		(width 0.127)
+		(layer "B.Cu")
+		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
+		(uuid "fbbf9142-4bfc-4da2-b7a3-3488ca30fbcf")
 	)
 	(segment
 		(start 151.6375 58.6875)
@@ -131147,288 +134654,6 @@
 		(net "Net-(U2-IO0)")
 		(uuid "cee94590-216f-4f6f-880f-08358f876790")
 	)
-	(segment
-		(start 147.6 87.875)
-		(end 147.98 87.875)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "216195cd-ced0-42c1-b1a0-08a5e1c2e5a9")
-	)
-	(segment
-		(start 170 117.6)
-		(end 170 116.425)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "d358d2ca-789a-4b68-8be9-d202fe78ebeb")
-	)
-	(segment
-		(start 147.98 87.875)
-		(end 148.225 87.63)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "fe481287-058a-4579-840f-d16d7f1aeeab")
-	)
-	(via
-		(at 147.6 87.875)
-		(size 0.4572)
-		(drill 0.254)
-		(layers "F.Cu" "B.Cu")
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "8e15569a-c8e9-4442-9a49-650b50db3d48")
-	)
-	(segment
-		(start 167.6 111.7)
-		(end 170 114.1)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "0982c237-8ef2-46be-98d8-560d7921689f")
-	)
-	(segment
-		(start 144.95 78.6)
-		(end 155.525 78.6)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "16f3fb38-445d-4ac8-a4cc-19f8ba0d43fe")
-	)
-	(segment
-		(start 170 114.1)
-		(end 170 116.425)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "29a90ef7-e005-4f06-8469-b69e34ad3f80")
-	)
-	(segment
-		(start 158.525 81.6)
-		(end 158.525 107.075)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "365eb1c3-870c-4959-98db-de7ba0f154de")
-	)
-	(segment
-		(start 144.1 87.675)
-		(end 141.8 85.375)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "52e8b3d3-09ba-4c6d-abe2-0d8642599e99")
-	)
-	(segment
-		(start 147.6 87.875)
-		(end 147.4 87.675)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "57c4946d-96ce-4c32-9868-1c0e9932a609")
-	)
-	(segment
-		(start 155.525 78.6)
-		(end 158.525 81.6)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "660988bd-8d67-46d9-9b70-535deff71f83")
-	)
-	(segment
-		(start 147.4 87.675)
-		(end 144.1 87.675)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "67055b11-fd29-494f-b9a2-e7905d9ec4d2")
-	)
-	(segment
-		(start 163.15 111.7)
-		(end 167.6 111.7)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "67081ea3-19a6-4d9b-a973-ac4f7c308070")
-	)
-	(segment
-		(start 141.8 85.375)
-		(end 141.8 81.75)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "a19d05f3-2045-4f39-baaf-d427bceea72c")
-	)
-	(segment
-		(start 141.8 81.75)
-		(end 144.95 78.6)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "a2ee207b-c5b1-4ca1-a83d-a825d99c172c")
-	)
-	(segment
-		(start 158.525 107.075)
-		(end 163.15 111.7)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_TX")
-		(uuid "eaa02b7e-a5c2-4992-960f-801b8a8f2581")
-	)
-	(segment
-		(start 172 117.6)
-		(end 172 116.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "d162fc01-71b5-440d-bf4e-9ab8a2ce480b")
-	)
-	(segment
-		(start 148.9 90.765)
-		(end 148.225 91.44)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "d4597803-cd4d-47b3-a467-5f7815326b45")
-	)
-	(segment
-		(start 148.9 88.675)
-		(end 148.9 90.765)
-		(width 0.127)
-		(layer "F.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "f454b4f1-2344-4b59-8618-07aafcb903b7")
-	)
-	(via
-		(at 148.9 88.675)
-		(size 0.4572)
-		(drill 0.254)
-		(layers "F.Cu" "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "a218f27b-7e83-49cb-b130-06e7e8a4c149")
-	)
-	(segment
-		(start 172 114.9)
-		(end 172 116.4)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "1f165b8e-1c51-4fd5-ac64-636f98839961")
-	)
-	(segment
-		(start 163.35 111.3)
-		(end 158.8 106.75)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "33abd375-b594-4be5-9c58-07e81199b799")
-	)
-	(segment
-		(start 155.6 78.3)
-		(end 144.875 78.3)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "45a69f32-af68-4266-9787-00379b93fe6a")
-	)
-	(segment
-		(start 148.861 88.636)
-		(end 148.9 88.675)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "536ea425-9a6a-42bc-bc53-3599f5340d42")
-	)
-	(segment
-		(start 141.546 81.629)
-		(end 141.546 85.480213)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "563e85a5-2e69-4f9f-8627-2f07b05f426e")
-	)
-	(segment
-		(start 141.546 85.480213)
-		(end 143.994787 87.929)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "6f6c1152-1a12-4f2c-b4ee-005aa64d6853")
-	)
-	(segment
-		(start 158.8 106.75)
-		(end 158.8 81.5)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "75402427-84b1-49eb-9e72-b8226de27562")
-	)
-	(segment
-		(start 147.7162 88.636)
-		(end 148.861 88.636)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "892cc9a5-dde5-4f92-8891-4dc35be7e20c")
-	)
-	(segment
-		(start 158.8 81.5)
-		(end 155.6 78.3)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "ac2eb84d-3b2a-4e91-87c6-8e987b47a0d8")
-	)
-	(segment
-		(start 168.4 111.3)
-		(end 163.35 111.3)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "adb7f4f5-7b37-4c8f-a9ea-54206433a3e7")
-	)
-	(segment
-		(start 143.994787 87.929)
-		(end 147.0092 87.929)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "d607f505-9ac0-4de9-a89d-9b408257bb6b")
-	)
-	(segment
-		(start 147.0092 87.929)
-		(end 147.7162 88.636)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "e49715e0-2721-43bd-b2be-296377625705")
-	)
-	(segment
-		(start 144.875 78.3)
-		(end 141.546 81.629)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "ebece5e2-22ef-4820-9c62-f79ead39ad3d")
-	)
-	(segment
-		(start 168.4 111.3)
-		(end 172 114.9)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "/OSD3358 SYSBOOT : SIP D/UART2_RX")
-		(uuid "fbbf9142-4bfc-4da2-b7a3-3488ca30fbcf")
-	)
 	(zone
 		(net "5V")
 		(layer "F.Cu")
@@ -131872,17 +135097,28 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 180.408824 99.965761) (xy 180.436841 99.981937) (xy 180.468062 100.013158) (xy 180.484238 100.041175)
-				(xy 180.49787 100.092049) (xy 180.5 100.108226) (xy 180.5 101) (xy 182.087067 102.587067) (xy 182.09484 102.596538)
-				(xy 182.127869 102.645969) (xy 182.137201 102.668499) (xy 182.148799 102.726805) (xy 182.15 102.738998)
-				(xy 182.15 103.993844) (xy 182.148799 104.006038) (xy 182.137201 104.064342) (xy 182.127869 104.086872)
-				(xy 182.098327 104.131084) (xy 182.081084 104.148327) (xy 182.036872 104.177869) (xy 182.014342 104.187201)
-				(xy 181.969784 104.196064) (xy 181.956036 104.198799) (xy 181.943845 104.2) (xy 180.406155 104.2)
-				(xy 180.393963 104.198799) (xy 180.37648 104.195321) (xy 180.335657 104.187201) (xy 180.313127 104.177869)
-				(xy 180.268915 104.148327) (xy 180.251672 104.131084) (xy 180.22213 104.086872) (xy 180.212798 104.064341)
-				(xy 180.201201 104.006037) (xy 180.2 103.993844) (xy 180.2 100.108226) (xy 180.202128 100.092057)
-				(xy 180.215762 100.041172) (xy 180.231935 100.01316) (xy 180.26316 99.981935) (xy 180.29117 99.965763)
-				(xy 180.333828 99.954333) (xy 180.366174 99.954333)
+				(xy 180.374118 99.956461) (xy 180.40088 99.963632) (xy 180.415942 99.96987) (xy 180.429721 99.977826)
+				(xy 180.442659 99.987755) (xy 180.462243 100.007339) (xy 180.472176 100.020284) (xy 180.480124 100.034051)
+				(xy 180.486367 100.049123) (xy 180.496809 100.088092) (xy 180.498403 100.096104) (xy 180.499464 100.104156)
+				(xy 180.5 100.112321) (xy 180.5 101) (xy 182.084894 102.584894) (xy 182.089011 102.589436) (xy 182.09289 102.594162)
+				(xy 182.096546 102.599091) (xy 182.124448 102.64085) (xy 182.130222 102.651653) (xy 182.134844 102.66281)
+				(xy 182.138402 102.674537) (xy 182.148199 102.723792) (xy 182.149098 102.729851) (xy 182.149698 102.735935)
+				(xy 182.15 102.742069) (xy 182.15 103.990774) (xy 182.149699 103.996902) (xy 182.1491 104.002982)
+				(xy 182.1482 104.009049) (xy 182.138401 104.058305) (xy 182.134845 104.070025) (xy 182.130225 104.08118)
+				(xy 182.124449 104.091988) (xy 182.101744 104.125968) (xy 182.093971 104.135439) (xy 182.085439 104.143971)
+				(xy 182.075968 104.151744) (xy 182.041988 104.174449) (xy 182.031185 104.180224) (xy 182.02003 104.184845)
+				(xy 182.008303 104.188402) (xy 181.969783 104.196064) (xy 181.969782 104.196064) (xy 181.959043 104.1982)
+				(xy 181.95298 104.1991) (xy 181.94994 104.199399) (xy 181.946899 104.199699) (xy 181.940772 104.2)
+				(xy 180.409226 104.2) (xy 180.403101 104.199699) (xy 180.397016 104.199099) (xy 180.390953 104.1982)
+				(xy 180.37648 104.195321) (xy 180.37648 104.19532) (xy 180.341695 104.188402) (xy 180.329971 104.184846)
+				(xy 180.318813 104.180224) (xy 180.30801 104.174449) (xy 180.27403 104.151744) (xy 180.264559 104.143971)
+				(xy 180.256027 104.135439) (xy 180.248255 104.125969) (xy 180.225549 104.091988) (xy 180.219772 104.08118)
+				(xy 180.21515 104.07002) (xy 180.211597 104.058304) (xy 180.2018 104.009049) (xy 180.2009 104.00298)
+				(xy 180.200301 103.996896) (xy 180.2 103.990772) (xy 180.2 100.112323) (xy 180.200534 100.104168)
+				(xy 180.201593 100.096121) (xy 180.203188 100.088101) (xy 180.204673 100.082555) (xy 180.213633 100.049115)
+				(xy 180.219873 100.034051) (xy 180.227826 100.020276) (xy 180.237748 100.007346) (xy 180.257345 99.987749)
+				(xy 180.27028 99.977823) (xy 180.284048 99.969874) (xy 180.299113 99.963634) (xy 180.325882 99.956461)
+				(xy 180.342055 99.954333) (xy 180.357947 99.954333)
 			)
 		)
 	)
@@ -132010,11 +135246,12 @@
 				(xy 183.225364 99.986873) (xy 183.224652 102.014103) (xy 183.222308 102.025868) (xy 183.220515 102.030193)
 				(xy 183.203868 102.046829) (xy 183.201702 102.047725) (xy 183.19955 102.048616) (xy 183.187756 102.05095)
 				(xy 181.856953 102.049111) (xy 181.835251 102.040105) (xy 180.717706 100.92256) (xy 180.7087 100.900816)
-				(xy 180.7087 100.108225) (xy 180.706914 100.080985) (xy 180.706914 100.080982) (xy 180.704784 100.064805)
-				(xy 180.700591 100.043726) (xy 180.7 100.037727) (xy 180.7 99.986867) (xy 180.702339 99.975104)
-				(xy 180.70413 99.970778) (xy 180.708456 99.96645) (xy 180.709006 99.965123) (xy 180.710332 99.964573)
-				(xy 180.720769 99.954134) (xy 180.720776 99.954131) (xy 180.722122 99.953573) (xy 180.725104 99.952339)
-				(xy 180.736867 99.95) (xy 183.1885 99.95)
+				(xy 180.7087 100.112335) (xy 180.7087 100.112321) (xy 180.708252 100.09865) (xy 180.707716 100.090485)
+				(xy 180.706375 100.076892) (xy 180.705314 100.06884) (xy 180.703091 100.055381) (xy 180.701497 100.047369)
+				(xy 180.700803 100.044391) (xy 180.7 100.03741) (xy 180.7 99.986867) (xy 180.702339 99.975104) (xy 180.70413 99.970778)
+				(xy 180.708456 99.96645) (xy 180.709006 99.965123) (xy 180.710332 99.964573) (xy 180.720769 99.954134)
+				(xy 180.720776 99.954131) (xy 180.722122 99.953573) (xy 180.725104 99.952339) (xy 180.736867 99.95)
+				(xy 183.1885 99.95)
 			)
 		)
 	)
@@ -140223,40 +143460,47 @@
 				(xy 180.1505 104.828376) (xy 180.1505 104.460054) (xy 180.155258 104.436136) (xy 180.155405 104.435781)
 				(xy 180.158899 104.427345) (xy 180.192709 104.393528) (xy 180.192982 104.393414) (xy 180.194488 104.39279)
 				(xy 180.232506 104.389636) (xy 180.233729 104.389919) (xy 180.233729 104.389918) (xy 180.250718 104.393849)
-				(xy 180.25521 104.392992) (xy 180.30674 104.4005) (xy 180.306741 104.4005) (xy 180.350274 104.4005)
-				(xy 180.359447 104.401176) (xy 180.373817 104.403309) (xy 180.386009 104.40451) (xy 180.406155 104.4055)
-				(xy 181.943831 104.4055) (xy 181.943845 104.4055) (xy 181.963992 104.40451) (xy 181.976183 104.403309)
-				(xy 181.990552 104.401176) (xy 181.999725 104.4005) (xy 182.083259 104.4005) (xy 182.08326 104.4005)
-				(xy 182.151393 104.390573) (xy 182.198388 104.367597) (xy 182.221958 104.36137) (xy 182.231458 104.36078)
-				(xy 182.2767 104.376314) (xy 182.276711 104.376324) (xy 182.278154 104.377599) (xy 182.297649 104.410291)
-				(xy 182.297879 104.411286) (xy 182.2995 104.425425) (xy 182.2995 104.73475) (xy 182.310586 104.790489)
-				(xy 182.311132 104.79323) (xy 182.311133 104.79323) (xy 182.311137 104.793239) (xy 182.355446 104.859552)
-				(xy 182.42176 104.903862) (xy 182.421763 104.903863) (xy 182.421767 104.903866) (xy 182.421769 104.903867)
-				(xy 182.480252 104.9155) (xy 183.274569 104.9155) (xy 183.298489 104.920259) (xy 183.307278 104.9239)
-				(xy 183.341098 104.957717) (xy 183.34474 104.966509) (xy 183.3495 104.990431) (xy 183.3495 105.045038)
-				(xy 183.347892 105.059125) (xy 183.344758 105.072672) (xy 183.340016 105.086034) (xy 183.32956 105.107423)
-				(xy 183.326668 105.113339) (xy 183.309427 105.148607) (xy 183.2995 105.21674) (xy 183.2995 105.88326)
-				(xy 183.309427 105.951393) (xy 183.337713 106.009254) (xy 183.337714 106.009256) (xy 183.337713 106.009256)
-				(xy 183.340014 106.013961) (xy 183.344757 106.027322) (xy 183.347891 106.040867) (xy 183.3495 106.054955)
-				(xy 183.3495 106.145038) (xy 183.347891 106.159128) (xy 183.344756 106.172676) (xy 183.340015 106.186034)
-				(xy 183.330016 106.206489) (xy 183.330016 106.20649) (xy 183.309427 106.248607) (xy 183.2995 106.31674)
-				(xy 183.2995 106.98326) (xy 183.309427 107.051393) (xy 183.316408 107.065673) (xy 183.340017 107.113967)
-				(xy 183.344757 107.127322) (xy 183.347891 107.140868) (xy 183.3495 107.154955) (xy 183.3495 107.245038)
-				(xy 183.347892 107.259126) (xy 183.344758 107.272672) (xy 183.340017 107.28603) (xy 183.334918 107.296462)
-				(xy 183.334917 107.296465) (xy 183.309427 107.348607) (xy 183.2995 107.41674) (xy 183.2995 108.083265)
-				(xy 183.301342 108.095901) (xy 183.301342 108.095902) (xy 183.308773 108.146906) (xy 183.308952 108.149385)
-				(xy 183.309428 108.151401) (xy 183.309534 108.151615) (xy 183.3608 108.25648) (xy 183.360802 108.256483)
-				(xy 183.443517 108.339198) (xy 183.548607 108.390573) (xy 183.61674 108.4005) (xy 183.616741 108.4005)
-				(xy 183.983259 108.4005) (xy 183.98326 108.4005) (xy 184.051393 108.390573) (xy 184.156483 108.339198)
-				(xy 184.239198 108.256483) (xy 184.290573 108.151393) (xy 184.299321 108.091355) (xy 184.773001 108.091355)
-				(xy 184.775693 108.114579) (xy 184.776122 108.115505) (xy 184.795959 108.160431) (xy 184.817512 108.209244)
-				(xy 184.817518 108.209256) (xy 184.854622 108.246359) (xy 184.890744 108.282481) (xy 184.95 108.308645)
-				(xy 184.95 108.308644) (xy 185.45 108.308644) (xy 185.509251 108.282483) (xy 185.509251 108.282482)
-				(xy 185.509255 108.282481) (xy 185.582481 108.209255) (xy 185.624312 108.114516) (xy 185.627 108.091355)
-				(xy 185.627 108) (xy 185.45 108) (xy 185.45 108.308644) (xy 184.95 108.308644) (xy 184.95 108) (xy 184.773001 108)
-				(xy 184.773001 108.091355) (xy 184.299321 108.091355) (xy 184.3005 108.08326) (xy 184.3005 107.41674)
-				(xy 184.29932 107.408644) (xy 184.773 107.408644) (xy 184.773 107.5) (xy 184.95 107.5) (xy 185.45 107.5)
-				(xy 185.626999 107.5) (xy 185.626999 107.408644) (xy 185.624312 107.385478) (xy 185.624311 107.385477)
+				(xy 180.25521 104.392992) (xy 180.30674 104.4005) (xy 180.306741 104.4005) (xy 180.349794 104.4005)
+				(xy 180.360046 104.401382) (xy 180.360049 104.401365) (xy 180.360331 104.401406) (xy 180.360472 104.401419)
+				(xy 180.360818 104.401479) (xy 180.364386 104.402008) (xy 180.366875 104.402377) (xy 180.376851 104.403607)
+				(xy 180.382936 104.404207) (xy 180.382946 104.404207) (xy 180.382969 104.40421) (xy 180.392868 104.40494)
+				(xy 180.393014 104.404951) (xy 180.399139 104.405252) (xy 180.407544 104.405458) (xy 180.409224 104.4055)
+				(xy 181.940772 104.4055) (xy 181.940775 104.4055) (xy 181.943292 104.405438) (xy 181.950855 104.405252)
+				(xy 181.956982 104.404951) (xy 181.957023 104.404948) (xy 181.957027 104.404948) (xy 181.961739 104.404599)
+				(xy 181.967074 104.404206) (xy 181.96929 104.403986) (xy 181.970054 104.403911) (xy 181.970055 104.403912)
+				(xy 181.973095 104.403613) (xy 181.973104 104.403611) (xy 181.973123 104.40361) (xy 181.976883 104.403146)
+				(xy 181.983154 104.402373) (xy 181.989217 104.401473) (xy 181.98952 104.40142) (xy 181.989643 104.401409)
+				(xy 181.989972 104.401361) (xy 181.989974 104.401381) (xy 182.000205 104.4005) (xy 182.083259 104.4005)
+				(xy 182.08326 104.4005) (xy 182.151393 104.390573) (xy 182.198388 104.367597) (xy 182.221958 104.36137)
+				(xy 182.231458 104.36078) (xy 182.2767 104.376314) (xy 182.276711 104.376324) (xy 182.278154 104.377599)
+				(xy 182.297649 104.410291) (xy 182.297879 104.411286) (xy 182.2995 104.425425) (xy 182.2995 104.73475)
+				(xy 182.310586 104.790489) (xy 182.311132 104.79323) (xy 182.311133 104.79323) (xy 182.311137 104.793239)
+				(xy 182.355446 104.859552) (xy 182.42176 104.903862) (xy 182.421763 104.903863) (xy 182.421767 104.903866)
+				(xy 182.421769 104.903867) (xy 182.480252 104.9155) (xy 183.274569 104.9155) (xy 183.298489 104.920259)
+				(xy 183.307278 104.9239) (xy 183.341098 104.957717) (xy 183.34474 104.966509) (xy 183.3495 104.990431)
+				(xy 183.3495 105.045038) (xy 183.347892 105.059125) (xy 183.344758 105.072672) (xy 183.340016 105.086034)
+				(xy 183.32956 105.107423) (xy 183.326668 105.113339) (xy 183.309427 105.148607) (xy 183.2995 105.21674)
+				(xy 183.2995 105.88326) (xy 183.309427 105.951393) (xy 183.337713 106.009254) (xy 183.337714 106.009256)
+				(xy 183.337713 106.009256) (xy 183.340014 106.013961) (xy 183.344757 106.027322) (xy 183.347891 106.040867)
+				(xy 183.3495 106.054955) (xy 183.3495 106.145038) (xy 183.347891 106.159128) (xy 183.344756 106.172676)
+				(xy 183.340015 106.186034) (xy 183.330016 106.206489) (xy 183.330016 106.20649) (xy 183.309427 106.248607)
+				(xy 183.2995 106.31674) (xy 183.2995 106.98326) (xy 183.309427 107.051393) (xy 183.316408 107.065673)
+				(xy 183.340017 107.113967) (xy 183.344757 107.127322) (xy 183.347891 107.140868) (xy 183.3495 107.154955)
+				(xy 183.3495 107.245038) (xy 183.347892 107.259126) (xy 183.344758 107.272672) (xy 183.340017 107.28603)
+				(xy 183.334918 107.296462) (xy 183.334917 107.296465) (xy 183.309427 107.348607) (xy 183.2995 107.41674)
+				(xy 183.2995 108.083265) (xy 183.301342 108.095901) (xy 183.301342 108.095902) (xy 183.308773 108.146906)
+				(xy 183.308952 108.149385) (xy 183.309428 108.151401) (xy 183.309534 108.151615) (xy 183.3608 108.25648)
+				(xy 183.360802 108.256483) (xy 183.443517 108.339198) (xy 183.548607 108.390573) (xy 183.61674 108.4005)
+				(xy 183.616741 108.4005) (xy 183.983259 108.4005) (xy 183.98326 108.4005) (xy 184.051393 108.390573)
+				(xy 184.156483 108.339198) (xy 184.239198 108.256483) (xy 184.290573 108.151393) (xy 184.299321 108.091355)
+				(xy 184.773001 108.091355) (xy 184.775693 108.114579) (xy 184.776122 108.115505) (xy 184.795959 108.160431)
+				(xy 184.817512 108.209244) (xy 184.817518 108.209256) (xy 184.854622 108.246359) (xy 184.890744 108.282481)
+				(xy 184.95 108.308645) (xy 184.95 108.308644) (xy 185.45 108.308644) (xy 185.509251 108.282483)
+				(xy 185.509251 108.282482) (xy 185.509255 108.282481) (xy 185.582481 108.209255) (xy 185.624312 108.114516)
+				(xy 185.627 108.091355) (xy 185.627 108) (xy 185.45 108) (xy 185.45 108.308644) (xy 184.95 108.308644)
+				(xy 184.95 108) (xy 184.773001 108) (xy 184.773001 108.091355) (xy 184.299321 108.091355) (xy 184.3005 108.08326)
+				(xy 184.3005 107.41674) (xy 184.29932 107.408644) (xy 184.773 107.408644) (xy 184.773 107.5) (xy 184.95 107.5)
+				(xy 185.45 107.5) (xy 185.626999 107.5) (xy 185.626999 107.408644) (xy 185.624312 107.385478) (xy 185.624311 107.385477)
 				(xy 185.62431 107.385476) (xy 185.624304 107.385418) (xy 185.623864 107.384465) (xy 185.622513 107.381405)
 				(xy 185.582779 107.291419) (xy 185.582498 107.290761) (xy 185.544721 107.252984) (xy 185.531173 107.232708)
 				(xy 185.530903 107.232055) (xy 185.527531 107.223917) (xy 185.527529 107.176089) (xy 185.531173 107.16729)
@@ -140995,7 +144239,7 @@
 				(xy 161.86753 102.816253) (xy 161.868614 102.816557) (xy 161.87199 102.816822) (xy 161.958333 102.830498)
 				(xy 161.958335 102.830498) (xy 161.958347 102.8305) (xy 164.141652 102.830499) (xy 164.232862 102.816054)
 				(xy 164.342796 102.76004) (xy 164.43004 102.672796) (xy 164.486054 102.562862) (xy 164.487718 102.552354)
-				(xy 164.500462 102.471894) (xy 164.500498 102.47167) (xy 164.500498 102.471663) (xy 164.5005 102.471653)
+				(xy 164.500487 102.471737) (xy 164.500498 102.47167) (xy 164.500498 102.471663) (xy 164.5005 102.471653)
 				(xy 164.500499 101.528348) (xy 164.486054 101.437138) (xy 164.451573 101.369466) (xy 164.43004 101.327204)
 				(xy 164.342795 101.239959) (xy 164.289475 101.212791) (xy 164.232866 101.183947) (xy 164.232865 101.183946)
 				(xy 164.232862 101.183945) (xy 164.232861 101.183945) (xy 164.232857 101.183944) (xy 164.232856 101.183944)
@@ -141398,7 +144642,7 @@
 				(xy 149.523489 104.055259) (xy 149.532278 104.0589) (xy 149.566098 104.092717) (xy 149.56974 104.101509)
 				(xy 149.5745 104.125431) (xy 149.5745 104.354264) (xy 149.575239 104.362144) (xy 149.575238 104.362145)
 				(xy 149.575239 104.362147) (xy 149.577351 104.384687) (xy 149.577352 104.384695) (xy 149.577353 104.384696)
-				(xy 149.577354 104.384701) (xy 149.583038 104.400945) (xy 149.619325 104.50465) (xy 149.619328 104.504654)
+				(xy 149.577354 104.384701) (xy 149.583538 104.402373) (xy 149.619325 104.50465) (xy 149.619328 104.504654)
 				(xy 149.622207 104.512882) (xy 149.622207 104.512883) (xy 149.654242 104.556288) (xy 149.654996 104.55731)
 				(xy 149.654999 104.557314) (xy 149.662181 104.567045) (xy 149.70285 104.62215) (xy 149.812118 104.702793)
 				(xy 149.940301 104.747646) (xy 149.970734 104.7505) (xy 149.970738 104.7505) (xy 150.729262 104.7505)
