@@ -8698,7 +8698,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 210.82 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8709,7 +8709,7 @@
 				)
 			)
 		)
-		(property "Description" "20k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+		(property "Description" "20 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 210.82 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8731,7 +8731,7 @@
 				)
 			)
 		)
-		(property "DPN" "738-RAVF164DJT20K0CT-ND"
+		(property "DPN" "RMCF0603FT20K0CT-ND"
 			(at 210.82 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -8753,7 +8753,7 @@
 				)
 			)
 		)
-		(property "MPN" "RAVF164DJT20K0"
+		(property "MPN" "RMCF0603FT20K0"
 			(at 210.82 184.15 90)
 			(hide yes)
 			(show_name no)

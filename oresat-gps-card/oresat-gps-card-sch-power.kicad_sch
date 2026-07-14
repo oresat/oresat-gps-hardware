@@ -10642,7 +10642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 197.8152 226.06 0)
 			(hide yes)
 			(show_name no)

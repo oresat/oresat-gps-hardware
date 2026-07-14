@@ -7532,7 +7532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:L_ECS_MPIP0420"
+		(property "Footprint" "oresat-passives:L_ECS-MPI4040"
 			(at 264.16 73.66 0)
 			(hide yes)
 			(show_name no)
