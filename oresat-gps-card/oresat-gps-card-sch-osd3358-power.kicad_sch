@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-07-06")
-		(rev "1.2")
+		(date "2026-09-17")
+		(rev "1.3")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -8253,7 +8253,7 @@
 	)
 	(text "\"3.3V\""
 		(exclude_from_sim no)
-		(at 188.468 87.884 0)
+		(at 204.978 93.472 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8281,6 +8281,16 @@
 			)
 		)
 		(uuid "21a40c1b-3e71-4749-b483-87e0554c986b")
+	)
+	(text "I2C0 has internal \n4.7K pullups"
+		(exclude_from_sim no)
+		(at 86.106 188.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48164c1b-9feb-447e-9788-ce6fa7e116db")
 	)
 	(text "SYS_VOUT is the OR of \n5V from the bus and VIN_USB.\nImax = 500 mA"
 		(exclude_from_sim no)
@@ -8314,6 +8324,16 @@
 			(justify left bottom)
 		)
 		(uuid "8768a64b-2a03-4a0d-92dd-aa25a8a85409")
+	)
+	(text "\"5V\""
+		(exclude_from_sim no)
+		(at 205.486 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8aa87e17-9b4a-4b1c-8ae1-14ee1d009e67")
 	)
 	(text "RTC_KALDO_ENN is grounded thru a 10K ohm resistor so that\nthe internal RTC LDO is enabled and CAP_VDD_RTC does not\nneed to be connected to VDD_CORE."
 		(exclude_from_sim no)
@@ -8584,6 +8604,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ff618c-ac3c-44ea-bfa6-47c6d2023400")
+	)
+	(junction
+		(at 185.42 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82530ae6-3f62-446f-9c01-10fcc3e0d37c")
 	)
 	(junction
 		(at 180.34 78.74)
@@ -8858,28 +8884,8 @@
 		(uuid "110551f1-dff1-4fcb-af9c-26085d9b6480")
 	)
 	(no_connect
-		(at 99.06 172.72)
-		(uuid "1ac0a082-d71a-48c0-af47-145a50954210")
-	)
-	(no_connect
-		(at 99.06 157.48)
-		(uuid "1bcf0703-6b77-432c-ad9e-790da2795f53")
-	)
-	(no_connect
-		(at 99.06 170.18)
-		(uuid "2963856c-257a-4306-b333-06fdbe92f037")
-	)
-	(no_connect
-		(at 99.06 149.86)
-		(uuid "2f11d433-afaf-41fc-ada2-aa53e5d1a941")
-	)
-	(no_connect
 		(at 350.52 187.96)
 		(uuid "3330b61d-aa19-4ae2-95b1-8f55fe494b9e")
-	)
-	(no_connect
-		(at 99.06 154.94)
-		(uuid "39758e37-9b3c-47ca-a6c4-b1e47dd189ba")
 	)
 	(no_connect
 		(at 350.52 190.5)
@@ -8890,20 +8896,8 @@
 		(uuid "59e83f3b-210d-449e-b28e-5056a9422d69")
 	)
 	(no_connect
-		(at 99.06 147.32)
-		(uuid "72cc0e5a-4237-48a6-8224-cce2c976d578")
-	)
-	(no_connect
 		(at 294.64 175.26)
 		(uuid "7de4d546-e1d1-4345-b70e-545143c6d469")
-	)
-	(no_connect
-		(at 99.06 165.1)
-		(uuid "8547ea81-aa6b-41f3-a9c6-b8222009fa14")
-	)
-	(no_connect
-		(at 99.06 162.56)
-		(uuid "85f342a3-67b0-482e-a120-f1e011fa1bb1")
 	)
 	(no_connect
 		(at 294.64 170.18)
@@ -8991,6 +8985,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 53.34) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc80ff8-4cd5-4a4b-be9d-06f548ed7f54")
+	)
+	(wire
+		(pts
+			(xy 97.79 170.18) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0befb504-beb7-4f1d-b335-4d8db01ebfd8")
+	)
+	(wire
+		(pts
 			(xy 289.56 99.06) (xy 289.56 101.6)
 		)
 		(stroke
@@ -8998,6 +9012,16 @@
 			(type default)
 		)
 		(uuid "0ea3a1fc-b011-43e3-9e9e-bf14a414ba5e")
+	)
+	(wire
+		(pts
+			(xy 97.79 162.56) (xy 99.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1063ea3c-6067-475f-ba55-dec9822ecb57")
 	)
 	(wire
 		(pts
@@ -9261,6 +9285,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 63.5) (xy 209.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322d8f1d-6603-41e4-ab0c-49cc18adca1f")
+	)
+	(wire
+		(pts
 			(xy 99.06 83.82) (xy 96.52 83.82)
 		)
 		(stroke
@@ -9268,6 +9302,16 @@
 			(type default)
 		)
 		(uuid "342ec77f-708c-423e-a3b2-3e98dd6ca893")
+	)
+	(wire
+		(pts
+			(xy 99.06 172.72) (xy 97.79 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35544a52-b39c-4271-9d25-75be46498854")
 	)
 	(wire
 		(pts
@@ -9348,6 +9392,16 @@
 			(type default)
 		)
 		(uuid "4163d3fe-fbec-40b9-9439-8799a20b586f")
+	)
+	(wire
+		(pts
+			(xy 97.79 157.48) (xy 97.79 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41781e85-740b-4308-b322-eb6e2b191a96")
 	)
 	(wire
 		(pts
@@ -9488,6 +9542,16 @@
 			(type default)
 		)
 		(uuid "50d49a29-3b9b-4024-a1e5-b09a5dfd5f98")
+	)
+	(wire
+		(pts
+			(xy 97.79 147.32) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5192c99f-3d5b-4ac8-9a11-80d739c97d02")
 	)
 	(wire
 		(pts
@@ -9661,6 +9725,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 87.63) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ef67ff-89d7-44b1-9e4f-baa4dd505c2c")
+	)
+	(wire
+		(pts
+			(xy 185.42 53.34) (xy 209.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddfabe1-88c8-49ea-9112-0e4fb9e13420")
+	)
+	(wire
+		(pts
 			(xy 289.56 58.42) (xy 292.1 58.42)
 		)
 		(stroke
@@ -9678,16 +9762,6 @@
 			(type default)
 		)
 		(uuid "5ed1f9fe-9372-4ed5-9689-d59c13b4a742")
-	)
-	(wire
-		(pts
-			(xy 184.15 83.82) (xy 180.34 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f1dc028-35fc-4d62-b5e5-8bd269cd9851")
 	)
 	(wire
 		(pts
@@ -9831,6 +9905,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 71.12) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7422ab11-d9ab-4d5b-82a5-3845fcd8b5f6")
+	)
+	(wire
+		(pts
 			(xy 175.26 60.96) (xy 175.26 58.42)
 		)
 		(stroke
@@ -9871,6 +9955,26 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 165.1) (xy 97.79 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768a099a-4506-4d36-91ab-6c5c3575544c")
+	)
+	(wire
+		(pts
+			(xy 97.79 154.94) (xy 99.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768fc1cb-9308-4a6d-a5f7-695481a560ce")
+	)
+	(wire
+		(pts
 			(xy 76.2 53.34) (xy 76.2 54.61)
 		)
 		(stroke
@@ -9898,6 +10002,16 @@
 			(type default)
 		)
 		(uuid "791c0889-bc58-47ed-9569-f695d6ab70d0")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 209.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be8db5a-a3f2-46d8-9beb-8419232bf271")
 	)
 	(wire
 		(pts
@@ -9948,6 +10062,16 @@
 			(type default)
 		)
 		(uuid "82d56278-e576-4bd0-b00c-5c6b4ca44b80")
+	)
+	(wire
+		(pts
+			(xy 99.06 149.86) (xy 97.79 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fadb6e-518f-419b-9d4f-8b7712a4f8ac")
 	)
 	(wire
 		(pts
@@ -10221,6 +10345,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 78.74) (xy 209.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e194ba-e2d6-4ff8-ad62-48ae7879e029")
+	)
+	(wire
+		(pts
 			(xy 203.2 203.2) (xy 200.66 203.2)
 		)
 		(stroke
@@ -10328,6 +10462,16 @@
 			(type default)
 		)
 		(uuid "ab1c9bea-ae7b-4487-bdc1-4a2b99e146fb")
+	)
+	(wire
+		(pts
+			(xy 99.06 157.48) (xy 97.79 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0d8605-9717-4496-81d1-9131c131d1a3")
 	)
 	(wire
 		(pts
@@ -10591,6 +10735,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 149.86) (xy 97.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bb02a7-541b-484c-be44-c1f1d53a424a")
+	)
+	(wire
+		(pts
 			(xy 289.56 73.66) (xy 292.1 73.66)
 		)
 		(stroke
@@ -10751,6 +10905,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 165.1) (xy 97.79 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25e5710-1c98-4252-9fac-84ab35756346")
+	)
+	(wire
+		(pts
 			(xy 289.56 101.6) (xy 289.56 104.14)
 		)
 		(stroke
@@ -10801,7 +10965,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 193.04 91.44)
+			(xy 209.55 97.79) (xy 209.55 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10848,6 +11012,16 @@
 			(type default)
 		)
 		(uuid "dab41676-e464-44d9-b024-bc855c940ad4")
+	)
+	(wire
+		(pts
+			(xy 97.79 172.72) (xy 97.79 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3f2f72-a200-46d5-bc8a-d55ac8a104b9")
 	)
 	(wire
 		(pts
@@ -10969,16 +11143,6 @@
 		)
 		(uuid "ecb1a44c-a895-4090-8b2f-cfe4e9be218a")
 	)
-	(wire
-		(pts
-			(xy 191.77 83.82) (xy 193.04 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ece0cffd-32d9-49ab-9fbd-64039356a1e8")
-	)
 	(polyline
 		(pts
 			(xy 39.37 48.26) (xy 39.37 74.93)
@@ -11048,16 +11212,6 @@
 			(type default)
 		)
 		(uuid "f09c7e71-5028-48ee-a7ee-96d922755f0b")
-	)
-	(wire
-		(pts
-			(xy 180.34 83.82) (xy 180.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e196be-fa09-4ec2-9b14-b6e083994fd2")
 	)
 	(wire
 		(pts
@@ -11276,7 +11430,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 92.71 0)
+		(at 209.55 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11287,7 +11441,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a9a8433-c927-4bec-96e6-996cea7a7550")
 		(property "Reference" "#GND0175"
-			(at 193.04 99.06 0)
+			(at 209.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 93.9799 0)
+			(at 212.09 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11309,7 +11463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 92.71 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11320,7 +11474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 92.71 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11331,7 +11485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 92.71 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11355,7 +11509,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 193.04 87.63 90)
+		(at 209.55 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11365,7 +11519,7 @@
 		(dnp no)
 		(uuid "0bc342cc-952c-463d-85f5-a1eb78189e43")
 		(property "Reference" "D4"
-			(at 195.326 85.852 90)
+			(at 211.836 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11376,7 +11530,7 @@
 			)
 		)
 		(property "Value" "GRN"
-			(at 195.326 88.138 90)
+			(at 211.836 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11387,7 +11541,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 193.04 87.63 0)
+			(at 209.55 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11398,7 +11552,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
-			(at 193.04 87.63 0)
+			(at 209.55 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11409,7 +11563,7 @@
 			)
 		)
 		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
-			(at 193.04 87.63 0)
+			(at 209.55 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11420,7 +11574,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 87.63 0)
+			(at 209.55 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11431,7 +11585,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 193.04 87.63 90)
+			(at 209.55 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11442,7 +11596,7 @@
 			)
 		)
 		(property "DPN" "732-4971-1-ND"
-			(at 193.04 87.63 90)
+			(at 209.55 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11453,7 +11607,7 @@
 			)
 		)
 		(property "MFR" "Wurth"
-			(at 193.04 87.63 90)
+			(at 209.55 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11464,7 +11618,7 @@
 			)
 		)
 		(property "MPN" "150060GS75000"
-			(at 193.04 87.63 90)
+			(at 209.55 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11613,6 +11767,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 209.55 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15172ed6-e531-44bd-acc8-4cf3662a9b31")
+		(property "Reference" "D3"
+			(at 211.836 65.532 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GRN"
+			(at 212.09 67.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 209.55 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "732-4971-1-ND"
+			(at 209.55 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Wurth"
+			(at 209.55 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060GS75000"
+			(at 209.55 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c3f0313-7cb7-4071-84d1-5ae679ea0837")
+		)
+		(pin "2"
+			(uuid "84231fa4-6852-44e1-98a9-dbd99f193987")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 208.28 195.58 0)
 		(unit 1)
@@ -11748,7 +12038,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "278d1ca6-94bb-4c96-9392-37f50950bec5")
 		(property "Reference" "#3V0113"
 			(at 180.34 77.47 0)
@@ -11762,7 +12051,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 180.34 68.58 0)
+			(at 180.34 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11916,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Value" "OSD3358-512M-BSM"
+		(property "Value" "OSD3358-1G-ISM"
 			(at 322.58 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13358,7 +13647,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c39abaf-3ad4-4cea-89ba-a90dcddc767b")
 		(property "Reference" "#3V3A0102"
 			(at 175.26 120.65 0)
@@ -13372,7 +13660,7 @@
 			)
 		)
 		(property "Value" "3.3VA"
-			(at 175.26 111.76 0)
+			(at 175.26 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13436,7 +13724,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a5db509-4496-4f68-b429-953ab09fe49d")
 		(property "Reference" "#5V0103"
 			(at 76.2 54.61 0)
@@ -13450,7 +13737,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 76.2 45.72 0)
+			(at 76.2 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13806,7 +14093,7 @@
 				)
 			)
 		)
-		(property "Value" "OSD3358-512M-BSM"
+		(property "Value" "OSD3358-1G-ISM"
 			(at 134.62 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14691,7 +14978,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa987d29-03be-4366-a163-1ab7bf1fad2c")
 		(property "Reference" "#GND0172"
 			(at 355.6 120.65 0)
@@ -14705,7 +14991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 358.14 115.5699 0)
+			(at 353.822 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15267,7 +15553,7 @@
 				)
 			)
 		)
-		(property "Value" "OSD3358-512M-BSM"
+		(property "Value" "OSD3358-1G-ISM"
 			(at 322.58 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,7 +16430,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 187.96 83.82 90)
+		(at 209.55 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16154,7 +16440,7 @@
 		(dnp no)
 		(uuid "cedbff0c-ddf9-499b-b887-4847097d0c8f")
 		(property "Reference" "R54"
-			(at 187.706 79.756 90)
+			(at 213.614 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16164,7 +16450,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 187.96 81.534 90)
+			(at 211.836 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16174,7 +16460,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 188.214 82.804 90)
+			(at 210.566 84.074 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16185,7 +16471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 187.96 83.82 0)
+			(at 209.55 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16196,7 +16482,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 187.96 83.82 0)
+			(at 209.55 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16207,7 +16493,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 187.96 83.82 90)
+			(at 209.55 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16218,7 +16504,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 187.96 83.82 90)
+			(at 209.55 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16229,7 +16515,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 187.96 83.82 90)
+			(at 209.55 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16240,7 +16526,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 187.96 83.82 90)
+			(at 209.55 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16275,7 +16561,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d754f46f-a687-49cd-9860-cbc6aa7bb1df")
 		(property "Reference" "#3V01"
 			(at 218.44 210.82 0)
@@ -16289,7 +16574,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 218.44 201.93 0)
+			(at 218.44 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17019,7 +17304,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eac6220c-ef56-4fee-828a-40d8951acd57")
 		(property "Reference" "#GND0173"
 			(at 289.56 120.65 0)
@@ -17033,7 +17317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 292.1 115.5699 0)
+			(at 287.782 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17083,6 +17367,131 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
 					(reference "#GND0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 209.55 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efecbd83-608a-4009-b900-51620ded5846")
+		(property "Reference" "R33"
+			(at 214.884 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 214.63 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 208.534 58.166 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9b50e80-e143-40b2-99fb-92256ef54978")
+		)
+		(pin "2"
+			(uuid "e793e585-7a63-4d2e-bb9c-41f3ba95c8e5")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -17206,6 +17615,84 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8fb4552-ec85-4e08-9528-190869ef6ff5")
+		(property "Reference" "#GND0133"
+			(at 209.55 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.645 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0aa172f-af67-4642-a128-6070d5645b43")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
+					(reference "#GND0133")
 					(unit 1)
 				)
 			)

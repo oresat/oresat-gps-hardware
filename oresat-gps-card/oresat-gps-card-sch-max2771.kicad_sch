@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-07-06")
-		(rev "1.2")
+		(date "2026-09-17")
+		(rev "1.3")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -2428,6 +2428,16 @@
 		)
 		(uuid "118697c7-f4e4-46db-a4ab-6d1b49033d3b")
 	)
+	(text "PULL LOW WHEN NOT\nPOWERING GPS DOMAIN."
+		(exclude_from_sim no)
+		(at 88.138 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64661b26-e009-4abf-a3f9-1d68e307f07b")
+	)
 	(text "4 bits I/Q data @ 4.092 Msps"
 		(exclude_from_sim no)
 		(at 228.6 110.49 0)
@@ -2444,6 +2454,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0142f140-6d7d-49a4-97d5-af21f808e024")
+	)
+	(junction
+		(at 130.81 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07193aa0-4604-4ef1-b7c8-ce9fb1b03c78")
 	)
 	(junction
 		(at 217.17 63.5)
@@ -2512,6 +2528,12 @@
 		(uuid "a28216a7-13fd-4f90-be0b-a04855c4fff8")
 	)
 	(junction
+		(at 133.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa920a6d-0785-43c7-9622-985e3bcb1f7e")
+	)
+	(junction
 		(at 144.78 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2540,12 +2562,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e31612a9-1851-4ea5-b190-6aaa424424ef")
-	)
-	(junction
-		(at 135.89 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0d929f3-def9-4cf1-aec6-08dde514031e")
 	)
 	(no_connect
 		(at 173.99 144.78)
@@ -2651,13 +2667,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 121.92) (xy 135.89 120.65)
+			(xy 130.81 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e09c5dc-fff7-457f-8dc7-efd9590947eb")
+		(uuid "0f649792-a8a9-4498-9932-23ded0f522f6")
 	)
 	(wire
 		(pts
@@ -2701,6 +2717,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 92.71) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16614638-0599-4e47-a89b-2cb08da50536")
+	)
+	(wire
+		(pts
 			(xy 306.07 132.08) (xy 308.61 132.08)
 		)
 		(stroke
@@ -2721,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 142.24 111.76)
+			(xy 130.81 111.76) (xy 142.24 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2768,6 +2794,16 @@
 			(type default)
 		)
 		(uuid "23b59de0-3c28-4fb3-b701-6921eb25b96b")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24265db0-2dbc-44ce-87b4-dc5b2fbc4147")
 	)
 	(wire
 		(pts
@@ -2851,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 147.32 106.68)
+			(xy 119.38 106.68) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2941,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 135.89 111.76)
+			(xy 119.38 111.76) (xy 130.81 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3391,16 +3427,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 135.89 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9089578d-97b8-4c53-b3b4-3b29861a02a0")
-	)
-	(wire
-		(pts
 			(xy 217.17 72.39) (xy 217.17 73.66)
 		)
 		(stroke
@@ -3538,6 +3564,16 @@
 			(type default)
 		)
 		(uuid "a6ce9a8c-8fbc-4202-85de-9b7c26c5c316")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b6b459-e146-4b21-8fb5-ecffc88086df")
 	)
 	(wire
 		(pts
@@ -3721,7 +3757,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 104.14) (xy 135.89 104.14)
+			(xy 119.38 104.14) (xy 135.89 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3748,6 +3784,16 @@
 			(type default)
 		)
 		(uuid "cc1bc88e-ed85-4928-ab78-6b10cd6e4377")
+	)
+	(wire
+		(pts
+			(xy 158.75 147.32) (xy 158.75 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfceedf2-09c1-4a58-81ea-8551b2af6d5f")
 	)
 	(wire
 		(pts
@@ -3851,6 +3897,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 102.87) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e123b5fd-96a0-4884-9a44-488cf15160a3")
+	)
+	(wire
+		(pts
 			(xy 252.73 63.5) (xy 252.73 64.77)
 		)
 		(stroke
@@ -3891,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 109.22) (xy 144.78 109.22)
+			(xy 119.38 109.22) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4021,6 +4077,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 95.25) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc16f665-7091-4066-a1ec-5aac7a8e6991")
+	)
+	(wire
+		(pts
 			(xy 252.73 63.5) (xy 242.57 63.5)
 		)
 		(stroke
@@ -4034,8 +4100,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -4046,8 +4111,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -4058,8 +4122,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -4070,52 +4133,59 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
 		(uuid "afe7f066-84f9-4f1e-9456-48b5df60e6fb")
 	)
 	(hierarchical_label "Q0"
-		(shape input)
+		(shape output)
 		(at 237.49 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "2365fa69-4f63-4233-a86a-e534d7106e3d")
 	)
 	(hierarchical_label "MAX-CLKOUT"
-		(shape input)
+		(shape output)
 		(at 284.48 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "30c172bc-d07a-4161-8c01-47da92480c6a")
 	)
 	(hierarchical_label "MAX-LD"
-		(shape input)
+		(shape output)
 		(at 231.14 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "3b5679f7-e785-4fd6-896e-2dc78d955c9a")
 	)
 	(hierarchical_label "I1"
-		(shape input)
+		(shape output)
 		(at 237.49 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -4123,21 +4193,25 @@
 	)
 	(hierarchical_label "MAX_~{SHDN}"
 		(shape input)
-		(at 132.08 104.14 180)
+		(at 119.38 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "6370c193-899f-4c8f-a99f-5ecc0761e897")
 	)
 	(hierarchical_label "I0"
-		(shape input)
+		(shape output)
 		(at 237.49 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -4145,10 +4219,12 @@
 	)
 	(hierarchical_label "MAX_SPI1_CS0"
 		(shape input)
-		(at 132.08 111.76 180)
+		(at 119.38 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -4160,6 +4236,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -4167,10 +4245,12 @@
 	)
 	(hierarchical_label "MAX_SPI1_SCLK"
 		(shape input)
-		(at 132.08 106.68 180)
+		(at 119.38 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -4178,21 +4258,25 @@
 	)
 	(hierarchical_label "MAX_SPI1_D0"
 		(shape input)
-		(at 132.08 109.22 180)
+		(at 119.38 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "997444a5-e2a2-458e-b400-2ddd125ba861")
 	)
 	(hierarchical_label "Q1"
-		(shape input)
+		(shape output)
 		(at 237.49 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -4424,7 +4508,7 @@
 				)
 			)
 		)
-		(property "Value" "SF14-1575F5UUA1"
+		(property "Value" "SF14-1575F5UUR1"
 			(at 144.78 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 135.89 116.84 0)
+		(at 130.81 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4626,7 +4710,7 @@
 		(dnp no)
 		(uuid "0e98554e-cafa-4a17-a979-6d1a538275cb")
 		(property "Reference" "R88"
-			(at 137.414 116.078 0)
+			(at 129.286 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4637,7 +4721,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.16 117.856 0)
+			(at 129.032 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4648,7 +4732,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 136.906 117.094 90)
+			(at 129.794 98.806 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +4743,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 135.89 116.84 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +4754,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 135.89 116.84 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +4765,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 135.89 116.84 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +4776,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 135.89 116.84 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +4787,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 135.89 116.84 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,7 +4798,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 135.89 116.84 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4811,84 +4895,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
 					(reference "#2V85D0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "14f886bb-5777-41c7-9e0e-ec37b0f9a7ba")
-		(property "Reference" "#GND0254"
-			(at 135.89 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.112 125.476 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "004f342e-0e61-492c-88aa-2c05822163fa")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
-					(reference "#GND0254")
 					(unit 1)
 				)
 			)
@@ -5208,6 +5214,83 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
+		(at 158.75 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ca0c0e5-475c-4f8a-907b-f715ca358254")
+		(property "Reference" "#2V85D0116"
+			(at 158.75 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.85VD"
+			(at 158.75 144.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 158.75 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a661ca4-1252-4e72-9273-7e18642ea6bd")
+		)
+		(instances
+			(project "oresat-gps-card"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
+					(reference "#2V85D0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
 		(at 242.57 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -5421,7 +5504,7 @@
 		(dnp no)
 		(uuid "252c2fe6-3de7-4a7d-9532-9abba0530a8b")
 		(property "Reference" "R86"
-			(at 137.668 97.79 0)
+			(at 137.16 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5432,7 +5515,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.668 100.33 0)
+			(at 137.16 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6409,7 +6492,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 135.89 95.25 0)
+		(at 133.35 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6419,7 +6502,7 @@
 		(dnp no)
 		(uuid "3954ebcb-f458-47f7-9e33-b65978388740")
 		(property "Reference" "#2V85D0111"
-			(at 135.89 90.17 0)
+			(at 133.35 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +6513,7 @@
 			)
 		)
 		(property "Value" "2.85VD"
-			(at 133.096 91.694 0)
+			(at 130.556 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6441,7 +6524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 95.25 0)
+			(at 133.35 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6452,7 +6535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 95.25 0)
+			(at 133.35 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,7 +6546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 135.89 95.25 0)
+			(at 133.35 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,84 +7968,6 @@
 			(project "oresat-gps-card"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
 					(reference "C123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79368958-07bf-4ced-a4a4-a758e71c6500")
-		(property "Reference" "#GND04"
-			(at 158.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.718 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2051e2f4-1017-4db8-95f0-22aa9d040f97")
-		)
-		(instances
-			(project "oresat-gps-card"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/8d9bd19c-7585-4051-9f00-67484709f60e"
-					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -9453,7 +9458,7 @@
 				)
 			)
 		)
-		(property "MPN" "FIXED IND 5.6NH 800MA 200 MOHM"
+		(property "MPN" "LQG18HN5N6S00D"
 			(at 146.05 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -9489,10 +9494,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af2c8f45-9939-434a-8d94-bf42309bae6d")
 		(property "Reference" "R51"
-			(at 163.83 146.05 90)
+			(at 163.83 148.336 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9502,7 +9506,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 148.59 90)
+			(at 163.83 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

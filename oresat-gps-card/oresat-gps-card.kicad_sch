@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-07-06")
-		(rev "1.2")
+		(date "2026-09-17")
+		(rev "1.3")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -3142,12 +3142,6 @@
 		(uuid "598a638b-3d3d-482d-96d6-9744af86222d")
 	)
 	(junction
-		(at 212.09 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60937c64-cfff-4a74-a45a-dbd30b3fead7")
-	)
-	(junction
 		(at 115.57 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3598,16 +3592,6 @@
 			(type default)
 		)
 		(uuid "4e8d0a44-a3e7-4690-a4e8-5b26e0ca9ef2")
-	)
-	(wire
-		(pts
-			(xy 212.09 200.66) (xy 219.71 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fb57f03-f544-43c6-927f-08cf66a55118")
 	)
 	(wire
 		(pts
@@ -4815,7 +4799,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 190.5 240.03 180)
+		(at 190.5 237.49 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4823,30 +4808,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2332dce0-f088-4251-aace-72d705414b65")
 		(property "Reference" "J3"
-			(at 190.5 228.6 0)
+			(at 191.516 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "GRPB041VWVN-RC"
-			(at 190.5 231.14 0)
+			(at 199.39 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
-			(at 190.5 240.03 0)
+			(at 190.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4857,7 +4843,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE94-95%20.050%20MALE%20HDR%20ST%20RA%20SMT.pdf"
-			(at 190.5 240.03 0)
+			(at 190.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4868,7 +4854,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 4 position 0.050\" (1.27mm)"
-			(at 190.5 240.03 0)
+			(at 190.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +4865,7 @@
 			)
 		)
 		(property "DPN" "S9014E-04-ND"
-			(at 190.5 240.03 0)
+			(at 190.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4890,7 +4876,7 @@
 			)
 		)
 		(property "MFR" "Sullins Connector Solutions"
-			(at 190.5 240.03 0)
+			(at 190.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4901,7 +4887,7 @@
 			)
 		)
 		(property "MPN" "GRPB041VWVN-RC"
-			(at 190.5 240.03 0)
+			(at 190.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4912,7 +4898,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 190.5 240.03 0)
+			(at 190.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5748,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Value" "J-SAMTEC-TFM-120-01-L-D-RA"
+		(property "Value" "TFM-120-01-L-D-RA"
 			(at 107.95 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +5755,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-x-xh-xr-mkt.pdf"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tfm.pdf"
 			(at 107.95 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -5780,7 +5766,7 @@
 				)
 			)
 		)
-		(property "Description" "40 Position Receptacle Connector 0.050\"\" (1.27mm) Surface Mount, Right Angle Gold"
+		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5802,7 +5788,7 @@
 				)
 			)
 		)
-		(property "DPN" "SAM14509CT-ND"
+		(property "DPN" "SAM10145-ND"
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5813,7 +5799,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samtec Inc."
+		(property "MFR" "Samtec"
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5824,7 +5810,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFM-120-02-L-DH-TR"
+		(property "MPN" "TFM-120-01-L-D-RA"
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6676,7 +6662,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPS-EN" input
+		(pin "GPS-EN" output
 			(at 248.92 167.64 0)
 			(uuid "b3268ada-177b-433c-a76d-fd88e2ce386f")
 			(effects
@@ -6696,7 +6682,7 @@
 				(justify right)
 			)
 		)
-		(pin "MAX_~{SHDN}" input
+		(pin "MAX_~{SHDN}" output
 			(at 248.92 125.73 0)
 			(uuid "b27ad56b-ca46-4193-b346-24d005522d5f")
 			(effects
@@ -6716,7 +6702,7 @@
 				(justify right)
 			)
 		)
-		(pin "MAX_SPI1_CS0" input
+		(pin "MAX_SPI1_CS0" output
 			(at 248.92 135.89 0)
 			(uuid "b9365648-21ef-404b-bf14-e44f6e4fe861")
 			(effects
@@ -6726,7 +6712,7 @@
 				(justify right)
 			)
 		)
-		(pin "MAX_SPI1_D0" input
+		(pin "MAX_SPI1_D0" output
 			(at 248.92 133.35 0)
 			(uuid "cc767ce5-32f8-4a2d-805f-9b1a2bb2c3ba")
 			(effects
@@ -6736,7 +6722,7 @@
 				(justify right)
 			)
 		)
-		(pin "MAX_SPI1_SCLK" input
+		(pin "MAX_SPI1_SCLK" output
 			(at 248.92 138.43 0)
 			(uuid "6a8b424e-fc74-473c-9284-8f149555ecf1")
 			(effects
@@ -6746,7 +6732,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART2_TX" input
+		(pin "UART2_TX" output
 			(at 248.92 151.13 0)
 			(uuid "d63bfca1-3af4-45b2-a5e8-b2208bbce193")
 			(effects
@@ -6799,16 +6785,6 @@
 					(size 0.635 0.635)
 				)
 				(justify left top)
-			)
-		)
-		(pin "nRESET" input
-			(at 219.71 200.66 180)
-			(uuid "2d19f4e3-d032-4990-829d-c24d6df2b12c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "USB_CLI_P" input
@@ -7063,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(pin "Q1" input
+		(pin "Q1" output
 			(at 266.7 105.41 180)
 			(uuid "36fd149b-12b7-4557-9dbc-00a93757ca42")
 			(effects
@@ -7073,7 +7049,7 @@
 				(justify left)
 			)
 		)
-		(pin "Q0" input
+		(pin "Q0" output
 			(at 266.7 102.87 180)
 			(uuid "7f6051be-91dc-4681-812a-6e4e7030e00b")
 			(effects
@@ -7093,7 +7069,7 @@
 				(justify right)
 			)
 		)
-		(pin "I1" input
+		(pin "I1" output
 			(at 266.7 111.76 180)
 			(uuid "ac5dd0f0-d44a-490d-b181-8a401773da8f")
 			(effects
@@ -7103,7 +7079,7 @@
 				(justify left)
 			)
 		)
-		(pin "I0" input
+		(pin "I0" output
 			(at 266.7 109.22 180)
 			(uuid "ef6a1c58-b9ba-4895-a08f-6ca51a03cc33")
 			(effects
@@ -7113,7 +7089,7 @@
 				(justify left)
 			)
 		)
-		(pin "MAX-CLKOUT" input
+		(pin "MAX-CLKOUT" output
 			(at 266.7 97.79 180)
 			(uuid "d0e46cce-7d37-4542-aafa-28ae655785e5")
 			(effects
@@ -7123,7 +7099,7 @@
 				(justify left)
 			)
 		)
-		(pin "MAX-LD" input
+		(pin "MAX-LD" output
 			(at 266.7 128.27 180)
 			(uuid "ca698e98-53fa-442e-ab4c-cd8db2519bea")
 			(effects
@@ -7189,7 +7165,7 @@
 				(justify left)
 			)
 		)
-		(pin "STQ-RF" input
+		(pin "STQ-RF" output
 			(at 311.15 143.51 180)
 			(uuid "1c5f7314-1f6c-480c-8895-d4e4dad9e38c")
 			(effects
@@ -7199,7 +7175,7 @@
 				(justify left)
 			)
 		)
-		(pin "MAX-RF" input
+		(pin "MAX-RF" output
 			(at 311.15 132.08 180)
 			(uuid "785e78d5-3e7a-4176-9174-ac14679a2e33")
 			(effects
@@ -7265,7 +7241,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN2_H" input
+		(pin "CAN2_H" bidirectional
 			(at 219.71 107.95 180)
 			(uuid "903996aa-4466-4397-863e-2e448f56e83f")
 			(effects
@@ -7275,7 +7251,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN2_L" input
+		(pin "CAN2_L" bidirectional
 			(at 219.71 110.49 180)
 			(uuid "546e5ed4-43e8-483d-bdbc-5c1b467b1561")
 			(effects
@@ -7401,7 +7377,7 @@
 				(justify left top)
 			)
 		)
-		(pin "STQ-1PPS" input
+		(pin "STQ-1PPS" output
 			(at 266.7 160.02 180)
 			(uuid "a6c87759-af7c-4379-bb98-e39752005cb9")
 			(effects
@@ -7421,7 +7397,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART2_RX" input
+		(pin "UART2_RX" output
 			(at 266.7 153.67 180)
 			(uuid "65b4e32a-fa4d-43d4-81d1-1cd1bf15de89")
 			(effects

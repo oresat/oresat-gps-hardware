@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-07-06")
-		(rev "1.2")
+		(date "2026-09-17")
+		(rev "1.3")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -9135,55 +9135,65 @@
 		(uuid "fe7d970b-b21d-47b7-805a-32964c4418d6")
 	)
 	(hierarchical_label "MAX_~{SHDN}"
-		(shape input)
+		(shape output)
 		(at 128.27 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "011e2858-b59d-4027-bd31-8c2189ec38e8")
 	)
 	(hierarchical_label "MAX_SPI1_CS0"
-		(shape input)
+		(shape output)
 		(at 128.27 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "0610a762-b580-4b80-aebf-586f769cfc1f")
 	)
 	(hierarchical_label "GPS-EN"
-		(shape input)
+		(shape output)
 		(at 128.27 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "24789190-87c9-4c30-9027-c5743f8b4b27")
 	)
 	(hierarchical_label "MAX_SPI1_D0"
-		(shape input)
+		(shape output)
 		(at 128.27 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "258a8a21-aaa0-4d98-a1d9-fd57bd0866e0")
 	)
 	(hierarchical_label "UART2_TX"
-		(shape input)
+		(shape output)
 		(at 128.27 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -9195,6 +9205,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -9206,17 +9218,21 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "5e93ace5-36c7-46bf-911a-ccf75a178e9d")
 	)
 	(hierarchical_label "MAX_SPI1_SCLK"
-		(shape input)
+		(shape output)
 		(at 128.27 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -9228,6 +9244,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -9239,6 +9257,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -9652,7 +9672,7 @@
 				)
 			)
 		)
-		(property "Value" "OSD3358-512M-BSM"
+		(property "Value" "OSD3358-1G-ISM"
 			(at 184.15 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)

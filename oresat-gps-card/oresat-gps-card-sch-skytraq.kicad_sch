@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-07-06")
-		(rev "1.2")
+		(date "2026-09-17")
+		(rev "1.3")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -1437,28 +1437,34 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "12a20216-569e-444e-bce3-33799e26067e")
 	)
 	(hierarchical_label "STQ-1PPS"
-		(shape input)
+		(shape output)
 		(at 240.03 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "2c8d18de-afb9-4ba7-8a72-798539a29e8b")
 	)
 	(hierarchical_label "UART2_RX"
-		(shape input)
+		(shape output)
 		(at 167.64 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -1470,6 +1476,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
