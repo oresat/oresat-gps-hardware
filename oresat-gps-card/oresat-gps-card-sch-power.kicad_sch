@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-09-17")
+		(date "2026-10-04")
 		(rev "1.3")
 		(company "Portland State Aerospace Society")
 	)
@@ -224,7 +224,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -274,7 +274,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill

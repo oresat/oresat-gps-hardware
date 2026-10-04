@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat GPS Card")
-		(date "2026-09-17")
+		(date "2026-10-04")
 		(rev "1.3")
 		(company "Portland State Aerospace Society")
 	)
@@ -15932,7 +15932,7 @@
 		(dnp no)
 		(uuid "2b105e61-57bb-4e1f-9cc2-d1a60c96b41b")
 		(property "Reference" "U9"
-			(at 322.58 157.48 0)
+			(at 336.55 194.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15941,8 +15941,8 @@
 				)
 			)
 		)
-		(property "Value" "EMMC+RESET+5.1-COMPATIBLE-BA"
-			(at 287.02 195.58 0)
+		(property "Value" "E32GS22AXC-01011"
+			(at 335.026 197.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15963,7 +15963,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.micron.com/products/managed-nand/emmc/part-catalog/mtfc32gazaqhd-it?login"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9015/E32GS22AXC-01011.pdf"
 			(at 330.2 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15974,7 +15974,7 @@
 				)
 			)
 		)
-		(property "Description" "FLASH - NAND Memory IC 256Gbit eMMC 200 MHz 153-VFBGA (11.5x13)"
+		(property "Description" "FLASH - NAND (TLC) Memory IC 256Gbit eMMC_5.1 200 MHz 153-FBGA (11.5x13)"
 			(at 330.2 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15996,7 +15996,7 @@
 				)
 			)
 		)
-		(property "DPN" "557-MTFC32GAZAQHD-IT-ND"
+		(property "DPN" "5625-E32GS22AXC-01011-ND"
 			(at 330.2 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16007,7 +16007,7 @@
 				)
 			)
 		)
-		(property "MFR" "Micron Technology Inc."
+		(property "MFR" "Kingston Technology"
 			(at 330.2 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16018,7 +16018,7 @@
 				)
 			)
 		)
-		(property "MPN" "MTFC32GAZAQHD-IT"
+		(property "MPN" "E32GS22AXC-01011"
 			(at 330.2 175.26 0)
 			(hide yes)
 			(show_name no)
