@@ -811,6 +811,275 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LT1719IS6_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT1719IS6"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1719fa.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "General Purpose Comparator, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT1719IS6_1_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LT1719IS6_1_1_0"
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -3.81 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 0.762)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "SD"
+					(at -3.302 0.762 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "SD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT1719IS6_1_2_0"
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-ics:D32G-016.368M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -872,55 +1141,20 @@
 					)
 				)
 			)
+			(symbol "D32G-016.368M_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(symbol "D32G-016.368M_1_0"
-				(polyline
-					(pts
-						(xy -10.16 5.08) (xy -10.16 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -5.08) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 5.08) (xy -10.16 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 10.16 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin no_connect line
 					(at -6.35 -7.62 90)
 					(length 2.54)
@@ -2430,7 +2664,7 @@
 	)
 	(text "PULL LOW WHEN NOT\nPOWERING GPS DOMAIN."
 		(exclude_from_sim no)
-		(at 88.138 107.442 0)
+		(at 88.138 112.522 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,7 +2690,7 @@
 		(uuid "0142f140-6d7d-49a4-97d5-af21f808e024")
 	)
 	(junction
-		(at 130.81 111.76)
+		(at 130.81 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07193aa0-4604-4ef1-b7c8-ce9fb1b03c78")
@@ -2498,7 +2732,7 @@
 		(uuid "6423d7ca-84d5-4fea-9b99-a0ce608e841d")
 	)
 	(junction
-		(at 135.89 104.14)
+		(at 135.89 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f82f754-62be-4ab4-9e2b-0a1881366040")
@@ -2528,7 +2762,7 @@
 		(uuid "a28216a7-13fd-4f90-be0b-a04855c4fff8")
 	)
 	(junction
-		(at 133.35 93.98)
+		(at 133.35 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa920a6d-0785-43c7-9622-985e3bcb1f7e")
@@ -2667,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 93.98) (xy 133.35 93.98)
+			(xy 130.81 99.06) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 133.35 93.98)
+			(xy 133.35 97.79) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2747,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 142.24 111.76)
+			(xy 130.81 116.84) (xy 173.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 93.98) (xy 135.89 95.25)
+			(xy 135.89 99.06) (xy 135.89 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2824,16 +3058,6 @@
 			(type default)
 		)
 		(uuid "2daf086f-2ba3-42e1-8bf4-f0e26b2d7b34")
-	)
-	(wire
-		(pts
-			(xy 144.78 109.22) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a6b53c-49b3-4350-81d8-4823ced7626c")
 	)
 	(wire
 		(pts
@@ -2887,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 147.32 106.68)
+			(xy 119.38 111.76) (xy 173.99 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 130.81 111.76)
+			(xy 119.38 116.84) (xy 130.81 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3024,16 +3248,6 @@
 			(type default)
 		)
 		(uuid "4b9fee5c-a2b0-4b81-9777-d764bfbd01e8")
-	)
-	(wire
-		(pts
-			(xy 142.24 111.76) (xy 142.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c069626-abbe-4ba2-97d7-aad91fb63e76")
 	)
 	(wire
 		(pts
@@ -3277,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 149.86 104.14)
+			(xy 135.89 109.22) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3567,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 135.89 93.98)
+			(xy 133.35 99.06) (xy 135.89 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3597,16 +3811,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 173.99 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac324bc9-49d9-49bd-a1de-4c67e7606923")
-	)
-	(wire
-		(pts
 			(xy 312.42 142.24) (xy 308.61 142.24)
 		)
 		(stroke
@@ -3614,16 +3818,6 @@
 			(type default)
 		)
 		(uuid "aecc77ff-0e89-4afe-9076-de0d783c3fd7")
-	)
-	(wire
-		(pts
-			(xy 149.86 104.14) (xy 149.86 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefe3f25-48ce-4479-a9df-3fb71d399949")
 	)
 	(wire
 		(pts
@@ -3717,16 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 173.99 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c014cf19-b8c0-4d6a-be32-61d318687343")
-	)
-	(wire
-		(pts
 			(xy 102.87 63.5) (xy 102.87 64.77)
 		)
 		(stroke
@@ -3757,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 135.89 104.14)
+			(xy 119.38 109.22) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3777,16 +3961,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 106.68) (xy 147.32 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1bc88e-ed85-4928-ab78-6b10cd6e4377")
-	)
-	(wire
-		(pts
 			(xy 158.75 147.32) (xy 158.75 152.4)
 		)
 		(stroke
@@ -3797,7 +3971,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 135.89 104.14)
+			(xy 135.89 107.95) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3897,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 130.81 111.76)
+			(xy 130.81 107.95) (xy 130.81 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3927,16 +4101,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 173.99 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e34699ab-0904-4c99-a46a-1af5733d125e")
-	)
-	(wire
-		(pts
 			(xy 224.79 114.3) (xy 237.49 114.3)
 		)
 		(stroke
@@ -3947,7 +4111,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 144.78 109.22)
+			(xy 119.38 114.3) (xy 173.99 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4057,16 +4221,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 173.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f89e95ba-940b-4ab2-976d-cd02331aad8f")
-	)
-	(wire
-		(pts
 			(xy 312.42 140.97) (xy 312.42 142.24)
 		)
 		(stroke
@@ -4077,7 +4231,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 130.81 93.98)
+			(xy 130.81 100.33) (xy 130.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4193,7 +4347,7 @@
 	)
 	(hierarchical_label "MAX_~{SHDN}"
 		(shape input)
-		(at 119.38 104.14 180)
+		(at 119.38 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4219,7 +4373,7 @@
 	)
 	(hierarchical_label "MAX_SPI1_CS0"
 		(shape input)
-		(at 119.38 111.76 180)
+		(at 119.38 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4245,7 +4399,7 @@
 	)
 	(hierarchical_label "MAX_SPI1_SCLK"
 		(shape input)
-		(at 119.38 106.68 180)
+		(at 119.38 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4258,7 +4412,7 @@
 	)
 	(hierarchical_label "MAX_SPI1_D0"
 		(shape input)
-		(at 119.38 109.22 180)
+		(at 119.38 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4294,7 +4448,7 @@
 		(dnp no)
 		(uuid "000f2286-1f73-45c5-b012-9ea8791cfd57")
 		(property "Reference" "R52"
-			(at 165.862 171.958 0)
+			(at 166.37 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4305,7 +4459,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 167.386 173.736 0)
+			(at 166.37 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4700,7 +4854,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 130.81 99.06 180)
+		(at 130.81 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4710,7 +4864,7 @@
 		(dnp no)
 		(uuid "0e98554e-cafa-4a17-a979-6d1a538275cb")
 		(property "Reference" "R88"
-			(at 129.286 98.044 0)
+			(at 129.286 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4721,7 +4875,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 129.032 100.076 0)
+			(at 129.032 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4732,7 +4886,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 129.794 98.806 90)
+			(at 129.794 103.886 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 130.81 99.06 0)
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +4908,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 130.81 99.06 0)
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4765,7 +4919,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 130.81 99.06 0)
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4776,7 +4930,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 130.81 99.06 0)
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4941,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 130.81 99.06 0)
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,7 +4952,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 130.81 99.06 0)
+			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5648,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 135.89 99.06 0)
+		(at 135.89 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5504,7 +5658,7 @@
 		(dnp no)
 		(uuid "252c2fe6-3de7-4a7d-9532-9abba0530a8b")
 		(property "Reference" "R86"
-			(at 137.16 98.044 0)
+			(at 137.16 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5515,7 +5669,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.16 99.822 0)
+			(at 137.16 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5526,7 +5680,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 136.906 99.314 90)
+			(at 136.906 104.394 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5537,7 +5691,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 135.89 99.06 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +5702,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 135.89 99.06 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5559,7 +5713,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 135.89 99.06 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5570,7 +5724,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 135.89 99.06 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5581,7 +5735,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 135.89 99.06 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5592,7 +5746,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 135.89 99.06 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6492,7 +6646,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 133.35 92.71 0)
+		(at 133.35 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6502,7 +6656,7 @@
 		(dnp no)
 		(uuid "3954ebcb-f458-47f7-9e33-b65978388740")
 		(property "Reference" "#2V85D0111"
-			(at 133.35 87.63 0)
+			(at 133.35 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6667,7 @@
 			)
 		)
 		(property "Value" "2.85VD"
-			(at 130.556 89.154 0)
+			(at 130.556 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6524,7 +6678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 92.71 0)
+			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +6689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 92.71 0)
+			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,7 +6700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 133.35 92.71 0)
+			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6726,6 +6880,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LT1719IS6_1")
 		(lib_id "oresat-ics:LT1719IS6")
 		(at 274.32 137.16 0)
 		(unit 1)
@@ -6779,7 +6934,7 @@
 				)
 			)
 		)
-		(property "Description" "Comparator Standard (General Purpose) CMOS, Rail-to-Rail, TTL TSOT-23-6"
+		(property "Description" "General Purpose Comparator, SOT-23-6"
 			(at 274.32 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9017,7 +9172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-ics:U-Connor-Winfield-D32G-016368M"
+		(property "Footprint" "oresat-footprints:U-Connor-Winfield-D32G-016368M"
 			(at 276.86 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -9039,7 +9194,7 @@
 				)
 			)
 		)
-		(property "Description" "16.368 MHz TCXO Clipped Sine Wave Oscillator 3.3V 4-SMD, No Lead"
+		(property "Description" "16.368 MHz TCXO, 4-pin 3.2x2.5mm"
 			(at 276.86 160.02 0)
 			(hide yes)
 			(show_name no)
