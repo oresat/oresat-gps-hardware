@@ -811,275 +811,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LT1719IS6_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LT1719IS6"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1719fa.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "General Purpose Comparator, SOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LT1719IS6_1_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LT1719IS6_1_1_0"
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 0.762)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "SD"
-					(at -3.302 0.762 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 5.08 270)
-					(length 2.54)
-					(name "SD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LT1719IS6_1_2_0"
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "V-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-ics:D32G-016.368M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1141,20 +872,55 @@
 					)
 				)
 			)
-			(symbol "D32G-016.368M_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
+			(symbol "D32G-016.368M_1_0"
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 -5.08)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-			)
-			(symbol "D32G-016.368M_1_0"
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy -10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin no_connect line
 					(at -6.35 -7.62 90)
 					(length 2.54)
@@ -6880,7 +6646,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LT1719IS6_1")
 		(lib_id "oresat-ics:LT1719IS6")
 		(at 274.32 137.16 0)
 		(unit 1)
@@ -6892,7 +6657,8 @@
 		(dnp no)
 		(uuid "476169e6-69a2-4eeb-8337-c8e9fa1ed137")
 		(property "Reference" "U28"
-			(at 275.844 133.858 0)
+			(at 274.32 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6902,12 +6668,13 @@
 			)
 		)
 		(property "Value" "LT1719IS6"
-			(at 273.05 141.986 0)
+			(at 274.32 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify left bottom)
 			)
@@ -6935,50 +6702,6 @@
 			)
 		)
 		(property "Description" "General Purpose Comparator, SOT-23-6"
-			(at 274.32 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 274.32 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "505-LT1719IS6#TRMPBFCT-ND"
-			(at 274.32 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Analog Devices Inc."
-			(at 274.32 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LT1719IS6#TRMPBF"
 			(at 274.32 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9153,27 +8876,27 @@
 		(fields_autoplaced yes)
 		(uuid "9fb4f062-8e0a-4456-b6e7-24cac93b422c")
 		(property "Reference" "U24"
-			(at 276.86 151.13 0)
+			(at 276.86 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 			)
 		)
 		(property "Value" "D32G-016.368M"
-			(at 276.86 153.67 0)
+			(at 276.86 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 			)
 		)
 		(property "Footprint" "oresat-footprints:U-Connor-Winfield-D32G-016368M"
-			(at 276.86 148.082 0)
+			(at 274.828 144.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9184,7 +8907,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.conwin.com/datasheets/tx/tx240.pdf"
-			(at 276.86 146.304 0)
+			(at 275.59 146.558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9195,51 +8918,7 @@
 			)
 		)
 		(property "Description" "16.368 MHz TCXO, 4-pin 3.2x2.5mm"
-			(at 276.86 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 276.86 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "CW660CT-ND"
-			(at 276.86 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Connor Winfield"
-			(at 276.86 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "D32G-016.368M"
-			(at 276.86 160.02 0)
+			(at 276.86 141.478 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,7 +10402,7 @@
 				)
 			)
 		)
-		(property "Description" "Comparator Standard (General Purpose) CMOS, Rail-to-Rail, TTL TSOT-23-6"
+		(property "Description" "General Purpose Comparator, SOT-23-6"
 			(at 306.07 137.16 0)
 			(hide yes)
 			(show_name no)
